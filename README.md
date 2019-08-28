@@ -17,7 +17,7 @@ modstool /path/to/a/directory/containing/mets_files
 In this example we convert the MODS metadata contained in the METS files in
 `/srv/data/digisam_mets-sample-300` to a pandas DataFrame under
 `mods_info_df.pkl`. This file can then be read by your data scientist using
-`pd.read_pickle()'.
+`pd.read_pickle()`.
 
 ~~~
 % modstool /srv/data/digisam_mets-sample-300
