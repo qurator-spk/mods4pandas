@@ -1,5 +1,7 @@
 Extract the MODS metadata of a bunch of METS files into a pandas DataFrame.
 
+[![Build Status](https://travis-ci.org/qurator-spk/modstool.svg?branch=master)](https://travis-ci.org/qurator-spk/modstool)
+
 Column names are derived from the corresponding MODS elements. Some domain
 knowledge is used to convert elements to a useful column, e.g. produce sets
 instead of ordered lists for topics, etc. Parts of the tool are specific to
