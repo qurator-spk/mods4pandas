@@ -298,17 +298,26 @@ def mods_to_dict(mods, raise_errors=True):
             sub_dicts = [mods_to_dict(e) for e in group]
             sub_tags = {k for d in sub_dicts for k in d.keys()}
             for sub_tag in sub_tags:
-                value['language_{}'.format(sub_tag)] = {d.get(sub_tag) for d in sub_dicts if d.get(sub_tag)}
+                s = set()
+                for d in sub_dicts:
+                    v = d.get(sub_tag)
+                    if v:
+                        # There could be multiple scriptTerms in one language element, e.g. Antiqua and Fraktur in a
+                        # German language document.
+                        if isinstance(v, set):
+                            s.update(v)
+                        else:
+                            s.add(v)
+                value['language_{}'.format(sub_tag)] = s
         elif tag == '{http://www.loc.gov/mods/v3}languageTerm':
             value['languageTerm'] = TagGroup(tag, group) \
                 .is_singleton().has_attributes({'authority': 'iso639-2b', 'type': 'code'}) \
                 .text()
         elif tag == '{http://www.loc.gov/mods/v3}scriptTerm':
             value['scriptTerm'] = TagGroup(tag, group) \
-                .is_singleton() \
                 .fix_script_term() \
                 .has_attributes({'authority': 'iso15924', 'type': 'code'}) \
-                .text()
+                .text_set()
         elif tag == '{http://www.loc.gov/mods/v3}relatedItem':
             pass
         elif tag == '{http://www.loc.gov/mods/v3}name':

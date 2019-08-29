@@ -33,9 +33,13 @@ def test_scriptTerm():
             <mods:scriptTerm authority="iso15924" type="code">215</mods:scriptTerm>
             <mods:scriptTerm authority="iso15924" type="code">217</mods:scriptTerm>
         </mods:language>
+        <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">216</mods:scriptTerm>
+        </mods:language>
     </mods:mods>
     """)
-    assert d['language_scriptTerm'] == {'215', '217'}
+    assert d['language_scriptTerm'] == {'215', '216', '217'}
 
 def test_recordInfo():
     d = dict_fromstring("""
