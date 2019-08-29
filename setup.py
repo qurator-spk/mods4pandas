@@ -13,8 +13,8 @@ setup(
     long_description_content_type='text/markdown',
     keywords='qurator mets mots library',
     license='Apache',
-    packages=find_packages(exclude=['*.tests', '*.tests.*',
-                                    'tests.*', 'tests']),
+    namespace_packages=['qurator'],
+    packages=find_packages(exclude=['*.tests', '*.tests.*', 'tests.*', 'tests']),
     install_requires=install_requires,
     entry_points={
       'console_scripts': [

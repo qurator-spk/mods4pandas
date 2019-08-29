@@ -1,6 +1,8 @@
-from qurator.modstool.modstool import mods_to_dict, flatten
 import pytest
 import xml.etree.ElementTree as ET
+
+
+from .. import mods_to_dict, flatten
 
 
 def dict_fromstring(x):
