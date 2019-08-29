@@ -11,7 +11,7 @@ setup(
     description='Convert MODS metadata to a pandas DataFrame',
     long_description=open('README.md', 'r', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
-    keywords='qurator mets mots library',
+    keywords='qurator mets mods library',
     license='Apache',
     namespace_packages=['qurator'],
     packages=find_packages(exclude=['*.tests', '*.tests.*', 'tests.*', 'tests']),
