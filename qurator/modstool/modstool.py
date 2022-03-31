@@ -330,6 +330,14 @@ def mods_to_dict(mods, raise_errors=True):
                 .is_singleton().has_attributes({'authority': 'marcrelator', 'type': 'code'}) \
                 .text()
         elif tag == '{http://www.loc.gov/mods/v3}namePart':
+            for e in group:
+                if not e.attrib.get('type'):
+                    value['namePart'] = e.text
+                else:
+                    value['namePart-{}'.format(e.attrib['type'])] = e.text
+        elif tag == '{http://www.loc.gov/mods/v3}nameIdentifier':
+            # TODO Use this (e.g. <mods:nameIdentifier type="ppn">106168096</mods:nameIdentifier>) or the
+            # mods:name@valueURI to disambiguate
             pass
         elif tag == '{http://www.loc.gov/mods/v3}displayForm':
             value['displayForm'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
