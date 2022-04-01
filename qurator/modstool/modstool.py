@@ -165,6 +165,25 @@ class TagGroup:
                 warnings.warn('Changed scriptTerm authority to lower case')
         return self
 
+    def merge_sub_tags_to_set(self):
+        value = {}
+
+        sub_dicts = [mods_to_dict(e) for e in self.group]
+        sub_tags = {k for d in sub_dicts for k in d.keys()}
+        for sub_tag in sub_tags:
+            s = set()
+            for d in sub_dicts:
+                v = d.get(sub_tag)
+                if v:
+                    # There could be multiple scriptTerms in one language element, e.g. Antiqua and Fraktur in a
+                    # German language document.
+                    if isinstance(v, set):
+                        s.update(v)
+                    else:
+                        s.add(v)
+            value[sub_tag] = s
+        return value
+
 
 def sorted_groupby(iterable, key=None):
     """
@@ -303,21 +322,8 @@ def mods_to_dict(mods, raise_errors=True):
                 k = 'genre-{}'.format(authority) if authority is not None else 'genre'
                 value[k] = {e.text for e in group if e.attrib.get('authority') == authority}
         elif tag == '{http://www.loc.gov/mods/v3}language':
-            # Make languageTerm/scriptTerm sets
-            sub_dicts = [mods_to_dict(e) for e in group]
-            sub_tags = {k for d in sub_dicts for k in d.keys()}
-            for sub_tag in sub_tags:
-                s = set()
-                for d in sub_dicts:
-                    v = d.get(sub_tag)
-                    if v:
-                        # There could be multiple scriptTerms in one language element, e.g. Antiqua and Fraktur in a
-                        # German language document.
-                        if isinstance(v, set):
-                            s.update(v)
-                        else:
-                            s.add(v)
-                value['language_{}'.format(sub_tag)] = s
+            value["language"] = TagGroup(tag, group) \
+                .merge_sub_tags_to_set()
         elif tag == '{http://www.loc.gov/mods/v3}languageTerm':
             value['languageTerm'] = TagGroup(tag, group) \
                 .has_attributes({'authority': 'iso639-2b', 'type': 'code'}) \
@@ -333,11 +339,13 @@ def mods_to_dict(mods, raise_errors=True):
             for n, e in enumerate(group):
                 value['name{}'.format(n)] = mods_to_dict(e, raise_errors)
         elif tag == '{http://www.loc.gov/mods/v3}role':
-            value['role'] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
+            value["role"] = TagGroup(tag, group) \
+                .has_no_attributes() \
+                .merge_sub_tags_to_set()
         elif tag == '{http://www.loc.gov/mods/v3}roleTerm':
             value['roleTerm'] = TagGroup(tag, group) \
-                .is_singleton().has_attributes({'authority': 'marcrelator', 'type': 'code'}) \
-                .text()
+                .has_attributes({'authority': 'marcrelator', 'type': 'code'}) \
+                .text_set()
         elif tag == '{http://www.loc.gov/mods/v3}namePart':
             for e in group:
                 if not e.attrib.get('type'):
@@ -412,7 +420,7 @@ def mets_to_dict(mets, raise_errors=True):
                 raise ValueError('Unknown tag "{}"'.format(tag))
             else:
                 pass
-    
+
     return value
 
 

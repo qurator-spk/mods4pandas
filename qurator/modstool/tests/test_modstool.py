@@ -33,6 +33,44 @@ def test_multitple_language_languageTerm():
     """)
     assert d['language_languageTerm'] == {'ger', 'lat'}
 
+def test_role_roleTerm():
+    d = dict_fromstring("""
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+    <mods:name type="personal" valueURI="http://d-nb.info/gnd/117357669">
+      <mods:displayForm>Wurm, Mary</mods:displayForm>
+      <mods:namePart type="given">Mary</mods:namePart>
+      <mods:nameIdentifier type="gbv-ppn">078789583</mods:nameIdentifier>
+      <mods:namePart type="family">Wurm</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="code">cmp</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    </mods:mods>
+    """)
+    assert d['name0_role_roleTerm'] == {'cmp'}
+
+def test_multiple_role_roleTerm():
+    """
+    Multiple mods:role/mods:roleTerm should be merged into one column.
+    """
+    d = dict_fromstring("""
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+    <mods:name type="personal" valueURI="http://d-nb.info/gnd/117357669">
+      <mods:displayForm>Wurm, Mary</mods:displayForm>
+      <mods:namePart type="given">Mary</mods:namePart>
+      <mods:nameIdentifier type="gbv-ppn">078789583</mods:nameIdentifier>
+      <mods:namePart type="family">Wurm</mods:namePart>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="code">cmp</mods:roleTerm>
+      </mods:role>
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    </mods:mods>
+    """)
+    assert d['name0_role_roleTerm'] == {'cmp', 'aut'}
+
 def test_scriptTerm():
     """
     Same language using different scripts have one mods:language, with multiple scriptTerms inside.
