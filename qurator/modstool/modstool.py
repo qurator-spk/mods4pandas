@@ -320,8 +320,8 @@ def mods_to_dict(mods, raise_errors=True):
                 value['language_{}'.format(sub_tag)] = s
         elif tag == '{http://www.loc.gov/mods/v3}languageTerm':
             value['languageTerm'] = TagGroup(tag, group) \
-                .is_singleton().has_attributes({'authority': 'iso639-2b', 'type': 'code'}) \
-                .text()
+                .has_attributes({'authority': 'iso639-2b', 'type': 'code'}) \
+                .text_set()
         elif tag == '{http://www.loc.gov/mods/v3}scriptTerm':
             value['scriptTerm'] = TagGroup(tag, group) \
                 .fix_script_term() \

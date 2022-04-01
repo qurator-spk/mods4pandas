@@ -6,12 +6,23 @@ from .. import mods_to_dict, flatten
 
 
 def dict_fromstring(x):
-   """Helper function to parse a MODS XML string to a flattened dict"""
-   return flatten(mods_to_dict(ET.fromstring(x)))
+    """Helper function to parse a MODS XML string to a flattened dict"""
+    return flatten(mods_to_dict(ET.fromstring(x)))
 
-def test_languageTerm():
+def test_single_language_languageTerm():
+    d = dict_fromstring("""
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">lat</mods:languageTerm>
+            <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+        </mods:language>
+    </mods:mods>
+    """)
+    assert d['language_languageTerm'] == {'ger', 'lat'}
+
+def test_multitple_language_languageTerm():
     """
-    Different languages have multiple mods:language elements.
+    Different languages MAY have multiple mods:language elements.
     See MODS-AP 2.3.1
     """
     d = dict_fromstring("""
