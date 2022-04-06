@@ -2,3 +2,4 @@ click
 pandas
 tqdm
 lxml
+openpyxl
