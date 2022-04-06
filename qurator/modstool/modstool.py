@@ -450,7 +450,8 @@ def flatten(d: MutableMapping, parent='', separator='_'):
 @click.argument('mets_files', type=click.Path(exists=True), required=True, nargs=-1)
 @click.option('--output', '-o', 'output_file', type=click.Path(), help='Output pickle file',
               default='mods_info_df.pkl', show_default=True)
-def process(mets_files: List[str], output_file: str):
+@click.option('--output-csv', type=click.Path(), help='Output CSV file')
+def process(mets_files: List[str], output_file: str, output_csv: str):
     """
     A tool to convert the MODS metadata in INPUT to a pandas DataFrame.
 
@@ -517,6 +518,9 @@ def process(mets_files: List[str], output_file: str):
     # Pickle the DataFrame
     logging.info('Writing DataFrame to {}'.format(output_file))
     mods_info_df.to_pickle(output_file)
+    if output_csv:
+        logging.info('Writing CSV to {}'.format(output_csv))
+        mods_info_df.to_csv(output_csv)
 
 
 def main():
