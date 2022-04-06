@@ -2,3 +2,4 @@ click
 pandas ~= 1.0.5
 tqdm
 lxml
+openpyxl
