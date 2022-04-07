@@ -1,5 +1,5 @@
 click
-pandas ~= 1.0.5
+pandas ~= 1.1.5
 tqdm
 lxml
 openpyxl
