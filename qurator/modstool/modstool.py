@@ -233,7 +233,7 @@ def mods_to_dict(mods, raise_errors=True):
                 return shelf_locator.get('displayLabel') is None
             value['shelfLocator'] = TagGroup(tag, group) \
                 .filter(no_display_label) \
-                .is_singleton() \
+                .force_singleton() \
                 .has_no_attributes() \
                 .text()
         elif tag == '{http://www.loc.gov/mods/v3}originInfo':
