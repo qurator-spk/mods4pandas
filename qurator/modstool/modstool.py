@@ -294,6 +294,8 @@ def mods_to_dict(mods, raise_errors=True):
                 .is_singleton().has_no_attributes().descend(raise_errors)
         elif tag == '{http://www.loc.gov/mods/v3}title':
             value['title'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif tag == '{http://www.loc.gov/mods/v3}partName':
+            value['partName'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
         elif tag == '{http://www.loc.gov/mods/v3}subTitle':
             value['subTitle'] = TagGroup(tag, group).force_singleton().has_no_attributes().text()
         elif tag == '{http://www.loc.gov/mods/v3}note':
