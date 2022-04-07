@@ -20,6 +20,7 @@ ns = {
     'mods': 'http://www.loc.gov/mods/v3'
 }
 
+logger = logging.getLogger('modstool')
 
 class TagGroup:
     """Helper class to simplify the parsing and checking of MODS metadata"""
@@ -466,8 +467,8 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
     mets_files_real = []
     for m in mets_files:
         if os.path.isdir(m):
-            logging.info('Scanning directory {}'.format(m))
-            mets_files_real.extend(f.path for f in tqdm(os.scandir(m))
+            logger.info('Scanning directory {}'.format(m))
+            mets_files_real.extend(f.path for f in tqdm(os.scandir(m), leave=False)
                                    if f.is_file() and not f.name.startswith('.'))
         else:
             mets_files_real.append(m)
@@ -476,8 +477,8 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
     with open(output_file + '.warnings.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         mods_info = []
-        logging.info('Processing METS files')
-        for mets_file in tqdm(mets_files_real):
+        logger.info('Processing METS files')
+        for mets_file in tqdm(mets_files_real, leave=False):
             try:
                 root = ET.parse(mets_file).getroot()
                 mets = root # XXX .find('mets:mets', ns) does not work here
@@ -503,8 +504,8 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
                         for caught_warning in caught_warnings:
                             csvwriter.writerow([mets_file, caught_warning.message])
             except Exception as e:
-                warnings.warn('Exception in {}:\n{}'.format(mets_file, e))
-                import traceback; traceback.print_exc()
+                logger.error('Exception in {}: {}'.format(mets_file, e))
+                #import traceback; traceback.print_exc()
 
     # Convert the mods_info List[Dict] to a pandas DataFrame
     columns = []
@@ -517,13 +518,13 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
     mods_info_df = pd.DataFrame(data=data, index=index, columns=columns)
 
     # Pickle the DataFrame
-    logging.info('Writing DataFrame to {}'.format(output_file))
+    logger.info('Writing DataFrame to {}'.format(output_file))
     mods_info_df.to_pickle(output_file)
     if output_csv:
-        logging.info('Writing CSV to {}'.format(output_csv))
+        logger.info('Writing CSV to {}'.format(output_csv))
         mods_info_df.to_csv(output_csv)
     if output_xlsx:
-        logging.info('Writing Excel .xlsx to {}'.format(output_xlsx))
+        logger.info('Writing Excel .xlsx to {}'.format(output_xlsx))
         mods_info_df.to_excel(output_xlsx)
 
 
