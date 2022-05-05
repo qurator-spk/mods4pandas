@@ -14,7 +14,7 @@ import click
 import pandas as pd
 from tqdm import tqdm
 
-from .lib import sorted_groupby, TagGroup, ns
+from .lib import sorted_groupby, TagGroup, ns, flatten
 
 
 

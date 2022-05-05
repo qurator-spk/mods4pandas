@@ -162,6 +162,7 @@ class TagGroup:
         return self
 
     def merge_sub_tags_to_set(self):
+        from .modstool import mods_to_dict
         value = {}
 
         sub_dicts = [mods_to_dict(e) for e in self.group]
