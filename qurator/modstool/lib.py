@@ -194,6 +194,16 @@ class TagGroup:
             attrib.update(e.attrib)
         return attrib
 
+    def subelement_counts(self):
+        counts = {}
+        for e in self.group:
+            for x in e.iter():
+                tag = ET.QName(x).localname
+                key = f"{tag}-count"
+                counts[key] = counts.get(key, 0) + 1
+        return counts
+
+
 
 def sorted_groupby(iterable, key=None):
     """

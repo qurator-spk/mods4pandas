@@ -55,8 +55,9 @@ def alto_to_dict(alto, raise_errors=True):
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}Layout':
             value['Layout'] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}Page':
-            value['Page'] = TagGroup(tag, group).is_singleton().attributes()
-            # TODO subelements
+            value['Page'] = {}
+            value['Page'].update(TagGroup(tag, group).is_singleton().attributes())
+            value['Page'].update(TagGroup(tag, group).subelement_counts())
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}Styles':
             pass
         else:
