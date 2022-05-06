@@ -198,7 +198,7 @@ class TagGroup:
         counts = {}
         for e in self.group:
             for x in e.iter():
-                tag = ET.QName(x).localname
+                tag = ET.QName(x.tag).localname
                 key = f"{tag}-count"
                 counts[key] = counts.get(key, 0) + 1
         return counts
