@@ -116,12 +116,8 @@ def process(alto_files: List[str], output_file: str, output_csv: str, output_xls
                 with warnings.catch_warnings(record=True) as caught_warnings:
                     warnings.simplefilter('always')  # do NOT filter double occurrences
 
-                    # MODS
+                    # ALTO
                     d = flatten(alto_to_dict(alto, raise_errors=True))
-                    # METS
-                    d_alto = flatten(alto_to_dict(alto, raise_errors=True))
-                    for k, v in d_alto.items():
-                        d[f"alto_{k}"] = v
                     # "meta"
                     d['alto_file'] = alto_file
 
