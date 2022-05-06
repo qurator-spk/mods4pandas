@@ -181,6 +181,19 @@ class TagGroup:
             value[sub_tag] = s
         return value
 
+    def attributes(self):
+        """
+        Return a merged dict of all attributes of the tag group.
+
+        Probably most useful if used on a singleton, for example:
+
+            value['Page'] = TagGroup(tag, group).is_singleton().attributes()
+        """
+        attrib = {}
+        for e in self.group:
+            attrib.update(e.attrib)
+        return attrib
+
 
 def sorted_groupby(iterable, key=None):
     """
