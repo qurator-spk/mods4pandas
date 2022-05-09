@@ -79,7 +79,10 @@ def walk(m):
             if f.is_file() and not f.name.startswith('.'):
                 yield f.path
             elif f.is_dir():
-                yield from walk(f.path)
+                try:
+                    yield from walk(f.path)
+                except PermissionError:
+                    warnings.warn(f"Error walking {f.path}")
     else:
         yield m.path
 
