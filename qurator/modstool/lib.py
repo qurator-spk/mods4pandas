@@ -55,7 +55,8 @@ class TagGroup:
         for e in self.group:
             if t != '':
                 t += separator
-            t += e.text
+            if e.text:
+                t += e.text
         return t
 
     def text_set(self):
