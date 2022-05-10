@@ -42,16 +42,32 @@ def alto_to_dict(alto, raise_errors=True):
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}ocrProcessingStep':
             for n, e in enumerate(group):
                 value['ocrProcessingStep{}'.format(n)] = alto_to_dict(e, raise_errors)
+        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}preProcessingStep':
+            # TODO This enumerated descent is used more than once, DRY!
+            for n, e in enumerate(group):
+                value['preProcessingStep{}'.format(n)] = alto_to_dict(e, raise_errors)
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingDateTime':
             value['processingDateTime'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingSoftware':
             value['processingSoftware'] = TagGroup(tag, group).is_singleton().descend(raise_errors)
+        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingAgency':
+            value['processingAgency'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingStepDescription':
+            value['processingStepDescription'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingStepSettings':
+            value['processingStepSettings'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}softwareCreator':
             value['softwareCreator'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}softwareName':
             value['softwareName'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}softwareVersion':
             value['softwareVersion'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+
+        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}sourceImageInformation':
+            value['sourceImageInformation'] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
+        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}fileName':
+            value['fileName'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}Layout':
             value['Layout'] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
         elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}Page':
