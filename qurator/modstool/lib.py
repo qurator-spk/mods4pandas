@@ -231,6 +231,7 @@ def _to_dict(root, raise_errors):
         "http://schema.ccs-gmbh.com/ALTO",
         "http://www.loc.gov/standards/alto/",
         "http://www.loc.gov/standards/alto/ns-v2#",
+        "http://www.loc.gov/standards/alto/ns-v4#",
     ]:
         return alto_to_dict(root, raise_errors)
     else:

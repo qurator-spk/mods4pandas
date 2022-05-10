@@ -39,11 +39,14 @@ def alto_to_dict(alto, raise_errors=True):
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
         elif localname == 'OCRProcessing':
             value[localname] = TagGroup(tag, group).is_singleton().descend(raise_errors)
+        elif localname == 'Processing':
+            # TODO This enumerated descent is used more than once, DRY!
+            for n, e in enumerate(group):
+                value[f'{localname}{n}'] = alto_to_dict(e, raise_errors)
         elif localname == 'ocrProcessingStep':
             for n, e in enumerate(group):
                 value[f'{localname}{n}'] = alto_to_dict(e, raise_errors)
         elif localname == 'preProcessingStep':
-            # TODO This enumerated descent is used more than once, DRY!
             for n, e in enumerate(group):
                 value[f'{localname}{n}'] = alto_to_dict(e, raise_errors)
         elif localname == 'processingDateTime':
@@ -75,6 +78,8 @@ def alto_to_dict(alto, raise_errors=True):
             value['Page'].update(TagGroup(tag, group).is_singleton().attributes())
             value['Page'].update(TagGroup(tag, group).subelement_counts())
         elif localname == 'Styles':
+            pass
+        elif localname == 'Tags':
             pass
         else:
             if raise_errors:
