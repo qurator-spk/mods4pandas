@@ -31,50 +31,50 @@ def alto_to_dict(alto, raise_errors=True):
     for tag, group in sorted_groupby(alto, key=attrgetter('tag')):
         group = list(group)
 
-        # XXX Namespaces seem to use a trailing / sometimes, sometimes not.
-        #     (e.g. {http://www.loc.gov/METS/} vs {http://www.loc.gov/METS})
-        if tag == '{http://www.loc.gov/standards/alto/ns-v2#}Description':
-            value['Description'] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}MeasurementUnit':
-            value['MeasurementUnit'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}OCRProcessing':
-            value['OCRProcessing'] = TagGroup(tag, group).is_singleton().descend(raise_errors)
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}ocrProcessingStep':
+        localname = ET.QName(tag).localname
+
+        if localname == 'Description':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
+        elif localname == 'MeasurementUnit':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'OCRProcessing':
+            value[localname] = TagGroup(tag, group).is_singleton().descend(raise_errors)
+        elif localname == 'ocrProcessingStep':
             for n, e in enumerate(group):
-                value['ocrProcessingStep{}'.format(n)] = alto_to_dict(e, raise_errors)
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}preProcessingStep':
+                value[f'{localname}{n}'] = alto_to_dict(e, raise_errors)
+        elif localname == 'preProcessingStep':
             # TODO This enumerated descent is used more than once, DRY!
             for n, e in enumerate(group):
-                value['preProcessingStep{}'.format(n)] = alto_to_dict(e, raise_errors)
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingDateTime':
-            value['processingDateTime'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingSoftware':
-            value['processingSoftware'] = TagGroup(tag, group).is_singleton().descend(raise_errors)
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingAgency':
-            value['processingAgency'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingStepDescription':
-            value['processingStepDescription'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}processingStepSettings':
-            value['processingStepSettings'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}softwareCreator':
-            value['softwareCreator'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}softwareName':
-            value['softwareName'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}softwareVersion':
-            value['softwareVersion'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+                value[f'{localname}{n}'] = alto_to_dict(e, raise_errors)
+        elif localname == 'processingDateTime':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'processingSoftware':
+            value[localname] = TagGroup(tag, group).is_singleton().descend(raise_errors)
+        elif localname == 'processingAgency':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'processingStepDescription':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'processingStepSettings':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'softwareCreator':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'softwareName':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'softwareVersion':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
 
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}sourceImageInformation':
-            value['sourceImageInformation'] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}fileName':
-            value['fileName'] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'sourceImageInformation':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
+        elif localname == 'fileName':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
 
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}Layout':
-            value['Layout'] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}Page':
+        elif localname == 'Layout':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
+        elif localname == 'Page':
             value['Page'] = {}
             value['Page'].update(TagGroup(tag, group).is_singleton().attributes())
             value['Page'].update(TagGroup(tag, group).subelement_counts())
-        elif tag == '{http://www.loc.gov/standards/alto/ns-v2#}Styles':
+        elif localname == 'Styles':
             pass
         else:
             if raise_errors:

@@ -191,7 +191,9 @@ class TagGroup:
         """
         attrib = {}
         for e in self.group:
-            attrib.update(e.attrib)
+            for a, v in e.attrib.items():
+                a_localname = ET.QName(a).localname
+                attrib[a_localname] = v
         return attrib
 
     def subelement_counts(self):
@@ -224,7 +226,10 @@ def _to_dict(root, raise_errors):
         return mods_to_dict(root, raise_errors)
     elif root_name.namespace == "http://www.loc.gov/METS/":
         return mets_to_dict(root, raise_errors)
-    elif root_name.namespace == "http://www.loc.gov/standards/alto/ns-v2#":
+    elif root_name.namespace in [
+        "http://www.loc.gov/standards/alto/ns-v2#",
+        "http://www.loc.gov/standards/alto/",
+    ]:
         return alto_to_dict(root, raise_errors)
     else:
         raise ValueError(f"Unknown namespace {root_name.namespace}")
