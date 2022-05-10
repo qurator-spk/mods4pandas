@@ -90,7 +90,7 @@ def alto_to_dict(alto, raise_errors=True):
 def walk(m):
     # XXX do this in modstool, too
     if os.path.isdir(m):
-        logger.info('Scanning directory {}'.format(m))
+        tqdm.write(f'Scanning directory {m}')
         for f in tqdm(os.scandir(m), leave=False):
             if f.is_file() and not f.name.startswith('.'):
                 yield f.path
