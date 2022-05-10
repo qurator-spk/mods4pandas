@@ -228,8 +228,9 @@ def _to_dict(root, raise_errors):
     elif root_name.namespace == "http://www.loc.gov/METS/":
         return mets_to_dict(root, raise_errors)
     elif root_name.namespace in [
-        "http://www.loc.gov/standards/alto/ns-v2#",
+        "http://schema.ccs-gmbh.com/ALTO",
         "http://www.loc.gov/standards/alto/",
+        "http://www.loc.gov/standards/alto/ns-v2#",
     ]:
         return alto_to_dict(root, raise_errors)
     else:
