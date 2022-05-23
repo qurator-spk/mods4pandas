@@ -5,6 +5,7 @@ import os
 import re
 import warnings
 import sys
+from xml.dom.expatbuilder import Namespaces
 from lxml import etree as ET
 from itertools import groupby
 from operator import attrgetter
@@ -13,6 +14,7 @@ from collections.abc import MutableMapping, Sequence
 
 import click
 import pandas as pd
+import numpy as np
 from tqdm import tqdm
 
 from .lib import TagGroup, sorted_groupby, flatten, ns
@@ -77,6 +79,17 @@ def alto_to_dict(alto, raise_errors=True):
             value['Page'] = {}
             value['Page'].update(TagGroup(tag, group).is_singleton().attributes())
             value['Page'].update(TagGroup(tag, group).subelement_counts())
+
+            xpath_expr = "//alto:String/@WC"
+            values = []
+            for e in group:
+                # TODO need a smart way to always have the correct namespaces for a document
+                alto_namespace = ET.QName(e).namespace
+                r = e.xpath(xpath_expr, namespaces={"alto": alto_namespace})
+                values += r
+            values = np.array([float(v) for v in values])
+            value['Page'][f'{xpath_expr}-mean'] = np.mean(values)
+
         elif localname == 'Styles':
             pass
         elif localname == 'Tags':
@@ -158,7 +171,7 @@ def process(alto_files: List[str], output_file: str, output_csv: str, output_xls
                             csvwriter.writerow([alto_file, caught_warning.message])
             except Exception as e:
                 logger.error('Exception in {}: {}'.format(alto_file, e))
-                #import traceback; traceback.print_exc()
+                import traceback; traceback.print_exc()
 
     # Convert the alto_info List[Dict] to a pandas DataFrame
     columns = []
