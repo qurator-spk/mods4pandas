@@ -81,14 +81,22 @@ def alto_to_dict(alto, raise_errors=True):
             value['Page'].update(TagGroup(tag, group).subelement_counts())
 
             xpath_expr = "//alto:String/@WC"
-            values = []
-            for e in group:
-                # TODO need a smart way to always have the correct namespaces for a document
-                alto_namespace = ET.QName(e).namespace
-                r = e.xpath(xpath_expr, namespaces={"alto": alto_namespace})
-                values += r
-            values = np.array([float(v) for v in values])
-            value['Page'][f'{xpath_expr}-mean'] = np.mean(values)
+            alto_namespace = ET.QName(group[0]).namespace
+            namespaces={"alto": alto_namespace}
+
+            def xpath_statistics(xpath_expr, namespaces):
+                values = []
+                for e in group:
+                    r = e.xpath(xpath_expr, namespaces=namespaces)
+                    values += r
+                values = np.array([float(v) for v in values])
+
+                statistics = {}
+                statistics[f'{xpath_expr}-mean'] = np.mean(values)
+                return statistics
+
+            value['Page'].update(xpath_statistics(xpath_expr, namespaces))
+
 
         elif localname == 'Styles':
             pass
