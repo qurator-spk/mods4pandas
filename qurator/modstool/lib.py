@@ -3,6 +3,7 @@ import re
 import warnings
 from typing import List, Sequence, MutableMapping
 
+import numpy as np
 from lxml import etree as ET
 
 
@@ -205,6 +206,24 @@ class TagGroup:
                 key = f"{tag}-count"
                 counts[key] = counts.get(key, 0) + 1
         return counts
+
+    def xpath_statistics(self, xpath_expr, namespaces):
+        """
+        Extract values and calculate statistics
+
+        Extract values using the given XPath expression, convert them to float and return descriptive
+        statistics on the values.
+        """
+        values = []
+        for e in self.group:
+            r = e.xpath(xpath_expr, namespaces=namespaces)
+            values += r
+        values = np.array([float(v) for v in values])
+
+        statistics = {}
+        statistics[f'{xpath_expr}-mean'] = np.mean(values)
+        return statistics
+
 
 
 

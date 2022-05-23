@@ -76,27 +76,13 @@ def alto_to_dict(alto, raise_errors=True):
         elif localname == 'Layout':
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
         elif localname == 'Page':
-            value['Page'] = {}
-            value['Page'].update(TagGroup(tag, group).is_singleton().attributes())
-            value['Page'].update(TagGroup(tag, group).subelement_counts())
-
-            xpath_expr = "//alto:String/@WC"
             alto_namespace = ET.QName(group[0]).namespace
             namespaces={"alto": alto_namespace}
 
-            def xpath_statistics(xpath_expr, namespaces):
-                values = []
-                for e in group:
-                    r = e.xpath(xpath_expr, namespaces=namespaces)
-                    values += r
-                values = np.array([float(v) for v in values])
-
-                statistics = {}
-                statistics[f'{xpath_expr}-mean'] = np.mean(values)
-                return statistics
-
-            value['Page'].update(xpath_statistics(xpath_expr, namespaces))
-
+            value[localname] = {}
+            value[localname].update(TagGroup(tag, group).is_singleton().attributes())
+            value[localname].update(TagGroup(tag, group).subelement_counts())
+            value[localname].update(TagGroup(tag, group).xpath_statistics("//alto:String/@WC", namespaces))
 
         elif localname == 'Styles':
             pass
