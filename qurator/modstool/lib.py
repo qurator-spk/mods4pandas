@@ -221,7 +221,12 @@ class TagGroup:
         values = np.array([float(v) for v in values])
 
         statistics = {}
-        statistics[f'{xpath_expr}-mean'] = np.mean(values)
+        if values.size > 0:
+            statistics[f'{xpath_expr}-mean'] = np.mean(values)
+            statistics[f'{xpath_expr}-median'] = np.median(values)
+            statistics[f'{xpath_expr}-std'] = np.std(values)
+            statistics[f'{xpath_expr}-min'] = np.min(values)
+            statistics[f'{xpath_expr}-max'] = np.max(values)
         return statistics
 
 
