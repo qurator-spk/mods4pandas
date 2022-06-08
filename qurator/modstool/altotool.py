@@ -155,6 +155,7 @@ def process(alto_files: List[str], output_file: str, output_csv: str, output_xls
                     d = flatten(alto_to_dict(alto, raise_errors=True))
                     # "meta"
                     d['alto_file'] = alto_file
+                    d['alto_xmlns'] = ET.QName(alto).namespace
 
                     alto_info.append(d)
 
