@@ -3,6 +3,8 @@ from setuptools import find_packages, setup
 
 with open('requirements.txt') as fp:
     install_requires = fp.read()
+with open('requirements-test.txt') as fp:
+    tests_requires = fp.read()
 
 setup(
     name='modstool',
@@ -19,8 +21,9 @@ setup(
     entry_points={
       'console_scripts': [
         'modstool=qurator.modstool.modstool:main',
+        'alto4pandas=qurator.modstool.alto4pandas:main',
       ]
     },
     python_requires='>=3.0.0',
-    tests_require=['pytest'],
+    tests_requires=tests_requires,
 )

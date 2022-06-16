@@ -1,8 +1,10 @@
+from tkinter import W
 import pytest
 import xml.etree.ElementTree as ET
 
 
-from .. import mods_to_dict, flatten
+from qurator.modstool.modstool import mods_to_dict
+from qurator.modstool.lib import flatten
 
 
 def dict_fromstring(x):

@@ -1,8 +1,8 @@
-import pytest
 import xml.etree.ElementTree as ET
 
 
-from .. import mets_to_dict, flatten
+from qurator.modstool.modstool import mets_to_dict
+from qurator.modstool.lib import flatten
 
 
 def dict_fromstring(x):
