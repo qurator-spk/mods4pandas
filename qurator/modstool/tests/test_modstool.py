@@ -1,6 +1,6 @@
 from tkinter import W
+from lxml import etree as ET
 import pytest
-import xml.etree.ElementTree as ET
 
 
 from qurator.modstool.modstool import mods_to_dict

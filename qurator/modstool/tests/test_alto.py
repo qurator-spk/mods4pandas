@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 
 
 from qurator.modstool.alto4pandas import alto_to_dict

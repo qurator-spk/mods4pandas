@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 
 
 from qurator.modstool.modstool import mets_to_dict
