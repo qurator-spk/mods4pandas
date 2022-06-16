@@ -21,7 +21,7 @@ setup(
     entry_points={
       'console_scripts': [
         'modstool=qurator.modstool.modstool:main',
-        'altotool=qurator.modstool.altotool:main',
+        'alto4pandas=qurator.modstool.alto4pandas:main',
       ]
     },
     python_requires='>=3.0.0',

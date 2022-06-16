@@ -244,7 +244,7 @@ def sorted_groupby(iterable, key=None):
 
 def _to_dict(root, raise_errors):
     from .modstool import mods_to_dict, mets_to_dict
-    from .altotool import alto_to_dict
+    from .alto4pandas import alto_to_dict
 
     root_name = ET.QName(root.tag)
     if root_name.namespace == "http://www.loc.gov/mods/v3":

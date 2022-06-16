@@ -20,7 +20,7 @@ from tqdm import tqdm
 from .lib import TagGroup, sorted_groupby, flatten, ns
 
 
-logger = logging.getLogger('altotool')
+logger = logging.getLogger('alto4pandas')
 
 
 
@@ -129,7 +129,7 @@ def process(alto_files: List[str], output_file: str, output_csv: str, output_xls
     INPUT is assumed to be a ALTO document. INPUT may optionally be a directory. The tool then reads
     all files in the directory.
 
-    altotool writes two output files: A pickled pandas DataFrame and a CSV file with all conversion warnings.
+    alto4pandas writes two output files: A pickled pandas DataFrame and a CSV file with all conversion warnings.
     """
 
     # Extend file list if directories are given

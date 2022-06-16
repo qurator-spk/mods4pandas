@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 
-from qurator.modstool.altotool import alto_to_dict
+from qurator.modstool.alto4pandas import alto_to_dict
 from qurator.modstool.lib import flatten
 
 
