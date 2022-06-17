@@ -34,6 +34,8 @@ def alto_to_dict(alto, raise_errors=True):
         group = list(group)
 
         localname = ET.QName(tag).localname
+        alto_namespace = ET.QName(tag).namespace
+        namespaces={"alto": alto_namespace}
 
         if localname == 'Description':
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
@@ -76,9 +78,6 @@ def alto_to_dict(alto, raise_errors=True):
         elif localname == 'Layout':
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
         elif localname == 'Page':
-            alto_namespace = ET.QName(group[0]).namespace
-            namespaces={"alto": alto_namespace}
-
             value[localname] = {}
             value[localname].update(TagGroup(tag, group).is_singleton().attributes())
             value[localname].update(TagGroup(tag, group).subelement_counts())
