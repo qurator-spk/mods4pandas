@@ -83,6 +83,9 @@ def alto_to_dict(alto, raise_errors=True):
             value[localname].update(TagGroup(tag, group).subelement_counts())
             value[localname].update(TagGroup(tag, group).xpath_statistics("//alto:String/@WC", namespaces))
 
+            # Count all alto:String elements with TAGREFS attribute
+            value[localname].update(TagGroup(tag, group).xpath_count("//alto:String[@TAGREFS]", namespaces))
+
         elif localname == 'Styles':
             pass
         elif localname == 'Tags':

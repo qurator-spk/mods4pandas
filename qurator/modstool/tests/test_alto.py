@@ -55,3 +55,27 @@ def test_Tags_counts():
     </alto>
     """)
     assert d['Tags_NamedEntityTag-count'] == 9
+
+def test_String_TAGREF_counts():
+    d = dict_fromstring("""
+    <alto xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+      <Layout>
+      <Page>
+      <PrintSpace>
+      <TextBlock>
+        <TextLine>
+          <String CONTENT="Pentlings" HEIGHT="33" HPOS="330" TAGREFS="PER0" VPOS="699" WC="0.4511111081" WIDTH="146"/>
+        </TextLine>
+        <TextLine>
+          <String CONTENT="Pentlings" HEIGHT="33" HPOS="330" TAGREFS="PER0" VPOS="699" WC="0.4511111081" WIDTH="146"/>
+          <String CONTENT="Pentlings" HEIGHT="33" HPOS="330" TAGREFS="PER0" VPOS="699" WC="0.4511111081" WIDTH="146"/>
+          <String CONTENT="No TAGREF!" />
+        </TextLine>
+      </TextBlock>
+      </PrintSpace>
+      </Page>
+      </Layout>
+    </alto>
+    """)
+    assert d['Layout_Page_//alto:String[@TAGREFS]-count'] == 3
+    assert d['Layout_Page_String-count'] == 4

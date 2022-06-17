@@ -229,6 +229,17 @@ class TagGroup:
             statistics[f'{xpath_expr}-max'] = np.max(values)
         return statistics
 
+    def xpath_count(self, xpath_expr, namespaces):
+        """
+        Count all elements matching xpath_expr
+        """
+        values = []
+        for e in self.group:
+            r = e.xpath(xpath_expr, namespaces=namespaces)
+            values += r
+
+        counts = {f'{xpath_expr}-count': len(values)}
+        return counts
 
 
 
