@@ -86,7 +86,8 @@ def alto_to_dict(alto, raise_errors=True):
         elif localname == 'Styles':
             pass
         elif localname == 'Tags':
-            pass
+            value[localname] = {}
+            value[localname].update(TagGroup(tag, group).subelement_counts())
         else:
             if raise_errors:
                 print(value)
