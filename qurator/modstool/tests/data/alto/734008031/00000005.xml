@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2016-08-07</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>ABBYY</softwareCreator>
+          <softwareName>ABBYY FineReader Engine</softwareName>
+          <softwareVersion>11</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+    <TextStyle ID="font0" FONTFAMILY="Arial" FONTSIZE="5"/>
+    <TextStyle ID="font1" FONTFAMILY="Arial" FONTSIZE="7"/>
+    <TextStyle ID="font2" FONTFAMILY="Arial" FONTSIZE="8"/>
+    <TextStyle ID="font3" FONTFAMILY="Arial" FONTSIZE="9"/>
+    <TextStyle ID="font4" FONTFAMILY="Arial" FONTSIZE="10"/>
+    <TextStyle ID="font5" FONTFAMILY="Arial" FONTSIZE="11"/>
+    <TextStyle ID="font6" FONTFAMILY="Arial" FONTSIZE="12"/>
+    <TextStyle ID="font7" FONTFAMILY="Arial" FONTSIZE="14"/>
+    <TextStyle ID="font8" FONTFAMILY="Arial" FONTSIZE="21"/>
+  </Styles>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2453" WIDTH="1425">
+      <TopMargin HEIGHT="392" WIDTH="1425" VPOS="0" HPOS="0">
+        <TextBlock ID="Page1_Block1" HEIGHT="48" WIDTH="128" VPOS="195" HPOS="665" language="de">
+          <TextLine HEIGHT="36" WIDTH="116" VPOS="201" HPOS="671">
+            <String STYLEREFS="font3" WC="0.6800000072" CONTENT="D" HEIGHT="35" WIDTH="35" VPOS="201" HPOS="671"/>
+            <SP WIDTH="27" VPOS="201" HPOS="707"/>
+            <String STYLE="italics" STYLEREFS="font5" WC="1." CONTENT="i" HEIGHT="34" WIDTH="11" VPOS="202" HPOS="735"/>
+            <SP WIDTH="26" VPOS="202" HPOS="747"/>
+            <String STYLEREFS="font3" WC="0.3100000024" CONTENT="c" HEIGHT="23" WIDTH="13" VPOS="214" HPOS="774"/>
+          </TextLine>
+        </TextBlock>
+      </TopMargin>
+      <LeftMargin HEIGHT="1861" WIDTH="153" VPOS="392" HPOS="0">
+</LeftMargin>
+      <RightMargin HEIGHT="1861" WIDTH="127" VPOS="392" HPOS="1298">
+</RightMargin>
+      <BottomMargin HEIGHT="200" WIDTH="1425" VPOS="2253" HPOS="0">
+</BottomMargin>
+      <PrintSpace HEIGHT="1861" WIDTH="1145" VPOS="392" HPOS="153">
+        <TextBlock ID="Page1_Block2" HEIGHT="105" WIDTH="1140" VPOS="392" HPOS="158" language="de" STYLEREFS="font8">
+          <TextLine HEIGHT="92" WIDTH="1128" VPOS="399" HPOS="165">
+            <String WC="0.4499999881" CONTENT="in" HEIGHT="74" WIDTH="60" VPOS="399" HPOS="165"/>
+            <SP WIDTH="32" VPOS="399" HPOS="226"/>
+            <String WC="0.6178571582" CONTENT="Neu-Vorpommern" HEIGHT="88" WIDTH="630" VPOS="399" HPOS="259"/>
+            <SP WIDTH="32" VPOS="417" HPOS="890"/>
+            <String WC="0.6299999952" CONTENT="und" HEIGHT="70" WIDTH="116" VPOS="403" HPOS="923"/>
+            <SP WIDTH="34" VPOS="399" HPOS="1040"/>
+            <String WC="0.59799999" CONTENT="Rügen" HEIGHT="92" WIDTH="218" VPOS="399" HPOS="1075"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="Page1_Block3" HEIGHT="294" WIDTH="988" VPOS="649" HPOS="232" language="de" STYLEREFS="font2">
+          <TextLine HEIGHT="37" WIDTH="381" VPOS="655" HPOS="538" STYLEREFS="font3">
+            <String WC="0.3881818056" CONTENT="bestehenden" HEIGHT="37" WIDTH="185" VPOS="655" HPOS="538"/>
+            <SP WIDTH="24" VPOS="655" HPOS="724"/>
+            <String WC="0.3770000041" CONTENT="besonderen" HEIGHT="35" WIDTH="170" VPOS="655" HPOS="749"/>
+          </TextLine>
+          <TextLine HEIGHT="22" WIDTH="12" VPOS="764" HPOS="1157">
+            <String STYLE="bold" WC="1." CONTENT="&gt;" HEIGHT="22" WIDTH="12" VPOS="764" HPOS="1157"/>
+          </TextLine>
+          <TextLine HEIGHT="75" WIDTH="976" VPOS="862" HPOS="238" STYLEREFS="font7">
+            <String WC="0.6486666799" CONTENT="Polizei-Gesetze" HEIGHT="75" WIDTH="416" VPOS="862" HPOS="238"/>
+            <SP WIDTH="32" VPOS="880" HPOS="655"/>
+            <String WC="0.6333333254" CONTENT="und" HEIGHT="56" WIDTH="93" VPOS="867" HPOS="688"/>
+            <SP WIDTH="37" VPOS="865" HPOS="782"/>
+            <String WC="0.6846153736" CONTENT="Verordnungen," HEIGHT="71" WIDTH="394" VPOS="865" HPOS="820"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="Page1_Block4" HEIGHT="231" WIDTH="1143" VPOS="1106" HPOS="153" language="de" STYLEREFS="font1">
+          <TextLine HEIGHT="42" WIDTH="1127" VPOS="1112" HPOS="163">
+            <String WC="0.6200000048" CONTENT="im" HEIGHT="28" WIDTH="34" VPOS="1120" HPOS="163"/>
+            <SP WIDTH="23" VPOS="1118" HPOS="198"/>
+            <String WC="0.6039999723" CONTENT="Anschlüsse" HEIGHT="34" WIDTH="147" VPOS="1117" HPOS="222"/>
+            <SP WIDTH="24" VPOS="1124" HPOS="370"/>
+            <String WC="0.5133333206" CONTENT="und" HEIGHT="25" WIDTH="53" VPOS="1118" HPOS="395"/>
+            <SP WIDTH="29" VPOS="1115" HPOS="449"/>
+            <String WC="0.6349999905" CONTENT="in" HEIGHT="26" WIDTH="25" VPOS="1115" HPOS="479"/>
+            <SP WIDTH="20" VPOS="1115" HPOS="505"/>
+            <String WC="0.5600000024" CONTENT="Ergänzung" HEIGHT="35" WIDTH="158" VPOS="1115" HPOS="526"/>
+            <SP WIDTH="26" VPOS="1116" HPOS="685"/>
+            <String WC="0.3650000095" CONTENT="der," HEIGHT="31" WIDTH="51" VPOS="1116" HPOS="712"/>
+            <SP WIDTH="24" VPOS="1115" HPOS="764"/>
+            <String WC="0.5049999952" CONTENT="im" HEIGHT="26" WIDTH="36" VPOS="1115" HPOS="789"/>
+            <SP WIDTH="25" VPOS="1112" HPOS="826"/>
+            <String WC="0.7287499905" CONTENT="Aufträge" HEIGHT="38" WIDTH="129" VPOS="1112" HPOS="852"/>
+            <SP WIDTH="21" VPOS="1116" HPOS="982"/>
+            <String WC="0.5400000215" CONTENT="des" HEIGHT="28" WIDTH="44" VPOS="1116" HPOS="1004"/>
+            <SP WIDTH="18" VPOS="1115" HPOS="1049"/>
+            <String WC="0.5857142806" CONTENT="König!." HEIGHT="39" WIDTH="110" VPOS="1115" HPOS="1068"/>
+            <SP WIDTH="22" VPOS="1118" HPOS="1179"/>
+            <String WC="0.9775000215" CONTENT="Mini" HEIGHT="29" WIDTH="74" VPOS="1118" HPOS="1202" SUBS_TYPE="HypPart1" SUBS_CONTENT="Ministeriums"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="1130" VPOS="1171" HPOS="159">
+            <String WC="0.7724999785" CONTENT="steriums" HEIGHT="37" WIDTH="119" VPOS="1176" HPOS="159" SUBS_TYPE="HypPart2" SUBS_CONTENT="Ministeriums"/>
+            <SP WIDTH="33" VPOS="1176" HPOS="279"/>
+            <String WC="0.7566666603" CONTENT="des" HEIGHT="28" WIDTH="44" VPOS="1176" HPOS="313"/>
+            <SP WIDTH="25" VPOS="1174" HPOS="358"/>
+            <String WC="0.4633333385" CONTENT="Innern" HEIGHT="32" WIDTH="103" VPOS="1174" HPOS="384"/>
+            <SP WIDTH="29" VPOS="1181" HPOS="488"/>
+            <String WC="0.4799999893" CONTENT="von" HEIGHT="22" WIDTH="51" VPOS="1181" HPOS="518"/>
+            <SP WIDTH="29" VPOS="1171" HPOS="570"/>
+            <String WC="0.6449999809" CONTENT="K." HEIGHT="32" WIDTH="36" VPOS="1171" HPOS="600"/>
+            <SP WIDTH="19" VPOS="1172" HPOS="637"/>
+            <String WC="0.6299999952" CONTENT="F." HEIGHT="36" WIDTH="35" VPOS="1172" HPOS="657"/>
+            <SP WIDTH="20" VPOS="1172" HPOS="693"/>
+            <String WC="0.621999979" CONTENT="Rauer" HEIGHT="32" WIDTH="98" VPOS="1172" HPOS="714"/>
+            <SP WIDTH="29" VPOS="1174" HPOS="813"/>
+            <String WC="0.6018750072" CONTENT="herausgegebenen," HEIGHT="38" WIDTH="245" VPOS="1174" HPOS="843"/>
+            <SP WIDTH="25" VPOS="1176" HPOS="1089"/>
+            <String WC="0.6924999952" CONTENT="Zusammen" HEIGHT="37" WIDTH="158" VPOS="1176" HPOS="1115" SUBS_TYPE="HypPart1" SUBS_CONTENT="Zusammenstellung"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1035" VPOS="1233" HPOS="205">
+            <String WC="0.6962500215" CONTENT="stellung" HEIGHT="37" WIDTH="107" VPOS="1237" HPOS="205" SUBS_TYPE="HypPart2" SUBS_CONTENT="Zusammenstellung"/>
+            <SP WIDTH="18" VPOS="1240" HPOS="313"/>
+            <String WC="0.5033333302" CONTENT="der" HEIGHT="25" WIDTH="41" VPOS="1240" HPOS="332"/>
+            <SP WIDTH="18" VPOS="1236" HPOS="374"/>
+            <String WC="0.3249999881" CONTENT="in" HEIGHT="28" WIDTH="26" VPOS="1236" HPOS="393"/>
+            <SP WIDTH="19" VPOS="1239" HPOS="420"/>
+            <String WC="0.4566666782" CONTENT="den" HEIGHT="26" WIDTH="46" VPOS="1239" HPOS="440"/>
+            <SP WIDTH="20" VPOS="1234" HPOS="487"/>
+            <String WC="0.7566666603" CONTENT="Preuß." HEIGHT="36" WIDTH="100" VPOS="1234" HPOS="508"/>
+            <SP WIDTH="15" VPOS="1233" HPOS="609"/>
+            <String WC="0.3342857063" CONTENT="Staaten" HEIGHT="30" WIDTH="117" VPOS="1233" HPOS="625"/>
+            <SP WIDTH="21" VPOS="1234" HPOS="743"/>
+            <String WC="0.3736363649" CONTENT="bestehenden" HEIGHT="36" WIDTH="157" VPOS="1234" HPOS="765"/>
+            <SP WIDTH="19" VPOS="1244" HPOS="923"/>
+            <String WC="0.7272727489" CONTENT="allgemeinen" HEIGHT="38" WIDTH="162" VPOS="1235" HPOS="943"/>
+            <SP WIDTH="19" VPOS="1235" HPOS="1106"/>
+            <String WC="0.462500006" CONTENT="Polizei-" HEIGHT="39" WIDTH="114" VPOS="1235" HPOS="1126"/>
+          </TextLine>
+          <TextLine HEIGHT="37" WIDTH="407" VPOS="1294" HPOS="521">
+            <String WC="0.5314285755" CONTENT="Gesetze" HEIGHT="37" WIDTH="96" VPOS="1294" HPOS="521"/>
+            <SP WIDTH="20" VPOS="1303" HPOS="618"/>
+            <String WC="0.5666666627" CONTENT="und" HEIGHT="25" WIDTH="51" VPOS="1297" HPOS="639"/>
+            <SP WIDTH="20" VPOS="1294" HPOS="691"/>
+            <String WC="0.6653845906" CONTENT="Verordnungen." HEIGHT="37" WIDTH="216" VPOS="1294" HPOS="712"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="Page1_Block5" HEIGHT="127" WIDTH="390" VPOS="2020" HPOS="524" language="de" STYLEREFS="font6">
+          <TextLine HEIGHT="43" WIDTH="266" VPOS="2026" HPOS="589">
+            <String STYLE="bold" WC="0.4718181789" CONTENT="Greifswald," HEIGHT="43" WIDTH="266" VPOS="2026" HPOS="589"/>
+          </TextLine>
+          <TextLine HEIGHT="35" WIDTH="378" VPOS="2106" HPOS="530" STYLEREFS="font1">
+            <String WC="0.5133333206" CONTENT="bei" HEIGHT="25" WIDTH="50" VPOS="2110" HPOS="530"/>
+            <SP WIDTH="25" VPOS="2107" HPOS="581"/>
+            <String WC="0.4422222078" CONTENT="Ferdinand" HEIGHT="35" WIDTH="185" VPOS="2106" HPOS="607"/>
+            <SP WIDTH="24" VPOS="2108" HPOS="793"/>
+            <String WC="0.4939999878" CONTENT="Ottc." HEIGHT="27" WIDTH="90" VPOS="2108" HPOS="818"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="Page1_Block6" HEIGHT="45" WIDTH="101" VPOS="2208" HPOS="671" language="de" STYLEREFS="font4">
+          <TextLine HEIGHT="33" WIDTH="88" VPOS="2214" HPOS="678">
+            <String WC="0.8475000262" CONTENT="1855" HEIGHT="32" WIDTH="80" VPOS="2214" HPOS="678"/>
+            <String STYLE="bold" STYLEREFS="font0" WC="0.5400000215" CONTENT="." HEIGHT="4" WIDTH="4" VPOS="2243" HPOS="762"/>
+          </TextLine>
+        </TextBlock>
+        <GraphicalElement ID="Page1_Block7" HEIGHT="9" WIDTH="186" VPOS="1960" HPOS="746"/>
+        <GraphicalElement ID="Page1_Block8" HEIGHT="3" WIDTH="124" VPOS="1971" HPOS="543"/>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

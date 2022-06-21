@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2016-03-03</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>ABBYY</softwareCreator>
+          <softwareName>ABBYY FineReader Engine</softwareName>
+          <softwareVersion>11</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+    <TextStyle ID="font0" FONTFAMILY="Arial" FONTSIZE="6"/>
+    <TextStyle ID="font1" FONTFAMILY="Times New Roman" FONTSIZE="4"/>
+    <TextStyle ID="font2" FONTFAMILY="Times New Roman" FONTSIZE="7"/>
+    <TextStyle ID="font3" FONTFAMILY="Times New Roman" FONTSIZE="8"/>
+  </Styles>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2364" WIDTH="1412">
+      <TopMargin HEIGHT="245" WIDTH="1412" VPOS="0" HPOS="0">
+        <TextBlock ID="Page1_Block1" HEIGHT="29" WIDTH="62" VPOS="145" HPOS="145" language="nl">
+          <TextLine HEIGHT="18" WIDTH="50" VPOS="150" HPOS="150">
+            <String STYLEREFS="font3" WC="0.3300000131" CONTENT="c\c" HEIGHT="18" WIDTH="50" VPOS="150" HPOS="150"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="Page1_Block2" HEIGHT="35" WIDTH="167" VPOS="137" HPOS="619" language="nl" STYLEREFS="font0">
+          <TextLine HEIGHT="24" WIDTH="155" VPOS="142" HPOS="624">
+            <String WC="0.3824999928" CONTENT="nijLAr.E" HEIGHT="24" WIDTH="106" VPOS="142" HPOS="624"/>
+            <SP WIDTH="24" VPOS="147" HPOS="731"/>
+            <String WC="0.625" CONTENT="v." HEIGHT="16" WIDTH="23" VPOS="148" HPOS="756"/>
+          </TextLine>
+        </TextBlock>
+        <GraphicalElement ID="Page1_Block3" HEIGHT="6" WIDTH="1129" VPOS="228" HPOS="154"/>
+        <GraphicalElement ID="Page1_Block4" HEIGHT="6" WIDTH="1128" VPOS="239" HPOS="153"/>
+      </TopMargin>
+      <LeftMargin HEIGHT="1981" WIDTH="140" VPOS="245" HPOS="0">
+</LeftMargin>
+      <RightMargin HEIGHT="1981" WIDTH="126" VPOS="245" HPOS="1286">
+</RightMargin>
+      <BottomMargin HEIGHT="138" WIDTH="1412" VPOS="2226" HPOS="0">
+</BottomMargin>
+      <PrintSpace HEIGHT="1981" WIDTH="1146" VPOS="245" HPOS="140">
+        <ComposedBlock ID="Page1_Block5" HEIGHT="1981" WIDTH="1146" VPOS="245" HPOS="140" TYPE="table">
+          <TextBlock ID="Page1_Block6" HEIGHT="257" WIDTH="149" VPOS="245" HPOS="140" language="nl">
+            <TextLine HEIGHT="25" WIDTH="92" VPOS="306" HPOS="171">
+              <String STYLEREFS="font2" WC="0.6233333349" CONTENT="Ondcr-" HEIGHT="25" WIDTH="92" VPOS="306" HPOS="171"/>
+            </TextLine>
+            <TextLine HEIGHT="23" WIDTH="81" VPOS="341" HPOS="175">
+              <String STYLEREFS="font2" WC="0.646666646" CONTENT="schei-" HEIGHT="23" WIDTH="81" VPOS="341" HPOS="175"/>
+            </TextLine>
+            <TextLine HEIGHT="31" WIDTH="108" VPOS="374" HPOS="165">
+              <String STYLEREFS="font2" WC="0.8000000119" CONTENT="dingsei-" HEIGHT="31" WIDTH="108" VPOS="374" HPOS="165"/>
+            </TextLine>
+            <TextLine HEIGHT="16" WIDTH="60" VPOS="415" HPOS="182">
+              <String STYLEREFS="font2" WC="0.5099999905" CONTENT="nen." HEIGHT="16" WIDTH="60" VPOS="415" HPOS="182"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block7" HEIGHT="257" WIDTH="308" VPOS="245" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="131" VPOS="290" HPOS="378">
+              <String STYLEREFS="font2" WC="0.200000003" CONTENT="Pi" HEIGHT="23" WIDTH="17" VPOS="290" HPOS="378"/>
+              <SP WIDTH="9" VPOS="290" HPOS="396"/>
+              <String STYLEREFS="font2" WC="0.2899999917" CONTENT="A" HEIGHT="23" WIDTH="19" VPOS="291" HPOS="406"/>
+              <SP WIDTH="9" VPOS="291" HPOS="426"/>
+              <String STYLEREFS="font2" WC="0.5" CONTENT="JI" HEIGHT="22" WIDTH="18" VPOS="291" HPOS="436"/>
+              <SP WIDTH="9" VPOS="292" HPOS="455"/>
+              <String STYLEREFS="font2" WC="0.3400000036" CONTENT="E" HEIGHT="22" WIDTH="17" VPOS="292" HPOS="465"/>
+              <SP WIDTH="11" VPOS="292" HPOS="483"/>
+              <String STYLEREFS="font2" WC="0.4600000083" CONTENT="IN" HEIGHT="23" WIDTH="14" VPOS="291" HPOS="495"/>
+            </TextLine>
+            <TextLine HEIGHT="16" WIDTH="59" VPOS="365" HPOS="414">
+              <String STYLEREFS="font1" WC="0.2450000048" CONTENT="II" HEIGHT="15" WIDTH="12" VPOS="365" HPOS="414"/>
+              <SP WIDTH="9" VPOS="365" HPOS="427"/>
+              <String STYLEREFS="font1" WC="0.25" CONTENT="E" HEIGHT="16" WIDTH="12" VPOS="365" HPOS="437"/>
+              <SP WIDTH="10" VPOS="365" HPOS="450"/>
+              <String STYLEREFS="font1" WC="0.6100000143" CONTENT="II" HEIGHT="16" WIDTH="12" VPOS="365" HPOS="461"/>
+            </TextLine>
+            <TextLine HEIGHT="24" WIDTH="185" VPOS="424" HPOS="347">
+              <String STYLEREFS="font2" WC="0.7300000191" CONTENT="S" HEIGHT="22" WIDTH="13" VPOS="425" HPOS="347"/>
+              <SP WIDTH="7" VPOS="425" HPOS="361"/>
+              <String STYLEREFS="font2" WC="0.7799999714" CONTENT="C" HEIGHT="22" WIDTH="17" VPOS="425" HPOS="369"/>
+              <SP WIDTH="10" VPOS="425" HPOS="387"/>
+              <String STYLEREFS="font2" WC="0.5849999785" CONTENT="II" HEIGHT="22" WIDTH="16" VPOS="425" HPOS="398"/>
+              <SP WIDTH="8" VPOS="425" HPOS="415"/>
+              <String STYLEREFS="font2" WC="0.3199999928" CONTENT="E" HEIGHT="22" WIDTH="17" VPOS="425" HPOS="424"/>
+              <SP WIDTH="9" VPOS="425" HPOS="442"/>
+              <String STYLEREFS="font2" WC="0.3000000119" CONTENT="P" HEIGHT="22" WIDTH="17" VPOS="425" HPOS="452"/>
+              <SP WIDTH="9" VPOS="425" HPOS="470"/>
+              <String STYLEREFS="font2" WC="0.6100000143" CONTENT="E" HEIGHT="22" WIDTH="17" VPOS="425" HPOS="480"/>
+              <SP WIDTH="9" VPOS="425" HPOS="498"/>
+              <String STYLEREFS="font2" WC="0.453333348" CONTENT="Pi." HEIGHT="24" WIDTH="24" VPOS="424" HPOS="508"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block8" HEIGHT="257" WIDTH="282" VPOS="245" HPOS="597" language="nl">
+            <TextLine HEIGHT="22" WIDTH="72" VPOS="291" HPOS="705">
+              <String STYLEREFS="font2" WC="0.4620000124" CONTENT="Soort" HEIGHT="22" WIDTH="72" VPOS="291" HPOS="705"/>
+            </TextLine>
+            <TextLine HEIGHT="14" WIDTH="47" VPOS="365" HPOS="717">
+              <String STYLEREFS="font2" WC="0.3066666722" CONTENT="van" HEIGHT="14" WIDTH="47" VPOS="365" HPOS="717"/>
+            </TextLine>
+            <TextLine HEIGHT="31" WIDTH="82" VPOS="424" HPOS="698">
+              <String STYLEREFS="font2" WC="0.7850000262" CONTENT="Schip." HEIGHT="31" WIDTH="82" VPOS="424" HPOS="698"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block9" HEIGHT="257" WIDTH="110" VPOS="245" HPOS="879" language="nl">
+            <TextLine HEIGHT="248" WIDTH="24" VPOS="248" HPOS="919">
+              <String STYLEREFS="font2" WC="0.7599999905" CONTENT="Grootte" HEIGHT="102" WIDTH="23" VPOS="394" HPOS="919"/>
+              <SP WIDTH="23" VPOS="385" HPOS="919"/>
+              <String STYLEREFS="font2" WC="0.7149999738" CONTENT="in" HEIGHT="24" WIDTH="22" VPOS="360" HPOS="919"/>
+              <SP WIDTH="19" VPOS="349" HPOS="923"/>
+              <String STYLEREFS="font2" WC="0.7142857313" CONTENT="tonnen." HEIGHT="100" WIDTH="20" VPOS="248" HPOS="923"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block10" HEIGHT="257" WIDTH="211" VPOS="245" HPOS="989" language="nl">
+            <TextLine HEIGHT="24" WIDTH="77" VPOS="288" HPOS="1058">
+              <String STYLEREFS="font2" WC="0.6349999905" CONTENT="Waar" HEIGHT="24" WIDTH="77" VPOS="288" HPOS="1058"/>
+            </TextLine>
+            <TextLine HEIGHT="24" WIDTH="97" VPOS="355" HPOS="1046">
+              <String STYLEREFS="font2" WC="0.2300000042" CONTENT="te" HEIGHT="20" WIDTH="22" VPOS="359" HPOS="1046"/>
+              <SP WIDTH="15" VPOS="355" HPOS="1069"/>
+              <String STYLEREFS="font2" WC="0.8575000167" CONTENT="huis" HEIGHT="23" WIDTH="58" VPOS="355" HPOS="1085"/>
+            </TextLine>
+            <TextLine HEIGHT="23" WIDTH="166" VPOS="422" HPOS="1011">
+              <String STYLEREFS="font2" WC="0.4645454586" CONTENT="behoorende." HEIGHT="23" WIDTH="166" VPOS="422" HPOS="1011"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block11" HEIGHT="257" WIDTH="86" VPOS="245" HPOS="1200" language="nl">
+            <TextLine HEIGHT="198" WIDTH="24" VPOS="272" HPOS="1222">
+              <String STYLEREFS="font2" WC="0.7076923251" CONTENT="Paardenkracht" HEIGHT="198" WIDTH="24" VPOS="272" HPOS="1222"/>
+            </TextLine>
+            <TextLine HEIGHT="181" WIDTH="24" VPOS="282" HPOS="1256">
+              <String STYLEREFS="font2" WC="0.9900000095" CONTENT="der" HEIGHT="43" WIDTH="24" VPOS="420" HPOS="1256"/>
+              <SP WIDTH="15" VPOS="403" HPOS="1265"/>
+              <String STYLEREFS="font2" WC="0.8399999738" CONTENT="machine." HEIGHT="120" WIDTH="24" VPOS="282" HPOS="1256"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block12" HEIGHT="71" WIDTH="149" VPOS="502" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="101" VPOS="543" HPOS="146">
+              <String STYLEREFS="font2" WC="0.3325000107" CONTENT="TUJR" HEIGHT="22" WIDTH="101" VPOS="543" HPOS="146"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block13" HEIGHT="71" WIDTH="308" VPOS="502" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="216" VPOS="542" HPOS="295">
+              <String STYLEREFS="font2" WC="0.6100000143" CONTENT="Fat" HEIGHT="22" WIDTH="38" VPOS="542" HPOS="295"/>
+              <SP WIDTH="20" VPOS="542" HPOS="334"/>
+              <String STYLEREFS="font2" WC="0.5427272916" CONTENT="Iloelmanan." HEIGHT="24" WIDTH="156" VPOS="542" HPOS="355"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block14" HEIGHT="71" WIDTH="282" VPOS="502" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="205" VPOS="541" HPOS="601">
+              <String STYLEREFS="font2" WC="0.5592857003" CONTENT="Gaflelschoener" HEIGHT="24" WIDTH="205" VPOS="541" HPOS="601"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block15" HEIGHT="71" WIDTH="110" VPOS="502" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="49" VPOS="540" HPOS="916">
+              <String STYLEREFS="font2" WC="0.646666646" CONTENT="120" HEIGHT="23" WIDTH="49" VPOS="540" HPOS="916"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block16" HEIGHT="71" WIDTH="211" VPOS="502" HPOS="989" language="nl">
+            <TextLine HEIGHT="32" WIDTH="181" VPOS="540" HPOS="992">
+              <String STYLEREFS="font2" WC="0.551666677" CONTENT="Tambak" HEIGHT="23" WIDTH="106" VPOS="540" HPOS="992"/>
+              <SP WIDTH="19" VPOS="540" HPOS="1099"/>
+              <String STYLEREFS="font2" WC="0.6974999905" CONTENT="(Ba-" HEIGHT="32" WIDTH="54" VPOS="540" HPOS="1119"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block17" HEIGHT="30" WIDTH="211" VPOS="573" HPOS="989" language="nl">
+            <TextLine HEIGHT="29" WIDTH="89" VPOS="576" HPOS="1027">
+              <String STYLEREFS="font2" WC="0.4099999964" CONTENT="wea" HEIGHT="16" WIDTH="51" VPOS="581" HPOS="1027"/>
+              <SP WIDTH="3" VPOS="582" HPOS="1079"/>
+              <String STYLEREFS="font2" WC="0.7233333588" CONTENT="n.)" HEIGHT="29" WIDTH="33" VPOS="576" HPOS="1083"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block18" HEIGHT="35" WIDTH="149" VPOS="603" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="97" VPOS="610" HPOS="146">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="610" HPOS="146"/>
+              <SP WIDTH="10" VPOS="610" HPOS="164"/>
+              <String STYLEREFS="font2" WC="0.4650000036" CONTENT="1)" HEIGHT="21" WIDTH="17" VPOS="611" HPOS="175"/>
+              <SP WIDTH="9" VPOS="610" HPOS="193"/>
+              <String STYLEREFS="font2" WC="0.4699999988" CONTENT="J" HEIGHT="22" WIDTH="12" VPOS="610" HPOS="203"/>
+              <SP WIDTH="11" VPOS="610" HPOS="216"/>
+              <String STYLEREFS="font2" WC="0.3300000131" CONTENT="L" HEIGHT="22" WIDTH="15" VPOS="610" HPOS="228"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block19" HEIGHT="35" WIDTH="308" VPOS="603" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="109" VPOS="609" HPOS="294">
+              <String STYLEREFS="font2" WC="0.7087500095" CONTENT="Fearnot." HEIGHT="23" WIDTH="109" VPOS="609" HPOS="294"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block20" HEIGHT="35" WIDTH="282" VPOS="603" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="133" VPOS="609" HPOS="602">
+              <String STYLEREFS="font2" WC="0.7755555511" CONTENT="Scboener." HEIGHT="23" WIDTH="133" VPOS="609" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block21" HEIGHT="35" WIDTH="110" VPOS="603" HPOS="879" language="nl">
+            <TextLine HEIGHT="27" WIDTH="47" VPOS="608" HPOS="934">
+              <String STYLEREFS="font2" WC="0.1850000024" CONTENT="3H" HEIGHT="27" WIDTH="47" VPOS="608" HPOS="934"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block22" HEIGHT="35" WIDTH="211" VPOS="603" HPOS="989" language="nl">
+            <TextLine HEIGHT="24" WIDTH="107" VPOS="607" HPOS="994">
+              <String STYLEREFS="font2" WC="0.6514285803" CONTENT="Menado." HEIGHT="24" WIDTH="107" VPOS="607" HPOS="994"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block23" HEIGHT="32" WIDTH="149" VPOS="638" HPOS="140" language="nl">
+            <TextLine HEIGHT="24" WIDTH="104" VPOS="643" HPOS="148">
+              <String STYLEREFS="font2" WC="0.2700000107" CONTENT="T" HEIGHT="23" WIDTH="15" VPOS="643" HPOS="148"/>
+              <SP WIDTH="9" VPOS="643" HPOS="164"/>
+              <String STYLEREFS="font2" WC="0.2700000107" CONTENT="D" HEIGHT="23" WIDTH="19" VPOS="644" HPOS="174"/>
+              <SP WIDTH="10" VPOS="644" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.6299999952" CONTENT="J" HEIGHT="22" WIDTH="11" VPOS="644" HPOS="205"/>
+              <SP WIDTH="13" VPOS="644" HPOS="217"/>
+              <String STYLEREFS="font2" WC="0.3799999952" CONTENT="JI" HEIGHT="21" WIDTH="21" VPOS="644" HPOS="231"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block24" HEIGHT="32" WIDTH="308" VPOS="638" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="219" VPOS="642" HPOS="295">
+              <String STYLEREFS="font2" WC="0.5385714173" CONTENT="Folkool" HEIGHT="23" WIDTH="97" VPOS="642" HPOS="295"/>
+              <SP WIDTH="16" VPOS="643" HPOS="393"/>
+              <String STYLEREFS="font2" WC="0.6311110854" CONTENT="Ittarsok." HEIGHT="22" WIDTH="104" VPOS="643" HPOS="410"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block25" HEIGHT="32" WIDTH="282" VPOS="638" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="134" VPOS="642" HPOS="601">
+              <String STYLEREFS="font2" WC="0.7333333492" CONTENT="Schoener." HEIGHT="23" WIDTH="134" VPOS="642" HPOS="601"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block26" HEIGHT="32" WIDTH="110" VPOS="638" HPOS="879" language="nl">
+            <TextLine HEIGHT="22" WIDTH="32" VPOS="642" HPOS="933">
+              <String STYLEREFS="font2" WC="0.1800000072" CONTENT="77" HEIGHT="22" WIDTH="32" VPOS="642" HPOS="933"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block27" HEIGHT="32" WIDTH="211" VPOS="638" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="144" VPOS="641" HPOS="993">
+              <String STYLEREFS="font2" WC="0.6809999943" CONTENT="Pontianak." HEIGHT="23" WIDTH="144" VPOS="641" HPOS="993"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block28" HEIGHT="35" WIDTH="149" VPOS="670" HPOS="140" language="nl">
+            <TextLine HEIGHT="30" WIDTH="101" VPOS="677" HPOS="146">
+              <String STYLEREFS="font2" WC="0.3899999857" CONTENT="T" HEIGHT="22" WIDTH="18" VPOS="677" HPOS="146"/>
+              <SP WIDTH="10" VPOS="677" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.6999999881" CONTENT="1)" HEIGHT="22" WIDTH="16" VPOS="677" HPOS="176"/>
+              <SP WIDTH="10" VPOS="677" HPOS="193"/>
+              <String STYLEREFS="font2" WC="0.5799999833" CONTENT="J" HEIGHT="22" WIDTH="11" VPOS="677" HPOS="204"/>
+              <SP WIDTH="12" VPOS="677" HPOS="216"/>
+              <String STYLEREFS="font2" WC="0.5699999928" CONTENT="Q" HEIGHT="30" WIDTH="18" VPOS="677" HPOS="229"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block29" HEIGHT="35" WIDTH="308" VPOS="670" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="124" VPOS="675" HPOS="294">
+              <String STYLEREFS="font2" WC="0.6422222257" CONTENT="Francine." HEIGHT="24" WIDTH="124" VPOS="675" HPOS="294"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block30" HEIGHT="35" WIDTH="282" VPOS="670" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="134" VPOS="676" HPOS="601">
+              <String STYLEREFS="font2" WC="0.7755555511" CONTENT="Schoener." HEIGHT="23" WIDTH="134" VPOS="676" HPOS="601"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block31" HEIGHT="35" WIDTH="110" VPOS="670" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="32" VPOS="674" HPOS="933">
+              <String STYLEREFS="font2" WC="0.2800000012" CONTENT="32" HEIGHT="24" WIDTH="32" VPOS="674" HPOS="933"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block32" HEIGHT="35" WIDTH="211" VPOS="670" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="105" VPOS="674" HPOS="993">
+              <String STYLEREFS="font2" WC="0.8700000048" CONTENT="Padang." HEIGHT="31" WIDTH="105" VPOS="674" HPOS="993"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block33" HEIGHT="32" WIDTH="149" VPOS="705" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="97" VPOS="710" HPOS="147">
+              <String STYLEREFS="font2" WC="0.7599999905" CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="710" HPOS="147"/>
+              <SP WIDTH="10" VPOS="710" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.6349999905" CONTENT="1)" HEIGHT="21" WIDTH="17" VPOS="711" HPOS="176"/>
+              <SP WIDTH="9" VPOS="712" HPOS="194"/>
+              <String STYLEREFS="font2" WC="1." CONTENT=".1" HEIGHT="21" WIDTH="11" VPOS="711" HPOS="204"/>
+              <SP WIDTH="11" VPOS="711" HPOS="216"/>
+              <String STYLEREFS="font2" WC="0.1299999952" CONTENT="R" HEIGHT="21" WIDTH="16" VPOS="711" HPOS="228"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block34" HEIGHT="32" WIDTH="308" VPOS="705" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="63" VPOS="709" HPOS="294">
+              <String STYLEREFS="font2" WC="0.7580000162" CONTENT="Fido." HEIGHT="23" WIDTH="63" VPOS="709" HPOS="294"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block35" HEIGHT="32" WIDTH="282" VPOS="705" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="135" VPOS="710" HPOS="601">
+              <String STYLEREFS="font2" WC="0.6633333564" CONTENT="Scboener." HEIGHT="23" WIDTH="135" VPOS="710" HPOS="601"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block36" HEIGHT="32" WIDTH="110" VPOS="705" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="32" VPOS="709" HPOS="933">
+              <String STYLEREFS="font2" WC="0.9900000095" CONTENT="75" HEIGHT="23" WIDTH="32" VPOS="709" HPOS="933"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block37" HEIGHT="32" WIDTH="211" VPOS="705" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="91" VPOS="708" HPOS="993">
+              <String STYLEREFS="font2" WC="0." CONTENT="G" HEIGHT="20" WIDTH="16" VPOS="709" HPOS="993"/>
+              <SP WIDTH="3" VPOS="709" HPOS="1010"/>
+              <String STYLEREFS="font2" WC="0.7850000262" CONTENT="risee." HEIGHT="23" WIDTH="70" VPOS="708" HPOS="1014"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block38" HEIGHT="34" WIDTH="149" VPOS="737" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="106" VPOS="744" HPOS="146">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="18" VPOS="744" HPOS="146"/>
+              <SP WIDTH="11" VPOS="744" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.8050000072" CONTENT="i»" HEIGHT="21" WIDTH="16" VPOS="745" HPOS="177"/>
+              <SP WIDTH="12" VPOS="744" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.2599999905" CONTENT="R" HEIGHT="22" WIDTH="18" VPOS="744" HPOS="207"/>
+              <SP WIDTH="9" VPOS="744" HPOS="226"/>
+              <String STYLEREFS="font2" WC="0.3000000119" CONTENT="C" HEIGHT="22" WIDTH="16" VPOS="744" HPOS="236"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block39" HEIGHT="34" WIDTH="308" VPOS="737" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="137" VPOS="743" HPOS="293">
+              <String STYLEREFS="font2" WC="0.5600000024" CONTENT="Fulkesoot." HEIGHT="23" WIDTH="137" VPOS="743" HPOS="293"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block40" HEIGHT="34" WIDTH="282" VPOS="737" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="134" VPOS="743" HPOS="602">
+              <String STYLEREFS="font2" WC="0.8544444442" CONTENT="Schoener." HEIGHT="23" WIDTH="134" VPOS="743" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block41" HEIGHT="34" WIDTH="110" VPOS="737" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="41" VPOS="742" HPOS="934">
+              <String STYLEREFS="font2" WC="0.473333329" CONTENT="62." HEIGHT="24" WIDTH="41" VPOS="742" HPOS="934"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block42" HEIGHT="34" WIDTH="211" VPOS="737" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="112" VPOS="742" HPOS="992">
+              <String STYLEREFS="font2" WC="0.7875000238" CONTENT="Ternate." HEIGHT="23" WIDTH="112" VPOS="742" HPOS="992"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block43" HEIGHT="34" WIDTH="149" VPOS="771" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="109" VPOS="777" HPOS="147">
+              <String STYLEREFS="font2" WC="0.3300000131" CONTENT="T" HEIGHT="22" WIDTH="18" VPOS="777" HPOS="147"/>
+              <SP WIDTH="9" VPOS="777" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.5199999809" CONTENT="1)" HEIGHT="22" WIDTH="18" VPOS="777" HPOS="176"/>
+              <SP WIDTH="11" VPOS="778" HPOS="195"/>
+              <String STYLEREFS="font2" WC="0.1400000006" CONTENT="k" HEIGHT="21" WIDTH="19" VPOS="778" HPOS="207"/>
+              <SP WIDTH="10" VPOS="778" HPOS="227"/>
+              <String STYLEREFS="font2" WC="0.1299999952" CONTENT="G" HEIGHT="21" WIDTH="18" VPOS="778" HPOS="238"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block44" HEIGHT="34" WIDTH="308" VPOS="771" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="193" VPOS="776" HPOS="294">
+              <String STYLEREFS="font2" WC="0.5814285874" CONTENT="Gairool" HEIGHT="22" WIDTH="95" VPOS="777" HPOS="294"/>
+              <SP WIDTH="23" VPOS="777" HPOS="390"/>
+              <String STYLEREFS="font2" WC="0.4933333397" CONTENT="Barie." HEIGHT="24" WIDTH="73" VPOS="776" HPOS="414"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block45" HEIGHT="34" WIDTH="282" VPOS="771" HPOS="597" language="nl">
+            <TextLine HEIGHT="22" WIDTH="70" VPOS="777" HPOS="603">
+              <String STYLEREFS="font2" WC="0.3019999862" CONTENT="Bark." HEIGHT="22" WIDTH="70" VPOS="777" HPOS="603"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block46" HEIGHT="34" WIDTH="110" VPOS="771" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="47" VPOS="776" HPOS="917">
+              <String STYLEREFS="font2" WC="0.5533333421" CONTENT="374" HEIGHT="23" WIDTH="47" VPOS="776" HPOS="917"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block47" HEIGHT="34" WIDTH="211" VPOS="771" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="134" VPOS="775" HPOS="993">
+              <String STYLEREFS="font2" WC="0.6111111045" CONTENT="Cheribon." HEIGHT="23" WIDTH="134" VPOS="775" HPOS="993"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block48" HEIGHT="35" WIDTH="149" VPOS="805" HPOS="140" language="nl">
+            <TextLine HEIGHT="23" WIDTH="106" VPOS="810" HPOS="146">
+              <String STYLEREFS="font2" WC="0.4199999869" CONTENT="TDKL" HEIGHT="23" WIDTH="106" VPOS="810" HPOS="146"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block49" HEIGHT="35" WIDTH="308" VPOS="805" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="173" VPOS="810" HPOS="294">
+              <String STYLEREFS="font2" WC="0.3600000143" CONTENT="Gambir" HEIGHT="22" WIDTH="95" VPOS="810" HPOS="294"/>
+              <SP WIDTH="17" VPOS="810" HPOS="390"/>
+              <String STYLEREFS="font2" WC="0.5159999728" CONTENT="Sari." HEIGHT="24" WIDTH="59" VPOS="810" HPOS="408"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block50" HEIGHT="35" WIDTH="282" VPOS="805" HPOS="597" language="nl">
+            <TextLine HEIGHT="29" WIDTH="178" VPOS="811" HPOS="601">
+              <String STYLEREFS="font2" WC="0.5609090924" CONTENT="Praauwtoop," HEIGHT="29" WIDTH="178" VPOS="811" HPOS="601"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block51" HEIGHT="35" WIDTH="110" VPOS="805" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="30" VPOS="808" HPOS="934">
+              <String STYLEREFS="font2" WC="0.5" CONTENT="46" HEIGHT="24" WIDTH="30" VPOS="808" HPOS="934"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block52" HEIGHT="35" WIDTH="211" VPOS="805" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="127" VPOS="809" HPOS="993">
+              <String STYLEREFS="font2" WC="0.7674999833" CONTENT="Sampang." HEIGHT="30" WIDTH="127" VPOS="809" HPOS="993"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block53" HEIGHT="33" WIDTH="149" VPOS="840" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="106" VPOS="844" HPOS="147">
+              <String STYLEREFS="font2" WC="0.7200000286" CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="844" HPOS="147"/>
+              <SP WIDTH="9" VPOS="844" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.4550000131" CONTENT="I)" HEIGHT="21" WIDTH="18" VPOS="845" HPOS="175"/>
+              <SP WIDTH="10" VPOS="845" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.150000006" CONTENT="k" HEIGHT="21" WIDTH="20" VPOS="845" HPOS="205"/>
+              <SP WIDTH="11" VPOS="845" HPOS="226"/>
+              <String STYLEREFS="font2" WC="1." CONTENT="1'" HEIGHT="21" WIDTH="15" VPOS="845" HPOS="238"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block54" HEIGHT="33" WIDTH="308" VPOS="840" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="100" VPOS="843" HPOS="293">
+              <String STYLEREFS="font2" WC="0.6257143021" CONTENT="Gatmir." HEIGHT="24" WIDTH="100" VPOS="843" HPOS="293"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block55" HEIGHT="33" WIDTH="282" VPOS="840" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="72" VPOS="844" HPOS="602">
+              <String STYLEREFS="font2" WC="0.3619999886" CONTENT="Bark." HEIGHT="23" WIDTH="72" VPOS="844" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block56" HEIGHT="33" WIDTH="110" VPOS="840" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="48" VPOS="843" HPOS="917">
+              <String STYLEREFS="font2" WC="0.4766666591" CONTENT="653" HEIGHT="23" WIDTH="48" VPOS="843" HPOS="917"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block57" HEIGHT="33" WIDTH="211" VPOS="840" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="139" VPOS="842" HPOS="993">
+              <String STYLEREFS="font2" WC="0.6060000062" CONTENT="Soerabaja." HEIGHT="31" WIDTH="139" VPOS="842" HPOS="993"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block58" HEIGHT="34" WIDTH="149" VPOS="873" HPOS="140" language="nl">
+            <TextLine HEIGHT="23" WIDTH="103" VPOS="877" HPOS="147">
+              <String STYLEREFS="font2" WC="0.3600000143" CONTENT="TUKS" HEIGHT="23" WIDTH="103" VPOS="877" HPOS="147"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block59" HEIGHT="34" WIDTH="308" VPOS="873" HPOS="289" language="nl">
+            <TextLine HEIGHT="25" WIDTH="295" VPOS="875" HPOS="294">
+              <String STYLEREFS="font2" WC="0.5337499976" CONTENT="Generaal" HEIGHT="22" WIDTH="114" VPOS="877" HPOS="294"/>
+              <SP WIDTH="19" VPOS="877" HPOS="409"/>
+              <String STYLEREFS="font2" WC="0.7099999785" CONTENT="v." HEIGHT="15" WIDTH="22" VPOS="885" HPOS="429"/>
+              <SP WIDTH="18" VPOS="875" HPOS="452"/>
+              <String STYLEREFS="font2" WC="0.7124999762" CONTENT="Swieten." HEIGHT="24" WIDTH="118" VPOS="875" HPOS="471"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block60" HEIGHT="34" WIDTH="282" VPOS="873" HPOS="597" language="nl">
+            <TextLine HEIGHT="31" WIDTH="168" VPOS="876" HPOS="601">
+              <String STYLEREFS="font2" WC="0.6190909147" CONTENT="Stoomschip." HEIGHT="31" WIDTH="168" VPOS="876" HPOS="601"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block61" HEIGHT="34" WIDTH="110" VPOS="873" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="63" VPOS="876" HPOS="903">
+              <String STYLEREFS="font2" WC="0.7699999809" CONTENT="1424" HEIGHT="24" WIDTH="63" VPOS="876" HPOS="903"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block62" HEIGHT="34" WIDTH="211" VPOS="873" HPOS="989" language="nl">
+            <TextLine HEIGHT="22" WIDTH="105" VPOS="876" HPOS="995">
+              <String STYLEREFS="font2" WC="0.7262499928" CONTENT="Batavia." HEIGHT="22" WIDTH="105" VPOS="876" HPOS="995"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block63" HEIGHT="34" WIDTH="86" VPOS="873" HPOS="1200" language="nl">
+            <TextLine HEIGHT="23" WIDTH="50" VPOS="876" HPOS="1223">
+              <String STYLEREFS="font2" WC="0.6166666746" CONTENT="200" HEIGHT="23" WIDTH="50" VPOS="876" HPOS="1223"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block64" HEIGHT="34" WIDTH="149" VPOS="907" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="108" VPOS="911" HPOS="147">
+              <String STYLEREFS="font2" WC="0.1899999976" CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="911" HPOS="147"/>
+              <SP WIDTH="11" VPOS="911" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.6549999714" CONTENT="1)" HEIGHT="22" WIDTH="16" VPOS="911" HPOS="177"/>
+              <SP WIDTH="10" VPOS="911" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.1400000006" CONTENT="k" HEIGHT="22" WIDTH="20" VPOS="911" HPOS="205"/>
+              <SP WIDTH="10" VPOS="911" HPOS="226"/>
+              <String STYLEREFS="font2" WC="0.5799999833" CONTENT="V" HEIGHT="22" WIDTH="18" VPOS="911" HPOS="237"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block65" HEIGHT="34" WIDTH="308" VPOS="907" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="98" VPOS="910" HPOS="294">
+              <String STYLEREFS="font2" WC="0.5728571415" CONTENT="George." HEIGHT="30" WIDTH="98" VPOS="910" HPOS="294"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block66" HEIGHT="34" WIDTH="282" VPOS="907" HPOS="597" language="nl">
+            <TextLine HEIGHT="30" WIDTH="168" VPOS="910" HPOS="604">
+              <String STYLEREFS="font2" WC="0.7033333182" CONTENT="Fregatschip." HEIGHT="30" WIDTH="168" VPOS="910" HPOS="604"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block67" HEIGHT="34" WIDTH="110" VPOS="907" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="49" VPOS="909" HPOS="917">
+              <String STYLEREFS="font2" WC="0.5299999714" CONTENT="923" HEIGHT="24" WIDTH="49" VPOS="909" HPOS="917"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block68" HEIGHT="34" WIDTH="211" VPOS="907" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="106" VPOS="909" HPOS="994">
+              <String STYLEREFS="font2" WC="0.6200000048" CONTENT="Ba" HEIGHT="21" WIDTH="29" VPOS="909" HPOS="994"/>
+              <SP WIDTH="4" VPOS="912" HPOS="1024"/>
+              <String STYLEREFS="font2" WC="0.473333329" CONTENT="tii" HEIGHT="19" WIDTH="21" VPOS="912" HPOS="1029"/>
+              <SP WIDTH="3" VPOS="917" HPOS="1051"/>
+              <String STYLEREFS="font2" WC="0.9049999714" CONTENT="via." HEIGHT="23" WIDTH="45" VPOS="909" HPOS="1055"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block69" HEIGHT="31" WIDTH="149" VPOS="941" HPOS="140" language="nl">
+            <TextLine HEIGHT="21" WIDTH="101" VPOS="945" HPOS="147">
+              <String STYLEREFS="font2" WC="0.25" CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="945" HPOS="147"/>
+              <SP WIDTH="12" VPOS="945" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.5849999785" CONTENT="1)" HEIGHT="21" WIDTH="15" VPOS="945" HPOS="178"/>
+              <SP WIDTH="11" VPOS="945" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.3050000072" CONTENT="I." HEIGHT="21" WIDTH="14" VPOS="945" HPOS="206"/>
+              <SP WIDTH="11" VPOS="945" HPOS="221"/>
+              <String STYLEREFS="font2" WC="0.4650000036" CONTENT="li" HEIGHT="21" WIDTH="15" VPOS="945" HPOS="233"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block70" HEIGHT="31" WIDTH="308" VPOS="941" HPOS="289" language="nl">
+            <TextLine HEIGHT="22" WIDTH="161" VPOS="944" HPOS="293">
+              <String STYLEREFS="font2" WC="0.3600000143" CONTENT="Goan" HEIGHT="22" WIDTH="67" VPOS="944" HPOS="293"/>
+              <SP WIDTH="16" VPOS="944" HPOS="361"/>
+              <String STYLEREFS="font2" WC="0.5260000229" CONTENT="Goan." HEIGHT="22" WIDTH="76" VPOS="944" HPOS="378"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block71" HEIGHT="31" WIDTH="282" VPOS="941" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="191" VPOS="943" HPOS="602">
+              <String STYLEREFS="font2" WC="0.7614285946" CONTENT="Sclioenerbrik." HEIGHT="24" WIDTH="191" VPOS="943" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block72" HEIGHT="31" WIDTH="110" VPOS="941" HPOS="879" language="nl">
+            <TextLine HEIGHT="22" WIDTH="48" VPOS="944" HPOS="918">
+              <String STYLEREFS="font2" WC="0.7533333302" CONTENT="270" HEIGHT="22" WIDTH="48" VPOS="944" HPOS="918"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block73" HEIGHT="31" WIDTH="211" VPOS="941" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="138" VPOS="942" HPOS="993">
+              <String STYLEREFS="font2" WC="0.7633333206" CONTENT="Semarang." HEIGHT="30" WIDTH="138" VPOS="942" HPOS="993"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block74" HEIGHT="33" WIDTH="149" VPOS="972" HPOS="140" language="nl">
+            <TextLine HEIGHT="29" WIDTH="103" VPOS="978" HPOS="146">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="18" VPOS="978" HPOS="146"/>
+              <SP WIDTH="11" VPOS="978" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.1199999973" CONTENT="0" HEIGHT="21" WIDTH="16" VPOS="979" HPOS="177"/>
+              <SP WIDTH="12" VPOS="978" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.2899999917" CONTENT="L" HEIGHT="21" WIDTH="13" VPOS="978" HPOS="207"/>
+              <SP WIDTH="9" VPOS="978" HPOS="221"/>
+              <String STYLEREFS="font2" WC="0." CONTENT="Q" HEIGHT="28" WIDTH="18" VPOS="979" HPOS="231"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block75" HEIGHT="33" WIDTH="308" VPOS="972" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="74" VPOS="977" HPOS="293">
+              <String STYLEREFS="font2" WC="0.5139999986" CONTENT="Golek" HEIGHT="23" WIDTH="74" VPOS="977" HPOS="293"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block76" HEIGHT="33" WIDTH="282" VPOS="972" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="203" VPOS="976" HPOS="602">
+              <String STYLEREFS="font2" WC="0.7749999762" CONTENT="Gaflelschoener" HEIGHT="24" WIDTH="203" VPOS="976" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block77" HEIGHT="33" WIDTH="110" VPOS="972" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="27" VPOS="976" HPOS="939">
+              <String STYLEREFS="font2" WC="0.4900000095" CONTENT="19" HEIGHT="23" WIDTH="27" VPOS="976" HPOS="939"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block78" HEIGHT="33" WIDTH="211" VPOS="972" HPOS="989" language="nl">
+            <TextLine HEIGHT="24" WIDTH="85" VPOS="975" HPOS="993">
+              <String STYLEREFS="font2" WC="0.8683333397" CONTENT="Joana." HEIGHT="24" WIDTH="85" VPOS="975" HPOS="993"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block79" HEIGHT="34" WIDTH="149" VPOS="1005" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="103" VPOS="1012" HPOS="146">
+              <String STYLEREFS="font2" WC="0.6374999881" CONTENT="TDLH" HEIGHT="22" WIDTH="103" VPOS="1012" HPOS="146"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block80" HEIGHT="34" WIDTH="308" VPOS="1005" HPOS="289" language="nl">
+            <TextLine HEIGHT="31" WIDTH="212" VPOS="1010" HPOS="293">
+              <String STYLEREFS="font2" WC="0.3828571439" CONTENT="Goenong" HEIGHT="31" WIDTH="117" VPOS="1010" HPOS="293"/>
+              <SP WIDTH="16" VPOS="1010" HPOS="411"/>
+              <String STYLEREFS="font2" WC="0.7014285922" CONTENT="Sitoli." HEIGHT="23" WIDTH="77" VPOS="1010" HPOS="428"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block81" HEIGHT="34" WIDTH="282" VPOS="1005" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="136" VPOS="1011" HPOS="601">
+              <String STYLEREFS="font2" WC="0.5155555606" CONTENT="Scboener." HEIGHT="23" WIDTH="136" VPOS="1011" HPOS="601"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block82" HEIGHT="34" WIDTH="110" VPOS="1005" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="31" VPOS="1010" HPOS="935">
+              <String STYLEREFS="font2" WC="0.2899999917" CONTENT="36" HEIGHT="23" WIDTH="31" VPOS="1010" HPOS="935"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block83" HEIGHT="34" WIDTH="211" VPOS="1005" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="200" VPOS="1008" HPOS="993">
+              <String STYLEREFS="font2" WC="0.6692857146" CONTENT="Gocnong-Sitoli" HEIGHT="30" WIDTH="200" VPOS="1008" HPOS="993"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block84" HEIGHT="33" WIDTH="211" VPOS="1039" HPOS="989" language="nl">
+            <TextLine HEIGHT="34" WIDTH="197" VPOS="1041" HPOS="996">
+              <String STYLEREFS="font2" WC="0.5860000253" CONTENT="(Sum." HEIGHT="33" WIDTH="75" VPOS="1042" HPOS="996"/>
+              <SP WIDTH="18" VPOS="1043" HPOS="1072"/>
+              <String STYLEREFS="font2" WC="0.8249999881" CONTENT="W." HEIGHT="23" WIDTH="41" VPOS="1043" HPOS="1091"/>
+              <SP WIDTH="21" VPOS="1043" HPOS="1133"/>
+              <String STYLEREFS="font2" WC="0.6333333254" CONTENT="K.)" HEIGHT="32" WIDTH="38" VPOS="1041" HPOS="1155"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block85" HEIGHT="33" WIDTH="149" VPOS="1072" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="99" VPOS="1079" HPOS="148">
+              <String STYLEREFS="font2" WC="0.4799999893" CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="1079" HPOS="148"/>
+              <SP WIDTH="10" VPOS="1079" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.5849999785" CONTENT="])" HEIGHT="22" WIDTH="18" VPOS="1079" HPOS="177"/>
+              <SP WIDTH="10" VPOS="1079" HPOS="196"/>
+              <String STYLEREFS="font2" WC="0.4950000048" CONTENT="I," HEIGHT="22" WIDTH="14" VPOS="1079" HPOS="207"/>
+              <SP WIDTH="10" VPOS="1079" HPOS="222"/>
+              <String STYLEREFS="font2" WC="0.5199999809" CONTENT="S" HEIGHT="22" WIDTH="14" VPOS="1079" HPOS="233"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block86" HEIGHT="33" WIDTH="308" VPOS="1072" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="296" VPOS="1077" HPOS="293">
+              <String STYLEREFS="font2" WC="0.6850000024" CONTENT="Goiiv." HEIGHT="22" WIDTH="77" VPOS="1078" HPOS="293"/>
+              <SP WIDTH="17" VPOS="1094" HPOS="371"/>
+              <String STYLEREFS="font2" WC="0.6066666842" CONTENT=".1." HEIGHT="22" WIDTH="20" VPOS="1078" HPOS="389"/>
+              <SP WIDTH="19" VPOS="1078" HPOS="410"/>
+              <String STYLEREFS="font2" WC="0.5749999881" CONTENT="A." HEIGHT="22" WIDTH="25" VPOS="1078" HPOS="430"/>
+              <SP WIDTH="15" VPOS="1077" HPOS="456"/>
+              <String STYLEREFS="font2" WC="0.6949999928" CONTENT="Bakkers." HEIGHT="23" WIDTH="117" VPOS="1077" HPOS="472"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block87" HEIGHT="33" WIDTH="282" VPOS="1072" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="192" VPOS="1076" HPOS="602">
+              <String STYLEREFS="font2" WC="0.6721428633" CONTENT="Sclioenerbrik." HEIGHT="24" WIDTH="192" VPOS="1076" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block88" HEIGHT="33" WIDTH="110" VPOS="1072" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="45" VPOS="1076" HPOS="917">
+              <String STYLEREFS="font2" WC="0.6533333063" CONTENT="241" HEIGHT="23" WIDTH="45" VPOS="1076" HPOS="917"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block89" HEIGHT="33" WIDTH="211" VPOS="1072" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="89" VPOS="1076" HPOS="996">
+              <String STYLEREFS="font2" WC="0.6966666579" CONTENT="Banda." HEIGHT="23" WIDTH="89" VPOS="1076" HPOS="996"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block90" HEIGHT="34" WIDTH="149" VPOS="1105" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="100" VPOS="1112" HPOS="146">
+              <String STYLEREFS="font2" WC="0.349999994" CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="1113" HPOS="146"/>
+              <SP WIDTH="11" VPOS="1112" HPOS="164"/>
+              <String STYLEREFS="font2" WC="0.7799999714" CONTENT="1)" HEIGHT="21" WIDTH="16" VPOS="1112" HPOS="176"/>
+              <SP WIDTH="9" VPOS="1112" HPOS="193"/>
+              <String STYLEREFS="font2" WC="0.4099999964" CONTENT="L" HEIGHT="22" WIDTH="15" VPOS="1112" HPOS="203"/>
+              <SP WIDTH="7" VPOS="1112" HPOS="219"/>
+              <String STYLEREFS="font2" WC="0.6200000048" CONTENT="V" HEIGHT="22" WIDTH="19" VPOS="1112" HPOS="227"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block91" HEIGHT="34" WIDTH="308" VPOS="1105" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="252" VPOS="1110" HPOS="293">
+              <String STYLEREFS="font2" WC="0.5099999905" CONTENT="Gorontalo" HEIGHT="22" WIDTH="132" VPOS="1111" HPOS="293"/>
+              <SP WIDTH="17" VPOS="1110" HPOS="426"/>
+              <String STYLEREFS="font2" WC="0.7642857432" CONTENT="Packet." HEIGHT="24" WIDTH="101" VPOS="1110" HPOS="444"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block92" HEIGHT="34" WIDTH="282" VPOS="1105" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="135" VPOS="1111" HPOS="602">
+              <String STYLEREFS="font2" WC="0.7766666412" CONTENT="Schoener." HEIGHT="23" WIDTH="135" VPOS="1111" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block93" HEIGHT="34" WIDTH="110" VPOS="1105" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="48" VPOS="1110" HPOS="919">
+              <String STYLEREFS="font2" WC="0.426666677" CONTENT="133" HEIGHT="23" WIDTH="48" VPOS="1110" HPOS="919"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block94" HEIGHT="34" WIDTH="211" VPOS="1105" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="112" VPOS="1109" HPOS="994">
+              <String STYLEREFS="font2" WC="0.5928571224" CONTENT="Mënado." HEIGHT="23" WIDTH="112" VPOS="1109" HPOS="994"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block95" HEIGHT="34" WIDTH="149" VPOS="1139" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="116" VPOS="1146" HPOS="146">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="1146" HPOS="146"/>
+              <SP WIDTH="11" VPOS="1146" HPOS="164"/>
+              <String STYLEREFS="font2" WC="0.6299999952" CONTENT="1)" HEIGHT="21" WIDTH="16" VPOS="1146" HPOS="176"/>
+              <SP WIDTH="11" VPOS="1146" HPOS="193"/>
+              <String STYLEREFS="font2" WC="0.7900000215" CONTENT="L" HEIGHT="22" WIDTH="14" VPOS="1146" HPOS="205"/>
+              <SP WIDTH="10" VPOS="1146" HPOS="220"/>
+              <String STYLEREFS="font2" WC="0.5899999738" CONTENT="W" HEIGHT="22" WIDTH="31" VPOS="1146" HPOS="231"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block96" HEIGHT="34" WIDTH="308" VPOS="1139" HPOS="289" language="nl">
+            <TextLine HEIGHT="32" WIDTH="239" VPOS="1144" HPOS="293">
+              <String STYLEREFS="font2" WC="0.7039999962" CONTENT="Gouv.-Gen." HEIGHT="24" WIDTH="149" VPOS="1144" HPOS="293"/>
+              <SP WIDTH="15" VPOS="1145" HPOS="443"/>
+              <String STYLEREFS="font2" WC="0.4316666722" CONTENT="Mijer." HEIGHT="31" WIDTH="73" VPOS="1145" HPOS="459"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block97" HEIGHT="34" WIDTH="282" VPOS="1139" HPOS="597" language="nl">
+            <TextLine HEIGHT="31" WIDTH="167" VPOS="1144" HPOS="602">
+              <String STYLEREFS="font2" WC="0.6754545569" CONTENT="Stoomschip." HEIGHT="31" WIDTH="167" VPOS="1144" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block98" HEIGHT="34" WIDTH="110" VPOS="1139" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="49" VPOS="1143" HPOS="917">
+              <String STYLEREFS="font2" WC="0.2633333206" CONTENT="899" HEIGHT="23" WIDTH="49" VPOS="1143" HPOS="917"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block99" HEIGHT="34" WIDTH="211" VPOS="1139" HPOS="989" language="nl">
+            <TextLine HEIGHT="22" WIDTH="103" VPOS="1144" HPOS="996">
+              <String STYLEREFS="font2" WC="0.7362499833" CONTENT="Batavia." HEIGHT="22" WIDTH="103" VPOS="1144" HPOS="996"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block100" HEIGHT="34" WIDTH="86" VPOS="1139" HPOS="1200" language="nl">
+            <TextLine HEIGHT="24" WIDTH="50" VPOS="1143" HPOS="1224">
+              <String STYLEREFS="font2" WC="0.3966666758" CONTENT="135" HEIGHT="24" WIDTH="50" VPOS="1143" HPOS="1224"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block101" HEIGHT="33" WIDTH="149" VPOS="1173" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="106" VPOS="1179" HPOS="146">
+              <String STYLEREFS="font2" WC="0.9800000191" CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="1179" HPOS="146"/>
+              <SP WIDTH="13" VPOS="1179" HPOS="164"/>
+              <String STYLEREFS="font2" WC="0.2399999946" CONTENT="II" HEIGHT="19" WIDTH="14" VPOS="1180" HPOS="178"/>
+              <SP WIDTH="9" VPOS="1179" HPOS="193"/>
+              <String STYLEREFS="font2" WC="0.4099999964" CONTENT="M" HEIGHT="22" WIDTH="22" VPOS="1179" HPOS="203"/>
+              <SP WIDTH="11" VPOS="1179" HPOS="226"/>
+              <String STYLEREFS="font2" WC="0.3549999893" CONTENT="1!" HEIGHT="21" WIDTH="14" VPOS="1180" HPOS="238"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block102" HEIGHT="33" WIDTH="308" VPOS="1173" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="279" VPOS="1178" HPOS="294">
+              <String STYLEREFS="font2" WC="0.7189999819" CONTENT="Gouv.-Gen." HEIGHT="23" WIDTH="150" VPOS="1178" HPOS="294"/>
+              <SP WIDTH="16" VPOS="1178" HPOS="445"/>
+              <String STYLEREFS="font2" WC="0.6257143021" CONTENT="Loudon." HEIGHT="23" WIDTH="111" VPOS="1178" HPOS="462"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block103" HEIGHT="33" WIDTH="282" VPOS="1173" HPOS="597" language="nl">
+            <TextLine HEIGHT="31" WIDTH="163" VPOS="1177" HPOS="602">
+              <String STYLEREFS="font2" WC="0.6136363745" CONTENT="Stoomschip," HEIGHT="31" WIDTH="163" VPOS="1177" HPOS="602"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block104" HEIGHT="33" WIDTH="110" VPOS="1173" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="61" VPOS="1176" HPOS="905">
+              <String STYLEREFS="font2" WC="0.6324999928" CONTENT="1436" HEIGHT="24" WIDTH="61" VPOS="1176" HPOS="905"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block105" HEIGHT="33" WIDTH="211" VPOS="1173" HPOS="989" language="nl">
+            <TextLine HEIGHT="22" WIDTH="104" VPOS="1177" HPOS="995">
+              <String STYLEREFS="font2" WC="0.7925000191" CONTENT="Batavia." HEIGHT="22" WIDTH="104" VPOS="1177" HPOS="995"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block106" HEIGHT="33" WIDTH="86" VPOS="1173" HPOS="1200" language="nl">
+            <TextLine HEIGHT="24" WIDTH="49" VPOS="1176" HPOS="1225">
+              <String STYLEREFS="font2" WC="0.4300000072" CONTENT="190" HEIGHT="24" WIDTH="49" VPOS="1176" HPOS="1225"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block107" HEIGHT="35" WIDTH="149" VPOS="1206" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="108" VPOS="1213" HPOS="148">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="1213" HPOS="148"/>
+              <SP WIDTH="10" VPOS="1213" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.1400000006" CONTENT="D" HEIGHT="21" WIDTH="18" VPOS="1213" HPOS="177"/>
+              <SP WIDTH="10" VPOS="1213" HPOS="196"/>
+              <String STYLEREFS="font2" WC="0.5400000215" CONTENT="JI" HEIGHT="22" WIDTH="19" VPOS="1213" HPOS="207"/>
+              <SP WIDTH="12" VPOS="1213" HPOS="227"/>
+              <String STYLEREFS="font2" WC="0.3849999905" CONTENT="II" HEIGHT="22" WIDTH="16" VPOS="1213" HPOS="240"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block108" HEIGHT="35" WIDTH="308" VPOS="1206" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="107" VPOS="1212" HPOS="294">
+              <String STYLEREFS="font2" WC="0.6487500072" CONTENT="Gustaaf." HEIGHT="23" WIDTH="107" VPOS="1212" HPOS="294"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block109" HEIGHT="35" WIDTH="282" VPOS="1206" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="95" VPOS="1211" HPOS="604">
+              <String STYLEREFS="font2" WC="0.7414285541" CONTENT="Rotter." HEIGHT="23" WIDTH="95" VPOS="1211" HPOS="604"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block110" HEIGHT="35" WIDTH="110" VPOS="1206" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="31" VPOS="1210" HPOS="934">
+              <String STYLEREFS="font2" WC="0.3700000048" CONTENT="37" HEIGHT="23" WIDTH="31" VPOS="1210" HPOS="934"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block111" HEIGHT="35" WIDTH="211" VPOS="1206" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="137" VPOS="1209" HPOS="994">
+              <String STYLEREFS="font2" WC="0.7429999709" CONTENT="Soerabaja." HEIGHT="31" WIDTH="137" VPOS="1209" HPOS="994"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block112" HEIGHT="32" WIDTH="149" VPOS="1241" HPOS="140" language="nl">
+            <TextLine HEIGHT="23" WIDTH="99" VPOS="1246" HPOS="148">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="1247" HPOS="148"/>
+              <SP WIDTH="11" VPOS="1247" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.5849999785" CONTENT="1)" HEIGHT="21" WIDTH="16" VPOS="1247" HPOS="178"/>
+              <SP WIDTH="10" VPOS="1247" HPOS="195"/>
+              <String STYLEREFS="font2" WC="0.3966666758" CONTENT="JIJ" HEIGHT="23" WIDTH="41" VPOS="1246" HPOS="206"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block113" HEIGHT="32" WIDTH="308" VPOS="1241" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="196" VPOS="1244" HPOS="294">
+              <String STYLEREFS="font2" WC="0.7957142591" CONTENT="Gustaaf" HEIGHT="23" WIDTH="104" VPOS="1245" HPOS="294"/>
+              <SP WIDTH="12" VPOS="1245" HPOS="399"/>
+              <String STYLEREFS="font2" WC="0.8299999833" CONTENT="Adolf." HEIGHT="24" WIDTH="78" VPOS="1244" HPOS="412"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block114" HEIGHT="32" WIDTH="282" VPOS="1241" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="72" VPOS="1245" HPOS="604">
+              <String STYLEREFS="font2" WC="0.4880000055" CONTENT="Bark." HEIGHT="23" WIDTH="72" VPOS="1245" HPOS="604"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block115" HEIGHT="32" WIDTH="110" VPOS="1241" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="48" VPOS="1244" HPOS="918">
+              <String STYLEREFS="font2" WC="0.2833333313" CONTENT="585" HEIGHT="23" WIDTH="48" VPOS="1244" HPOS="918"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block116" HEIGHT="32" WIDTH="211" VPOS="1241" HPOS="989" language="nl">
+            <TextLine HEIGHT="22" WIDTH="103" VPOS="1244" HPOS="997">
+              <String STYLEREFS="font2" WC="0.6625000238" CONTENT="Batavia." HEIGHT="22" WIDTH="103" VPOS="1244" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block117" HEIGHT="33" WIDTH="149" VPOS="1273" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="106" VPOS="1280" HPOS="148">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="1280" HPOS="148"/>
+              <SP WIDTH="9" VPOS="1280" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.3300000131" CONTENT="I)" HEIGHT="22" WIDTH="17" VPOS="1280" HPOS="176"/>
+              <SP WIDTH="10" VPOS="1280" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.2800000012" CONTENT="Pi" HEIGHT="22" WIDTH="17" VPOS="1280" HPOS="205"/>
+              <SP WIDTH="13" VPOS="1280" HPOS="223"/>
+              <String STYLEREFS="font2" WC="0.5" CONTENT="JI" HEIGHT="21" WIDTH="17" VPOS="1280" HPOS="237"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block118" HEIGHT="33" WIDTH="308" VPOS="1273" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="145" VPOS="1278" HPOS="294">
+              <String STYLEREFS="font2" WC="0.2725000083" CONTENT="liab" HEIGHT="23" WIDTH="50" VPOS="1278" HPOS="294"/>
+              <SP WIDTH="17" VPOS="1278" HPOS="345"/>
+              <String STYLEREFS="font2" WC="0.6100000143" CONTENT="Goan." HEIGHT="24" WIDTH="76" VPOS="1278" HPOS="363"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block119" HEIGHT="33" WIDTH="282" VPOS="1273" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="73" VPOS="1278" HPOS="604">
+              <String STYLEREFS="font2" WC="0.7620000243" CONTENT="Bark." HEIGHT="23" WIDTH="73" VPOS="1278" HPOS="604"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block120" HEIGHT="33" WIDTH="110" VPOS="1273" HPOS="879" language="nl">
+            <TextLine HEIGHT="22" WIDTH="48" VPOS="1278" HPOS="919">
+              <String STYLEREFS="font2" WC="0.1566666663" CONTENT="383" HEIGHT="22" WIDTH="48" VPOS="1278" HPOS="919"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block121" HEIGHT="33" WIDTH="211" VPOS="1273" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="129" VPOS="1277" HPOS="994">
+              <String STYLEREFS="font2" WC="0.676666677" CONTENT="Cheribon." HEIGHT="23" WIDTH="129" VPOS="1277" HPOS="994"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block122" HEIGHT="34" WIDTH="149" VPOS="1306" HPOS="140" language="nl">
+            <TextLine HEIGHT="23" WIDTH="106" VPOS="1312" HPOS="147">
+              <String STYLEREFS="font2" WC="0.25" CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="1314" HPOS="147"/>
+              <SP WIDTH="9" VPOS="1313" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.2800000012" CONTENT="D" HEIGHT="22" WIDTH="18" VPOS="1313" HPOS="175"/>
+              <SP WIDTH="10" VPOS="1312" HPOS="194"/>
+              <String STYLEREFS="font2" WC="1.999999955e-002" CONTENT="N" HEIGHT="23" WIDTH="17" VPOS="1312" HPOS="205"/>
+              <SP WIDTH="10" VPOS="1312" HPOS="223"/>
+              <String STYLEREFS="font2" WC="0.9700000286" CONTENT="V" HEIGHT="22" WIDTH="19" VPOS="1312" HPOS="234"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block123" HEIGHT="34" WIDTH="308" VPOS="1306" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="112" VPOS="1312" HPOS="296">
+              <String STYLEREFS="font2" WC="0.2466666698" CONTENT="Hap" HEIGHT="30" WIDTH="48" VPOS="1312" HPOS="296"/>
+              <SP WIDTH="16" VPOS="1313" HPOS="345"/>
+              <String STYLEREFS="font2" WC="0.5500000119" CONTENT="Lie." HEIGHT="22" WIDTH="46" VPOS="1313" HPOS="362"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block124" HEIGHT="34" WIDTH="282" VPOS="1306" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="133" VPOS="1311" HPOS="603">
+              <String STYLEREFS="font2" WC="0.7966666818" CONTENT="Schoener." HEIGHT="24" WIDTH="133" VPOS="1311" HPOS="603"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block125" HEIGHT="34" WIDTH="110" VPOS="1306" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="32" VPOS="1311" HPOS="935">
+              <String STYLEREFS="font2" WC="0.6600000262" CONTENT="50" HEIGHT="23" WIDTH="32" VPOS="1311" HPOS="935"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block126" HEIGHT="34" WIDTH="211" VPOS="1306" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="139" VPOS="1310" HPOS="994">
+              <String STYLEREFS="font2" WC="0.7509999871" CONTENT="Soerabaja." HEIGHT="30" WIDTH="139" VPOS="1310" HPOS="994"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block127" HEIGHT="34" WIDTH="149" VPOS="1340" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="119" VPOS="1346" HPOS="145">
+              <String STYLEREFS="font2" WC="0.2475000024" CONTENT="TDNW" HEIGHT="22" WIDTH="119" VPOS="1346" HPOS="145"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block128" HEIGHT="34" WIDTH="308" VPOS="1340" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="149" VPOS="1346" HPOS="296">
+              <String STYLEREFS="font2" WC="0.3933333457" CONTENT="Hap" HEIGHT="30" WIDTH="48" VPOS="1346" HPOS="296"/>
+              <SP WIDTH="17" VPOS="1346" HPOS="345"/>
+              <String STYLEREFS="font2" WC="0.7566666603" CONTENT="Liong." HEIGHT="29" WIDTH="82" VPOS="1346" HPOS="363"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block129" HEIGHT="34" WIDTH="282" VPOS="1340" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="133" VPOS="1345" HPOS="604">
+              <String STYLEREFS="font2" WC="0.7077777982" CONTENT="Schoener." HEIGHT="23" WIDTH="133" VPOS="1345" HPOS="604"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block130" HEIGHT="34" WIDTH="110" VPOS="1340" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="31" VPOS="1344" HPOS="936">
+              <String STYLEREFS="font2" WC="0.400000006" CONTENT="53" HEIGHT="23" WIDTH="31" VPOS="1344" HPOS="936"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block131" HEIGHT="34" WIDTH="211" VPOS="1340" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="137" VPOS="1343" HPOS="995">
+              <String STYLEREFS="font2" WC="0.7749999762" CONTENT="Soerabaja." HEIGHT="31" WIDTH="137" VPOS="1343" HPOS="995"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block132" HEIGHT="33" WIDTH="149" VPOS="1374" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="103" VPOS="1380" HPOS="148">
+              <String STYLEREFS="font2" WC="0.3199999928" CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="1380" HPOS="148"/>
+              <SP WIDTH="9" VPOS="1380" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.3149999976" CONTENT="I)" HEIGHT="21" WIDTH="17" VPOS="1381" HPOS="176"/>
+              <SP WIDTH="13" VPOS="1380" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.8999999762" CONTENT="1&gt;" HEIGHT="21" WIDTH="15" VPOS="1380" HPOS="208"/>
+              <SP WIDTH="11" VPOS="1380" HPOS="224"/>
+              <String STYLEREFS="font2" WC="0.2700000107" CONTENT="li" HEIGHT="21" WIDTH="15" VPOS="1380" HPOS="236"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block133" HEIGHT="33" WIDTH="308" VPOS="1374" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="202" VPOS="1379" HPOS="297">
+              <String STYLEREFS="font2" WC="0.6620000005" CONTENT="Hawie" HEIGHT="23" WIDTH="78" VPOS="1379" HPOS="297"/>
+              <SP WIDTH="16" VPOS="1379" HPOS="376"/>
+              <String STYLEREFS="font2" WC="0.6650000215" CONTENT="El" HEIGHT="22" WIDTH="25" VPOS="1379" HPOS="393"/>
+              <SP WIDTH="18" VPOS="1379" HPOS="419"/>
+              <String STYLEREFS="font2" WC="0.5580000281" CONTENT="Gair." HEIGHT="23" WIDTH="61" VPOS="1379" HPOS="438"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block134" HEIGHT="33" WIDTH="282" VPOS="1374" HPOS="597" language="nl">
+            <TextLine HEIGHT="22" WIDTH="62" VPOS="1379" HPOS="607">
+              <String STYLEREFS="font2" WC="0.75" CONTENT="Brik." HEIGHT="22" WIDTH="62" VPOS="1379" HPOS="607"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block135" HEIGHT="33" WIDTH="110" VPOS="1374" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="48" VPOS="1377" HPOS="919">
+              <String STYLEREFS="font2" WC="0.8000000119" CONTENT="413" HEIGHT="24" WIDTH="48" VPOS="1377" HPOS="919"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block136" HEIGHT="33" WIDTH="211" VPOS="1374" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="138" VPOS="1377" HPOS="995">
+              <String STYLEREFS="font2" WC="0.6510000229" CONTENT="Soerabaja." HEIGHT="30" WIDTH="138" VPOS="1377" HPOS="995"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block137" HEIGHT="37" WIDTH="149" VPOS="1407" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="102" VPOS="1414" HPOS="148">
+              <String STYLEREFS="font2" WC="0.8000000119" CONTENT="T" HEIGHT="21" WIDTH="18" VPOS="1414" HPOS="148"/>
+              <SP WIDTH="10" VPOS="1414" HPOS="167"/>
+              <String STYLEREFS="font2" WC="0.3600000143" CONTENT="I)" HEIGHT="21" WIDTH="16" VPOS="1414" HPOS="178"/>
+              <SP WIDTH="12" VPOS="1414" HPOS="195"/>
+              <String STYLEREFS="font2" WC="0.2599999905" CONTENT="P" HEIGHT="21" WIDTH="15" VPOS="1414" HPOS="208"/>
+              <SP WIDTH="9" VPOS="1414" HPOS="224"/>
+              <String STYLEREFS="font2" WC="0.6299999952" CONTENT="C" HEIGHT="22" WIDTH="16" VPOS="1414" HPOS="234"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block138" HEIGHT="37" WIDTH="308" VPOS="1407" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="97" VPOS="1412" HPOS="296">
+              <String STYLEREFS="font2" WC="0.6542857289" CONTENT="Helena." HEIGHT="24" WIDTH="97" VPOS="1412" HPOS="296"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block139" HEIGHT="37" WIDTH="282" VPOS="1407" HPOS="597" language="nl">
+            <TextLine HEIGHT="22" WIDTH="132" VPOS="1412" HPOS="604">
+              <String STYLEREFS="font2" WC="0.5622222424" CONTENT="Schoener." HEIGHT="22" WIDTH="132" VPOS="1412" HPOS="604"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block140" HEIGHT="37" WIDTH="110" VPOS="1407" HPOS="879" language="nl">
+            <TextLine HEIGHT="31" WIDTH="45" VPOS="1412" HPOS="935">
+              <String STYLEREFS="font2" WC="0.4250000119" CONTENT="83" HEIGHT="23" WIDTH="32" VPOS="1412" HPOS="935"/>
+              <SP WIDTH="3" VPOS="1412" HPOS="968"/>
+              <String STYLEREFS="font2" WC="0.1599999964" CONTENT="J" HEIGHT="27" WIDTH="8" VPOS="1416" HPOS="972"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block141" HEIGHT="37" WIDTH="211" VPOS="1407" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="201" VPOS="1410" HPOS="995">
+              <String STYLEREFS="font2" WC="0.8385714293" CONTENT="Soebang" HEIGHT="31" WIDTH="112" VPOS="1410" HPOS="995"/>
+              <SP WIDTH="18" VPOS="1410" HPOS="1108"/>
+              <String STYLEREFS="font2" WC="0.5780000091" CONTENT="(Rra-" HEIGHT="31" WIDTH="69" VPOS="1410" HPOS="1127"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block142" HEIGHT="32" WIDTH="211" VPOS="1444" HPOS="989" language="nl">
+            <TextLine HEIGHT="33" WIDTH="92" VPOS="1443" HPOS="1068">
+              <String STYLEREFS="font2" WC="0.4233333468" CONTENT="wang.)" HEIGHT="33" WIDTH="92" VPOS="1443" HPOS="1068"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block143" HEIGHT="31" WIDTH="149" VPOS="1476" HPOS="140" language="nl">
+            <TextLine HEIGHT="30" WIDTH="117" VPOS="1480" HPOS="149">
+              <String STYLEREFS="font2" WC="0.4699999988" CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="1480" HPOS="149"/>
+              <SP WIDTH="9" VPOS="1480" HPOS="167"/>
+              <String STYLEREFS="font2" WC="0.6200000048" CONTENT="I)" HEIGHT="21" WIDTH="17" VPOS="1480" HPOS="177"/>
+              <SP WIDTH="10" VPOS="1480" HPOS="195"/>
+              <String STYLEREFS="font2" WC="0.1299999952" CONTENT="Q" HEIGHT="29" WIDTH="17" VPOS="1481" HPOS="206"/>
+              <SP WIDTH="10" VPOS="1480" HPOS="224"/>
+              <String STYLEREFS="font2" WC="0.6200000048" CONTENT="\V" HEIGHT="21" WIDTH="31" VPOS="1480" HPOS="235"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block144" HEIGHT="31" WIDTH="308" VPOS="1476" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="273" VPOS="1478" HPOS="297">
+              <String STYLEREFS="font2" WC="0.4788888991" CONTENT="Henriëtte" HEIGHT="23" WIDTH="121" VPOS="1479" HPOS="297"/>
+              <SP WIDTH="16" VPOS="1480" HPOS="419"/>
+              <String STYLEREFS="font2" WC="0.4436363578" CONTENT="Elisabetli." HEIGHT="24" WIDTH="134" VPOS="1478" HPOS="436"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block145" HEIGHT="31" WIDTH="282" VPOS="1476" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="70" VPOS="1478" HPOS="606">
+              <String STYLEREFS="font2" WC="0.7059999704" CONTENT="Bark." HEIGHT="24" WIDTH="70" VPOS="1478" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block146" HEIGHT="31" WIDTH="110" VPOS="1476" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="48" VPOS="1477" HPOS="920">
+              <String STYLEREFS="font2" WC="0.7633333206" CONTENT="524" HEIGHT="24" WIDTH="48" VPOS="1477" HPOS="920"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block147" HEIGHT="31" WIDTH="211" VPOS="1476" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="106" VPOS="1478" HPOS="996">
+              <String STYLEREFS="font2" WC="0.625" CONTENT="Batavia." HEIGHT="23" WIDTH="106" VPOS="1478" HPOS="996"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block148" HEIGHT="36" WIDTH="149" VPOS="1507" HPOS="140" language="nl">
+            <TextLine HEIGHT="23" WIDTH="101" VPOS="1513" HPOS="149">
+              <String STYLEREFS="font2" WC="0.3700000048" CONTENT="T" HEIGHT="21" WIDTH="16" VPOS="1514" HPOS="149"/>
+              <SP WIDTH="11" VPOS="1513" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.3199999928" CONTENT="i)" HEIGHT="22" WIDTH="17" VPOS="1513" HPOS="178"/>
+              <SP WIDTH="9" VPOS="1514" HPOS="196"/>
+              <String STYLEREFS="font2" WC="0.2399999946" CONTENT="R" HEIGHT="22" WIDTH="20" VPOS="1514" HPOS="206"/>
+              <SP WIDTH="6" VPOS="1514" HPOS="227"/>
+              <String STYLEREFS="font2" WC="0.2399999946" CONTENT="U" HEIGHT="21" WIDTH="16" VPOS="1514" HPOS="234"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block149" HEIGHT="36" WIDTH="308" VPOS="1507" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="273" VPOS="1512" HPOS="296">
+              <String STYLEREFS="font2" WC="0.5677777529" CONTENT="Henriëtte" HEIGHT="24" WIDTH="123" VPOS="1512" HPOS="296"/>
+              <SP WIDTH="14" VPOS="1512" HPOS="420"/>
+              <String STYLEREFS="font2" WC="0.5418182015" CONTENT="Elisabetli." HEIGHT="24" WIDTH="134" VPOS="1512" HPOS="435"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block150" HEIGHT="36" WIDTH="282" VPOS="1507" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="71" VPOS="1512" HPOS="605">
+              <String STYLEREFS="font2" WC="0.8159999847" CONTENT="Bark." HEIGHT="23" WIDTH="71" VPOS="1512" HPOS="605"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block151" HEIGHT="36" WIDTH="110" VPOS="1507" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="47" VPOS="1511" HPOS="920">
+              <String STYLEREFS="font2" WC="0.7633333206" CONTENT="354" HEIGHT="23" WIDTH="47" VPOS="1511" HPOS="920"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block152" HEIGHT="36" WIDTH="211" VPOS="1507" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="192" VPOS="1510" HPOS="996">
+              <String STYLEREFS="font2" WC="0.6212499738" CONTENT="Tandjong" HEIGHT="31" WIDTH="126" VPOS="1510" HPOS="996"/>
+              <SP WIDTH="30" VPOS="1511" HPOS="1123"/>
+              <String STYLEREFS="font2" WC="0.5966666937" CONTENT="Pi-" HEIGHT="21" WIDTH="34" VPOS="1511" HPOS="1154"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block153" HEIGHT="34" WIDTH="211" VPOS="1543" HPOS="989" language="nl">
+            <TextLine HEIGHT="34" WIDTH="182" VPOS="1542" HPOS="1013">
+              <String STYLEREFS="font2" WC="1." CONTENT="nang" HEIGHT="23" WIDTH="65" VPOS="1552" HPOS="1013"/>
+              <SP WIDTH="6" VPOS="1544" HPOS="1079"/>
+              <String STYLEREFS="font2" WC="0.5728571415" CONTENT="(Biouw)" HEIGHT="34" WIDTH="109" VPOS="1542" HPOS="1086"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block154" HEIGHT="32" WIDTH="149" VPOS="1577" HPOS="140" language="nl">
+            <TextLine HEIGHT="29" WIDTH="100" VPOS="1580" HPOS="151">
+              <String STYLEREFS="font2" WC="0.6000000238" CONTENT="1" HEIGHT="20" WIDTH="5" VPOS="1581" HPOS="151"/>
+              <SP WIDTH="17" VPOS="1581" HPOS="157"/>
+              <String STYLEREFS="font2" WC="0.5199999809" CONTENT="1)" HEIGHT="21" WIDTH="16" VPOS="1581" HPOS="175"/>
+              <SP WIDTH="11" VPOS="1581" HPOS="192"/>
+              <String STYLEREFS="font2" WC="0.3100000024" CONTENT="R" HEIGHT="21" WIDTH="17" VPOS="1581" HPOS="204"/>
+              <SP WIDTH="10" VPOS="1580" HPOS="222"/>
+              <String STYLEREFS="font2" WC="0.349999994" CONTENT="Q" HEIGHT="29" WIDTH="18" VPOS="1580" HPOS="233"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block155" HEIGHT="32" WIDTH="308" VPOS="1577" HPOS="289" language="nl">
+            <TextLine HEIGHT="29" WIDTH="137" VPOS="1580" HPOS="299">
+              <String STYLEREFS="font2" WC="0.6000000238" CONTENT="Hin" HEIGHT="21" WIDTH="40" VPOS="1580" HPOS="299"/>
+              <SP WIDTH="19" VPOS="1580" HPOS="340"/>
+              <String STYLEREFS="font2" WC="0.5066666603" CONTENT="liong." HEIGHT="29" WIDTH="76" VPOS="1580" HPOS="360"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block156" HEIGHT="32" WIDTH="282" VPOS="1577" HPOS="597" language="nl">
+            <TextLine HEIGHT="22" WIDTH="133" VPOS="1579" HPOS="605">
+              <String STYLEREFS="font2" WC="0.8444444537" CONTENT="Schoener." HEIGHT="22" WIDTH="133" VPOS="1579" HPOS="605"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block157" HEIGHT="32" WIDTH="110" VPOS="1577" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="31" VPOS="1577" HPOS="937">
+              <String STYLEREFS="font2" WC="0.6549999714" CONTENT="40" HEIGHT="24" WIDTH="31" VPOS="1577" HPOS="937"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block158" HEIGHT="32" WIDTH="211" VPOS="1577" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="192" VPOS="1577" HPOS="998">
+              <String STYLEREFS="font2" WC="0.474999994" CONTENT="Bandjermasiii." HEIGHT="30" WIDTH="192" VPOS="1577" HPOS="998"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block159" HEIGHT="32" WIDTH="149" VPOS="1609" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="100" VPOS="1613" HPOS="146">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="18" VPOS="1613" HPOS="146"/>
+              <SP WIDTH="10" VPOS="1613" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.4149999917" CONTENT="1)" HEIGHT="21" WIDTH="17" VPOS="1614" HPOS="176"/>
+              <SP WIDTH="10" VPOS="1614" HPOS="194"/>
+              <String STYLEREFS="font2" WC="0.5699999928" CONTENT="S" HEIGHT="21" WIDTH="13" VPOS="1614" HPOS="205"/>
+              <SP WIDTH="12" VPOS="1614" HPOS="219"/>
+              <String STYLEREFS="font2" WC="0.5049999952" CONTENT="1!" HEIGHT="21" WIDTH="14" VPOS="1614" HPOS="232"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block160" HEIGHT="32" WIDTH="308" VPOS="1609" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="134" VPOS="1613" HPOS="298">
+              <String STYLEREFS="font2" WC="0.323333323" CONTENT="Hin" HEIGHT="21" WIDTH="42" VPOS="1613" HPOS="298"/>
+              <SP WIDTH="18" VPOS="1613" HPOS="341"/>
+              <String STYLEREFS="font2" WC="0.551666677" CONTENT="Thaij." HEIGHT="30" WIDTH="72" VPOS="1613" HPOS="360"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block161" HEIGHT="32" WIDTH="282" VPOS="1609" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="192" VPOS="1611" HPOS="606">
+              <String STYLEREFS="font2" WC="0.6385714412" CONTENT="Sclioenerbrik." HEIGHT="24" WIDTH="192" VPOS="1611" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block162" HEIGHT="32" WIDTH="110" VPOS="1609" HPOS="879" language="nl">
+            <TextLine HEIGHT="25" WIDTH="49" VPOS="1610" HPOS="920">
+              <String STYLEREFS="font2" WC="0.6166666746" CONTENT="250" HEIGHT="25" WIDTH="49" VPOS="1610" HPOS="920"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block163" HEIGHT="32" WIDTH="211" VPOS="1609" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="190" VPOS="1610" HPOS="997">
+              <String STYLEREFS="font2" WC="0.6969230771" CONTENT="Bandjermasin." HEIGHT="31" WIDTH="190" VPOS="1610" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block164" HEIGHT="33" WIDTH="149" VPOS="1641" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="108" VPOS="1647" HPOS="146">
+              <String STYLEREFS="font2" WC="0.5099999905" CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="1647" HPOS="146"/>
+              <SP WIDTH="9" VPOS="1647" HPOS="164"/>
+              <String STYLEREFS="font2" WC="0.1400000006" CONTENT="D" HEIGHT="22" WIDTH="18" VPOS="1647" HPOS="174"/>
+              <SP WIDTH="11" VPOS="1647" HPOS="193"/>
+              <String STYLEREFS="font2" WC="0.3100000024" CONTENT="V" HEIGHT="22" WIDTH="19" VPOS="1647" HPOS="205"/>
+              <SP WIDTH="11" VPOS="1647" HPOS="225"/>
+              <String STYLEREFS="font2" WC="0.25" CONTENT="k" HEIGHT="21" WIDTH="17" VPOS="1648" HPOS="237"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block165" HEIGHT="33" WIDTH="308" VPOS="1641" HPOS="289" language="nl">
+            <TextLine HEIGHT="22" WIDTH="121" VPOS="1646" HPOS="298">
+              <String STYLEREFS="font2" WC="0.5466666818" CONTENT="Hok" HEIGHT="22" WIDTH="49" VPOS="1646" HPOS="298"/>
+              <SP WIDTH="21" VPOS="1646" HPOS="348"/>
+              <String STYLEREFS="font2" WC="0.7749999762" CONTENT="Hin." HEIGHT="21" WIDTH="49" VPOS="1647" HPOS="370"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block166" HEIGHT="33" WIDTH="282" VPOS="1641" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="133" VPOS="1645" HPOS="605">
+              <String STYLEREFS="font2" WC="0.7977777719" CONTENT="Schoener." HEIGHT="23" WIDTH="133" VPOS="1645" HPOS="605"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block167" HEIGHT="33" WIDTH="110" VPOS="1641" HPOS="879" language="nl">
+            <TextLine HEIGHT="22" WIDTH="31" VPOS="1645" HPOS="937">
+              <String STYLEREFS="font2" WC="0.5600000024" CONTENT="67" HEIGHT="22" WIDTH="31" VPOS="1645" HPOS="937"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block168" HEIGHT="33" WIDTH="211" VPOS="1641" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="181" VPOS="1644" HPOS="998">
+              <String STYLEREFS="font2" WC="0.6733333468" CONTENT="Banjoewangi." HEIGHT="31" WIDTH="181" VPOS="1644" HPOS="998"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block169" HEIGHT="34" WIDTH="149" VPOS="1674" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="118" VPOS="1680" HPOS="147">
+              <String STYLEREFS="font2" WC="0.9100000262" CONTENT="T" HEIGHT="21" WIDTH="18" VPOS="1680" HPOS="147"/>
+              <SP WIDTH="10" VPOS="1680" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.5049999952" CONTENT="I)" HEIGHT="22" WIDTH="18" VPOS="1680" HPOS="177"/>
+              <SP WIDTH="10" VPOS="1681" HPOS="196"/>
+              <String STYLEREFS="font2" WC="0.400000006" CONTENT="W" HEIGHT="21" WIDTH="31" VPOS="1681" HPOS="207"/>
+              <SP WIDTH="10" VPOS="1681" HPOS="239"/>
+              <String STYLEREFS="font2" WC="0.2949999869" CONTENT="I," HEIGHT="21" WIDTH="15" VPOS="1681" HPOS="250"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block170" HEIGHT="34" WIDTH="308" VPOS="1674" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="166" VPOS="1679" HPOS="298">
+              <String STYLEREFS="font2" WC="0.324000001" CONTENT="liong" HEIGHT="30" WIDTH="66" VPOS="1679" HPOS="298"/>
+              <SP WIDTH="18" VPOS="1679" HPOS="365"/>
+              <String STYLEREFS="font2" WC="0.4833333194" CONTENT="Liong." HEIGHT="30" WIDTH="80" VPOS="1679" HPOS="384"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block171" HEIGHT="34" WIDTH="282" VPOS="1674" HPOS="597" language="nl">
+            <TextLine HEIGHT="22" WIDTH="133" VPOS="1679" HPOS="606">
+              <String STYLEREFS="font2" WC="0.4488888979" CONTENT="Scboener." HEIGHT="22" WIDTH="133" VPOS="1679" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block172" HEIGHT="34" WIDTH="110" VPOS="1674" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="49" VPOS="1678" HPOS="920">
+              <String STYLEREFS="font2" WC="0.4866666794" CONTENT="133" HEIGHT="23" WIDTH="49" VPOS="1678" HPOS="920"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block173" HEIGHT="34" WIDTH="211" VPOS="1674" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="104" VPOS="1678" HPOS="999">
+              <String STYLEREFS="font2" WC="0.8187500238" CONTENT="Batavia." HEIGHT="23" WIDTH="104" VPOS="1678" HPOS="999"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block174" HEIGHT="31" WIDTH="149" VPOS="1708" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="116" VPOS="1713" HPOS="148">
+              <String STYLEREFS="font2" WC="0.150000006" CONTENT="T" HEIGHT="20" WIDTH="17" VPOS="1714" HPOS="148"/>
+              <SP WIDTH="12" VPOS="1714" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.7799999714" CONTENT="1)" HEIGHT="20" WIDTH="15" VPOS="1714" HPOS="179"/>
+              <SP WIDTH="12" VPOS="1714" HPOS="195"/>
+              <String STYLEREFS="font2" WC="1." CONTENT="W" HEIGHT="20" WIDTH="30" VPOS="1714" HPOS="208"/>
+              <SP WIDTH="6" VPOS="1713" HPOS="239"/>
+              <String STYLEREFS="font2" WC="0.3400000036" CONTENT="N" HEIGHT="22" WIDTH="18" VPOS="1713" HPOS="246"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block175" HEIGHT="31" WIDTH="308" VPOS="1708" HPOS="289" language="nl">
+            <TextLine HEIGHT="22" WIDTH="212" VPOS="1712" HPOS="297">
+              <String STYLEREFS="font2" WC="0.1199999973" CONTENT="Ho" HEIGHT="22" WIDTH="34" VPOS="1712" HPOS="297"/>
+              <SP WIDTH="17" VPOS="1714" HPOS="332"/>
+              <String STYLEREFS="font2" WC="0.2066666633" CONTENT="Som" HEIGHT="20" WIDTH="60" VPOS="1714" HPOS="350"/>
+              <SP WIDTH="20" VPOS="1713" HPOS="411"/>
+              <String STYLEREFS="font2" WC="0.6940000057" CONTENT="Goan." HEIGHT="21" WIDTH="77" VPOS="1713" HPOS="432"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block176" HEIGHT="31" WIDTH="282" VPOS="1708" HPOS="597" language="nl">
+            <TextLine HEIGHT="21" WIDTH="71" VPOS="1713" HPOS="609">
+              <String STYLEREFS="font2" WC="0.5600000024" CONTENT="Bark." HEIGHT="21" WIDTH="71" VPOS="1713" HPOS="609"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block177" HEIGHT="31" WIDTH="110" VPOS="1708" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="48" VPOS="1711" HPOS="920">
+              <String STYLEREFS="font2" WC="0.4633333385" CONTENT="407" HEIGHT="23" WIDTH="48" VPOS="1711" HPOS="920"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block178" HEIGHT="31" WIDTH="211" VPOS="1708" HPOS="989" language="nl">
+            <TextLine HEIGHT="22" WIDTH="94" VPOS="1711" HPOS="997">
+              <String STYLEREFS="font2" WC="0.6557142735" CONTENT="RiouNV." HEIGHT="22" WIDTH="94" VPOS="1711" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block179" HEIGHT="34" WIDTH="149" VPOS="1739" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="99" VPOS="1746" HPOS="147">
+              <String STYLEREFS="font2" WC="0.3400000036" CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="1746" HPOS="147"/>
+              <SP WIDTH="8" VPOS="1746" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.25" CONTENT="F" HEIGHT="22" WIDTH="16" VPOS="1746" HPOS="174"/>
+              <SP WIDTH="11" VPOS="1746" HPOS="191"/>
+              <String STYLEREFS="font2" WC="0.7400000095" CONTENT="1!" HEIGHT="21" WIDTH="14" VPOS="1747" HPOS="203"/>
+              <SP WIDTH="11" VPOS="1746" HPOS="218"/>
+              <String STYLEREFS="font2" WC="0.2300000042" CONTENT="C" HEIGHT="22" WIDTH="16" VPOS="1746" HPOS="230"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block180" HEIGHT="34" WIDTH="308" VPOS="1739" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="66" VPOS="1744" HPOS="296">
+              <String STYLEREFS="font2" WC="0.6639999747" CONTENT="Inde." HEIGHT="24" WIDTH="66" VPOS="1744" HPOS="296"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block181" HEIGHT="34" WIDTH="282" VPOS="1739" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="205" VPOS="1744" HPOS="605">
+              <String STYLEREFS="font2" WC="0.7599999905" CONTENT="GaHelschoener" HEIGHT="23" WIDTH="205" VPOS="1744" HPOS="605"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block182" HEIGHT="34" WIDTH="110" VPOS="1739" HPOS="879" language="nl">
+            <TextLine HEIGHT="22" WIDTH="31" VPOS="1744" HPOS="937">
+              <String STYLEREFS="font2" WC="0.3100000024" CONTENT="32" HEIGHT="22" WIDTH="31" VPOS="1744" HPOS="937"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block183" HEIGHT="34" WIDTH="211" VPOS="1739" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="171" VPOS="1743" HPOS="998">
+              <String STYLEREFS="font2" WC="0.3659999967" CONTENT="Banda" HEIGHT="22" WIDTH="79" VPOS="1744" HPOS="998"/>
+              <SP WIDTH="12" VPOS="1743" HPOS="1078"/>
+              <String STYLEREFS="font2" WC="0.401666671" CONTENT="Neira." HEIGHT="23" WIDTH="78" VPOS="1743" HPOS="1091"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block184" HEIGHT="32" WIDTH="149" VPOS="1773" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="92" VPOS="1779" HPOS="147">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="1779" HPOS="147"/>
+              <SP WIDTH="9" VPOS="1779" HPOS="165"/>
+              <String STYLEREFS="font2" WC="1." CONTENT="F" HEIGHT="22" WIDTH="15" VPOS="1779" HPOS="175"/>
+              <SP WIDTH="11" VPOS="1779" HPOS="191"/>
+              <String STYLEREFS="font2" WC="0.5199999809" CONTENT="li" HEIGHT="20" WIDTH="16" VPOS="1780" HPOS="203"/>
+              <SP WIDTH="8" VPOS="1780" HPOS="220"/>
+              <String STYLEREFS="font2" WC="0.2700000107" CONTENT="J" HEIGHT="21" WIDTH="10" VPOS="1780" HPOS="229"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block185" HEIGHT="32" WIDTH="308" VPOS="1773" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="137" VPOS="1778" HPOS="296">
+              <String STYLEREFS="font2" WC="0.8766666651" CONTENT="Ing" HEIGHT="30" WIDTH="44" VPOS="1778" HPOS="296"/>
+              <SP WIDTH="16" VPOS="1778" HPOS="341"/>
+              <String STYLEREFS="font2" WC="0.6639999747" CONTENT="Goan." HEIGHT="22" WIDTH="75" VPOS="1778" HPOS="358"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block186" HEIGHT="32" WIDTH="282" VPOS="1773" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="132" VPOS="1777" HPOS="606">
+              <String STYLEREFS="font2" WC="0.6633333564" CONTENT="Schoener." HEIGHT="23" WIDTH="132" VPOS="1777" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block187" HEIGHT="32" WIDTH="110" VPOS="1773" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="31" VPOS="1777" HPOS="938">
+              <String STYLEREFS="font2" WC="0.200000003" CONTENT="30" HEIGHT="23" WIDTH="31" VPOS="1777" HPOS="938"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block188" HEIGHT="32" WIDTH="211" VPOS="1773" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="199" VPOS="1776" HPOS="997">
+              <String STYLEREFS="font2" WC="0.6416666508" CONTENT="Lassem" HEIGHT="23" WIDTH="96" VPOS="1777" HPOS="997"/>
+              <SP WIDTH="22" VPOS="1776" HPOS="1094"/>
+              <String STYLEREFS="font2" WC="0.6916666627" CONTENT="(Bern-" HEIGHT="31" WIDTH="79" VPOS="1776" HPOS="1117"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block189" HEIGHT="37" WIDTH="211" VPOS="1805" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="82" VPOS="1810" HPOS="1080">
+              <String STYLEREFS="font2" WC="0.4550000131" CONTENT="bang.)" HEIGHT="30" WIDTH="82" VPOS="1810" HPOS="1080"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block190" HEIGHT="32" WIDTH="149" VPOS="1842" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="100" VPOS="1845" HPOS="147">
+              <String STYLEREFS="font2" WC="0.6499999762" CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="1845" HPOS="147"/>
+              <SP WIDTH="11" VPOS="1845" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.6075000167" CONTENT="FBI’" HEIGHT="21" WIDTH="70" VPOS="1846" HPOS="177"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block191" HEIGHT="32" WIDTH="308" VPOS="1842" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="139" VPOS="1844" HPOS="296">
+              <String STYLEREFS="font2" WC="0.8333333135" CONTENT="lng" HEIGHT="30" WIDTH="45" VPOS="1844" HPOS="296"/>
+              <SP WIDTH="16" VPOS="1845" HPOS="342"/>
+              <String STYLEREFS="font2" WC="0.69599998" CONTENT="Goan." HEIGHT="22" WIDTH="76" VPOS="1845" HPOS="359"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block192" HEIGHT="32" WIDTH="282" VPOS="1842" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="72" VPOS="1844" HPOS="606">
+              <String STYLEREFS="font2" WC="0.6539999843" CONTENT="Bark." HEIGHT="23" WIDTH="72" VPOS="1844" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block193" HEIGHT="32" WIDTH="110" VPOS="1842" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="48" VPOS="1843" HPOS="921">
+              <String STYLEREFS="font2" WC="0.3733333349" CONTENT="313" HEIGHT="23" WIDTH="48" VPOS="1843" HPOS="921"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block194" HEIGHT="32" WIDTH="211" VPOS="1842" HPOS="989" language="nl">
+            <TextLine HEIGHT="29" WIDTH="73" VPOS="1844" HPOS="1002">
+              <String STYLEREFS="font2" WC="0.5716666579" CONTENT="legal." HEIGHT="29" WIDTH="73" VPOS="1844" HPOS="1002"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block195" HEIGHT="31" WIDTH="149" VPOS="1874" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="99" VPOS="1879" HPOS="147">
+              <String STYLEREFS="font2" WC="0.5799999833" CONTENT="TFCG" HEIGHT="22" WIDTH="99" VPOS="1879" HPOS="147"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block196" HEIGHT="31" WIDTH="308" VPOS="1874" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="138" VPOS="1877" HPOS="297">
+              <String STYLEREFS="font2" WC="0.6666666865" CONTENT="Ing" HEIGHT="30" WIDTH="44" VPOS="1877" HPOS="297"/>
+              <SP WIDTH="17" VPOS="1878" HPOS="342"/>
+              <String STYLEREFS="font2" WC="0.6779999733" CONTENT="Goan." HEIGHT="22" WIDTH="75" VPOS="1878" HPOS="360"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block197" HEIGHT="31" WIDTH="282" VPOS="1874" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="133" VPOS="1876" HPOS="606">
+              <String STYLEREFS="font2" WC="0.6677777767" CONTENT="Schoener." HEIGHT="24" WIDTH="133" VPOS="1876" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block198" HEIGHT="31" WIDTH="110" VPOS="1874" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="31" VPOS="1876" HPOS="938">
+              <String STYLEREFS="font2" WC="0.6000000238" CONTENT="49" HEIGHT="23" WIDTH="31" VPOS="1876" HPOS="938"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block199" HEIGHT="31" WIDTH="211" VPOS="1874" HPOS="989" language="nl">
+            <TextLine HEIGHT="29" WIDTH="141" VPOS="1876" HPOS="997">
+              <String STYLEREFS="font2" WC="0.746999979" CONTENT="Soerabaja." HEIGHT="29" WIDTH="141" VPOS="1876" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block200" HEIGHT="34" WIDTH="149" VPOS="1905" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="89" VPOS="1912" HPOS="147">
+              <String STYLEREFS="font2" WC="0.3199999928" CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="1912" HPOS="147"/>
+              <SP WIDTH="9" VPOS="1912" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.6499999762" CONTENT="F" HEIGHT="22" WIDTH="16" VPOS="1912" HPOS="175"/>
+              <SP WIDTH="8" VPOS="1912" HPOS="192"/>
+              <String STYLEREFS="font2" WC="0.8700000048" CONTENT="C" HEIGHT="22" WIDTH="17" VPOS="1912" HPOS="201"/>
+              <SP WIDTH="9" VPOS="1912" HPOS="219"/>
+              <String STYLEREFS="font2" WC="0.5500000119" CONTENT="1" HEIGHT="21" WIDTH="7" VPOS="1913" HPOS="229"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block201" HEIGHT="34" WIDTH="308" VPOS="1905" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="131" VPOS="1910" HPOS="296">
+              <String STYLEREFS="font2" WC="0.5333333611" CONTENT="Ing" HEIGHT="30" WIDTH="44" VPOS="1910" HPOS="296"/>
+              <SP WIDTH="18" VPOS="1911" HPOS="341"/>
+              <String STYLEREFS="font2" WC="0.9179999828" CONTENT="Uien." HEIGHT="23" WIDTH="67" VPOS="1911" HPOS="360"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block202" HEIGHT="34" WIDTH="282" VPOS="1905" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="135" VPOS="1910" HPOS="605">
+              <String STYLEREFS="font2" WC="0.5077777505" CONTENT="Schoener," HEIGHT="23" WIDTH="135" VPOS="1910" HPOS="605"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block203" HEIGHT="34" WIDTH="110" VPOS="1905" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="32" VPOS="1909" HPOS="937">
+              <String STYLEREFS="font2" WC="0.6050000191" CONTENT="39" HEIGHT="24" WIDTH="32" VPOS="1909" HPOS="937"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block204" HEIGHT="34" WIDTH="211" VPOS="1905" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="195" VPOS="1909" HPOS="1000">
+              <String STYLEREFS="font2" WC="0.9925000072" CONTENT="Bali" HEIGHT="22" WIDTH="46" VPOS="1910" HPOS="1000"/>
+              <SP WIDTH="8" VPOS="1910" HPOS="1047"/>
+              <String STYLEREFS="font2" WC="0.6420000196" CONTENT="Boeleleng." HEIGHT="30" WIDTH="139" VPOS="1909" HPOS="1056"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block205" HEIGHT="35" WIDTH="149" VPOS="1939" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="103" VPOS="1945" HPOS="147">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="1945" HPOS="147"/>
+              <SP WIDTH="10" VPOS="1945" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.4099999964" CONTENT="F" HEIGHT="22" WIDTH="16" VPOS="1945" HPOS="176"/>
+              <SP WIDTH="8" VPOS="1945" HPOS="193"/>
+              <String STYLEREFS="font2" WC="1." CONTENT="C" HEIGHT="22" WIDTH="17" VPOS="1945" HPOS="202"/>
+              <SP WIDTH="10" VPOS="1945" HPOS="220"/>
+              <String STYLEREFS="font2" WC="0.2300000042" CONTENT="k" HEIGHT="22" WIDTH="19" VPOS="1945" HPOS="231"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block206" HEIGHT="35" WIDTH="308" VPOS="1939" HPOS="289" language="nl">
+            <TextLine HEIGHT="31" WIDTH="86" VPOS="1943" HPOS="297">
+              <String STYLEREFS="font2" WC="0.4883333445" CONTENT="Ingho." HEIGHT="31" WIDTH="86" VPOS="1943" HPOS="297"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block207" HEIGHT="35" WIDTH="282" VPOS="1939" HPOS="597" language="nl">
+            <TextLine HEIGHT="22" WIDTH="68" VPOS="1943" HPOS="608">
+              <String STYLEREFS="font2" WC="0.871999979" CONTENT="Bark." HEIGHT="22" WIDTH="68" VPOS="1943" HPOS="608"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block208" HEIGHT="35" WIDTH="110" VPOS="1939" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="56" VPOS="1942" HPOS="924">
+              <String STYLEREFS="font2" WC="0.7375000119" CONTENT="174'" HEIGHT="23" WIDTH="56" VPOS="1942" HPOS="924"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block209" HEIGHT="35" WIDTH="211" VPOS="1939" HPOS="989" language="nl">
+            <TextLine HEIGHT="32" WIDTH="80" VPOS="1942" HPOS="997">
+              <String STYLEREFS="font2" WC="0.7149999738" CONTENT="Tegal." HEIGHT="32" WIDTH="80" VPOS="1942" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block210" HEIGHT="32" WIDTH="149" VPOS="1974" HPOS="140" language="nl">
+            <TextLine HEIGHT="23" WIDTH="100" VPOS="1978" HPOS="147">
+              <String STYLEREFS="font2" WC="0.6100000143" CONTENT="T" HEIGHT="23" WIDTH="18" VPOS="1978" HPOS="147"/>
+              <SP WIDTH="8" VPOS="1978" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.3000000119" CONTENT="F" HEIGHT="23" WIDTH="17" VPOS="1978" HPOS="175"/>
+              <SP WIDTH="8" VPOS="1978" HPOS="193"/>
+              <String STYLEREFS="font2" WC="0.7799999714" CONTENT="C" HEIGHT="23" WIDTH="18" VPOS="1978" HPOS="202"/>
+              <SP WIDTH="7" VPOS="1978" HPOS="221"/>
+              <String STYLEREFS="font2" WC="0.200000003" CONTENT="Pi" HEIGHT="23" WIDTH="18" VPOS="1978" HPOS="229"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block211" HEIGHT="32" WIDTH="308" VPOS="1974" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="111" VPOS="1977" HPOS="297">
+              <String STYLEREFS="font2" WC="0.6974999905" CONTENT="Inghoat." HEIGHT="30" WIDTH="111" VPOS="1977" HPOS="297"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block212" HEIGHT="32" WIDTH="282" VPOS="1974" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="70" VPOS="1976" HPOS="606">
+              <String STYLEREFS="font2" WC="0.7039999962" CONTENT="Bark." HEIGHT="23" WIDTH="70" VPOS="1976" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block213" HEIGHT="32" WIDTH="110" VPOS="1974" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="48" VPOS="1975" HPOS="921">
+              <String STYLEREFS="font2" WC="0.2366666645" CONTENT="350" HEIGHT="24" WIDTH="48" VPOS="1975" HPOS="921"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block214" HEIGHT="32" WIDTH="211" VPOS="1974" HPOS="989" language="nl">
+            <TextLine HEIGHT="29" WIDTH="135" VPOS="1976" HPOS="997">
+              <String STYLEREFS="font2" WC="0.5375000238" CONTENT="Rembang." HEIGHT="29" WIDTH="135" VPOS="1976" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block215" HEIGHT="33" WIDTH="149" VPOS="2006" HPOS="140" language="nl">
+            <TextLine HEIGHT="23" WIDTH="97" VPOS="2011" HPOS="147">
+              <String STYLEREFS="font2" WC="0.8774999976" CONTENT="TFCS" HEIGHT="23" WIDTH="97" VPOS="2011" HPOS="147"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block216" HEIGHT="33" WIDTH="308" VPOS="2006" HPOS="289" language="nl">
+            <TextLine HEIGHT="29" WIDTH="130" VPOS="2011" HPOS="297">
+              <String STYLEREFS="font2" WC="0.4900000095" CONTENT="Ing" HEIGHT="29" WIDTH="45" VPOS="2011" HPOS="297"/>
+              <SP WIDTH="17" VPOS="2011" HPOS="343"/>
+              <String STYLEREFS="font2" WC="0.4560000002" CONTENT="kiet." HEIGHT="24" WIDTH="66" VPOS="2011" HPOS="361"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block217" HEIGHT="33" WIDTH="282" VPOS="2006" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="94" VPOS="2009" HPOS="607">
+              <String STYLEREFS="font2" WC="0.291428566" CONTENT="Kotter." HEIGHT="23" WIDTH="94" VPOS="2009" HPOS="607"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block218" HEIGHT="33" WIDTH="110" VPOS="2006" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="33" VPOS="2008" HPOS="937">
+              <String STYLEREFS="font2" WC="0.2849999964" CONTENT="22" HEIGHT="24" WIDTH="33" VPOS="2008" HPOS="937"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block219" HEIGHT="33" WIDTH="211" VPOS="2006" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="139" VPOS="2009" HPOS="997">
+              <String STYLEREFS="font2" WC="0.6420000196" CONTENT="Soerabaja." HEIGHT="30" WIDTH="139" VPOS="2009" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block220" HEIGHT="33" WIDTH="149" VPOS="2039" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="117" VPOS="2045" HPOS="148">
+              <String STYLEREFS="font2" WC="0.6225000024" CONTENT="TFCW" HEIGHT="22" WIDTH="117" VPOS="2045" HPOS="148"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block221" HEIGHT="33" WIDTH="308" VPOS="2039" HPOS="289" language="nl">
+            <TextLine HEIGHT="31" WIDTH="119" VPOS="2043" HPOS="297">
+              <String STYLEREFS="font2" WC="0.5033333302" CONTENT="Ingliong." HEIGHT="31" WIDTH="119" VPOS="2043" HPOS="297"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block222" HEIGHT="33" WIDTH="282" VPOS="2039" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="69" VPOS="2043" HPOS="607">
+              <String STYLEREFS="font2" WC="0.6579999924" CONTENT="Bark." HEIGHT="24" WIDTH="69" VPOS="2043" HPOS="607"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block223" HEIGHT="33" WIDTH="110" VPOS="2039" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="49" VPOS="2042" HPOS="920">
+              <String STYLEREFS="font2" WC="0.4099999964" CONTENT="267" HEIGHT="23" WIDTH="49" VPOS="2042" HPOS="920"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block224" HEIGHT="33" WIDTH="211" VPOS="2039" HPOS="989" language="nl">
+            <TextLine HEIGHT="31" WIDTH="139" VPOS="2042" HPOS="997">
+              <String STYLEREFS="font2" WC="0.4659999907" CONTENT="Soerabaja." HEIGHT="31" WIDTH="139" VPOS="2042" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block225" HEIGHT="35" WIDTH="149" VPOS="2072" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="108" VPOS="2078" HPOS="148">
+              <String STYLEREFS="font2" WC="1." CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="2078" HPOS="148"/>
+              <SP WIDTH="12" VPOS="2078" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.4699999988" CONTENT="F" HEIGHT="21" WIDTH="16" VPOS="2079" HPOS="179"/>
+              <SP WIDTH="9" VPOS="2078" HPOS="196"/>
+              <String STYLEREFS="font2" WC="0.2300000042" CONTENT="I)" HEIGHT="21" WIDTH="19" VPOS="2078" HPOS="206"/>
+              <SP WIDTH="10" VPOS="2078" HPOS="226"/>
+              <String STYLEREFS="font2" WC="0.1800000072" CONTENT="K" HEIGHT="22" WIDTH="19" VPOS="2078" HPOS="237"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block226" HEIGHT="35" WIDTH="308" VPOS="2072" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="110" VPOS="2077" HPOS="296">
+              <String STYLEREFS="font2" WC="0.473333329" CONTENT="Ing" HEIGHT="30" WIDTH="46" VPOS="2077" HPOS="296"/>
+              <SP WIDTH="15" VPOS="2078" HPOS="343"/>
+              <String STYLEREFS="font2" WC="0.6324999928" CONTENT="Lie." HEIGHT="23" WIDTH="47" VPOS="2078" HPOS="359"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block227" HEIGHT="35" WIDTH="282" VPOS="2072" HPOS="597" language="nl">
+            <TextLine HEIGHT="24" WIDTH="71" VPOS="2076" HPOS="606">
+              <String STYLEREFS="font2" WC="0.7979999781" CONTENT="Bark." HEIGHT="24" WIDTH="71" VPOS="2076" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block228" HEIGHT="35" WIDTH="110" VPOS="2072" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="48" VPOS="2075" HPOS="921">
+              <String STYLEREFS="font2" WC="0.3066666722" CONTENT="313" HEIGHT="23" WIDTH="48" VPOS="2075" HPOS="921"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block229" HEIGHT="35" WIDTH="211" VPOS="2072" HPOS="989" language="nl">
+            <TextLine HEIGHT="29" WIDTH="132" VPOS="2076" HPOS="999">
+              <String STYLEREFS="font2" WC="0.7237499952" CONTENT="Rembang." HEIGHT="29" WIDTH="132" VPOS="2076" HPOS="999"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block230" HEIGHT="32" WIDTH="149" VPOS="2107" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="102" VPOS="2112" HPOS="148">
+              <String STYLEREFS="font2" WC="0.4600000083" CONTENT="T" HEIGHT="22" WIDTH="18" VPOS="2112" HPOS="148"/>
+              <SP WIDTH="8" VPOS="2112" HPOS="167"/>
+              <String STYLEREFS="font2" WC="0.3799999952" CONTENT="F" HEIGHT="22" WIDTH="16" VPOS="2112" HPOS="176"/>
+              <SP WIDTH="9" VPOS="2112" HPOS="193"/>
+              <String STYLEREFS="font2" WC="0.3199999928" CONTENT="G" HEIGHT="21" WIDTH="19" VPOS="2112" HPOS="203"/>
+              <SP WIDTH="9" VPOS="2112" HPOS="223"/>
+              <String STYLEREFS="font2" WC="0.150000006" CONTENT="B" HEIGHT="21" WIDTH="17" VPOS="2112" HPOS="233"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block231" HEIGHT="32" WIDTH="308" VPOS="2107" HPOS="289" language="nl">
+            <TextLine HEIGHT="24" WIDTH="133" VPOS="2110" HPOS="296">
+              <String STYLEREFS="font2" WC="0.6999999881" CONTENT="Iskandria." HEIGHT="24" WIDTH="133" VPOS="2110" HPOS="296"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block232" HEIGHT="32" WIDTH="282" VPOS="2107" HPOS="597" language="nl">
+            <TextLine HEIGHT="30" WIDTH="93" VPOS="2110" HPOS="606">
+              <String STYLEREFS="font2" WC="0.3242857158" CONTENT="Frrgat." HEIGHT="30" WIDTH="93" VPOS="2110" HPOS="606"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block233" HEIGHT="32" WIDTH="110" VPOS="2107" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="60" VPOS="2108" HPOS="909">
+              <String STYLEREFS="font2" WC="0.412499994" CONTENT="1089" HEIGHT="24" WIDTH="60" VPOS="2108" HPOS="909"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block234" HEIGHT="32" WIDTH="211" VPOS="2107" HPOS="989" language="nl">
+            <TextLine HEIGHT="23" WIDTH="108" VPOS="2110" HPOS="997">
+              <String STYLEREFS="font2" WC="0.4375" CONTENT="Batavia." HEIGHT="23" WIDTH="108" VPOS="2110" HPOS="997"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block235" HEIGHT="36" WIDTH="149" VPOS="2139" HPOS="140" language="nl">
+            <TextLine HEIGHT="22" WIDTH="104" VPOS="2145" HPOS="147">
+              <String STYLEREFS="font2" WC="0.5500000119" CONTENT="T" HEIGHT="21" WIDTH="17" VPOS="2146" HPOS="147"/>
+              <SP WIDTH="10" VPOS="2145" HPOS="165"/>
+              <String STYLEREFS="font2" WC="0.4350000024" CONTENT="FG" HEIGHT="22" WIDTH="45" VPOS="2145" HPOS="176"/>
+              <SP WIDTH="11" VPOS="2145" HPOS="222"/>
+              <String STYLEREFS="font2" WC="0.2700000107" CONTENT="R" HEIGHT="21" WIDTH="17" VPOS="2146" HPOS="234"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block236" HEIGHT="36" WIDTH="308" VPOS="2139" HPOS="289" language="nl">
+            <TextLine HEIGHT="30" WIDTH="97" VPOS="2144" HPOS="295">
+              <String STYLEREFS="font2" WC="0.6571428776" CONTENT="Japara." HEIGHT="30" WIDTH="97" VPOS="2144" HPOS="295"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block237" HEIGHT="36" WIDTH="282" VPOS="2139" HPOS="597" language="nl">
+            <TextLine HEIGHT="31" WIDTH="163" VPOS="2143" HPOS="605">
+              <String STYLEREFS="font2" WC="0.5836363435" CONTENT="Stoomschip." HEIGHT="31" WIDTH="163" VPOS="2143" HPOS="605"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block238" HEIGHT="36" WIDTH="110" VPOS="2139" HPOS="879" language="nl">
+            <TextLine HEIGHT="23" WIDTH="60" VPOS="2142" HPOS="908">
+              <String STYLEREFS="font2" WC="0.3350000083" CONTENT="1468" HEIGHT="23" WIDTH="60" VPOS="2142" HPOS="908"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block239" HEIGHT="36" WIDTH="211" VPOS="2139" HPOS="989" language="nl">
+            <TextLine HEIGHT="22" WIDTH="101" VPOS="2143" HPOS="999">
+              <String STYLEREFS="font2" WC="0.4712499976" CONTENT="Batavia." HEIGHT="22" WIDTH="101" VPOS="2143" HPOS="999"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block240" HEIGHT="51" WIDTH="149" VPOS="2175" HPOS="140" language="nl">
+            <TextLine HEIGHT="23" WIDTH="100" VPOS="2178" HPOS="148">
+              <String STYLEREFS="font2" WC="0.7400000095" CONTENT="T" HEIGHT="22" WIDTH="17" VPOS="2179" HPOS="148"/>
+              <SP WIDTH="8" VPOS="2179" HPOS="166"/>
+              <String STYLEREFS="font2" WC="0.5500000119" CONTENT="F" HEIGHT="22" WIDTH="16" VPOS="2179" HPOS="175"/>
+              <SP WIDTH="11" VPOS="2178" HPOS="192"/>
+              <String STYLEREFS="font2" WC="0.8149999976" CONTENT="II" HEIGHT="22" WIDTH="16" VPOS="2178" HPOS="204"/>
+              <SP WIDTH="10" VPOS="2179" HPOS="221"/>
+              <String STYLEREFS="font2" WC="0.4300000072" CONTENT="C" HEIGHT="22" WIDTH="16" VPOS="2179" HPOS="232"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block241" HEIGHT="51" WIDTH="308" VPOS="2175" HPOS="289" language="nl">
+            <TextLine HEIGHT="23" WIDTH="98" VPOS="2178" HPOS="295">
+              <String STYLEREFS="font2" WC="0.6014285684" CONTENT="Jenoer." HEIGHT="23" WIDTH="98" VPOS="2178" HPOS="295"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block242" HEIGHT="51" WIDTH="282" VPOS="2175" HPOS="597" language="nl">
+            <TextLine HEIGHT="23" WIDTH="67" VPOS="2177" HPOS="608">
+              <String STYLEREFS="font2" WC="0.8220000267" CONTENT="Bark." HEIGHT="23" WIDTH="67" VPOS="2177" HPOS="608"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block243" HEIGHT="51" WIDTH="110" VPOS="2175" HPOS="879" language="nl">
+            <TextLine HEIGHT="24" WIDTH="48" VPOS="2175" HPOS="920">
+              <String STYLEREFS="font2" WC="0.2224999964" CONTENT="37r&gt;" HEIGHT="24" WIDTH="48" VPOS="2175" HPOS="920"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block244" HEIGHT="51" WIDTH="211" VPOS="2175" HPOS="989" language="nl">
+            <TextLine HEIGHT="30" WIDTH="152" VPOS="2176" HPOS="998">
+              <String STYLEREFS="font2" WC="0.6029999852" CONTENT="Palembang." HEIGHT="30" WIDTH="152" VPOS="2176" HPOS="998"/>
+            </TextLine>
+          </TextBlock>
+        </ComposedBlock>
+        <GraphicalElement ID="Page1_Block245" HEIGHT="6" WIDTH="1130" VPOS="499" HPOS="150"/>
+        <GraphicalElement ID="Page1_Block246" HEIGHT="1712" WIDTH="6" VPOS="511" HPOS="286"/>
+        <GraphicalElement ID="Page1_Block247" HEIGHT="245" WIDTH="4" VPOS="252" HPOS="289"/>
+        <GraphicalElement ID="Page1_Block248" HEIGHT="1709" WIDTH="7" VPOS="512" HPOS="594"/>
+        <GraphicalElement ID="Page1_Block249" HEIGHT="244" WIDTH="4" VPOS="253" HPOS="597"/>
+        <GraphicalElement ID="Page1_Block250" HEIGHT="1711" WIDTH="7" VPOS="509" HPOS="876"/>
+        <GraphicalElement ID="Page1_Block251" HEIGHT="244" WIDTH="3" VPOS="251" HPOS="879"/>
+        <GraphicalElement ID="Page1_Block252" HEIGHT="1967" WIDTH="8" VPOS="251" HPOS="985"/>
+        <GraphicalElement ID="Page1_Block253" HEIGHT="1699" WIDTH="6" VPOS="516" HPOS="1198"/>
+        <GraphicalElement ID="Page1_Block254" HEIGHT="250" WIDTH="3" VPOS="252" HPOS="1199"/>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

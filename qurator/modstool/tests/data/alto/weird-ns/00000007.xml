@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/" xmlns:default="http://www.loc.gov/standards/alto/" default:xsi="http://www.w3.org/2001/XMLSchema-instance" default:alto="http://www.loc.gov/standards/alto http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+  <Description>
+    <MeasurementUnit/>
+    <sourceImageInformation>
+      <fileName>00000007_FR.xml</fileName>
+    </sourceImageInformation>
+    <OCRProcessing default:ID="OCR_1">
+      <ocrProcessingStep>
+        <processingDateTime>2013-12-18</processingDateTime>
+        <processingStepSettings>OCR Average Character Confidence 89.97%</processingStepSettings>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page default:ID="Page_1" default:HEIGHT="2344" default:WIDTH="1720" default:PHYSICAL_IMAGE_NR="1">
+      <PrintSpace default:ID="PrintSpace_1" default:HPOS="132" default:VPOS="200" default:HEIGHT="1916" default:WIDTH="1034">
+        <TextBlock default:ID="TextBlock_1" default:HPOS="137" default:VPOS="217" default:HEIGHT="70" default:WIDTH="298">
+          <TextLine default:ID="TextLine_1" default:HPOS="137" default:VPOS="217" default:HEIGHT="70" default:WIDTH="298">
+            <String default:ID="String_1" default:CONTENT="Was^t^" default:HPOS="137" default:VPOS="217" default:HEIGHT="70" default:WIDTH="298"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock default:ID="TextBlock_2" default:HPOS="137" default:VPOS="284" default:HEIGHT="207" default:WIDTH="937">
+          <TextLine default:ID="TextLine_2" default:HPOS="137" default:VPOS="284" default:HEIGHT="57" default:WIDTH="815">
+            <String default:ID="String_2" default:CONTENT="Jh.-" default:HPOS="137" default:VPOS="284" default:HEIGHT="58" default:WIDTH="88"/>
+            <SP/>
+            <String default:ID="String_3" default:CONTENT="Kinder/" default:HPOS="240" default:VPOS="292" default:HEIGHT="52" default:WIDTH="192"/>
+            <SP/>
+            <String default:ID="String_4" default:CONTENT="mässigt" default:HPOS="443" default:VPOS="307" default:HEIGHT="41" default:WIDTH="178"/>
+            <SP/>
+            <String default:ID="String_5" default:CONTENT="ewre" default:HPOS="635" default:VPOS="312" default:HEIGHT="35" default:WIDTH="114"/>
+            <SP/>
+            <String default:ID="String_6" default:CONTENT="Zehren^" default:HPOS="759" default:VPOS="293" default:HEIGHT="48" default:WIDTH="193"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_3" default:HPOS="138" default:VPOS="353" default:HEIGHT="67" default:WIDTH="936">
+            <String default:ID="String_7" default:CONTENT="Sie" default:HPOS="138" default:VPOS="353" default:HEIGHT="58" default:WIDTH="97"/>
+            <SP/>
+            <String default:ID="String_8" default:CONTENT="ächten" default:HPOS="249" default:VPOS="368" default:HEIGHT="48" default:WIDTH="161"/>
+            <SP/>
+            <String default:ID="String_9" default:CONTENT="nichts/" default:HPOS="423" default:VPOS="378" default:HEIGHT="44" default:WIDTH="160"/>
+            <SP/>
+            <String default:ID="String_10" default:CONTENT="auch" default:HPOS="591" default:VPOS="377" default:HEIGHT="43" default:WIDTH="111"/>
+            <SP/>
+            <String default:ID="String_11" default:CONTENT="wenn" default:HPOS="716" default:VPOS="371" default:HEIGHT="44" default:WIDTH="130"/>
+            <SP/>
+            <String default:ID="String_12" default:CONTENT="siewären" default:HPOS="857" default:VPOS="362" default:HEIGHT="58" default:WIDTH="217"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_4" default:HPOS="138" default:VPOS="420" default:HEIGHT="55" default:WIDTH="692">
+            <String default:ID="String_13" default:CONTENT="Ein" default:HPOS="138" default:VPOS="420" default:HEIGHT="62" default:WIDTH="89"/>
+            <SP/>
+            <String default:ID="String_14" default:CONTENT="Gold" default:HPOS="241" default:VPOS="428" default:HEIGHT="54" default:WIDTH="128"/>
+            <SP/>
+            <String default:ID="String_15" default:CONTENT="und" default:HPOS="392" default:VPOS="444" default:HEIGHT="39" default:WIDTH="93"/>
+            <SP/>
+            <String default:ID="String_16" default:CONTENT="Si^er-thaw." default:HPOS="500" default:VPOS="430" default:HEIGHT="45" default:WIDTH="330"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock default:ID="TextBlock_3" default:HPOS="137" default:VPOS="494" default:HEIGHT="405" default:WIDTH="984">
+          <TextLine default:ID="TextLine_5" default:HPOS="248" default:VPOS="495" default:HEIGHT="63" default:WIDTH="828">
+            <String default:ID="String_17" default:CONTENT="Deralso" default:HPOS="248" default:VPOS="495" default:HEIGHT="57" default:WIDTH="208"/>
+            <SP/>
+            <String default:ID="String_18" default:CONTENT="vielvou" default:HPOS="468" default:VPOS="509" default:HEIGHT="38" default:WIDTH="186"/>
+            <SP/>
+            <String default:ID="String_19" default:CONTENT="GOtt" default:HPOS="669" default:VPOS="494" default:HEIGHT="55" default:WIDTH="159"/>
+            <SP/>
+            <String default:ID="String_20" default:CONTENT="gehalttenn" default:HPOS="845" default:VPOS="512" default:HEIGHT="46" default:WIDTH="231"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_6" default:HPOS="139" default:VPOS="554" default:HEIGHT="74" default:WIDTH="779">
+            <String default:ID="String_21" default:CONTENT="GerechtigkeitstuSlassenwaltten/" default:HPOS="139" default:VPOS="554" default:HEIGHT="74" default:WIDTH="779"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_7" default:HPOS="138" default:VPOS="619" default:HEIGHT="64" default:WIDTH="619">
+            <String default:ID="String_22" default:CONTENT="Ietzt" default:HPOS="138" default:VPOS="619" default:HEIGHT="64" default:WIDTH="108"/>
+            <SP/>
+            <String default:ID="String_23" default:CONTENT="bey" default:HPOS="257" default:VPOS="632" default:HEIGHT="65" default:WIDTH="78"/>
+            <SP/>
+            <String default:ID="String_24" default:CONTENT="dem-HErren" default:HPOS="354" default:VPOS="639" default:HEIGHT="43" default:WIDTH="300"/>
+            <SP/>
+            <String default:ID="String_25" default:CONTENT="lebt" default:HPOS="664" default:VPOS="632" default:HEIGHT="51" default:WIDTH="93"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_8" default:HPOS="139" default:VPOS="692" default:HEIGHT="70" default:WIDTH="941">
+            <String default:ID="String_26" default:CONTENT="^nd" default:HPOS="139" default:VPOS="692" default:HEIGHT="57" default:WIDTH="106"/>
+            <SP/>
+            <String default:ID="String_27" default:CONTENT="leuchtet" default:HPOS="258" default:VPOS="702" default:HEIGHT="50" default:WIDTH="178"/>
+            <SP/>
+            <String default:ID="String_28" default:CONTENT="trotz" default:HPOS="449" default:VPOS="710" default:HEIGHT="50" default:WIDTH="102"/>
+            <SP/>
+            <String default:ID="String_29" default:CONTENT="der" default:HPOS="564" default:VPOS="704" default:HEIGHT="45" default:WIDTH="73"/>
+            <SP/>
+            <String default:ID="String_30" default:CONTENT="Soaueetc.KerNen/" default:HPOS="648" default:VPOS="695" default:HEIGHT="67" default:WIDTH="432"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_9" default:HPOS="140" default:VPOS="756" default:HEIGHT="71" default:WIDTH="981">
+            <String default:ID="String_31" default:CONTENT="^nd" default:HPOS="140" default:VPOS="756" default:HEIGHT="61" default:WIDTH="107"/>
+            <SP/>
+            <String default:ID="String_32" default:CONTENT="Frewd" default:HPOS="257" default:VPOS="766" default:HEIGHT="53" default:WIDTH="154"/>
+            <SP/>
+            <String default:ID="String_33" default:CONTENT="empfinde/" default:HPOS="427" default:VPOS="781" default:HEIGHT="37" default:WIDTH="233"/>
+            <SP/>
+            <String default:ID="String_34" default:CONTENT="die" default:HPOS="671" default:VPOS="770" default:HEIGHT="49" default:WIDTH="66"/>
+            <SP/>
+            <String default:ID="String_35" default:CONTENT="uoch" default:HPOS="748" default:VPOS="778" default:HEIGHT="47" default:WIDTH="108"/>
+            <SP/>
+            <String default:ID="String_36" default:CONTENT="im" default:HPOS="870" default:VPOS="772" default:HEIGHT="49" default:WIDTH="61"/>
+            <SP/>
+            <String default:ID="String_37" default:CONTENT="Hertz-n." default:HPOS="942" default:VPOS="768" default:HEIGHT="59" default:WIDTH="179"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_10" default:HPOS="137" default:VPOS="821" default:HEIGHT="65" default:WIDTH="705">
+            <String default:ID="String_38" default:CONTENT="Der" default:HPOS="137" default:VPOS="821" default:HEIGHT="63" default:WIDTH="103"/>
+            <SP/>
+            <String default:ID="String_39" default:CONTENT="Menschen" default:HPOS="250" default:VPOS="835" default:HEIGHT="48" default:WIDTH="242"/>
+            <SP/>
+            <String default:ID="String_40" default:CONTENT="nie" default:HPOS="509" default:VPOS="846" default:HEIGHT="35" default:WIDTH="71"/>
+            <SP/>
+            <String default:ID="String_41" default:CONTENT="^schwebt/" default:HPOS="592" default:VPOS="841" default:HEIGHT="45" default:WIDTH="250"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock default:ID="TextBlock_4" default:HPOS="138" default:VPOS="895" default:HEIGHT="416" default:WIDTH="949">
+          <TextLine default:ID="TextLine_11" default:HPOS="252" default:VPOS="901" default:HEIGHT="52" default:WIDTH="814">
+            <String default:ID="String_42" default:CONTENT="Vmb" default:HPOS="252" default:VPOS="901" default:HEIGHT="50" default:WIDTH="129"/>
+            <SP/>
+            <String default:ID="String_43" default:CONTENT="diesen" default:HPOS="396" default:VPOS="906" default:HEIGHT="45" default:WIDTH="132"/>
+            <SP/>
+            <String default:ID="String_44" default:CONTENT="sol" default:HPOS="540" default:VPOS="898" default:HEIGHT="53" default:WIDTH="59"/>
+            <SP/>
+            <String default:ID="String_45" default:CONTENT="man" default:HPOS="609" default:VPOS="911" default:HEIGHT="41" default:WIDTH="107"/>
+            <SP/>
+            <String default:ID="String_46" default:CONTENT="Klage" default:HPOS="729" default:VPOS="895" default:HEIGHT="55" default:WIDTH="143"/>
+            <SP/>
+            <String default:ID="String_47" default:CONTENT="führen?" default:HPOS="884" default:VPOS="898" default:HEIGHT="55" default:WIDTH="182"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_12" default:HPOS="138" default:VPOS="953" default:HEIGHT="72" default:WIDTH="909">
+            <String default:ID="String_48" default:CONTENT="^hm" default:HPOS="138" default:VPOS="953" default:HEIGHT="64" default:WIDTH="121"/>
+            <SP/>
+            <String default:ID="String_49" default:CONTENT="waS" default:HPOS="274" default:VPOS="979" default:HEIGHT="41" default:WIDTH="105"/>
+            <SP/>
+            <String default:ID="String_50" default:CONTENT="den" default:HPOS="393" default:VPOS="973" default:HEIGHT="47" default:WIDTH="82"/>
+            <SP/>
+            <String default:ID="String_51" default:CONTENT="Christen" default:HPOS="491" default:VPOS="966" default:HEIGHT="54" default:WIDTH="205"/>
+            <SP/>
+            <String default:ID="String_52" default:CONTENT="wil" default:HPOS="714" default:VPOS="979" default:HEIGHT="42" default:WIDTH="79"/>
+            <SP/>
+            <String default:ID="String_53" default:CONTENT="gebühren/" default:HPOS="801" default:VPOS="980" default:HEIGHT="45" default:WIDTH="246"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_13" default:HPOS="139" default:VPOS="1022" default:HEIGHT="65" default:WIDTH="706">
+            <String default:ID="String_54" default:CONTENT="Danckt" default:HPOS="139" default:VPOS="1022" default:HEIGHT="65" default:WIDTH="184"/>
+            <SP/>
+            <String default:ID="String_55" default:CONTENT="GOtt" default:HPOS="335" default:VPOS="1035" default:HEIGHT="52" default:WIDTH="152"/>
+            <SP/>
+            <String default:ID="String_56" default:CONTENT="der" default:HPOS="498" default:VPOS="1038" default:HEIGHT="47" default:WIDTH="72"/>
+            <SP/>
+            <String default:ID="String_57" default:CONTENT="ihn" default:HPOS="581" default:VPOS="1042" default:HEIGHT="47" default:WIDTH="79"/>
+            <SP/>
+            <String default:ID="String_58" default:CONTENT="befreyt" default:HPOS="677" default:VPOS="1036" default:HEIGHT="51" default:WIDTH="168"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_14" default:HPOS="140" default:VPOS="1091" default:HEIGHT="75" default:WIDTH="947">
+            <String default:ID="String_59" default:CONTENT="Von" default:HPOS="140" default:VPOS="1091" default:HEIGHT="61" default:WIDTH="109"/>
+            <SP/>
+            <String default:ID="String_60" default:CONTENT="Noht" default:HPOS="261" default:VPOS="1102" default:HEIGHT="52" default:WIDTH="128"/>
+            <SP/>
+            <String default:ID="String_61" default:CONTENT="und" default:HPOS="400" default:VPOS="1118" default:HEIGHT="34" default:WIDTH="90"/>
+            <SP/>
+            <String default:ID="String_62" default:CONTENT="Tod" default:HPOS="505" default:VPOS="1098" default:HEIGHT="53" default:WIDTH="99"/>
+            <SP/>
+            <String default:ID="String_63" default:CONTENT="und" default:HPOS="627" default:VPOS="1116" default:HEIGHT="38" default:WIDTH="94"/>
+            <SP/>
+            <String default:ID="String_64" default:CONTENT="allen" default:HPOS="731" default:VPOS="1119" default:HEIGHT="37" default:WIDTH="112"/>
+            <SP/>
+            <String default:ID="String_65" default:CONTENT="Sünden/" default:HPOS="858" default:VPOS="1103" default:HEIGHT="63" default:WIDTH="229"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_15" default:HPOS="142" default:VPOS="1159" default:HEIGHT="68" default:WIDTH="873">
+            <String default:ID="String_66" default:CONTENT="Vnd" default:HPOS="142" default:VPOS="1159" default:HEIGHT="59" default:WIDTH="109"/>
+            <SP/>
+            <String default:ID="String_67" default:CONTENT="von" default:HPOS="261" default:VPOS="1182" default:HEIGHT="41" default:WIDTH="93"/>
+            <SP/>
+            <String default:ID="String_68" default:CONTENT="der" default:HPOS="366" default:VPOS="1178" default:HEIGHT="44" default:WIDTH="70"/>
+            <SP/>
+            <String default:ID="String_69" default:CONTENT="Angst" default:HPOS="447" default:VPOS="1168" default:HEIGHT="64" default:WIDTH="139"/>
+            <SP/>
+            <String default:ID="String_70" default:CONTENT="die" default:HPOS="596" default:VPOS="1175" default:HEIGHT="46" default:WIDTH="63"/>
+            <SP/>
+            <String default:ID="String_71" default:CONTENT="wir" default:HPOS="671" default:VPOS="1181" default:HEIGHT="43" default:WIDTH="82"/>
+            <SP/>
+            <String default:ID="String_72" default:CONTENT="empfinden" default:HPOS="764" default:VPOS="1186" default:HEIGHT="41" default:WIDTH="251"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_16" default:HPOS="144" default:VPOS="1240" default:HEIGHT="50" default:WIDTH="552">
+            <String default:ID="String_73" default:CONTENT="^ey" default:HPOS="144" default:VPOS="1240" default:HEIGHT="56" default:WIDTH="98"/>
+            <SP/>
+            <String default:ID="String_74" default:CONTENT="dieser" default:HPOS="262" default:VPOS="1243" default:HEIGHT="47" default:WIDTH="125"/>
+            <SP/>
+            <String default:ID="String_75" default:CONTENT=".)" default:HPOS="401" default:VPOS="1276" default:HEIGHT="12" default:WIDTH="22"/>
+            <SP/>
+            <String default:ID="String_76" default:CONTENT="ueges^eit." default:HPOS="449" default:VPOS="1251" default:HEIGHT="39" default:WIDTH="247"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock default:ID="TextBlock_5" default:HPOS="139" default:VPOS="1302" default:HEIGHT="404" default:WIDTH="968">
+          <TextLine default:ID="TextLine_17" default:HPOS="247" default:VPOS="1302" default:HEIGHT="54" default:WIDTH="791">
+            <String default:ID="String_77" default:CONTENT="Ist" default:HPOS="247" default:VPOS="1302" default:HEIGHT="65" default:WIDTH="69"/>
+            <SP/>
+            <String default:ID="String_78" default:CONTENT="daßihr" default:HPOS="329" default:VPOS="1311" default:HEIGHT="47" default:WIDTH="172"/>
+            <SP/>
+            <String default:ID="String_79" default:CONTENT="halttet" default:HPOS="514" default:VPOS="1310" default:HEIGHT="47" default:WIDTH="157"/>
+            <SP/>
+            <String default:ID="String_80" default:CONTENT="euch" default:HPOS="683" default:VPOS="1321" default:HEIGHT="45" default:WIDTH="99"/>
+            <SP/>
+            <String default:ID="String_81" default:CONTENT="verlassen^" default:HPOS="801" default:VPOS="1316" default:HEIGHT="40" default:WIDTH="237"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_18" default:HPOS="139" default:VPOS="1360" default:HEIGHT="68" default:WIDTH="913">
+            <String default:ID="String_82" default:CONTENT="Habt" default:HPOS="139" default:VPOS="1360" default:HEIGHT="63" default:WIDTH="126"/>
+            <SP/>
+            <String default:ID="String_83" default:CONTENT="ihr" default:HPOS="275" default:VPOS="1378" default:HEIGHT="45" default:WIDTH="71"/>
+            <SP/>
+            <String default:ID="String_84" default:CONTENT="nicht" default:HPOS="362" default:VPOS="1386" default:HEIGHT="37" default:WIDTH="115"/>
+            <SP/>
+            <String default:ID="String_85" default:CONTENT="starcken" default:HPOS="490" default:VPOS="1373" default:HEIGHT="52" default:WIDTH="177"/>
+            <SP/>
+            <String default:ID="String_86" default:CONTENT="Trost" default:HPOS="679" default:VPOS="1374" default:HEIGHT="66" default:WIDTH="131"/>
+            <SP/>
+            <String default:ID="String_87" default:CONTENT="zu" default:HPOS="819" default:VPOS="1388" default:HEIGHT="42" default:WIDTH="54"/>
+            <SP/>
+            <String default:ID="String_88" default:CONTENT="fassen" default:HPOS="886" default:VPOS="1377" default:HEIGHT="54" default:WIDTH="135"/>
+            <SP/>
+            <String default:ID="String_89" default:CONTENT="?" default:HPOS="1034" default:VPOS="1391" default:HEIGHT="37" default:WIDTH="18"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_19" default:HPOS="141" default:VPOS="1427" default:HEIGHT="66" default:WIDTH="616">
+            <String default:ID="String_90" default:CONTENT="Sehe" default:HPOS="141" default:VPOS="1427" default:HEIGHT="62" default:WIDTH="132"/>
+            <SP/>
+            <String default:ID="String_91" default:CONTENT="GOtt" default:HPOS="287" default:VPOS="1442" default:HEIGHT="50" default:WIDTH="156"/>
+            <SP/>
+            <String default:ID="String_92" default:CONTENT="für" default:HPOS="465" default:VPOS="1440" default:HEIGHT="51" default:WIDTH="73"/>
+            <SP/>
+            <String default:ID="String_93" default:CONTENT="allen" default:HPOS="552" default:VPOS="1453" default:HEIGHT="39" default:WIDTH="111"/>
+            <SP/>
+            <String default:ID="String_94" default:CONTENT="au/" default:HPOS="678" default:VPOS="1456" default:HEIGHT="37" default:WIDTH="79"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_20" default:HPOS="142" default:VPOS="1493" default:HEIGHT="73" default:WIDTH="847">
+            <String default:ID="String_95" default:CONTENT="^er" default:HPOS="142" default:VPOS="1493" default:HEIGHT="61" default:WIDTH="97"/>
+            <SP/>
+            <String default:ID="String_96" default:CONTENT="solcher" default:HPOS="248" default:VPOS="1506" default:HEIGHT="54" default:WIDTH="153"/>
+            <SP/>
+            <String default:ID="String_97" default:CONTENT="Leau" default:HPOS="413" default:VPOS="1508" default:HEIGHT="53" default:WIDTH="121"/>
+            <SP/>
+            <String default:ID="String_98" default:CONTENT="ammeisten" default:HPOS="544" default:VPOS="1524" default:HEIGHT="39" default:WIDTH="253"/>
+            <SP/>
+            <String default:ID="String_99" default:CONTENT="dencket/" default:HPOS="807" default:VPOS="1515" default:HEIGHT="51" default:WIDTH="182"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_21" default:HPOS="141" default:VPOS="1561" default:HEIGHT="70" default:WIDTH="966">
+            <String default:ID="String_100" default:CONTENT="euchlaugstauffdiesen" default:HPOS="141" default:VPOS="1561" default:HEIGHT="67" default:WIDTH="520"/>
+            <SP/>
+            <String default:ID="String_101" default:CONTENT="Fall" default:HPOS="678" default:VPOS="1575" default:HEIGHT="55" default:WIDTH="95"/>
+            <SP/>
+            <String default:ID="String_102" default:CONTENT="geschencket" default:HPOS="784" default:VPOS="1591" default:HEIGHT="34" default:WIDTH="254"/>
+            <SP/>
+            <String default:ID="String_103" default:CONTENT="." default:HPOS="1099" default:VPOS="1621" default:HEIGHT="10" default:WIDTH="8"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_22" default:HPOS="143" default:VPOS="1629" default:HEIGHT="62" default:WIDTH="617">
+            <String default:ID="String_104" default:CONTENT="^en" default:HPOS="143" default:VPOS="1629" default:HEIGHT="59" default:WIDTH="106"/>
+            <SP/>
+            <String default:ID="String_105" default:CONTENT="hochbegabten" default:HPOS="261" default:VPOS="1643" default:HEIGHT="49" default:WIDTH="319"/>
+            <SP/>
+            <String default:ID="String_106" default:CONTENT="Mann" default:HPOS="593" default:VPOS="1643" default:HEIGHT="48" default:WIDTH="167"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock default:ID="TextBlock_6" default:HPOS="135" default:VPOS="1700" default:HEIGHT="220" default:WIDTH="1015">
+          <TextLine default:ID="TextLine_23" default:HPOS="198" default:VPOS="1700" default:HEIGHT="67" default:WIDTH="952">
+            <String default:ID="String_107" default:CONTENT="HurStraß" default:HPOS="198" default:VPOS="1700" default:HEIGHT="69" default:WIDTH="279"/>
+            <SP/>
+            <String default:ID="String_108" default:CONTENT="nrgk" default:HPOS="509" default:VPOS="1721" default:HEIGHT="35" default:WIDTH="108"/>
+            <SP/>
+            <String default:ID="String_109" default:CONTENT="sorgt" default:HPOS="630" default:VPOS="1708" default:HEIGHT="46" default:WIDTH="115"/>
+            <SP/>
+            <String default:ID="String_110" default:CONTENT="für" default:HPOS="758" default:VPOS="1704" default:HEIGHT="52" default:WIDTH="76"/>
+            <SP/>
+            <String default:ID="String_111" default:CONTENT="eure" default:HPOS="846" default:VPOS="1718" default:HEIGHT="38" default:WIDTH="96"/>
+            <SP/>
+            <String default:ID="String_112" default:CONTENT="Sachen" default:HPOS="952" default:VPOS="1704" default:HEIGHT="63" default:WIDTH="198"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_24" default:HPOS="137" default:VPOS="1762" default:HEIGHT="72" default:WIDTH="842">
+            <String default:ID="String_113" default:CONTENT="^ird" default:HPOS="137" default:VPOS="1762" default:HEIGHT="59" default:WIDTH="124"/>
+            <SP/>
+            <String default:ID="String_114" default:CONTENT="als" default:HPOS="273" default:VPOS="1789" default:HEIGHT="39" default:WIDTH="73"/>
+            <SP/>
+            <String default:ID="String_115" default:CONTENT="ein" default:HPOS="357" default:VPOS="1791" default:HEIGHT="37" default:WIDTH="65"/>
+            <SP/>
+            <String default:ID="String_116" default:CONTENT="Vater" default:HPOS="436" default:VPOS="1771" default:HEIGHT="53" default:WIDTH="142"/>
+            <SP/>
+            <String default:ID="String_117" default:CONTENT="für" default:HPOS="590" default:VPOS="1771" default:HEIGHT="53" default:WIDTH="72"/>
+            <SP/>
+            <String default:ID="String_118" default:CONTENT="euch" default:HPOS="672" default:VPOS="1784" default:HEIGHT="42" default:WIDTH="99"/>
+            <SP/>
+            <String default:ID="String_119" default:CONTENT="wachen/" default:HPOS="785" default:VPOS="1781" default:HEIGHT="53" default:WIDTH="194"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_25" default:HPOS="135" default:VPOS="1826" default:HEIGHT="60" default:WIDTH="619">
+            <String default:ID="String_120" default:CONTENT="^erNntzbetrissianchihn:" default:HPOS="135" default:VPOS="1826" default:HEIGHT="60" default:WIDTH="619"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock default:ID="TextBlock_7" default:HPOS="133" default:VPOS="1893" default:HEIGHT="217" default:WIDTH="949">
+          <TextLine default:ID="TextLine_26" default:HPOS="134" default:VPOS="1893" default:HEIGHT="82" default:WIDTH="948">
+            <String default:ID="String_121" default:CONTENT="^eu" default:HPOS="134" default:VPOS="1893" default:HEIGHT="60" default:WIDTH="104"/>
+            <SP/>
+            <String default:ID="String_122" default:CONTENT="Douori" default:HPOS="250" default:VPOS="1904" default:HEIGHT="57" default:WIDTH="204"/>
+            <SP/>
+            <String default:ID="String_123" default:CONTENT="dem" default:HPOS="469" default:VPOS="1920" default:HEIGHT="42" default:WIDTH="95"/>
+            <SP/>
+            <String default:ID="String_124" default:CONTENT="sich" default:HPOS="577" default:VPOS="1905" default:HEIGHT="65" default:WIDTH="81"/>
+            <SP/>
+            <String default:ID="String_125" default:CONTENT="Phoebus" default:HPOS="669" default:VPOS="1908" default:HEIGHT="56" default:WIDTH="231"/>
+            <SP/>
+            <String default:ID="String_126" default:CONTENT="trawet/" default:HPOS="908" default:VPOS="1917" default:HEIGHT="58" default:WIDTH="174"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_27" default:HPOS="133" default:VPOS="1962" default:HEIGHT="71" default:WIDTH="773">
+            <String default:ID="String_127" default:CONTENT="^hrstyd" default:HPOS="133" default:VPOS="1962" default:HEIGHT="64" default:WIDTH="189"/>
+            <SP/>
+            <String default:ID="String_128" default:CONTENT="es" default:HPOS="340" default:VPOS="1990" default:HEIGHT="38" default:WIDTH="48"/>
+            <SP/>
+            <String default:ID="String_129" default:CONTENT="auffdeu" default:HPOS="400" default:VPOS="1994" default:HEIGHT="37" default:WIDTH="187"/>
+            <SP/>
+            <String default:ID="String_130" default:CONTENT="einig" default:HPOS="600" default:VPOS="1991" default:HEIGHT="54" default:WIDTH="113"/>
+            <SP/>
+            <String default:ID="String_131" default:CONTENT="schawet" default:HPOS="725" default:VPOS="1976" default:HEIGHT="57" default:WIDTH="181"/>
+          </TextLine>
+          <TextLine default:ID="TextLine_28" default:HPOS="133" default:VPOS="2024" default:HEIGHT="70" default:WIDTH="464">
+            <String default:ID="String_132" default:CONTENT="^le" default:HPOS="133" default:VPOS="2024" default:HEIGHT="60" default:WIDTH="93"/>
+            <SP/>
+            <String default:ID="String_133" default:CONTENT="herlich" default:HPOS="238" default:VPOS="2037" default:HEIGHT="71" default:WIDTH="154"/>
+            <SP/>
+            <String default:ID="String_134" default:CONTENT="Officin-" default:HPOS="405" default:VPOS="2043" default:HEIGHT="51" default:WIDTH="192"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

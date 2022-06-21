@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd http://www.loc.gov/mix/v10 http://www.loc.gov/standards/mix/mix10/mix10.xsd">
+  <mets:metsHdr CREATEDATE="2018-07-13T13:57:54">
+    <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+      <mets:name>Goobi - UGH-1.11.1-v1.11.0-11-gbafb11b - 16−November−2015</mets:name>
+      <mets:note>Goobi</mets:note>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="preprocessing/optimization/binarization">
+      <mets:name>ocrd-sbb-binarize v0.0.8</mets:name>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="layout/segmentation/region">
+      <mets:name>ocrd-eynollah-segment v0.0.7</mets:name>
+    </mets:agent>
+    <mets:agent TYPE="OTHER" OTHERTYPE="SOFTWARE" ROLE="OTHER" OTHERROLE="recognition/text-recognition">
+      <mets:name>ocrd-calamari-recognize v1.0.3 (calamari 1.0.5, tensorflow 2.5.0)</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="DMDLOG_0000">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:location>
+            <mods:physicalLocation authority="marcorg" displayLabel="Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Berlin, Germany">DE-1</mods:physicalLocation>
+            <mods:shelfLocator>Ye 6081</mods:shelfLocator>
+          </mods:location>
+          <mods:originInfo eventType="publication">
+            <mods:place>
+              <mods:placeTerm type="text">[S.l.]</mods:placeTerm>
+            </mods:place>
+            <mods:dateIssued encoding="iso8601" keyDate="yes">1619</mods:dateIssued>
+          </mods:originInfo>
+          <mods:originInfo eventType="digitization">
+            <mods:place>
+              <mods:placeTerm type="text">Berlin</mods:placeTerm>
+            </mods:place>
+            <mods:dateCaptured encoding="iso8601">2014</mods:dateCaptured>
+            <mods:publisher>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Germany</mods:publisher>
+            <mods:edition>[Electronic ed.]</mods:edition>
+          </mods:originInfo>
+          <mods:classification authority="ZVDD">Historische Drucke</mods:classification>
+          <mods:classification authority="ZVDD">Sprachen / Literaturen</mods:classification>
+          <mods:classification authority="ZVDD">Musik</mods:classification>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="gbv-ppn">PPN773555676</mods:recordIdentifier>
+          </mods:recordInfo>
+          <mods:identifier type="purl">http://resolver.staatsbibliothek-berlin.de/SBB0001458F00000000</mods:identifier>
+          <mods:identifier type="vd17">1:692277T</mods:identifier>
+          <mods:relatedItem type="original">
+            <mods:recordInfo>
+              <mods:recordIdentifier source="gbv-ppn">PPN537331794</mods:recordIdentifier>
+            </mods:recordInfo>
+          </mods:relatedItem>
+          <mods:titleInfo>
+            <mods:title>Zwey Böhmische Lieder verdeutscht</mods:title>
+            <mods:subTitle>I. Wie in einem Uffzug/ das Bawrenvolck in Böhmen/ den jäm[m]erlichen Zustand ihres Lands/ Ihrem König Friderichen/ Pfaltzgraffen bey Rhein und Churfürsten [et]c. beym Einritt zu Prag geklagt ... II. Wie es bey höchstbemeldten Königs/ und seiner Königlichen Gemahlin/ Elisabethen/ Princessin in GrosBrittannien/ Krönung zu Prag zugangen</mods:subTitle>
+          </mods:titleInfo>
+          <mods:note type="source characteristics">P_SBB_Drucke_VDLiedDigital</mods:note>
+          <mods:note type="bibliography">VD17 1:692277T</mods:note>
+          <mods:note type="bibliography">Nehlsen. BLF 1972</mods:note>
+          <mods:genre authority="aad" type="class">Lied</mods:genre>
+          <mods:genre authority="aad" type="class">Flugschrift</mods:genre>
+          <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+          </mods:language>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title>VD Lied digital - Berliner Liedflugschriften</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title>VD17 digital</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:name type="personal">
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">asn</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="family">Friedrich &lt;V.&gt; &lt; Pfalz, Kurfürst&gt;</mods:namePart>
+            <mods:displayForm>Friedrich &lt;V.&gt; &lt; Pfalz, Kurfürst&gt;</mods:displayForm>
+          </mods:name>
+          <mods:name type="corporate">
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">fnd</mods:roleTerm>
+            </mods:role>
+            <mods:displayForm>Deutsche Forschungsgemeinschaft</mods:displayForm>
+          </mods:name>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+            <mods:extent>[4] Bl</mods:extent>
+            <mods:extent>4°</mods:extent>
+          </mods:physicalDescription>
+          <mods:extension>
+            <zvdd:zvddWrap xmlns:zvdd="http://zvdd.gdz-cms.de/">
+              <zvdd:titleWord>Zwei</zvdd:titleWord>
+            </zvdd:zvddWrap>
+          </mods:extension>
+          <mods:accessCondition type="use and reproduction">Public Domain Mark 1.0</mods:accessCondition>
+          <mods:typeOfResource>text</mods:typeOfResource>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMDLOG_0001">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:originInfo eventType="publication">
+            <mods:dateIssued encoding="iso8601" keyDate="yes">1619</mods:dateIssued>
+          </mods:originInfo>
+          <mods:originInfo eventType="digitization">
+            <mods:place>
+              <mods:placeTerm type="text">Berlin</mods:placeTerm>
+            </mods:place>
+            <mods:dateCaptured encoding="iso8601">2013</mods:dateCaptured>
+            <mods:publisher>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Germany</mods:publisher>
+            <mods:edition>[Electronic ed.]</mods:edition>
+          </mods:originInfo>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="gbv-ppn">PPN777148331</mods:recordIdentifier>
+          </mods:recordInfo>
+          <mods:identifier type="purl">http://resolver.staatsbibliothek-berlin.de/SBB0001458F00010000</mods:identifier>
+          <mods:relatedItem type="original">
+            <mods:recordInfo>
+              <mods:recordIdentifier source="gbv-ppn">PPN777085771</mods:recordIdentifier>
+            </mods:recordInfo>
+          </mods:relatedItem>
+          <mods:titleInfo>
+            <mods:title>Wjllkommen/ König Friederich: || Jn Jesu namen grüssen dich ||</mods:title>
+          </mods:titleInfo>
+          <mods:note type="content">Liedanfang [Vorlage]: (W)Jllkommen/ Kœnig Friederich: || Jn Jesu namen grüssen dich ||</mods:note>
+          <mods:note type="content">Liedanfang [normiert]: Willkommen König Friederich/ in Jesu Namen grüßen dich</mods:note>
+          <mods:note type="content">Strophen/Zeilen: 72/4</mods:note>
+          <mods:note type="bibliography">Nehlsen. BLF 1972, 1</mods:note>
+          <mods:genre authority="aad" type="class">Lied</mods:genre>
+          <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+          </mods:language>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title>VD Lied digital - Berliner Liedflugschriften</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+            <mods:extent>S. [2 - 5]</mods:extent>
+          </mods:physicalDescription>
+          <mods:accessCondition type="use and reproduction">Public Domain Mark 1.0</mods:accessCondition>
+          <mods:typeOfResource>text</mods:typeOfResource>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMDLOG_0002">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:originInfo eventType="publication">
+            <mods:dateIssued encoding="iso8601" keyDate="yes">1619</mods:dateIssued>
+          </mods:originInfo>
+          <mods:originInfo eventType="digitization">
+            <mods:place>
+              <mods:placeTerm type="text">Berlin</mods:placeTerm>
+            </mods:place>
+            <mods:dateCaptured encoding="iso8601">2013</mods:dateCaptured>
+            <mods:publisher>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Germany</mods:publisher>
+            <mods:edition>[Electronic ed.]</mods:edition>
+          </mods:originInfo>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="gbv-ppn">PPN777148463</mods:recordIdentifier>
+          </mods:recordInfo>
+          <mods:identifier type="purl">http://resolver.staatsbibliothek-berlin.de/SBB0001458F00020000</mods:identifier>
+          <mods:relatedItem type="original">
+            <mods:recordInfo>
+              <mods:recordIdentifier source="gbv-ppn">PPN777086026</mods:recordIdentifier>
+            </mods:recordInfo>
+          </mods:relatedItem>
+          <mods:titleInfo>
+            <mods:title>Das Ander Lied.</mods:title>
+          </mods:titleInfo>
+          <mods:note type="content">Liedanfang [Vorlage]: (L)Aßt hoch vns halten was ich sag: || Grosse frewd ist in gantz Prag ||</mods:note>
+          <mods:note type="content">Liedanfang [normiert]: Laßt hoch uns halten was ich sag/ große Freud ist in ganz Prag</mods:note>
+          <mods:note type="content">Strophen/Zeilen: 69/4</mods:note>
+          <mods:note type="bibliography">Nehlsen. BLF 1972, 2</mods:note>
+          <mods:genre authority="aad" type="class">Lied</mods:genre>
+          <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+          </mods:language>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title>VD Lied digital - Berliner Liedflugschriften</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+            <mods:extent>S. [5 - 8]</mods:extent>
+          </mods:physicalDescription>
+          <mods:accessCondition type="use and reproduction">Public Domain Mark 1.0</mods:accessCondition>
+          <mods:typeOfResource>text</mods:typeOfResource>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD">
+    <mets:rightsMD ID="RIGHTS">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights xmlns:dv="http://dfg-viewer.de/">
+            <dv:owner>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</dv:owner>
+            <dv:ownerLogo>http://resolver.staatsbibliothek-berlin.de/SBB0000000100000000</dv:ownerLogo>
+            <dv:ownerSiteURL>http://www.staatsbibliothek-berlin.de</dv:ownerSiteURL>
+            <dv:ownerContact>mailto:info@sbb.spk-berlin.de</dv:ownerContact>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="DIGIPROV">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links xmlns:dv="http://dfg-viewer.de/">
+            <dv:reference>http://www.stabikat.de/DB=1/PPN?PPN=773555676 </dv:reference>
+            <dv:presentation>http://digital.staatsbibliothek-berlin.de/dms/werkansicht/?PPN=PPN773555676</dv:presentation>
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="FILE_0001_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="DEFAULT/FILE_0001_DEFAULT.jpg" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="DEFAULT/FILE_0004_DEFAULT.jpg" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="DEFAULT/FILE_0006_DEFAULT.jpg" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0009_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="DEFAULT/FILE_0009_DEFAULT.jpg" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="THUMBS">
+      <mets:file ID="FILE_0001_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0001_THUMBS.png" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0004_THUMBS.png" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0006_THUMBS.png" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0009_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="THUMBS/FILE_0009_THUMBS.png" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="MAX">
+      <mets:file ID="FILE_0001_MAX" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="MAX/FILE_0001_MAX.tif" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_MAX" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="MAX/FILE_0004_MAX.tif" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_MAX" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="MAX/FILE_0006_MAX.tif" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+      <mets:file ID="FILE_0009_MAX" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" xlink:href="MAX/FILE_0009_MAX.tif" OTHERLOCTYPE="FILE"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-IMG-BIN">
+      <mets:file MIMETYPE="image/png" ID="FILE_0001_OCR-D-IMG-BIN.IMG-BIN">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG-BIN/FILE_0001_OCR-D-IMG-BIN.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0001_OCR-D-IMG-BIN">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG-BIN/FILE_0001_OCR-D-IMG-BIN.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="image/png" ID="FILE_0004_OCR-D-IMG-BIN.IMG-BIN">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG-BIN/FILE_0004_OCR-D-IMG-BIN.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0004_OCR-D-IMG-BIN">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG-BIN/FILE_0004_OCR-D-IMG-BIN.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="image/png" ID="FILE_0006_OCR-D-IMG-BIN.IMG-BIN">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG-BIN/FILE_0006_OCR-D-IMG-BIN.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0006_OCR-D-IMG-BIN">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG-BIN/FILE_0006_OCR-D-IMG-BIN.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="image/png" ID="FILE_0009_OCR-D-IMG-BIN.IMG-BIN">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG-BIN/FILE_0009_OCR-D-IMG-BIN.IMG-BIN.png"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0009_OCR-D-IMG-BIN">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-IMG-BIN/FILE_0009_OCR-D-IMG-BIN.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-SEG-LINE">
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0001_OCR-D-SEG-LINE">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-SEG-LINE/FILE_0001_OCR-D-SEG-LINE.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0004_OCR-D-SEG-LINE">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-SEG-LINE/FILE_0004_OCR-D-SEG-LINE.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0006_OCR-D-SEG-LINE">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-SEG-LINE/FILE_0006_OCR-D-SEG-LINE.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0009_OCR-D-SEG-LINE">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-SEG-LINE/FILE_0009_OCR-D-SEG-LINE.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-OCR-CALAMARI">
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0001_OCR-D-OCR-CALAMARI">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-CALAMARI/FILE_0001_OCR-D-OCR-CALAMARI.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0004_OCR-D-OCR-CALAMARI">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-CALAMARI/FILE_0004_OCR-D-OCR-CALAMARI.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0006_OCR-D-OCR-CALAMARI">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-CALAMARI/FILE_0006_OCR-D-OCR-CALAMARI.xml"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="FILE_0009_OCR-D-OCR-CALAMARI">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="OTHER" OTHERLOCTYPE="FILE" xlink:href="OCR-D-OCR-CALAMARI/FILE_0009_OCR-D-OCR-CALAMARI.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ADMID="AMD" CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0001458F00000000" DMDID="DMDLOG_0000" ID="LOG_0000" LABEL="Zwey Böhmische Lieder verdeutscht" ORDERLABEL="Zwey Böhmische Lieder verdeutscht" TYPE="monograph">
+      <mets:div ID="LOG_0001" TYPE="binding"/>
+      <mets:div ID="LOG_0002" TYPE="title_page"/>
+      <mets:div DMDID="DMDLOG_0001" ID="LOG_0003" LABEL="Wjllkommen/ König Friederich: || Jn Jesu namen grüssen dich ||" ORDERLABEL="Wjllkommen/ König Friederich: || Jn Jesu namen grüssen dich ||" TYPE="contained_work"/>
+      <mets:div DMDID="DMDLOG_0002" ID="LOG_0004" LABEL="Das Ander Lied." ORDERLABEL="Ander Lied." TYPE="contained_work"/>
+      <mets:div ID="LOG_0005" TYPE="binding"/>
+      <mets:div ID="LOG_0006" TYPE="colour_checker"/>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0001458F00000000" DMDID="DMDPHYS_0000" ID="PHYS_0000" TYPE="physSequence">
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0001458F00000001" ID="PHYS_0001" ORDER="1" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0001_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0001_THUMBS"/>
+        <mets:fptr FILEID="FILE_0001_MAX"/>
+        <mets:fptr FILEID="FILE_0001_OCR-D-IMG-BIN.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0001_OCR-D-IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0001_OCR-D-SEG-LINE"/>
+        <mets:fptr FILEID="FILE_0001_OCR-D-OCR-CALAMARI"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0001458F00000004" ID="PHYS_0004" ORDER="4" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0004_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0004_THUMBS"/>
+        <mets:fptr FILEID="FILE_0004_MAX"/>
+        <mets:fptr FILEID="FILE_0004_OCR-D-IMG-BIN.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0004_OCR-D-IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0004_OCR-D-SEG-LINE"/>
+        <mets:fptr FILEID="FILE_0004_OCR-D-OCR-CALAMARI"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0001458F00000006" ID="PHYS_0006" ORDER="6" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0006_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0006_THUMBS"/>
+        <mets:fptr FILEID="FILE_0006_MAX"/>
+        <mets:fptr FILEID="FILE_0006_OCR-D-IMG-BIN.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0006_OCR-D-IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0006_OCR-D-SEG-LINE"/>
+        <mets:fptr FILEID="FILE_0006_OCR-D-OCR-CALAMARI"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0001458F00000009" ID="PHYS_0009" ORDER="9" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0009_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0009_THUMBS"/>
+        <mets:fptr FILEID="FILE_0009_MAX"/>
+        <mets:fptr FILEID="FILE_0009_OCR-D-IMG-BIN.IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0009_OCR-D-IMG-BIN"/>
+        <mets:fptr FILEID="FILE_0009_OCR-D-SEG-LINE"/>
+        <mets:fptr FILEID="FILE_0009_OCR-D-OCR-CALAMARI"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structLink>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0001" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0002" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0003" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0004" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0005" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0006" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0007" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0008" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0009" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0010" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0011" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0012" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0013" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0001" xlink:from="LOG_0001"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0002" xlink:from="LOG_0001"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0003" xlink:from="LOG_0002"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0004" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0005" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0006" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0007" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0007" xlink:from="LOG_0004"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0008" xlink:from="LOG_0004"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0009" xlink:from="LOG_0004"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0010" xlink:from="LOG_0004"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0011" xlink:from="LOG_0005"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0012" xlink:from="LOG_0005"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0013" xlink:from="LOG_0006"/>
+  </mets:structLink>
+</mets:mets>

@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd http://www.loc.gov/mix/v10 http://www.loc.gov/standards/mix/mix10/mix10.xsd">
+  <mets:metsHdr CREATEDATE="2021-10-06T12:38:59">
+    <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+      <mets:name>Kitodo - kitodo-ugh-2.1.3-kitodo-ugh-2.1.1-11-g4b06eaa - 30−July−2019</mets:name>
+      <mets:note>Kitodo</mets:note>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="DMDLOG_0001">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:location>
+            <mods:physicalLocation valueURI="http://ld.zdb-services.de/resource/organisations/DE-1">Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Berlin, Germany</mods:physicalLocation>
+            <mods:shelfLocator>DMS 22613</mods:shelfLocator>
+          </mods:location>
+          <mods:originInfo eventType="publication">
+            <mods:place>
+              <mods:placeTerm type="text">Berlin</mods:placeTerm>
+            </mods:place>
+            <mods:place>
+              <mods:placeTerm type="text">[Deutschland?]</mods:placeTerm>
+            </mods:place>
+            <mods:dateIssued encoding="iso8601" keyDate="yes">1890</mods:dateIssued>
+            <mods:publisher>Georg Plothow</mods:publisher>
+            <mods:publisher>Pantheon-Verlag Bruno C.L. Plothow</mods:publisher>
+          </mods:originInfo>
+          <mods:originInfo eventType="digitization">
+            <mods:place>
+              <mods:placeTerm type="text">Berlin</mods:placeTerm>
+            </mods:place>
+            <mods:dateCaptured encoding="iso8601">2021</mods:dateCaptured>
+            <mods:publisher>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Germany</mods:publisher>
+            <mods:edition>[Electronic ed.]</mods:edition>
+          </mods:originInfo>
+          <mods:classification authority="ZVDD">Musiknoten</mods:classification>
+          <mods:classification authority="ZVDD">Musikdrucke</mods:classification>
+          <mods:relatedItem type="host">
+            <mods:recordInfo>
+              <mods:recordIdentifier source="gbv-ppn">PPN1769395032</mods:recordIdentifier>
+            </mods:recordInfo>
+          </mods:relatedItem>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="gbv-ppn">PPN1769395962</mods:recordIdentifier>
+          </mods:recordInfo>
+          <mods:identifier type="purl">http://resolver.staatsbibliothek-berlin.de/SBB000309C200060000</mods:identifier>
+          <mods:relatedItem type="original">
+            <mods:recordInfo>
+              <mods:recordIdentifier source="gbv-ppn">PPN1769388664</mods:recordIdentifier>
+            </mods:recordInfo>
+          </mods:relatedItem>
+          <mods:titleInfo>
+            <mods:title>Kinderlied</mods:title>
+            <mods:subTitle>Op. 25 No. 6</mods:subTitle>
+          </mods:titleInfo>
+          <mods:note type="source characteristics">P_Drucke_Noten</mods:note>
+          <mods:part order="1000061890">
+            <mods:detail type="volume">
+              <mods:number>No. 6</mods:number>
+            </mods:detail>
+          </mods:part>
+          <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+            <mods:scriptTerm authority="iso15924" type="code">215</mods:scriptTerm>
+          </mods:language>
+          <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+          </mods:language>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title>Musikdrucke digital</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:name type="personal" valueURI="http://d-nb.info/gnd/117357669">
+            <mods:displayForm>Wurm, Mary</mods:displayForm>
+            <mods:namePart type="given">Mary</mods:namePart>
+            <mods:nameIdentifier type="gbv-ppn">078789583</mods:nameIdentifier>
+            <mods:namePart type="family">Wurm</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">cmp</mods:roleTerm>
+            </mods:role>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name type="personal" valueURI="http://d-nb.info/gnd/1013632028">
+            <mods:displayForm>Marshall, Florence</mods:displayForm>
+            <mods:namePart type="given">Florence</mods:namePart>
+            <mods:nameIdentifier type="gbv-ppn">705064530</mods:nameIdentifier>
+            <mods:namePart type="family">Marshall</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">trl</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+            <mods:extent>1 Partitur (3 Seiten), 1 Stimme (1 Seite)</mods:extent>
+          </mods:physicalDescription>
+          <mods:accessCondition xmlns:xlink="http://www.w3.org/1999/xlink" type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</mods:accessCondition>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:accessCondition xmlns:xlink="http://www.w3.org/1999/xlink" displayLabel="Access Status" type="restriction on access" xlink:href="http://purl.org/coar/access_right/c_abf2">open access</mods:accessCondition>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD">
+    <mets:rightsMD ID="RIGHTS">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights xmlns:dv="http://dfg-viewer.de/">
+            <dv:owner>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</dv:owner>
+            <dv:ownerLogo>http://resolver.staatsbibliothek-berlin.de/SBB0000000100000000</dv:ownerLogo>
+            <dv:ownerSiteURL>http://www.staatsbibliothek-berlin.de</dv:ownerSiteURL>
+            <dv:ownerContact>mailto:info@sbb.spk-berlin.de</dv:ownerContact>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="DIGIPROV">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links xmlns:dv="http://dfg-viewer.de/">
+            <dv:reference>http://www.stabikat.de/DB=1/PPN?PPN=1769395962 </dv:reference>
+            <dv:presentation>http://digital.staatsbibliothek-berlin.de/dms/werkansicht/?PPN=PPN1769395962</dv:presentation>
+          <dv:iiif>https://content.staatsbibliothek-berlin.de/dc/PPN1769395962/manifest</dv:iiif></dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="THUMBS">
+      <mets:file ID="FILE_0001_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000001/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000002/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000003/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000004/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0005_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000005/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000006/full/150,/0/default.png"/>
+      </mets:file>
+      <mets:file ID="FILE_0007_THUMBS" MIMETYPE="image/png">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000007/full/150,/0/default.png"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="FILE_0001_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000001/full/max/0/default.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000002/full/max/0/default.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000003/full/max/0/default.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000004/full/max/0/default.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0005_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000005/full/max/0/default.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000006/full/max/0/default.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0007_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="https://content.staatsbibliothek-berlin.de/dc/PPN1769395962-00000007/full/max/0/default.jpg"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="PRESENTATION">
+      <mets:file ID="FILE_0001_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1769395962/00000001.tif"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1769395962/00000002.tif"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1769395962/00000003.tif"/>
+      </mets:file>
+      <mets:file ID="FILE_0004_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1769395962/00000004.tif"/>
+      </mets:file>
+      <mets:file ID="FILE_0005_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1769395962/00000005.tif"/>
+      </mets:file>
+      <mets:file ID="FILE_0006_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1769395962/00000006.tif"/>
+      </mets:file>
+      <mets:file ID="FILE_0007_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1769395962/00000007.tif"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200000000" ID="LOG_0002" LABEL="Neun Lieder für eine Singstimme mit Begleitung des Pianoforte" ORDERLABEL="Neun Lieder für eine Singstimme mit Begleitung des Pianoforte" TYPE="multivolume_work">
+      <mets:mptr xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/dms/metsresolver/?PPN=PPN1769395032"/>
+      <mets:div ADMID="AMD" DMDID="DMDLOG_0001" ID="LOG_0003" LABEL="Kinderlied" ORDER="1000061890" ORDERLABEL="Kinderlied" TYPE="volume">
+        <mets:div ID="LOG_0004" TYPE="title_page"/>
+        <mets:div ID="LOG_0005" TYPE="colour_checker"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200060000" ID="PHYS_0000" TYPE="physSequence">
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200060001" ID="PHYS_0001" ORDER="1" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0001_THUMBS"/>
+        <mets:fptr FILEID="FILE_0001_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0001_PRESENTATION"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200060002" ID="PHYS_0002" ORDER="2" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0002_THUMBS"/>
+        <mets:fptr FILEID="FILE_0002_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0002_PRESENTATION"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200060003" ID="PHYS_0003" ORDER="3" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0003_THUMBS"/>
+        <mets:fptr FILEID="FILE_0003_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0003_PRESENTATION"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200060004" ID="PHYS_0004" ORDER="4" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0004_THUMBS"/>
+        <mets:fptr FILEID="FILE_0004_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0004_PRESENTATION"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200060005" ID="PHYS_0005" ORDER="5" ORDERLABEL="3" TYPE="page">
+        <mets:fptr FILEID="FILE_0005_THUMBS"/>
+        <mets:fptr FILEID="FILE_0005_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0005_PRESENTATION"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200060006" ID="PHYS_0006" ORDER="6" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0006_THUMBS"/>
+        <mets:fptr FILEID="FILE_0006_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0006_PRESENTATION"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB000309C200060007" ID="PHYS_0007" ORDER="7" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0007_THUMBS"/>
+        <mets:fptr FILEID="FILE_0007_DEFAULT"/>
+        <mets:fptr FILEID="FILE_0007_PRESENTATION"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structLink>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0001" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0002" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0003" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0004" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0005" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0006" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0007" xlink:from="LOG_0003"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0001" xlink:from="LOG_0004"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0007" xlink:from="LOG_0005"/>
+  </mets:structLink>
+</mets:mets>

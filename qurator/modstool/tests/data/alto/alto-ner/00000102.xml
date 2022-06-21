@@ -1,0 +1,820 @@
+<?xml version="1.0"?>
+<ns0:alto xmlns:ns0="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+  <ns0:Description>
+    <ns0:MeasurementUnit>pixel</ns0:MeasurementUnit>
+    <ns0:OCRProcessing ID="IdOcr">
+      <ns0:ocrProcessingStep>
+        <ns0:processingDateTime>2016-08-07</ns0:processingDateTime>
+        <ns0:processingSoftware>
+          <ns0:softwareCreator>ABBYY</ns0:softwareCreator>
+          <ns0:softwareName>ABBYY FineReader Engine</ns0:softwareName>
+          <ns0:softwareVersion>11</ns0:softwareVersion>
+        </ns0:processingSoftware>
+      </ns0:ocrProcessingStep>
+    </ns0:OCRProcessing>
+  </ns0:Description>
+  <ns0:Styles>
+    <ns0:TextStyle FONTFAMILY="Arial" FONTSIZE="7" ID="font0"/>
+    <ns0:TextStyle FONTFAMILY="Arial" FONTSIZE="8" ID="font1"/>
+    <ns0:TextStyle FONTFAMILY="Arial" FONTSIZE="10" ID="font2"/>
+    <ns0:TextStyle FONTFAMILY="Arial" FONTSIZE="13" ID="font3"/>
+  </ns0:Styles>
+  <ns0:Tags>
+    <ns0:NamedEntityTag ID="PER0" LABEL="Pentlings"/>
+    <ns0:NamedEntityTag ID="LOC1" LABEL="Pentling"/>
+    <ns0:NamedEntityTag ID="LOC2" LABEL="Hamm"/>
+    <ns0:NamedEntityTag ID="PER4" LABEL="Hofes Pentling"/>
+    <ns0:NamedEntityTag ID="LOC5" LABEL="Hofs Pentling"/>
+    <ns0:NamedEntityTag ID="LOC7" LABEL="Hilbeck"/>
+    <ns0:NamedEntityTag ID="PER8" LABEL="Hoff"/>
+    <ns0:NamedEntityTag ID="PER9" LABEL="L i b e r"/>
+    <ns0:NamedEntityTag ID="PER10" LABEL="Jhesu Christi"/>
+  </ns0:Tags>
+  <ns0:Layout>
+    <ns0:Page HEIGHT="2287" ID="Page1" PHYSICAL_IMG_NR="1" WIDTH="1348">
+      <ns0:TopMargin HEIGHT="92" HPOS="0" VPOS="0" WIDTH="1348">
+</ns0:TopMargin>
+      <ns0:LeftMargin HEIGHT="2004" HPOS="0" VPOS="92" WIDTH="158">
+</ns0:LeftMargin>
+      <ns0:RightMargin HEIGHT="2004" HPOS="1273" VPOS="92" WIDTH="75">
+</ns0:RightMargin>
+      <ns0:BottomMargin HEIGHT="191" HPOS="0" VPOS="2096" WIDTH="1348">
+</ns0:BottomMargin>
+      <ns0:PrintSpace HEIGHT="2004" HPOS="158" VPOS="92" WIDTH="1115">
+        <ns0:TextBlock HEIGHT="2004" HPOS="158" ID="Page1_Block1" STYLEREFS="font1" VPOS="92" WIDTH="1115" language="de">
+          <ns0:TextLine HEIGHT="41" HPOS="184" STYLEREFS="font2" VPOS="98" WIDTH="678">
+            <ns0:String CONTENT="90" HEIGHT="31" HPOS="184" VPOS="100" WC="0.2899999917" WIDTH="45"/>
+            <ns0:SP HPOS="230" VPOS="98" WIDTH="358"/>
+            <ns0:String CONTENT="Beilage" HEIGHT="41" HPOS="589" VPOS="98" WC="0.4199999869" WIDTH="123"/>
+            <ns0:SP HPOS="713" VPOS="106" WIDTH="21"/>
+            <ns0:String CONTENT="27." HEIGHT="30" HPOS="735" VPOS="106" WC="0.9133333564" WIDTH="51"/>
+            <ns0:SP HPOS="787" VPOS="108" WIDTH="23"/>
+            <ns0:String CONTENT="28." HEIGHT="30" HPOS="811" VPOS="106" WC="0.7099999785" WIDTH="51"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="42" HPOS="184" VPOS="174" WIDTH="1083">
+            <ns0:String CONTENT="bsredem" HEIGHT="28" HPOS="184" VPOS="174" WC="0.9885714054" WIDTH="139"/>
+            <ns0:SP HPOS="324" VPOS="185" WIDTH="18"/>
+            <ns0:String CONTENT="masculum" HEIGHT="26" HPOS="343" VPOS="176" WC="0.4399999976" WIDTH="157"/>
+            <ns0:SP HPOS="501" VPOS="177" WIDTH="19"/>
+            <ns0:String CONTENT="h&#xE4;tte," HEIGHT="34" HPOS="521" VPOS="175" WC="0.5183333158" WIDTH="91"/>
+            <ns0:SP HPOS="613" VPOS="186" WIDTH="17"/>
+            <ns0:String CONTENT="als" HEIGHT="26" HPOS="631" VPOS="179" WC="0.7900000215" WIDTH="41"/>
+            <ns0:SP HPOS="673" VPOS="180" WIDTH="20"/>
+            <ns0:String CONTENT="der" HEIGHT="26" HPOS="694" VPOS="180" WC="0.6200000048" WIDTH="43"/>
+            <ns0:SP HPOS="738" VPOS="180" WIDTH="17"/>
+            <ns0:String CONTENT="im" HEIGHT="27" HPOS="756" VPOS="180" WC="0.4350000024" WIDTH="36"/>
+            <ns0:SP HPOS="793" VPOS="181" WIDTH="16"/>
+            <ns0:String CONTENT="Hofesrecht" HEIGHT="33" HPOS="810" VPOS="181" WC="0.4860000014" WIDTH="154"/>
+            <ns0:SP HPOS="965" VPOS="183" WIDTH="18"/>
+            <ns0:String CONTENT="befindlicher" HEIGHT="33" HPOS="984" VPOS="183" WC="0.5924999714" WIDTH="161"/>
+            <ns0:SP HPOS="1146" VPOS="185" WIDTH="15"/>
+            <ns0:String CONTENT="Remo-" HEIGHT="27" HPOS="1162" VPOS="185" WC="0.574000001" WIDTH="105"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="43" HPOS="184" VPOS="219" WIDTH="1083">
+            <ns0:String CONTENT="tior" HEIGHT="27" HPOS="184" VPOS="219" WC="0.4499999881" WIDTH="58"/>
+            <ns0:SP HPOS="243" VPOS="228" WIDTH="19"/>
+            <ns0:String CONTENT="agnatus" HEIGHT="30" HPOS="263" VPOS="224" WC="0.7799999714" WIDTH="119"/>
+            <ns0:SP HPOS="383" VPOS="220" WIDTH="17"/>
+            <ns0:String CONTENT="ist," HEIGHT="31" HPOS="401" VPOS="219" WC="0.4875000119" WIDTH="38"/>
+            <ns0:SP HPOS="440" VPOS="221" WIDTH="17"/>
+            <ns0:String CONTENT="so" HEIGHT="31" HPOS="458" VPOS="221" WC="0.4199999869" WIDTH="25"/>
+            <ns0:SP HPOS="484" VPOS="228" WIDTH="18"/>
+            <ns0:String CONTENT="erbet" HEIGHT="27" HPOS="503" VPOS="221" WC="0.5860000253" WIDTH="71"/>
+            <ns0:SP HPOS="575" VPOS="223" WIDTH="18"/>
+            <ns0:String CONTENT="doch" HEIGHT="33" HPOS="594" VPOS="221" WC="0.7400000095" WIDTH="56"/>
+            <ns0:SP HPOS="651" VPOS="221" WIDTH="12"/>
+            <ns0:String CONTENT="Remotior" HEIGHT="26" HPOS="664" VPOS="222" WC="0.5099999905" WIDTH="150"/>
+            <ns0:SP HPOS="815" VPOS="232" WIDTH="17"/>
+            <ns0:String CONTENT="agnatus" HEIGHT="29" HPOS="833" VPOS="230" WC="0.8142856956" WIDTH="119"/>
+            <ns0:SP HPOS="953" VPOS="226" WIDTH="17"/>
+            <ns0:String CONTENT="im" HEIGHT="26" HPOS="971" VPOS="226" WC="0.7099999785" WIDTH="35"/>
+            <ns0:SP HPOS="1007" VPOS="227" WIDTH="15"/>
+            <ns0:String CONTENT="Hofesrecht," HEIGHT="35" HPOS="1023" VPOS="227" WC="0.625454545" WIDTH="162"/>
+            <ns0:SP HPOS="1186" VPOS="237" WIDTH="19"/>
+            <ns0:String CONTENT="oder" HEIGHT="26" HPOS="1206" VPOS="231" WC="0.5299999714" WIDTH="61"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="41" HPOS="184" VPOS="263" WIDTH="1079">
+            <ns0:String CONTENT="der" HEIGHT="25" HPOS="184" VPOS="265" WC="0.4166666567" WIDTH="45"/>
+            <ns0:SP HPOS="230" VPOS="264" WIDTH="9"/>
+            <ns0:String CONTENT="Erbhofesherr" HEIGHT="31" HPOS="240" VPOS="264" WC="0.6175000072" WIDTH="195"/>
+            <ns0:SP HPOS="436" VPOS="263" WIDTH="8"/>
+            <ns0:String CONTENT="kann" HEIGHT="26" HPOS="445" VPOS="263" WC="0.4600000083" WIDTH="67"/>
+            <ns0:SP HPOS="513" VPOS="271" WIDTH="10"/>
+            <ns0:String CONTENT="also" HEIGHT="30" HPOS="524" VPOS="265" WC="0.5" WIDTH="53"/>
+            <ns0:SP HPOS="578" VPOS="272" WIDTH="13"/>
+            <ns0:String CONTENT="und" HEIGHT="24" HPOS="592" VPOS="267" WC="0.5799999833" WIDTH="53"/>
+            <ns0:SP HPOS="646" VPOS="267" WIDTH="10"/>
+            <ns0:String CONTENT="mag" HEIGHT="25" HPOS="657" VPOS="273" WC="0.6966666579" WIDTH="58"/>
+            <ns0:SP HPOS="716" VPOS="273" WIDTH="11"/>
+            <ns0:String CONTENT="nichts" HEIGHT="32" HPOS="728" VPOS="266" WC="0.7683333158" WIDTH="81"/>
+            <ns0:SP HPOS="810" VPOS="270" WIDTH="10"/>
+            <ns0:String CONTENT="au&#xDF;erm" HEIGHT="30" HPOS="821" VPOS="268" WC="0.6583333611" WIDTH="107"/>
+            <ns0:SP HPOS="929" VPOS="269" WIDTH="10"/>
+            <ns0:String CONTENT="Hofesrecht" HEIGHT="33" HPOS="940" VPOS="269" WC="0.6209999919" WIDTH="152"/>
+            <ns0:SP HPOS="1093" VPOS="274" WIDTH="8"/>
+            <ns0:String CONTENT="verabfallen" HEIGHT="31" HPOS="1102" VPOS="273" WC="0.6381818056" WIDTH="161"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="43" HPOS="183" VPOS="306" WIDTH="1082">
+            <ns0:String CONTENT="ex" HEIGHT="17" HPOS="183" VPOS="316" WC="0.3449999988" WIDTH="35"/>
+            <ns0:SP HPOS="219" VPOS="315" WIDTH="13"/>
+            <ns0:String CONTENT="singulare" HEIGHT="34" HPOS="233" VPOS="306" WC="0.6177777648" WIDTH="144"/>
+            <ns0:SP HPOS="378" VPOS="306" WIDTH="9"/>
+            <ns0:String CONTENT="Jure" HEIGHT="25" HPOS="388" VPOS="306" WC="0.474999994" WIDTH="71"/>
+            <ns0:SP HPOS="460" VPOS="315" WIDTH="13"/>
+            <ns0:String CONTENT="statuario" HEIGHT="27" HPOS="474" VPOS="306" WC="0.6366666555" WIDTH="137"/>
+            <ns0:SP HPOS="612" VPOS="316" WIDTH="19"/>
+            <ns0:String CONTENT="et" HEIGHT="20" HPOS="632" VPOS="313" WC="0.9150000215" WIDTH="29"/>
+            <ns0:SP HPOS="662" VPOS="313" WIDTH="9"/>
+            <ns0:String CONTENT="privilegio" HEIGHT="35" HPOS="672" VPOS="308" WC="0.503000021" WIDTH="150"/>
+            <ns0:SP HPOS="823" VPOS="318" WIDTH="12"/>
+            <ns0:String CONTENT="cum" HEIGHT="17" HPOS="836" VPOS="318" WC="0.7166666389" WIDTH="62"/>
+            <ns0:SP HPOS="899" VPOS="319" WIDTH="12"/>
+            <ns0:String CONTENT="publica" HEIGHT="33" HPOS="912" VPOS="311" WC="0.4542857111" WIDTH="114"/>
+            <ns0:SP HPOS="1027" VPOS="321" WIDTH="11"/>
+            <ns0:String CONTENT="scientia" HEIGHT="27" HPOS="1039" VPOS="313" WC="0.7887499928" WIDTH="116"/>
+            <ns0:SP HPOS="1156" VPOS="323" WIDTH="18"/>
+            <ns0:String CONTENT="et" HEIGHT="20" HPOS="1175" VPOS="320" WC="0.6999999881" WIDTH="28"/>
+            <ns0:SP HPOS="1204" VPOS="320" WIDTH="13"/>
+            <ns0:String CONTENT="pa-" HEIGHT="25" HPOS="1218" VPOS="324" WC="0.4466666579" WIDTH="47"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="37" HPOS="182" VPOS="348" WIDTH="1081">
+            <ns0:String CONTENT="tientia" HEIGHT="28" HPOS="182" VPOS="348" WC="0.6471428275" WIDTH="99"/>
+            <ns0:SP HPOS="282" VPOS="357" WIDTH="8"/>
+            <ns0:String CONTENT="sine" HEIGHT="27" HPOS="291" VPOS="349" WC="0.5224999785" WIDTH="59"/>
+            <ns0:SP HPOS="351" VPOS="357" WIDTH="13"/>
+            <ns0:String CONTENT="contradictione" HEIGHT="27" HPOS="365" VPOS="348" WC="0.5342857242" WIDTH="228"/>
+            <ns0:SP HPOS="594" VPOS="358" WIDTH="14"/>
+            <ns0:String CONTENT="semper" HEIGHT="26" HPOS="609" VPOS="359" WC="0.7599999905" WIDTH="113"/>
+            <ns0:SP HPOS="723" VPOS="360" WIDTH="11"/>
+            <ns0:String CONTENT="exercito," HEIGHT="33" HPOS="735" VPOS="352" WC="0.5600000024" WIDTH="136"/>
+            <ns0:SP HPOS="872" VPOS="362" WIDTH="17"/>
+            <ns0:String CONTENT="observato" HEIGHT="28" HPOS="890" VPOS="353" WC="0.5377777815" WIDTH="153"/>
+            <ns0:SP HPOS="1044" VPOS="364" WIDTH="15"/>
+            <ns0:String CONTENT="et" HEIGHT="21" HPOS="1060" VPOS="361" WC="0.6750000119" WIDTH="28"/>
+            <ns0:SP HPOS="1089" VPOS="361" WIDTH="9"/>
+            <ns0:String CONTENT="effectuato." HEIGHT="27" HPOS="1099" VPOS="357" WC="0.8172727227" WIDTH="164"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="252" VPOS="393" WIDTH="1011">
+            <ns0:String CONTENT="Des" HEIGHT="26" HPOS="252" VPOS="395" WC="0.6733333468" WIDTH="57"/>
+            <ns0:SP HPOS="310" VPOS="394" WIDTH="18"/>
+            <ns0:String CONTENT="Verstorbenen" HEIGHT="30" HPOS="329" VPOS="393" WC="0.5274999738" WIDTH="191"/>
+            <ns0:SP HPOS="521" VPOS="395" WIDTH="21"/>
+            <ns0:String CONTENT="Mans" HEIGHT="25" HPOS="543" VPOS="395" WC="0.9775000215" WIDTH="85"/>
+            <ns0:SP HPOS="629" VPOS="398" WIDTH="20"/>
+            <ns0:String CONTENT="oder" HEIGHT="24" HPOS="650" VPOS="397" WC="0.4900000095" WIDTH="60"/>
+            <ns0:SP HPOS="711" VPOS="396" WIDTH="16"/>
+            <ns0:String CONTENT="Hofsfrauen" HEIGHT="32" HPOS="728" VPOS="396" WC="0.5550000072" WIDTH="166"/>
+            <ns0:SP HPOS="895" VPOS="397" WIDTH="24"/>
+            <ns0:String CONTENT="j&#xFC;ngster" HEIGHT="34" HPOS="920" VPOS="397" WC="0.5162500143" WIDTH="116"/>
+            <ns0:SP HPOS="1037" VPOS="400" WIDTH="18"/>
+            <ns0:String CONTENT="Sohn," HEIGHT="33" HPOS="1056" VPOS="400" WC="0.5419999957" WIDTH="97"/>
+            <ns0:SP HPOS="1154" VPOS="408" WIDTH="28"/>
+            <ns0:String CONTENT="wann" HEIGHT="20" HPOS="1183" VPOS="408" WC="0.6274999976" WIDTH="80"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="181" VPOS="437" WIDTH="1079">
+            <ns0:String CONTENT="Achtzehn" HEIGHT="33" HPOS="181" VPOS="438" WC="0.6399999857" WIDTH="126"/>
+            <ns0:SP HPOS="308" VPOS="438" WIDTH="17"/>
+            <ns0:String CONTENT="Jahren" HEIGHT="32" HPOS="326" VPOS="437" WC="0.7666666508" WIDTH="104"/>
+            <ns0:SP HPOS="431" VPOS="444" WIDTH="20"/>
+            <ns0:String CONTENT="alt" HEIGHT="25" HPOS="452" VPOS="438" WC="0.6966666579" WIDTH="40"/>
+            <ns0:SP HPOS="493" VPOS="437" WIDTH="24"/>
+            <ns0:String CONTENT="ist," HEIGHT="31" HPOS="518" VPOS="437" WC="0.5350000262" WIDTH="46"/>
+            <ns0:SP HPOS="565" VPOS="446" WIDTH="30"/>
+            <ns0:String CONTENT="erbt" HEIGHT="26" HPOS="596" VPOS="439" WC="0.4699999988" WIDTH="57"/>
+            <ns0:SP HPOS="654" VPOS="440" WIDTH="23"/>
+            <ns0:String CONTENT="das" HEIGHT="25" HPOS="678" VPOS="440" WC="0.7533333302" WIDTH="46"/>
+            <ns0:SP HPOS="725" VPOS="440" WIDTH="15"/>
+            <ns0:String CONTENT="Hofesgut," HEIGHT="32" HPOS="741" VPOS="440" WC="0.5777778029" WIDTH="149"/>
+            <ns0:SP HPOS="891" VPOS="442" WIDTH="28"/>
+            <ns0:String CONTENT="dergestalt" HEIGHT="32" HPOS="920" VPOS="442" WC="0.5120000243" WIDTH="137"/>
+            <ns0:SP HPOS="1058" VPOS="445" WIDTH="25"/>
+            <ns0:String CONTENT="wann" HEIGHT="21" HPOS="1084" VPOS="450" WC="0.6125000119" WIDTH="79"/>
+            <ns0:SP HPOS="1164" VPOS="446" WIDTH="24"/>
+            <ns0:String CONTENT="schon" HEIGHT="34" HPOS="1189" VPOS="443" WC="0.7179999948" WIDTH="71"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="181" VPOS="480" WIDTH="1081">
+            <ns0:String CONTENT="Vater" HEIGHT="28" HPOS="181" VPOS="483" WC="0.6740000248" WIDTH="86"/>
+            <ns0:SP HPOS="268" VPOS="489" WIDTH="18"/>
+            <ns0:String CONTENT="oder" HEIGHT="26" HPOS="287" VPOS="482" WC="0.462500006" WIDTH="62"/>
+            <ns0:SP HPOS="350" VPOS="481" WIDTH="13"/>
+            <ns0:String CONTENT="Mutter" HEIGHT="25" HPOS="364" VPOS="481" WC="0.6166666746" WIDTH="111"/>
+            <ns0:SP HPOS="476" VPOS="480" WIDTH="17"/>
+            <ns0:String CONTENT="sich" HEIGHT="33" HPOS="494" VPOS="480" WC="0.7149999738" WIDTH="40"/>
+            <ns0:SP HPOS="535" VPOS="480" WIDTH="19"/>
+            <ns0:String CONTENT="im" HEIGHT="26" HPOS="555" VPOS="481" WC="1." WIDTH="35"/>
+            <ns0:SP HPOS="591" VPOS="488" WIDTH="17"/>
+            <ns0:String CONTENT="zweiten" HEIGHT="32" HPOS="609" VPOS="482" WC="0.5142857432" WIDTH="109"/>
+            <ns0:SP HPOS="719" VPOS="483" WIDTH="14"/>
+            <ns0:String CONTENT="Ehestand" HEIGHT="32" HPOS="734" VPOS="482" WC="0.6037499905" WIDTH="126"/>
+            <ns0:SP HPOS="861" VPOS="484" WIDTH="20"/>
+            <ns0:String CONTENT="begeben," HEIGHT="33" HPOS="882" VPOS="484" WC="0.4975000024" WIDTH="118"/>
+            <ns0:SP HPOS="1001" VPOS="486" WIDTH="20"/>
+            <ns0:String CONTENT="sich" HEIGHT="33" HPOS="1022" VPOS="485" WC="0.9300000072" WIDTH="42"/>
+            <ns0:SP HPOS="1065" VPOS="485" WIDTH="15"/>
+            <ns0:String CONTENT="l&#xE4;nger" HEIGHT="35" HPOS="1081" VPOS="485" WC="0.5783333182" WIDTH="94"/>
+            <ns0:SP HPOS="1176" VPOS="496" WIDTH="17"/>
+            <ns0:String CONTENT="nicht" HEIGHT="33" HPOS="1194" VPOS="487" WC="0.8019999862" WIDTH="68"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="42" HPOS="180" VPOS="522" WIDTH="1079">
+            <ns0:String CONTENT="als" HEIGHT="26" HPOS="180" VPOS="527" WC="0.5366666913" WIDTH="43"/>
+            <ns0:SP HPOS="224" VPOS="530" WIDTH="18"/>
+            <ns0:String CONTENT="auf" HEIGHT="32" HPOS="243" VPOS="526" WC="0.6633333564" WIDTH="49"/>
+            <ns0:SP HPOS="293" VPOS="526" WIDTH="14"/>
+            <ns0:String CONTENT="das" HEIGHT="24" HPOS="308" VPOS="526" WC="0.7533333302" WIDTH="47"/>
+            <ns0:SP HPOS="356" VPOS="527" WIDTH="18"/>
+            <ns0:String CONTENT="achtzehnte" HEIGHT="34" HPOS="375" VPOS="522" WC="0.5080000162" WIDTH="146"/>
+            <ns0:SP HPOS="522" VPOS="525" WIDTH="15"/>
+            <ns0:String CONTENT="Jahr" HEIGHT="32" HPOS="538" VPOS="524" WC="1." WIDTH="72"/>
+            <ns0:SP HPOS="611" VPOS="532" WIDTH="23"/>
+            <ns0:String CONTENT="wieder" HEIGHT="26" HPOS="635" VPOS="525" WC="0.3733333349" WIDTH="95"/>
+            <ns0:SP HPOS="731" VPOS="526" WIDTH="17"/>
+            <ns0:String CONTENT="ins" HEIGHT="26" HPOS="749" VPOS="526" WC="0.9366666675" WIDTH="44"/>
+            <ns0:SP HPOS="794" VPOS="527" WIDTH="18"/>
+            <ns0:String CONTENT="Hofesgut" HEIGHT="32" HPOS="813" VPOS="527" WC="0.4900000095" WIDTH="134"/>
+            <ns0:SP HPOS="948" VPOS="530" WIDTH="17"/>
+            <ns0:String CONTENT="einbestatten" HEIGHT="30" HPOS="966" VPOS="528" WC="0.4791666567" WIDTH="168"/>
+            <ns0:SP HPOS="1135" VPOS="538" WIDTH="20"/>
+            <ns0:String CONTENT="m&#xF6;gen," HEIGHT="35" HPOS="1156" VPOS="529" WC="0.421666652" WIDTH="103"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="41" HPOS="177" VPOS="567" WIDTH="1080">
+            <ns0:String CONTENT="damit" HEIGHT="27" HPOS="177" VPOS="570" WC="0.5040000081" WIDTH="86"/>
+            <ns0:SP HPOS="264" VPOS="571" WIDTH="18"/>
+            <ns0:String CONTENT="vorigen" HEIGHT="32" HPOS="283" VPOS="568" WC="0.5199999809" WIDTH="110"/>
+            <ns0:SP HPOS="394" VPOS="567" WIDTH="19"/>
+            <ns0:String CONTENT="Ehestands" HEIGHT="33" HPOS="414" VPOS="567" WC="0.6922222376" WIDTH="140"/>
+            <ns0:SP HPOS="555" VPOS="568" WIDTH="19"/>
+            <ns0:String CONTENT="j&#xFC;ngster" HEIGHT="34" HPOS="575" VPOS="567" WC="0.6862499714" WIDTH="116"/>
+            <ns0:SP HPOS="692" VPOS="569" WIDTH="20"/>
+            <ns0:String CONTENT="Sohn," HEIGHT="32" HPOS="713" VPOS="569" WC="0.5600000024" WIDTH="98"/>
+            <ns0:SP HPOS="812" VPOS="576" WIDTH="29"/>
+            <ns0:String CONTENT="wan" HEIGHT="20" HPOS="842" VPOS="576" WC="0.8266666532" WIDTH="59"/>
+            <ns0:SP HPOS="902" VPOS="572" WIDTH="19"/>
+            <ns0:String CONTENT="seines" HEIGHT="30" HPOS="922" VPOS="571" WC="0.7749999762" WIDTH="81"/>
+            <ns0:SP HPOS="1004" VPOS="573" WIDTH="18"/>
+            <ns0:String CONTENT="Alters" HEIGHT="27" HPOS="1023" VPOS="573" WC="0.5099999905" WIDTH="90"/>
+            <ns0:SP HPOS="1114" VPOS="575" WIDTH="19"/>
+            <ns0:String CONTENT="Achtzehn" HEIGHT="34" HPOS="1134" VPOS="574" WC="0.5824999809" WIDTH="123"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="178" VPOS="610" WIDTH="1082">
+            <ns0:String CONTENT="Jahren" HEIGHT="32" HPOS="178" VPOS="615" WC="0.5899999738" WIDTH="105"/>
+            <ns0:SP HPOS="284" VPOS="620" WIDTH="24"/>
+            <ns0:String CONTENT="erreichet" HEIGHT="33" HPOS="309" VPOS="610" WC="0.6711111069" WIDTH="122"/>
+            <ns0:SP HPOS="432" VPOS="612" WIDTH="26"/>
+            <ns0:String CONTENT="hat," HEIGHT="32" HPOS="459" VPOS="612" WC="0.6125000119" WIDTH="61"/>
+            <ns0:SP HPOS="521" VPOS="619" WIDTH="29"/>
+            <ns0:String CONTENT="oder" HEIGHT="24" HPOS="551" VPOS="614" WC="0.8299999833" WIDTH="60"/>
+            <ns0:SP HPOS="612" VPOS="619" WIDTH="18"/>
+            <ns0:String CONTENT="wan" HEIGHT="20" HPOS="631" VPOS="619" WC="0.8399999738" WIDTH="59"/>
+            <ns0:SP HPOS="691" VPOS="613" WIDTH="26"/>
+            <ns0:String CONTENT="kein" HEIGHT="27" HPOS="718" VPOS="613" WC="0.4850000143" WIDTH="55"/>
+            <ns0:SP HPOS="774" VPOS="612" WIDTH="19"/>
+            <ns0:String CONTENT="Sohn" HEIGHT="33" HPOS="794" VPOS="612" WC="0.5874999762" WIDTH="80"/>
+            <ns0:SP HPOS="875" VPOS="614" WIDTH="24"/>
+            <ns0:String CONTENT="ist," HEIGHT="32" HPOS="900" VPOS="613" WC="0.4799999893" WIDTH="43"/>
+            <ns0:SP HPOS="944" VPOS="616" WIDTH="26"/>
+            <ns0:String CONTENT="die" HEIGHT="26" HPOS="971" VPOS="615" WC="0.349999994" WIDTH="38"/>
+            <ns0:SP HPOS="1010" VPOS="613" WIDTH="22"/>
+            <ns0:String CONTENT="&#xE4;lteste" HEIGHT="35" HPOS="1033" VPOS="613" WC="0.5028571486" WIDTH="86"/>
+            <ns0:SP HPOS="1120" VPOS="619" WIDTH="18"/>
+            <ns0:String CONTENT="Tochter," HEIGHT="32" HPOS="1139" VPOS="618" WC="0.6787499785" WIDTH="121"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="38" HPOS="179" VPOS="655" WIDTH="1081">
+            <ns0:String CONTENT="wann" HEIGHT="19" HPOS="179" VPOS="665" WC="0.4675000012" WIDTH="82"/>
+            <ns0:SP HPOS="262" VPOS="656" WIDTH="17"/>
+            <ns0:String CONTENT="sechszehn" HEIGHT="33" HPOS="280" VPOS="655" WC="0.4588888884" WIDTH="126"/>
+            <ns0:SP HPOS="407" VPOS="656" WIDTH="12"/>
+            <ns0:String CONTENT="Jahren" HEIGHT="31" HPOS="420" VPOS="656" WC="0.6733333468" WIDTH="103"/>
+            <ns0:SP HPOS="524" VPOS="655" WIDTH="19"/>
+            <ns0:String CONTENT="ihres" HEIGHT="32" HPOS="544" VPOS="655" WC="0.7559999824" WIDTH="70"/>
+            <ns0:SP HPOS="615" VPOS="656" WIDTH="13"/>
+            <ns0:String CONTENT="Alters" HEIGHT="26" HPOS="629" VPOS="656" WC="0.5283333063" WIDTH="90"/>
+            <ns0:SP HPOS="720" VPOS="660" WIDTH="19"/>
+            <ns0:String CONTENT="erreichet" HEIGHT="31" HPOS="740" VPOS="657" WC="0.6755555272" WIDTH="118"/>
+            <ns0:SP HPOS="859" VPOS="658" WIDTH="19"/>
+            <ns0:String CONTENT="hat" HEIGHT="31" HPOS="879" VPOS="658" WC="0.5433333516" WIDTH="46"/>
+            <ns0:SP HPOS="926" VPOS="660" WIDTH="17"/>
+            <ns0:String CONTENT="und" HEIGHT="24" HPOS="944" VPOS="662" WC="0.7433333397" WIDTH="53"/>
+            <ns0:SP HPOS="998" VPOS="662" WIDTH="18"/>
+            <ns0:String CONTENT="tauglich" HEIGHT="32" HPOS="1017" VPOS="661" WC="0.6687499881" WIDTH="112"/>
+            <ns0:SP HPOS="1130" VPOS="661" WIDTH="19"/>
+            <ns0:String CONTENT="ist," HEIGHT="31" HPOS="1150" VPOS="662" WC="0.4950000048" WIDTH="38"/>
+            <ns0:SP HPOS="1189" VPOS="670" WIDTH="19"/>
+            <ns0:String CONTENT="mit" HEIGHT="26" HPOS="1209" VPOS="663" WC="0.5466666818" WIDTH="51"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="178" VPOS="698" WIDTH="1081">
+            <ns0:String CONTENT="Schulten" HEIGHT="34" HPOS="178" VPOS="701" WC="0.5462499857" WIDTH="131"/>
+            <ns0:SP HPOS="310" VPOS="701" WIDTH="19"/>
+            <ns0:String CONTENT="Pentlings" HEIGHT="33" HPOS="330" TAGREFS="PER0" VPOS="699" WC="0.4511111081" WIDTH="146"/>
+            <ns0:SP HPOS="477" VPOS="699" WIDTH="16"/>
+            <ns0:String CONTENT="Gutachten" HEIGHT="33" HPOS="494" VPOS="698" WC="0.5833333135" WIDTH="146"/>
+            <ns0:SP HPOS="641" VPOS="701" WIDTH="20"/>
+            <ns0:String CONTENT="den" HEIGHT="25" HPOS="662" VPOS="701" WC="0.4199999869" WIDTH="45"/>
+            <ns0:SP HPOS="708" VPOS="700" WIDTH="19"/>
+            <ns0:String CONTENT="Hof" HEIGHT="32" HPOS="728" VPOS="700" WC="0.4166666567" WIDTH="56"/>
+            <ns0:SP HPOS="785" VPOS="701" WIDTH="15"/>
+            <ns0:String CONTENT="anzunchmen" HEIGHT="32" HPOS="801" VPOS="702" WC="0.6230000257" WIDTH="177"/>
+            <ns0:SP HPOS="979" VPOS="704" WIDTH="19"/>
+            <ns0:String CONTENT="denn" HEIGHT="26" HPOS="999" VPOS="704" WC="0.5174999833" WIDTH="66"/>
+            <ns0:SP HPOS="1066" VPOS="706" WIDTH="20"/>
+            <ns0:String CONTENT="den" HEIGHT="25" HPOS="1087" VPOS="706" WC="0.4866666794" WIDTH="45"/>
+            <ns0:SP HPOS="1133" VPOS="705" WIDTH="18"/>
+            <ns0:String CONTENT="Eltern," HEIGHT="33" HPOS="1152" VPOS="705" WC="0.5214285851" WIDTH="107"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="38" HPOS="178" VPOS="741" WIDTH="1080">
+            <ns0:String CONTENT="die" HEIGHT="27" HPOS="178" VPOS="746" WC="0.5066666603" WIDTH="41"/>
+            <ns0:SP HPOS="220" VPOS="746" WIDTH="17"/>
+            <ns0:String CONTENT="Leibzucht" HEIGHT="33" HPOS="238" VPOS="743" WC="0.5111111403" WIDTH="131"/>
+            <ns0:SP HPOS="370" VPOS="746" WIDTH="18"/>
+            <ns0:String CONTENT="noch" HEIGHT="25" HPOS="389" VPOS="745" WC="0.3100000024" WIDTH="57"/>
+            <ns0:SP HPOS="447" VPOS="743" WIDTH="18"/>
+            <ns0:String CONTENT="Hofesvermbgen" HEIGHT="35" HPOS="466" VPOS="741" WC="0.4938461483" WIDTH="225"/>
+            <ns0:SP HPOS="692" VPOS="751" WIDTH="21"/>
+            <ns0:String CONTENT="auch" HEIGHT="31" HPOS="714" VPOS="743" WC="0.6924999952" WIDTH="59"/>
+            <ns0:SP HPOS="774" VPOS="743" WIDTH="24"/>
+            <ns0:String CONTENT="mit" HEIGHT="25" HPOS="799" VPOS="744" WC="0.6066666842" WIDTH="50"/>
+            <ns0:SP HPOS="850" VPOS="744" WIDTH="19"/>
+            <ns0:String CONTENT="Schulten" HEIGHT="33" HPOS="870" VPOS="743" WC="0.6012499928" WIDTH="128"/>
+            <ns0:SP HPOS="999" VPOS="753" WIDTH="21"/>
+            <ns0:String CONTENT="und" HEIGHT="24" HPOS="1021" VPOS="748" WC="0.5233333111" WIDTH="52"/>
+            <ns0:SP HPOS="1074" VPOS="748" WIDTH="19"/>
+            <ns0:String CONTENT="zweien" HEIGHT="30" HPOS="1094" VPOS="749" WC="0.521666646" WIDTH="95"/>
+            <ns0:SP HPOS="1190" VPOS="756" WIDTH="19"/>
+            <ns0:String CONTENT="ad-" HEIGHT="26" HPOS="1210" VPOS="748" WC="0.9399999976" WIDTH="48"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="35" HPOS="177" VPOS="786" WIDTH="1080">
+            <ns0:String CONTENT="hibirten" HEIGHT="27" HPOS="177" VPOS="788" WC="0.4012500048" WIDTH="127"/>
+            <ns0:SP HPOS="305" VPOS="788" WIDTH="18"/>
+            <ns0:String CONTENT="Hofesmanncrn" HEIGHT="32" HPOS="324" VPOS="787" WC="0.6791666746" WIDTH="214"/>
+            <ns0:SP HPOS="539" VPOS="786" WIDTH="21"/>
+            <ns0:String CONTENT="Gutachten" HEIGHT="28" HPOS="561" VPOS="786" WC="0.5766666532" WIDTH="146"/>
+            <ns0:SP HPOS="708" VPOS="794" WIDTH="18"/>
+            <ns0:String CONTENT="assigniret," HEIGHT="32" HPOS="727" VPOS="787" WC="0.7427272797" WIDTH="152"/>
+            <ns0:SP HPOS="880" VPOS="795" WIDTH="24"/>
+            <ns0:String CONTENT="und" HEIGHT="25" HPOS="905" VPOS="789" WC="0.6333333254" WIDTH="53"/>
+            <ns0:SP HPOS="959" VPOS="789" WIDTH="18"/>
+            <ns0:String CONTENT="den" HEIGHT="26" HPOS="978" VPOS="789" WC="0.5266666412" WIDTH="46"/>
+            <ns0:SP HPOS="1025" VPOS="796" WIDTH="21"/>
+            <ns0:String CONTENT="rechten" HEIGHT="32" HPOS="1047" VPOS="789" WC="0.6928571463" WIDTH="97"/>
+            <ns0:SP HPOS="1145" VPOS="792" WIDTH="23"/>
+            <ns0:String CONTENT="Erben" HEIGHT="27" HPOS="1169" VPOS="792" WC="0.4580000043" WIDTH="88"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="39" HPOS="176" VPOS="828" WIDTH="1082">
+            <ns0:String CONTENT="zum" HEIGHT="27" HPOS="176" VPOS="840" WC="0.7099999785" WIDTH="61"/>
+            <ns0:SP HPOS="238" VPOS="832" WIDTH="18"/>
+            <ns0:String CONTENT="Gebrauch" HEIGHT="33" HPOS="257" VPOS="828" WC="0.7737500072" WIDTH="134"/>
+            <ns0:SP HPOS="392" VPOS="828" WIDTH="19"/>
+            <ns0:String CONTENT="angebohrnen" HEIGHT="32" HPOS="412" VPOS="829" WC="0.5254545212" WIDTH="186"/>
+            <ns0:SP HPOS="599" VPOS="830" WIDTH="17"/>
+            <ns0:String CONTENT="Erbpachtrechtes" HEIGHT="33" HPOS="617" VPOS="828" WC="0.6686666608" WIDTH="227"/>
+            <ns0:SP HPOS="845" VPOS="834" WIDTH="25"/>
+            <ns0:String CONTENT="aufgeholfen" HEIGHT="31" HPOS="871" VPOS="833" WC="0.4499999881" WIDTH="166"/>
+            <ns0:SP HPOS="1038" VPOS="840" WIDTH="26"/>
+            <ns0:String CONTENT="werden" HEIGHT="25" HPOS="1065" VPOS="836" WC="0.5833333135" WIDTH="101"/>
+            <ns0:SP HPOS="1167" VPOS="842" WIDTH="19"/>
+            <ns0:String CONTENT="mu&#xDF;," HEIGHT="30" HPOS="1187" VPOS="836" WC="0.5500000119" WIDTH="71"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="35" HPOS="177" VPOS="871" WIDTH="1081">
+            <ns0:String CONTENT="den" HEIGHT="26" HPOS="177" VPOS="878" WC="0.296666652" WIDTH="49"/>
+            <ns0:SP HPOS="227" VPOS="875" WIDTH="22"/>
+            <ns0:String CONTENT="Hof" HEIGHT="32" HPOS="250" VPOS="874" WC="0.8600000143" WIDTH="55"/>
+            <ns0:SP HPOS="306" VPOS="874" WIDTH="24"/>
+            <ns0:String CONTENT="zu" HEIGHT="26" HPOS="331" VPOS="880" WC="0.5249999762" WIDTH="30"/>
+            <ns0:SP HPOS="362" VPOS="873" WIDTH="29"/>
+            <ns0:String CONTENT="bewohnen" HEIGHT="31" HPOS="392" VPOS="873" WC="0.4562500119" WIDTH="139"/>
+            <ns0:SP HPOS="532" VPOS="880" WIDTH="31"/>
+            <ns0:String CONTENT="und" HEIGHT="24" HPOS="564" VPOS="874" WC="0.3566666543" WIDTH="52"/>
+            <ns0:SP HPOS="617" VPOS="872" WIDTH="25"/>
+            <ns0:String CONTENT="Praestanda" HEIGHT="27" HPOS="643" VPOS="871" WC="0.449000001" WIDTH="176"/>
+            <ns0:SP HPOS="820" VPOS="880" WIDTH="24"/>
+            <ns0:String CONTENT="zu" HEIGHT="26" HPOS="845" VPOS="880" WC="0.4600000083" WIDTH="31"/>
+            <ns0:SP HPOS="877" VPOS="880" WIDTH="27"/>
+            <ns0:String CONTENT="prastiren." HEIGHT="32" HPOS="905" VPOS="874" WC="0.6090000272" WIDTH="140"/>
+            <ns0:SP HPOS="1046" VPOS="877" WIDTH="35"/>
+            <ns0:String CONTENT="Wann" HEIGHT="27" HPOS="1082" VPOS="877" WC="0.5274999738" WIDTH="90"/>
+            <ns0:SP HPOS="1173" VPOS="885" WIDTH="27"/>
+            <ns0:String CONTENT="eine" HEIGHT="27" HPOS="1201" VPOS="878" WC="0.4550000131" WIDTH="57"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="38" HPOS="177" VPOS="914" WIDTH="1080">
+            <ns0:String CONTENT="Hofessrau" HEIGHT="34" HPOS="177" VPOS="918" WC="0.676666677" WIDTH="146"/>
+            <ns0:SP HPOS="324" VPOS="922" WIDTH="19"/>
+            <ns0:String CONTENT="versiirbet;" HEIGHT="30" HPOS="344" VPOS="915" WC="0.3818181753" WIDTH="151"/>
+            <ns0:SP HPOS="496" VPOS="915" WIDTH="25"/>
+            <ns0:String CONTENT="So" HEIGHT="25" HPOS="522" VPOS="915" WC="0.2800000012" WIDTH="43"/>
+            <ns0:SP HPOS="566" VPOS="922" WIDTH="24"/>
+            <ns0:String CONTENT="geb&#xFC;hret" HEIGHT="34" HPOS="591" VPOS="914" WC="0.4074999988" WIDTH="125"/>
+            <ns0:SP HPOS="717" VPOS="917" WIDTH="20"/>
+            <ns0:String CONTENT="dem" HEIGHT="24" HPOS="738" VPOS="917" WC="0.4366666675" WIDTH="53"/>
+            <ns0:SP HPOS="792" VPOS="917" WIDTH="20"/>
+            <ns0:String CONTENT="Erbhofherrn" HEIGHT="33" HPOS="813" VPOS="915" WC="0.5690909028" WIDTH="182"/>
+            <ns0:SP HPOS="996" VPOS="921" WIDTH="25"/>
+            <ns0:String CONTENT="das" HEIGHT="24" HPOS="1022" VPOS="921" WC="0.8066666722" WIDTH="46"/>
+            <ns0:SP HPOS="1069" VPOS="920" WIDTH="22"/>
+            <ns0:String CONTENT="beste" HEIGHT="31" HPOS="1092" VPOS="920" WC="0.6039999723" WIDTH="62"/>
+            <ns0:SP HPOS="1155" VPOS="921" WIDTH="16"/>
+            <ns0:String CONTENT="Ober" HEIGHT="27" HPOS="1172" SUBS_CONTENT="Oberkleid," SUBS_TYPE="HypPart1" VPOS="921" WC="0.4774999917" WIDTH="72"/>
+            <ns0:HYP CONTENT="&#xAD;"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="36" HPOS="176" VPOS="959" WIDTH="1081">
+            <ns0:String CONTENT="kleid," HEIGHT="29" HPOS="176" SUBS_CONTENT="Oberkleid," SUBS_TYPE="HypPart2" VPOS="963" WC="0.4166666567" WIDTH="82"/>
+            <ns0:SP HPOS="259" VPOS="967" WIDTH="26"/>
+            <ns0:String CONTENT="welches" HEIGHT="30" HPOS="286" VPOS="959" WC="0.5557143092" WIDTH="103"/>
+            <ns0:SP HPOS="390" VPOS="962" WIDTH="24"/>
+            <ns0:String CONTENT="mit" HEIGHT="25" HPOS="415" VPOS="959" WC="0.3633333445" WIDTH="49"/>
+            <ns0:SP HPOS="465" VPOS="961" WIDTH="26"/>
+            <ns0:String CONTENT="3" HEIGHT="23" HPOS="492" VPOS="961" WC="1." WIDTH="16"/>
+            <ns0:SP HPOS="509" VPOS="961" WIDTH="18"/>
+            <ns0:String CONTENT="alte" HEIGHT="23" HPOS="528" VPOS="961" WC="0.5950000286" WIDTH="53"/>
+            <ns0:SP HPOS="582" VPOS="960" WIDTH="16"/>
+            <ns0:String CONTENT="Tornischen" HEIGHT="31" HPOS="599" VPOS="959" WC="0.523999989" WIDTH="157"/>
+            <ns0:SP HPOS="757" VPOS="966" WIDTH="27"/>
+            <ns0:String CONTENT="oder" HEIGHT="24" HPOS="785" VPOS="961" WC="0.3025000095" WIDTH="59"/>
+            <ns0:SP HPOS="845" VPOS="967" WIDTH="24"/>
+            <ns0:String CONTENT="mit" HEIGHT="24" HPOS="870" VPOS="961" WC="0.6499999762" WIDTH="49"/>
+            <ns0:SP HPOS="920" VPOS="962" WIDTH="21"/>
+            <ns0:String CONTENT="1" HEIGHT="23" HPOS="942" VPOS="962" WC="1." WIDTH="13"/>
+            <ns0:SP HPOS="956" VPOS="962" WIDTH="13"/>
+            <ns0:String CONTENT="1/2" HEIGHT="31" HPOS="970" STYLE="italics" STYLEREFS="font0" VPOS="960" WC="0.4333333373" WIDTH="41"/>
+            <ns0:SP HPOS="1012" VPOS="963" WIDTH="16"/>
+            <ns0:String CONTENT="Kopfst&#xFC;ck" HEIGHT="33" HPOS="1029" VPOS="962" WC="0.4155555665" WIDTH="134"/>
+            <ns0:SP HPOS="1164" VPOS="965" WIDTH="16"/>
+            <ns0:String CONTENT="redi-" HEIGHT="26" HPOS="1181" VPOS="964" WC="0.6460000277" WIDTH="76"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="177" VPOS="1001" WIDTH="1078">
+            <ns0:String CONTENT="miret" HEIGHT="27" HPOS="177" VPOS="1005" WC="0.4839999974" WIDTH="88"/>
+            <ns0:SP HPOS="266" VPOS="1008" WIDTH="21"/>
+            <ns0:String CONTENT="und" HEIGHT="24" HPOS="288" VPOS="1005" WC="0.5433333516" WIDTH="53"/>
+            <ns0:SP HPOS="342" VPOS="1003" WIDTH="21"/>
+            <ns0:String CONTENT="bezahlet" HEIGHT="32" HPOS="364" VPOS="1001" WC="0.4987500012" WIDTH="114"/>
+            <ns0:SP HPOS="479" VPOS="1003" WIDTH="25"/>
+            <ns0:String CONTENT="wird." HEIGHT="25" HPOS="505" VPOS="1002" WC="0.6200000048" WIDTH="74"/>
+            <ns0:SP HPOS="580" VPOS="1002" WIDTH="36"/>
+            <ns0:String CONTENT="Wan" HEIGHT="25" HPOS="617" VPOS="1002" WC="0.573333323" WIDTH="70"/>
+            <ns0:SP HPOS="688" VPOS="1010" WIDTH="24"/>
+            <ns0:String CONTENT="eine" HEIGHT="25" HPOS="713" VPOS="1002" WC="0.4675000012" WIDTH="54"/>
+            <ns0:SP HPOS="768" VPOS="1002" WIDTH="22"/>
+            <ns0:String CONTENT="Hofesfrau" HEIGHT="32" HPOS="791" VPOS="1002" WC="0.6100000143" WIDTH="146"/>
+            <ns0:SP HPOS="938" VPOS="1010" WIDTH="25"/>
+            <ns0:String CONTENT="ohne" HEIGHT="30" HPOS="964" VPOS="1004" WC="0.5024999976" WIDTH="64"/>
+            <ns0:SP HPOS="1029" VPOS="1006" WIDTH="23"/>
+            <ns0:String CONTENT="Hinterlassung" HEIGHT="35" HPOS="1053" VPOS="1006" WC="0.5884615183" WIDTH="202"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="179" VPOS="1043" WIDTH="1078">
+            <ns0:String CONTENT="ehelicher" HEIGHT="36" HPOS="179" VPOS="1046" WC="0.5488888621" WIDTH="119"/>
+            <ns0:SP HPOS="299" VPOS="1045" WIDTH="18"/>
+            <ns0:String CONTENT="T&#xF6;chter" HEIGHT="32" HPOS="318" VPOS="1043" WC="0.4657142758" WIDTH="109"/>
+            <ns0:SP HPOS="428" VPOS="1050" WIDTH="22"/>
+            <ns0:String CONTENT="verstirbet," HEIGHT="30" HPOS="451" VPOS="1044" WC="0.4727272689" WIDTH="149"/>
+            <ns0:SP HPOS="601" VPOS="1045" WIDTH="23"/>
+            <ns0:String CONTENT="dann" HEIGHT="25" HPOS="625" VPOS="1045" WC="0.5824999809" WIDTH="69"/>
+            <ns0:SP HPOS="695" VPOS="1051" WIDTH="21"/>
+            <ns0:String CONTENT="erbet" HEIGHT="25" HPOS="717" VPOS="1045" WC="0.6560000181" WIDTH="69"/>
+            <ns0:SP HPOS="787" VPOS="1046" WIDTH="16"/>
+            <ns0:String CONTENT="das" HEIGHT="23" HPOS="804" VPOS="1046" WC="0.8133333325" WIDTH="46"/>
+            <ns0:SP HPOS="851" VPOS="1045" WIDTH="19"/>
+            <ns0:String CONTENT="Gerade" HEIGHT="25" HPOS="871" VPOS="1045" WC="0.6616666913" WIDTH="101"/>
+            <ns0:SP HPOS="973" VPOS="1046" WIDTH="19"/>
+            <ns0:String CONTENT="davon" HEIGHT="27" HPOS="993" VPOS="1046" WC="0.574000001" WIDTH="86"/>
+            <ns0:SP HPOS="1080" VPOS="1048" WIDTH="18"/>
+            <ns0:String CONTENT="ins" HEIGHT="27" HPOS="1099" VPOS="1048" WC="0.5333333611" WIDTH="43"/>
+            <ns0:SP HPOS="1143" VPOS="1051" WIDTH="17"/>
+            <ns0:String CONTENT="Hofes" HEIGHT="32" HPOS="1161" SUBS_CONTENT="Hofesrecht" SUBS_TYPE="HypPart1" VPOS="1051" WC="0.5080000162" WIDTH="82"/>
+            <ns0:HYP CONTENT="&#xAD;"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="37" HPOS="176" VPOS="1085" WIDTH="1080">
+            <ns0:String CONTENT="recht" HEIGHT="27" HPOS="176" SUBS_CONTENT="Hofesrecht" SUBS_TYPE="HypPart2" VPOS="1093" WC="0.4280000031" WIDTH="69"/>
+            <ns0:SP HPOS="246" VPOS="1092" WIDTH="18"/>
+            <ns0:String CONTENT="befindliche" HEIGHT="35" HPOS="265" VPOS="1086" WC="0.349090904" WIDTH="142"/>
+            <ns0:SP HPOS="408" VPOS="1095" WIDTH="20"/>
+            <ns0:String CONTENT="n&#xE4;chste" HEIGHT="33" HPOS="429" VPOS="1085" WC="0.4457142949" WIDTH="94"/>
+            <ns0:SP HPOS="524" VPOS="1095" WIDTH="17"/>
+            <ns0:String CONTENT="cognata" HEIGHT="29" HPOS="542" VPOS="1091" WC="0.8928571343" WIDTH="120"/>
+            <ns0:SP HPOS="663" VPOS="1094" WIDTH="19"/>
+            <ns0:String CONTENT="und" HEIGHT="23" HPOS="683" VPOS="1088" WC="0.7533333302" WIDTH="51"/>
+            <ns0:SP HPOS="735" VPOS="1088" WIDTH="12"/>
+            <ns0:String CONTENT="wann" HEIGHT="19" HPOS="748" VPOS="1093" WC="0.7149999738" WIDTH="78"/>
+            <ns0:SP HPOS="827" VPOS="1087" WIDTH="21"/>
+            <ns0:String CONTENT="schon" HEIGHT="31" HPOS="849" VPOS="1086" WC="0.5600000024" WIDTH="70"/>
+            <ns0:SP HPOS="920" VPOS="1089" WIDTH="18"/>
+            <ns0:String CONTENT="leibliche" HEIGHT="34" HPOS="939" VPOS="1088" WC="0.5188888907" WIDTH="111"/>
+            <ns0:SP HPOS="1051" VPOS="1091" WIDTH="13"/>
+            <ns0:String CONTENT="Mutter" HEIGHT="29" HPOS="1065" VPOS="1091" WC="0.6016666889" WIDTH="108"/>
+            <ns0:SP HPOS="1174" VPOS="1102" WIDTH="20"/>
+            <ns0:String CONTENT="oder" HEIGHT="25" HPOS="1195" VPOS="1097" WC="0.3925000131" WIDTH="61"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="39" HPOS="177" VPOS="1128" WIDTH="1079">
+            <ns0:String CONTENT="Schwester" HEIGHT="34" HPOS="177" VPOS="1133" WC="0.4822222292" WIDTH="143"/>
+            <ns0:SP HPOS="321" VPOS="1132" WIDTH="19"/>
+            <ns0:String CONTENT="h&#xE4;tte," HEIGHT="35" HPOS="341" VPOS="1129" WC="0.6216666698" WIDTH="86"/>
+            <ns0:SP HPOS="428" VPOS="1131" WIDTH="30"/>
+            <ns0:String CONTENT="so" HEIGHT="31" HPOS="459" VPOS="1131" WC="0.6600000262" WIDTH="24"/>
+            <ns0:SP HPOS="484" VPOS="1138" WIDTH="25"/>
+            <ns0:String CONTENT="nicht" HEIGHT="32" HPOS="510" VPOS="1129" WC="0.6539999843" WIDTH="66"/>
+            <ns0:SP HPOS="577" VPOS="1130" WIDTH="18"/>
+            <ns0:String CONTENT="ins" HEIGHT="25" HPOS="596" VPOS="1130" WC="0.7566666603" WIDTH="43"/>
+            <ns0:SP HPOS="640" VPOS="1130" WIDTH="18"/>
+            <ns0:String CONTENT="Hofesrecht" HEIGHT="33" HPOS="659" VPOS="1128" WC="0.5619999766" WIDTH="152"/>
+            <ns0:SP HPOS="812" VPOS="1130" WIDTH="17"/>
+            <ns0:String CONTENT="bestehen," HEIGHT="32" HPOS="830" VPOS="1130" WC="0.5" WIDTH="127"/>
+            <ns0:SP HPOS="958" VPOS="1134" WIDTH="25"/>
+            <ns0:String CONTENT="so" HEIGHT="30" HPOS="984" VPOS="1134" WC="0.5600000024" WIDTH="25"/>
+            <ns0:SP HPOS="1010" VPOS="1141" WIDTH="22"/>
+            <ns0:String CONTENT="excludiret" HEIGHT="28" HPOS="1033" VPOS="1135" WC="0.6859999895" WIDTH="159"/>
+            <ns0:SP HPOS="1193" VPOS="1142" WIDTH="16"/>
+            <ns0:String CONTENT="re-" HEIGHT="17" HPOS="1210" VPOS="1147" WC="0.9066666961" WIDTH="46"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="42" HPOS="175" VPOS="1171" WIDTH="1080">
+            <ns0:String CONTENT="motior" HEIGHT="29" HPOS="175" VPOS="1179" WC="0.5450000167" WIDTH="109"/>
+            <ns0:SP HPOS="285" VPOS="1185" WIDTH="17"/>
+            <ns0:String CONTENT="cognata" HEIGHT="32" HPOS="303" VPOS="1179" WC="0.7957142591" WIDTH="120"/>
+            <ns0:SP HPOS="424" VPOS="1174" WIDTH="17"/>
+            <ns0:String CONTENT="ins" HEIGHT="26" HPOS="442" VPOS="1174" WC="0.7966666818" WIDTH="43"/>
+            <ns0:SP HPOS="486" VPOS="1172" WIDTH="18"/>
+            <ns0:String CONTENT="Hofesrecht," HEIGHT="36" HPOS="505" VPOS="1171" WC="0.5563636422" WIDTH="166"/>
+            <ns0:SP HPOS="672" VPOS="1174" WIDTH="27"/>
+            <ns0:String CONTENT="die" HEIGHT="27" HPOS="700" VPOS="1173" WC="0.3100000024" WIDTH="38"/>
+            <ns0:SP HPOS="739" VPOS="1181" WIDTH="23"/>
+            <ns0:String CONTENT="au&#xDF;er" HEIGHT="33" HPOS="763" VPOS="1173" WC="0.5920000076" WIDTH="81"/>
+            <ns0:SP HPOS="845" VPOS="1177" WIDTH="24"/>
+            <ns0:String CONTENT="dem" HEIGHT="26" HPOS="870" VPOS="1177" WC="0.5933333039" WIDTH="53"/>
+            <ns0:SP HPOS="924" VPOS="1177" WIDTH="17"/>
+            <ns0:String CONTENT="Hofesrecht" HEIGHT="33" HPOS="942" VPOS="1177" WC="0.5649999976" WIDTH="152"/>
+            <ns0:SP HPOS="1095" VPOS="1181" WIDTH="18"/>
+            <ns0:String CONTENT="befundene" HEIGHT="32" HPOS="1114" VPOS="1181" WC="0.453333348" WIDTH="141"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="41" HPOS="174" VPOS="1217" WIDTH="1081">
+            <ns0:String CONTENT="Proximiores" HEIGHT="31" HPOS="174" VPOS="1220" WC="0.4509090781" WIDTH="196"/>
+            <ns0:SP HPOS="371" VPOS="1219" WIDTH="19"/>
+            <ns0:String CONTENT="heredes" HEIGHT="26" HPOS="391" VPOS="1217" WC="0.4857142866" WIDTH="121"/>
+            <ns0:SP HPOS="513" VPOS="1225" WIDTH="23"/>
+            <ns0:String CONTENT="aus" HEIGHT="23" HPOS="537" VPOS="1221" WC="1." WIDTH="49"/>
+            <ns0:SP HPOS="587" VPOS="1221" WIDTH="23"/>
+            <ns0:String CONTENT="vorgemelten" HEIGHT="31" HPOS="611" VPOS="1220" WC="0.4690909088" WIDTH="177"/>
+            <ns0:SP HPOS="789" VPOS="1223" WIDTH="18"/>
+            <ns0:String CONTENT="Ursachen" HEIGHT="33" HPOS="808" VPOS="1219" WC="0.7300000191" WIDTH="120"/>
+            <ns0:SP HPOS="929" VPOS="1223" WIDTH="28"/>
+            <ns0:String CONTENT="da&#xDF;" HEIGHT="30" HPOS="958" VPOS="1222" WC="0.6733333468" WIDTH="46"/>
+            <ns0:SP HPOS="1005" VPOS="1222" WIDTH="26"/>
+            <ns0:String CONTENT="au&#xDF;erm" HEIGHT="29" HPOS="1032" VPOS="1224" WC="0.5283333063" WIDTH="107"/>
+            <ns0:SP HPOS="1140" VPOS="1226" WIDTH="17"/>
+            <ns0:String CONTENT="Hoses-" HEIGHT="32" HPOS="1158" VPOS="1226" WC="0.4933333397" WIDTH="97"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="39" HPOS="174" VPOS="1261" WIDTH="1079">
+            <ns0:String CONTENT="recht" HEIGHT="29" HPOS="174" VPOS="1269" WC="0.5220000148" WIDTH="68"/>
+            <ns0:SP HPOS="243" VPOS="1267" WIDTH="18"/>
+            <ns0:String CONTENT="Pentling" HEIGHT="34" HPOS="262" TAGREFS="LOC1" VPOS="1265" WC="0.5649999976" WIDTH="127"/>
+            <ns0:SP HPOS="390" VPOS="1271" WIDTH="20"/>
+            <ns0:String CONTENT="an" HEIGHT="18" HPOS="411" VPOS="1271" WC="0.6549999714" WIDTH="32"/>
+            <ns0:SP HPOS="444" VPOS="1265" WIDTH="21"/>
+            <ns0:String CONTENT="die," HEIGHT="30" HPOS="466" VPOS="1263" WC="0.3700000048" WIDTH="53"/>
+            <ns0:SP HPOS="520" VPOS="1264" WIDTH="26"/>
+            <ns0:String CONTENT="so" HEIGHT="30" HPOS="547" VPOS="1264" WC="0.3849999905" WIDTH="25"/>
+            <ns0:SP HPOS="573" VPOS="1269" WIDTH="20"/>
+            <ns0:String CONTENT="nicht" HEIGHT="33" HPOS="594" VPOS="1261" WC="0.7480000257" WIDTH="67"/>
+            <ns0:SP HPOS="662" VPOS="1263" WIDTH="19"/>
+            <ns0:String CONTENT="im" HEIGHT="26" HPOS="682" VPOS="1263" WC="0.2849999964" WIDTH="34"/>
+            <ns0:SP HPOS="717" VPOS="1265" WIDTH="19"/>
+            <ns0:String CONTENT="Pentlingschen" HEIGHT="31" HPOS="737" VPOS="1264" WC="0.5753846169" WIDTH="198"/>
+            <ns0:SP HPOS="936" VPOS="1265" WIDTH="18"/>
+            <ns0:String CONTENT="Hofeseigenthum" HEIGHT="35" HPOS="955" VPOS="1265" WC="0.5635714531" WIDTH="235"/>
+            <ns0:SP HPOS="1191" VPOS="1271" WIDTH="20"/>
+            <ns0:String CONTENT="be" HEIGHT="24" HPOS="1212" SUBS_CONTENT="bestehen," SUBS_TYPE="HypPart1" VPOS="1271" WC="0.5049999952" WIDTH="27"/>
+            <ns0:HYP CONTENT="&#xAD;"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="39" HPOS="173" VPOS="1306" WIDTH="1078">
+            <ns0:String CONTENT="stehen," HEIGHT="33" HPOS="173" SUBS_CONTENT="bestehen," SUBS_TYPE="HypPart2" VPOS="1312" WC="0.5114285946" WIDTH="102"/>
+            <ns0:SP HPOS="276" VPOS="1317" WIDTH="18"/>
+            <ns0:String CONTENT="nichts" HEIGHT="32" HPOS="295" VPOS="1308" WC="0.6233333349" WIDTH="82"/>
+            <ns0:SP HPOS="378" VPOS="1311" WIDTH="18"/>
+            <ns0:String CONTENT="verabfallet" HEIGHT="38" HPOS="397" VPOS="1306" WC="0.7136363387" WIDTH="156"/>
+            <ns0:SP HPOS="554" VPOS="1309" WIDTH="20"/>
+            <ns0:String CONTENT="und" HEIGHT="25" HPOS="575" VPOS="1307" WC="0.75" WIDTH="52"/>
+            <ns0:SP HPOS="628" VPOS="1307" WIDTH="18"/>
+            <ns0:String CONTENT="ausgefolget" HEIGHT="31" HPOS="647" VPOS="1307" WC="0.4963636398" WIDTH="168"/>
+            <ns0:SP HPOS="816" VPOS="1308" WIDTH="20"/>
+            <ns0:String CONTENT="werde," HEIGHT="30" HPOS="837" VPOS="1309" WC="0.5266666412" WIDTH="91"/>
+            <ns0:SP HPOS="929" VPOS="1309" WIDTH="20"/>
+            <ns0:String CONTENT="sondern" HEIGHT="30" HPOS="950" VPOS="1309" WC="0.4714285731" WIDTH="110"/>
+            <ns0:SP HPOS="1061" VPOS="1312" WIDTH="19"/>
+            <ns0:String CONTENT="das" HEIGHT="25" HPOS="1081" VPOS="1312" WC="0.7566666603" WIDTH="46"/>
+            <ns0:SP HPOS="1128" VPOS="1312" WIDTH="18"/>
+            <ns0:String CONTENT="Gerade" HEIGHT="28" HPOS="1147" VPOS="1312" WC="0.5816666484" WIDTH="104"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="39" HPOS="173" VPOS="1349" WIDTH="1077">
+            <ns0:String CONTENT="nach" HEIGHT="33" HPOS="173" VPOS="1355" WC="0.8125" WIDTH="61"/>
+            <ns0:SP HPOS="235" VPOS="1354" WIDTH="23"/>
+            <ns0:String CONTENT="Amts" HEIGHT="27" HPOS="259" VPOS="1354" WC="0.7475000024" WIDTH="76"/>
+            <ns0:SP HPOS="336" VPOS="1353" WIDTH="25"/>
+            <ns0:String CONTENT="Hamm" HEIGHT="31" HPOS="362" TAGREFS="LOC2" VPOS="1353" WC="0.5699999928" WIDTH="95"/>
+            <ns0:SP HPOS="458" VPOS="1350" WIDTH="26"/>
+            <ns0:String CONTENT="Gewohnheit" HEIGHT="33" HPOS="485" VPOS="1349" WC="0.423999995" WIDTH="176"/>
+            <ns0:SP HPOS="662" VPOS="1351" WIDTH="25"/>
+            <ns0:String CONTENT="die" HEIGHT="26" HPOS="688" VPOS="1349" WC="0.5266666412" WIDTH="38"/>
+            <ns0:SP HPOS="727" VPOS="1349" WIDTH="26"/>
+            <ns0:String CONTENT="im" HEIGHT="26" HPOS="754" VPOS="1349" WC="0.625" WIDTH="35"/>
+            <ns0:SP HPOS="790" VPOS="1349" WIDTH="25"/>
+            <ns0:String CONTENT="Hofesrecht" HEIGHT="33" HPOS="816" VPOS="1349" WC="0.5820000172" WIDTH="151"/>
+            <ns0:SP HPOS="968" VPOS="1355" WIDTH="27"/>
+            <ns0:String CONTENT="Pentling" HEIGHT="33" HPOS="996" TAGREFS="LOC1" VPOS="1355" WC="0.6600000262" WIDTH="128"/>
+            <ns0:SP HPOS="1125" VPOS="1363" WIDTH="29"/>
+            <ns0:String CONTENT="n&#xE4;chste" HEIGHT="35" HPOS="1155" VPOS="1353" WC="0.6214285493" WIDTH="95"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="171" VPOS="1392" WIDTH="1078">
+            <ns0:String CONTENT="Wlutsverwantinnen," HEIGHT="31" HPOS="171" VPOS="1395" WC="0.5388888717" WIDTH="309"/>
+            <ns0:SP HPOS="481" VPOS="1401" WIDTH="20"/>
+            <ns0:String CONTENT="oder" HEIGHT="24" HPOS="502" VPOS="1395" WC="0.4074999988" WIDTH="58"/>
+            <ns0:SP HPOS="561" VPOS="1393" WIDTH="18"/>
+            <ns0:String CONTENT="Erbhof-Gerichtsherr" HEIGHT="34" HPOS="580" VPOS="1392" WC="0.582631588" WIDTH="316"/>
+            <ns0:SP HPOS="897" VPOS="1396" WIDTH="16"/>
+            <ns0:String CONTENT="Hofes" HEIGHT="33" HPOS="914" TAGREFS="PER4" VPOS="1396" WC="0.5019999743" WIDTH="82"/>
+            <ns0:SP HPOS="997" VPOS="1398" WIDTH="21"/>
+            <ns0:String CONTENT="Pentling" HEIGHT="34" HPOS="1019" TAGREFS="PER4" VPOS="1398" WC="0.5337499976" WIDTH="129"/>
+            <ns0:SP HPOS="1149" VPOS="1407" WIDTH="19"/>
+            <ns0:String CONTENT="erbet." HEIGHT="29" HPOS="1169" VPOS="1400" WC="0.473333329" WIDTH="80"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="31" HPOS="172" VPOS="1438" WIDTH="243">
+            <ns0:String CONTENT="In" HEIGHT="25" HPOS="172" VPOS="1442" WC="0.6100000143" WIDTH="35"/>
+            <ns0:SP HPOS="208" VPOS="1441" WIDTH="17"/>
+            <ns0:String CONTENT="Dorso" HEIGHT="23" HPOS="226" VPOS="1441" WC="0.5199999809" WIDTH="95"/>
+            <ns0:SP HPOS="322" VPOS="1438" WIDTH="21"/>
+            <ns0:String CONTENT="steht." HEIGHT="31" HPOS="344" VPOS="1438" WC="0.5550000072" WIDTH="71"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="40" HPOS="207" VPOS="1478" WIDTH="1040">
+            <ns0:String CONTENT="Gerechtigkeiten" HEIGHT="32" HPOS="207" VPOS="1481" WC="0.4586666524" WIDTH="220"/>
+            <ns0:SP HPOS="428" VPOS="1480" WIDTH="19"/>
+            <ns0:String CONTENT="des" HEIGHT="25" HPOS="448" VPOS="1480" WC="0.7799999714" WIDTH="42"/>
+            <ns0:SP HPOS="491" VPOS="1480" WIDTH="10"/>
+            <ns0:String CONTENT="Hofs" HEIGHT="31" HPOS="502" TAGREFS="LOC5" VPOS="1480" WC="0.6899999976" WIDTH="68"/>
+            <ns0:SP HPOS="571" VPOS="1480" WIDTH="13"/>
+            <ns0:String CONTENT="Pentling," HEIGHT="32" HPOS="585" TAGREFS="LOC5" VPOS="1479" WC="0.527777791" WIDTH="140"/>
+            <ns0:SP HPOS="726" VPOS="1480" WIDTH="20"/>
+            <ns0:String CONTENT="so" HEIGHT="30" HPOS="747" VPOS="1480" WC="0.5350000262" WIDTH="25"/>
+            <ns0:SP HPOS="773" VPOS="1480" WIDTH="20"/>
+            <ns0:String CONTENT="den" HEIGHT="26" HPOS="794" VPOS="1480" WC="0.4399999976" WIDTH="45"/>
+            <ns0:SP HPOS="840" VPOS="1478" WIDTH="19"/>
+            <ns0:String CONTENT="4." HEIGHT="28" HPOS="860" VPOS="1478" WC="0.6549999714" WIDTH="25"/>
+            <ns0:SP HPOS="886" VPOS="1481" WIDTH="9"/>
+            <ns0:String CONTENT="Nov." HEIGHT="28" HPOS="896" VPOS="1481" WC="0.7049999833" WIDTH="72"/>
+            <ns0:SP HPOS="969" VPOS="1484" WIDTH="17"/>
+            <ns0:String CONTENT="1713" HEIGHT="26" HPOS="987" VPOS="1484" WC="0.7099999785" WIDTH="66"/>
+            <ns0:SP HPOS="1054" VPOS="1485" WIDTH="16"/>
+            <ns0:String CONTENT="zu" HEIGHT="24" HPOS="1071" VPOS="1491" WC="0.5249999762" WIDTH="31"/>
+            <ns0:SP HPOS="1103" VPOS="1486" WIDTH="14"/>
+            <ns0:String CONTENT="Pentling" HEIGHT="32" HPOS="1118" TAGREFS="LOC1" VPOS="1486" WC="0.3899999857" WIDTH="129"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="41" HPOS="259" VPOS="1523" WIDTH="986">
+            <ns0:String CONTENT="bei" HEIGHT="27" HPOS="259" VPOS="1525" WC="0.2899999917" WIDTH="39"/>
+            <ns0:SP HPOS="299" VPOS="1525" WIDTH="16"/>
+            <ns0:String CONTENT="abgehaltenem" HEIGHT="34" HPOS="316" VPOS="1523" WC="0.4933333397" WIDTH="193"/>
+            <ns0:SP HPOS="510" VPOS="1523" WIDTH="18"/>
+            <ns0:String CONTENT="Hofgericht" HEIGHT="33" HPOS="529" VPOS="1523" WC="0.4970000088" WIDTH="151"/>
+            <ns0:SP HPOS="681" VPOS="1524" WIDTH="15"/>
+            <ns0:String CONTENT="denen" HEIGHT="26" HPOS="697" VPOS="1524" WC="0.3860000074" WIDTH="79"/>
+            <ns0:SP HPOS="777" VPOS="1530" WIDTH="17"/>
+            <ns0:String CONTENT="versammelten" HEIGHT="32" HPOS="795" VPOS="1524" WC="0.5583333373" WIDTH="195"/>
+            <ns0:SP HPOS="991" VPOS="1528" WIDTH="16"/>
+            <ns0:String CONTENT="Hofesleuten" HEIGHT="32" HPOS="1008" VPOS="1528" WC="0.4945454597" WIDTH="174"/>
+            <ns0:SP HPOS="1183" VPOS="1530" WIDTH="19"/>
+            <ns0:String CONTENT="sich" HEIGHT="35" HPOS="1203" VPOS="1529" WC="0.5625" WIDTH="42"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="35" HPOS="256" VPOS="1565" WIDTH="456">
+            <ns0:String CONTENT="darnach" HEIGHT="31" HPOS="256" VPOS="1566" WC="0.5928571224" WIDTH="108"/>
+            <ns0:SP HPOS="365" VPOS="1566" WIDTH="19"/>
+            <ns0:String CONTENT="zu" HEIGHT="26" HPOS="385" VPOS="1573" WC="0.7699999809" WIDTH="29"/>
+            <ns0:SP HPOS="415" VPOS="1573" WIDTH="18"/>
+            <ns0:String CONTENT="richten" HEIGHT="32" HPOS="434" VPOS="1565" WC="0.4328571558" WIDTH="95"/>
+            <ns0:SP HPOS="530" VPOS="1573" WIDTH="18"/>
+            <ns0:String CONTENT="publicirct." HEIGHT="34" HPOS="549" VPOS="1566" WC="0.7218182087" WIDTH="163"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="39" HPOS="203" VPOS="1609" WIDTH="1042">
+            <ns0:String CONTENT="Item" HEIGHT="30" HPOS="203" VPOS="1618" WC="0.6150000095" WIDTH="75"/>
+            <ns0:SP HPOS="279" VPOS="1614" WIDTH="20"/>
+            <ns0:String CONTENT="diese" HEIGHT="30" HPOS="300" VPOS="1612" WC="0.6000000238" WIDTH="61"/>
+            <ns0:SP HPOS="362" VPOS="1610" WIDTH="16"/>
+            <ns0:String CONTENT="Ordnung" HEIGHT="31" HPOS="379" VPOS="1610" WC="0.5257142782" WIDTH="134"/>
+            <ns0:SP HPOS="514" VPOS="1617" WIDTH="20"/>
+            <ns0:String CONTENT="und" HEIGHT="23" HPOS="535" VPOS="1612" WC="0.5433333516" WIDTH="51"/>
+            <ns0:SP HPOS="587" VPOS="1611" WIDTH="13"/>
+            <ns0:String CONTENT="Hofesgerechtigkeit" HEIGHT="34" HPOS="601" VPOS="1609" WC="0.5211111307" WIDTH="264"/>
+            <ns0:SP HPOS="866" VPOS="1613" WIDTH="17"/>
+            <ns0:String CONTENT="den" HEIGHT="25" HPOS="884" VPOS="1613" WC="0.5233333111" WIDTH="46"/>
+            <ns0:SP HPOS="931" VPOS="1616" WIDTH="21"/>
+            <ns0:String CONTENT="18." HEIGHT="25" HPOS="953" VPOS="1616" WC="1." WIDTH="40"/>
+            <ns0:SP HPOS="994" VPOS="1616" WIDTH="14"/>
+            <ns0:String CONTENT="Julii" HEIGHT="29" HPOS="1009" VPOS="1615" WC="0.476000011" WIDTH="74"/>
+            <ns0:SP HPOS="1084" VPOS="1615" WIDTH="18"/>
+            <ns0:String CONTENT="1718" HEIGHT="25" HPOS="1103" VPOS="1618" WC="0.6449999809" WIDTH="65"/>
+            <ns0:SP HPOS="1169" VPOS="1618" WIDTH="20"/>
+            <ns0:String CONTENT="dem" HEIGHT="25" HPOS="1190" VPOS="1618" WC="0.349999994" WIDTH="55"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="42" HPOS="254" VPOS="1652" WIDTH="993">
+            <ns0:String CONTENT="Hause" HEIGHT="35" HPOS="254" VPOS="1657" WC="0.6980000138" WIDTH="84"/>
+            <ns0:SP HPOS="339" VPOS="1655" WIDTH="17"/>
+            <ns0:String CONTENT="Hilbeck" HEIGHT="34" HPOS="357" TAGREFS="LOC7" VPOS="1653" WC="0.4199999869" WIDTH="101"/>
+            <ns0:SP HPOS="459" VPOS="1653" WIDTH="19"/>
+            <ns0:String CONTENT="denen" HEIGHT="26" HPOS="479" VPOS="1654" WC="0.5220000148" WIDTH="78"/>
+            <ns0:SP HPOS="558" VPOS="1655" WIDTH="19"/>
+            <ns0:String CONTENT="daselbst" HEIGHT="33" HPOS="578" VPOS="1652" WC="0.5600000024" WIDTH="103"/>
+            <ns0:SP HPOS="682" VPOS="1652" WIDTH="18"/>
+            <ns0:String CONTENT="versammelten" HEIGHT="31" HPOS="701" VPOS="1656" WC="0.5199999809" WIDTH="195"/>
+            <ns0:SP HPOS="897" VPOS="1657" WIDTH="21"/>
+            <ns0:String CONTENT="Hofesleuten" HEIGHT="32" HPOS="919" VPOS="1657" WC="0.4699999988" WIDTH="173"/>
+            <ns0:SP HPOS="1093" VPOS="1665" WIDTH="18"/>
+            <ns0:String CONTENT="abermah" HEIGHT="35" HPOS="1112" SUBS_CONTENT="abermahlen" SUBS_TYPE="HypPart1" VPOS="1659" WC="0.7628571391" WIDTH="121"/>
+            <ns0:HYP CONTENT="&#xAD;"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="35" HPOS="257" VPOS="1699" WIDTH="215">
+            <ns0:String CONTENT="len" HEIGHT="25" HPOS="257" SUBS_CONTENT="abermahlen" SUBS_TYPE="HypPart2" VPOS="1704" WC="0.3866666555" WIDTH="42"/>
+            <ns0:SP HPOS="300" VPOS="1709" WIDTH="19"/>
+            <ns0:String CONTENT="publiciret." HEIGHT="35" HPOS="320" VPOS="1699" WC="0.5336363912" WIDTH="152"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="56" HPOS="475" STYLEREFS="font3" VPOS="1764" WIDTH="462">
+            <ns0:String CONTENT="Beilage" HEIGHT="56" HPOS="475" STYLE="bold" VPOS="1764" WC="0.4757142961" WIDTH="342"/>
+            <ns0:SP HPOS="818" VPOS="1770" WIDTH="42"/>
+            <ns0:String CONTENT="28" HEIGHT="42" HPOS="861" VPOS="1769" WC="0.400000006" WIDTH="62"/>
+            <ns0:String CONTENT="." HEIGHT="13" HPOS="926" STYLE="bold" VPOS="1799" WC="0.5500000119" WIDTH="11"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="44" HPOS="265" STYLEREFS="font2" VPOS="1840" WIDTH="887">
+            <ns0:String CONTENT="Lyffgewyns-Rechten" HEIGHT="41" HPOS="265" VPOS="1843" WC="0.5011110902" WIDTH="334"/>
+            <ns0:SP HPOS="600" VPOS="1844" WIDTH="22"/>
+            <ns0:String CONTENT="des" HEIGHT="31" HPOS="623" VPOS="1844" WC="0.6333333254" WIDTH="50"/>
+            <ns0:SP HPOS="674" VPOS="1841" WIDTH="21"/>
+            <ns0:String CONTENT="Bischops" HEIGHT="40" HPOS="696" VPOS="1841" WC="0.7475000024" WIDTH="141"/>
+            <ns0:SP HPOS="838" VPOS="1840" WIDTH="23"/>
+            <ns0:String CONTENT="Hoff" HEIGHT="43" HPOS="862" TAGREFS="PER8" VPOS="1840" WC="0.6600000262" WIDTH="76"/>
+            <ns0:SP HPOS="939" VPOS="1843" WIDTH="19"/>
+            <ns0:String CONTENT="tho" HEIGHT="37" HPOS="959" VPOS="1845" WC="0.896666646" WIDTH="48"/>
+            <ns0:SP HPOS="1008" VPOS="1843" WIDTH="21"/>
+            <ns0:String CONTENT="Tanten." HEIGHT="39" HPOS="1030" VPOS="1843" WC="0.4600000083" WIDTH="122"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="35" HPOS="592" STYLEREFS="font2" VPOS="1905" WIDTH="228">
+            <ns0:String CONTENT="L" HEIGHT="33" HPOS="592" TAGREFS="PER9" VPOS="1906" WC="0.7200000286" WIDTH="29"/>
+            <ns0:SP HPOS="622" VPOS="1906" WIDTH="14"/>
+            <ns0:String CONTENT="i" HEIGHT="33" HPOS="637" TAGREFS="PER9" VPOS="1906" WC="0.5799999833" WIDTH="10"/>
+            <ns0:SP HPOS="648" VPOS="1905" WIDTH="12"/>
+            <ns0:String CONTENT="b" HEIGHT="35" HPOS="661" TAGREFS="PER9" VPOS="1905" WC="0.25" WIDTH="25"/>
+            <ns0:SP HPOS="687" VPOS="1905" WIDTH="15"/>
+            <ns0:String CONTENT="e" HEIGHT="22" HPOS="703" TAGREFS="PER9" VPOS="1917" WC="1." WIDTH="18"/>
+            <ns0:SP HPOS="722" VPOS="1917" WIDTH="14"/>
+            <ns0:String CONTENT="r" HEIGHT="22" HPOS="737" TAGREFS="PER9" VPOS="1917" WC="1." WIDTH="18"/>
+            <ns0:SP HPOS="756" VPOS="1905" WIDTH="37"/>
+            <ns0:String CONTENT="1." HEIGHT="33" HPOS="794" VPOS="1905" WC="0.5950000286" WIDTH="26"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="35" HPOS="637" VPOS="1963" WIDTH="134">
+            <ns0:String CONTENT="Caput" HEIGHT="35" HPOS="637" VPOS="1963" WC="0.6019999981" WIDTH="92"/>
+            <ns0:SP HPOS="730" VPOS="1963" WIDTH="19"/>
+            <ns0:String CONTENT="I." HEIGHT="24" HPOS="750" VPOS="1963" WC="0.9549999833" WIDTH="21"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="38" HPOS="233" VPOS="2005" WIDTH="1011">
+            <ns0:String CONTENT="In" HEIGHT="31" HPOS="233" VPOS="2012" WC="0.6800000072" WIDTH="39"/>
+            <ns0:SP HPOS="273" VPOS="2011" WIDTH="25"/>
+            <ns0:String CONTENT="den" HEIGHT="26" HPOS="299" VPOS="2011" WC="0.3066666722" WIDTH="47"/>
+            <ns0:SP HPOS="347" VPOS="2009" WIDTH="18"/>
+            <ns0:String CONTENT="Naeme" HEIGHT="26" HPOS="366" VPOS="2009" WC="0.4560000002" WIDTH="97"/>
+            <ns0:SP HPOS="464" VPOS="2013" WIDTH="26"/>
+            <ns0:String CONTENT="on&#xDF;" HEIGHT="31" HPOS="491" VPOS="2007" WC="0.3600000143" WIDTH="49"/>
+            <ns0:SP HPOS="541" VPOS="2007" WIDTH="23"/>
+            <ns0:String CONTENT="lieuen" HEIGHT="26" HPOS="565" VPOS="2007" WC="0.3866666555" WIDTH="85"/>
+            <ns0:SP HPOS="651" VPOS="2009" WIDTH="21"/>
+            <ns0:String CONTENT="Heeren" HEIGHT="30" HPOS="673" VPOS="2009" WC="0.5466666818" WIDTH="100"/>
+            <ns0:SP HPOS="774" VPOS="2007" WIDTH="18"/>
+            <ns0:String CONTENT="Jhesu" HEIGHT="33" HPOS="793" TAGREFS="PER10" VPOS="2005" WC="0.476000011" WIDTH="81"/>
+            <ns0:SP HPOS="875" VPOS="2007" WIDTH="19"/>
+            <ns0:String CONTENT="Christi." HEIGHT="34" HPOS="895" TAGREFS="PER10" VPOS="2007" WC="0.4962500036" WIDTH="106"/>
+            <ns0:SP HPOS="1002" VPOS="2009" WIDTH="37"/>
+            <ns0:String CONTENT="Soe" HEIGHT="26" HPOS="1040" VPOS="2009" WC="0.4866666794" WIDTH="59"/>
+            <ns0:SP HPOS="1100" VPOS="2018" WIDTH="24"/>
+            <ns0:String CONTENT="als" HEIGHT="26" HPOS="1125" VPOS="2011" WC="0.8000000119" WIDTH="41"/>
+            <ns0:SP HPOS="1167" VPOS="2014" WIDTH="19"/>
+            <ns0:String CONTENT="men" HEIGHT="20" HPOS="1187" VPOS="2018" WC="0.2633333206" WIDTH="57"/>
+          </ns0:TextLine>
+          <ns0:TextLine HEIGHT="39" HPOS="164" VPOS="2050" WIDTH="1081">
+            <ns0:String CONTENT="in" HEIGHT="29" HPOS="164" STYLEREFS="font2" VPOS="2055" WC="0.2700000107" WIDTH="29"/>
+            <ns0:SP HPOS="194" VPOS="2056" WIDTH="19"/>
+            <ns0:String CONTENT="den" HEIGHT="27" HPOS="214" STYLEREFS="font2" VPOS="2056" WC="0.276666671" WIDTH="47"/>
+            <ns0:SP HPOS="262" VPOS="2062" WIDTH="18"/>
+            <ns0:String CONTENT="alsden" HEIGHT="28" HPOS="281" STYLEREFS="font2" VPOS="2054" WC="0.6683333516" WIDTH="91"/>
+            <ns0:SP HPOS="373" VPOS="2053" WIDTH="15"/>
+            <ns0:String CONTENT="Historien" HEIGHT="34" HPOS="389" VPOS="2051" WC="0.3077777922" WIDTH="134"/>
+            <ns0:SP HPOS="524" VPOS="2052" WIDTH="19"/>
+            <ns0:String CONTENT="die" HEIGHT="28" HPOS="544" VPOS="2051" WC="0.3000000119" WIDTH="38"/>
+            <ns0:SP HPOS="583" VPOS="2057" WIDTH="20"/>
+            <ns0:String CONTENT="van" HEIGHT="22" HPOS="604" STYLEREFS="font2" VPOS="2057" WC="0.6433333158" WIDTH="50"/>
+            <ns0:SP HPOS="655" VPOS="2058" WIDTH="17"/>
+            <ns0:String CONTENT="werden" HEIGHT="26" HPOS="673" VPOS="2054" WC="0.3916666806" WIDTH="102"/>
+            <ns0:SP HPOS="776" VPOS="2050" WIDTH="14"/>
+            <ns0:String CONTENT="sijn," HEIGHT="33" HPOS="791" VPOS="2050" WC="0.7620000243" WIDTH="57"/>
+            <ns0:SP HPOS="849" VPOS="2050" WIDTH="18"/>
+            <ns0:String CONTENT="jnd" HEIGHT="33" HPOS="868" VPOS="2050" WC="0.323333323" WIDTH="45"/>
+            <ns0:SP HPOS="914" VPOS="2053" WIDTH="16"/>
+            <ns0:String CONTENT="van" HEIGHT="22" HPOS="931" VPOS="2058" WC="0.7466666698" WIDTH="51"/>
+            <ns0:SP HPOS="983" VPOS="2060" WIDTH="19"/>
+            <ns0:String CONTENT="werden" HEIGHT="25" HPOS="1003" VPOS="2056" WC="0.4333333373" WIDTH="101"/>
+            <ns0:SP HPOS="1105" VPOS="2061" WIDTH="15"/>
+            <ns0:String CONTENT="gehalden" HEIGHT="37" HPOS="1121" VPOS="2052" WC="0.4774999917" WIDTH="124"/>
+          </ns0:TextLine>
+        </ns0:TextBlock>
+        <ns0:GraphicalElement HEIGHT="6" HPOS="558" ID="Page1_Block2" VPOS="1736" WIDTH="297"/>
+      </ns0:PrintSpace>
+    </ns0:Page>
+  </ns0:Layout>
+</ns0:alto>

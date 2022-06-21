@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://schema.ccs-gmbh.com/ALTO" xmlns:a="http://schema.ccs-gmbh.com/ALTO" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <a:Description>
+    <a:MeasurementUnit>mm10</a:MeasurementUnit>
+    <a:sourceImageInformation>
+      <a:fileName>F:\Batch SBB\dachklag_635359391_orig\00000003.tif</a:fileName>
+    </a:sourceImageInformation>
+    <a:OCRProcessing ID="ID_BIT_2e715125-c746-44e5-8667-e65f5d1646c8">
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:04</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Color Enhancement</a:processingStepDescription>
+        <a:processingStepSettings>ContrastR=0.5 ContrastG=0.5 ContrastB=0.5 GammaR=1.0 GammaG=1.0 GammaB=1.0 LuminanceR=0.5 LuminanceG=0.5 LuminanceB=0.5</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:04</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Rotation</a:processingStepDescription>
+        <a:processingStepSettings>Type=None Margins={Left=0.5 Right=0.5 Top=0.800000011920929 Bottom=0.5}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:04</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Binarisation</a:processingStepDescription>
+        <a:processingStepSettings>SourceBPP=24 Algorithm=Intensity based algorithm</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:08</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Cleaning</a:processingStepDescription>
+        <a:processingStepSettings>ContrastR=0.5 ContrastG=0.5 ContrastB=0.5 GammaR=1.0 GammaG=1.0 GammaB=1.0 LuminanceR=0.5 LuminanceG=0.5 LuminanceB=0.5</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:10</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Remove Dots</a:processingStepDescription>
+        <a:processingStepSettings>ContrastR=0.5 ContrastG=0.5 ContrastB=0.5 GammaR=1.0 GammaG=1.0 GammaB=1.0 LuminanceR=0.5 LuminanceG=0.5 LuminanceB=0.5</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:16</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Blackborder elimination</a:processingStepDescription>
+        <a:processingStepSettings>ContrastR=0.5 ContrastG=0.5 ContrastB=0.5 GammaR=1.0 GammaG=1.0 GammaB=1.0 LuminanceR=0.5 LuminanceG=0.5 LuminanceB=0.5</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:21</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Detection of horizonzal lines</a:processingStepDescription>
+        <a:processingStepSettings>ForceBitmap=true MaxThickness=0.5 MinThickness=0.0 MaxWhiteLength=0.1 MinBlackLength=0.9 MinTotalLength=2.0 Margins={Left=0.5 Right=0.5 Top=0.800000011920929 Bottom=0.5}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:23</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Detection of vertical lines</a:processingStepDescription>
+        <a:processingStepSettings>ForceBitmap=true MaxThickness=0.1 MinThickness=0.0 MaxWhiteLength=0.0 MinBlackLength=0.9 MinTotalLength=5.0 Margins={Left=0.5 Right=0.5 Top=0.800000011920929 Bottom=0.5}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:24</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Segmentation</a:processingStepDescription>
+        <a:processingStepSettings>MinHeight=0.1 MinWidth=0.1 MinVertDist=2.0 MinHorDist=2.0 Margins={Left=0.5 Right=0.5 Top=0.800000011920929 Bottom=0.5}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:24</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Region identification</a:processingStepDescription>
+        <a:processingStepSettings>Default=Binary ColorRegions={Detect=false} PaletteRegions={Detect=false} BinaryRegions={Detect=false}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:ocrProcessingStep>
+        <a:processingDateTime>2011-06-29T09:05:24</a:processingDateTime>
+        <a:processingAgency>Staatsbibliothek zu Berlin – PK</a:processingAgency>
+        <a:processingStepDescription>Optical Character Recognition</a:processingStepDescription>
+        <a:processingStepSettings>not implemented.</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.595 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:ocrProcessingStep>
+    </a:OCRProcessing>
+  </a:Description>
+  <a:Layout>
+    <a:Page ID="ID_BIT_6837fff5-4c2d-4b24-a1d3-e64bd3b419d3" HEIGHT="2126" WIDTH="1550" PHYSICAL_IMG_NR="0" QUALITY="OK" PROCESSING="ID_BIT_2e715125-c746-44e5-8667-e65f5d1646c8">
+      <a:PrintSpace ID="ID_BIT_21cc02ac-46ca-4454-8997-4ad51806b419" HEIGHT="1995.98" WIDTH="1449.4" HPOS="50.0" VPOS="80.0">
+        <a:TextBlock ID="ID_BIT_7900b623-20a4-4533-af32-9b10beffe3b4" HEIGHT="17" WIDTH="10" HPOS="60" VPOS="151">
+          <a:TextLine ID="ID_BIT_ec8f9de9-4839-4201-b377-79a16b3048cf" HEIGHT="5.93" WIDTH="7.62" HPOS="0.0" VPOS="0.0">
+            <a:String HEIGHT="5.93" WIDTH="7.62" VPOS="0.0" HPOS="0.0" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_26ba1f83-20c9-47cd-b9f3-901a3bf80732" HEIGHT="5.93" WIDTH="6.77" HPOS="2.54" VPOS="11.85">
+            <a:String HEIGHT="5.93" WIDTH="6.77" VPOS="11.85" HPOS="2.54" CONTENT="."/>
+          </a:TextLine>
+        </a:TextBlock>
+        <a:TextBlock ID="ID_BIT_70b61cf1-9a1c-4366-ba1b-ef9c32343ec9" HEIGHT="22" WIDTH="247" HPOS="756" VPOS="151">
+          <a:TextLine ID="ID_BIT_39a54744-2fae-4845-b56e-91634c3d6408" HEIGHT="20.32" WIDTH="115.99" HPOS="119.38" VPOS="0.85">
+            <a:String HEIGHT="18.63" WIDTH="5.08" VPOS="0.85" HPOS="119.38" CONTENT="."/>
+            <a:SP WIDTH="9.31" VPOS="0.85" HPOS="119.38"/>
+            <a:String HEIGHT="18.63" WIDTH="8.47" VPOS="0.85" HPOS="128.69" CONTENT="r"/>
+            <a:SP WIDTH="16.09" VPOS="0.85" HPOS="128.69"/>
+            <a:String HEIGHT="18.63" WIDTH="17.78" VPOS="0.85" HPOS="144.78" CONTENT="."/>
+            <a:SP WIDTH="18.63" VPOS="0.85" HPOS="144.78"/>
+            <a:String HEIGHT="18.63" WIDTH="3.39" VPOS="0.85" HPOS="163.41" CONTENT="'"/>
+            <a:SP WIDTH="22.01" VPOS="0.0" HPOS="163.41"/>
+            <a:String HEIGHT="18.63" WIDTH="17.78" VPOS="0.85" HPOS="185.42" CONTENT="."/>
+            <a:SP WIDTH="22.86" VPOS="0.85" HPOS="185.42"/>
+            <a:String HEIGHT="18.63" WIDTH="11.85" VPOS="0.85" HPOS="208.28" CONTENT="."/>
+            <a:SP WIDTH="16.09" VPOS="0.85" HPOS="208.28"/>
+            <a:String HEIGHT="18.63" WIDTH="11.01" VPOS="0.85" HPOS="224.37" CONTENT="."/>
+          </a:TextLine>
+        </a:TextBlock>
+        <a:TextBlock ID="ID_BIT_8dfefa75-d5fe-42d1-b80a-91c892ee3e20" HEIGHT="55" WIDTH="11" HPOS="112" VPOS="2009">
+          <a:TextLine ID="ID_BIT_7b06da4a-c624-4bba-bfcb-d34c658bd466" HEIGHT="17.78" WIDTH="5.08" HPOS="0.0" VPOS="13.55">
+            <a:String HEIGHT="17.78" WIDTH="5.08" VPOS="13.55" HPOS="0.0" CONTENT="l"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_eaf7bd08-189c-4e4d-91a5-0cc42faaa3ce" HEIGHT="22.01" WIDTH="5.93" HPOS="0.0" VPOS="34.71">
+            <a:String HEIGHT="22.01" WIDTH="5.93" VPOS="34.71" HPOS="0.0" CONTENT="t"/>
+          </a:TextLine>
+        </a:TextBlock>
+      </a:PrintSpace>
+    </a:Page>
+  </a:Layout>
+</alto>

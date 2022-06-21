@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2016-03-03</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>ABBYY</softwareCreator>
+          <softwareName>ABBYY FineReader Engine</softwareName>
+          <softwareVersion>11</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+    <TextStyle ID="font0" FONTFAMILY="Times New Roman" FONTSIZE="6"/>
+    <TextStyle ID="font1" FONTFAMILY="Times New Roman" FONTSIZE="7"/>
+    <TextStyle ID="font2" FONTFAMILY="Times New Roman" FONTSIZE="9"/>
+    <TextStyle ID="font3" FONTFAMILY="Times New Roman" FONTSIZE="10"/>
+    <TextStyle ID="font4" FONTFAMILY="Times New Roman" FONTSIZE="11"/>
+  </Styles>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2364" WIDTH="1412">
+      <TopMargin HEIGHT="214" WIDTH="1412" VPOS="0" HPOS="0">
+        <ComposedBlock ID="Page1_Block1" HEIGHT="41" WIDTH="660" VPOS="113" HPOS="114" TYPE="container">
+          <TextBlock ID="Page1_Block2" HEIGHT="41" WIDTH="70" VPOS="113" HPOS="114" language="nl" STYLEREFS="font3">
+            <TextLine HEIGHT="29" WIDTH="58" VPOS="119" HPOS="120">
+              <String STYLE="bold" WC="0.7466666698" CONTENT="428" HEIGHT="29" WIDTH="58" VPOS="119" HPOS="120"/>
+            </TextLine>
+          </TextBlock>
+          <TextBlock ID="Page1_Block3" HEIGHT="30" WIDTH="168" VPOS="124" HPOS="606" language="nl" STYLEREFS="font1">
+            <TextLine HEIGHT="18" WIDTH="157" VPOS="130" HPOS="611">
+              <String WC="0.5580000281" CONTENT="ONDERWIJS." HEIGHT="18" WIDTH="157" VPOS="130" HPOS="611"/>
+            </TextLine>
+          </TextBlock>
+        </ComposedBlock>
+        <GraphicalElement ID="Page1_Block4" HEIGHT="214" WIDTH="9" VPOS="0" HPOS="1403"/>
+      </TopMargin>
+      <LeftMargin HEIGHT="2027" WIDTH="117" VPOS="214" HPOS="0">
+</LeftMargin>
+      <RightMargin HEIGHT="2027" WIDTH="135" VPOS="214" HPOS="1277">
+</RightMargin>
+      <BottomMargin HEIGHT="123" WIDTH="1412" VPOS="2241" HPOS="0">
+</BottomMargin>
+      <PrintSpace HEIGHT="2027" WIDTH="1160" VPOS="214" HPOS="117">
+        <TextBlock ID="Page1_Block5" HEIGHT="2027" WIDTH="1160" VPOS="214" HPOS="117" language="nl" STYLEREFS="font2">
+          <TextLine HEIGHT="18" WIDTH="250" VPOS="220" HPOS="573" STYLEREFS="font0">
+            <String WC="0.5606666803" CONTENT="GEMEENTESCHOOL." HEIGHT="18" WIDTH="250" VPOS="220" HPOS="573"/>
+          </TextLine>
+          <TextLine HEIGHT="40" WIDTH="734" VPOS="270" HPOS="124">
+            <String STYLE="italics" WC="0.8525000215" CONTENT="Onderwijzer." HEIGHT="39" WIDTH="214" VPOS="270" HPOS="124"/>
+            <SP WIDTH="45" VPOS="270" HPOS="339"/>
+            <String WC="0.4933333397" CONTENT="Mas" HEIGHT="29" WIDTH="58" VPOS="270" HPOS="385"/>
+            <SP WIDTH="20" VPOS="271" HPOS="444"/>
+            <String WC="0.5" CONTENT="Ngabehi" HEIGHT="39" WIDTH="127" VPOS="271" HPOS="465"/>
+            <SP WIDTH="21" VPOS="271" HPOS="593"/>
+            <String WC="0.5600000024" CONTENT="Sastro" HEIGHT="28" WIDTH="93" VPOS="271" HPOS="615"/>
+            <SP WIDTH="25" VPOS="272" HPOS="709"/>
+            <String WC="0.5350000262" CONTENT="VVinoto." HEIGHT="27" WIDTH="123" VPOS="272" HPOS="735"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="196" VPOS="360" HPOS="592" STYLEREFS="font4">
+            <String WC="0.6112499833" CONTENT="Madioen." HEIGHT="33" WIDTH="196" VPOS="360" HPOS="592"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="234" VPOS="432" HPOS="572" STYLEREFS="font2">
+            <String WC="0.7633333206" CONTENT="Hoofdplaats." HEIGHT="31" WIDTH="234" VPOS="432" HPOS="572"/>
+          </TextLine>
+          <TextLine HEIGHT="26" WIDTH="446" VPOS="484" HPOS="469" STYLEREFS="font1">
+            <String WC="0.5325000286" CONTENT="Plaatselijke" HEIGHT="26" WIDTH="173" VPOS="484" HPOS="469"/>
+            <SP WIDTH="14" VPOS="490" HPOS="643"/>
+            <String WC="0.6175000072" CONTENT="schoolkommissie." HEIGHT="21" WIDTH="257" VPOS="485" HPOS="658"/>
+          </TextLine>
+          <TextLine HEIGHT="29" WIDTH="427" VPOS="533" HPOS="123">
+            <String STYLE="italics" WC="0.8190909028" CONTENT="Voorzitter." HEIGHT="28" WIDTH="184" VPOS="533" HPOS="123"/>
+            <SP WIDTH="44" VPOS="533" HPOS="308"/>
+            <String WC="0.4050000012" CONTENT="De" HEIGHT="29" WIDTH="41" VPOS="533" HPOS="353"/>
+            <SP WIDTH="22" VPOS="545" HPOS="395"/>
+            <String WC="0.6422222257" CONTENT="resident." HEIGHT="28" WIDTH="132" VPOS="534" HPOS="418"/>
+          </TextLine>
+          <TextLine HEIGHT="40" WIDTH="1134" VPOS="574" HPOS="123">
+            <String STYLE="italics" WC="0.8116666675" CONTENT="Leden." HEIGHT="29" WIDTH="108" VPOS="575" HPOS="123"/>
+            <SP WIDTH="42" VPOS="575" HPOS="232"/>
+            <String WC="0.5580000281" CONTENT="Raden" HEIGHT="29" WIDTH="98" VPOS="575" HPOS="275"/>
+            <SP WIDTH="23" VPOS="575" HPOS="374"/>
+            <String WC="0.8166666627" CONTENT="Mas" HEIGHT="28" WIDTH="57" VPOS="575" HPOS="398"/>
+            <SP WIDTH="23" VPOS="576" HPOS="456"/>
+            <String WC="0.4600000083" CONTENT="Adipati" HEIGHT="38" WIDTH="112" VPOS="576" HPOS="480"/>
+            <SP WIDTH="21" VPOS="575" HPOS="593"/>
+            <String WC="0.3899999857" CONTENT="Sosro" HEIGHT="29" WIDTH="80" VPOS="575" HPOS="615"/>
+            <SP WIDTH="18" VPOS="576" HPOS="696"/>
+            <String WC="0.4812499881" CONTENT="JNegoro," HEIGHT="37" WIDTH="121" VPOS="576" HPOS="715"/>
+            <SP WIDTH="23" VPOS="575" HPOS="837"/>
+            <String WC="0.5400000215" CONTENT="1" HEIGHT="29" WIDTH="13" VPOS="575" HPOS="861"/>
+            <SP WIDTH="23" VPOS="575" HPOS="875"/>
+            <String WC="0.8399999738" CONTENT="aug." HEIGHT="28" WIDTH="62" VPOS="586" HPOS="899"/>
+            <SP WIDTH="26" VPOS="575" HPOS="962"/>
+            <String WC="0.7039999962" CONTENT="1872;" HEIGHT="37" WIDTH="92" VPOS="574" HPOS="989"/>
+            <SP WIDTH="18" VPOS="586" HPOS="1082"/>
+            <String WC="1." CONTENT="—" HEIGHT="3" WIDTH="40" VPOS="592" HPOS="1101"/>
+            <SP WIDTH="17" VPOS="574" HPOS="1142"/>
+            <String WC="0.773999989" CONTENT="Raden" HEIGHT="29" WIDTH="97" VPOS="574" HPOS="1160"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1096" VPOS="616" HPOS="162">
+            <String WC="0.8460000157" CONTENT="Soemo" HEIGHT="29" WIDTH="100" VPOS="616" HPOS="162"/>
+            <SP WIDTH="11" VPOS="616" HPOS="263"/>
+            <String WC="0.6857143044" CONTENT="Winoto," HEIGHT="36" WIDTH="136" VPOS="616" HPOS="275"/>
+            <SP WIDTH="11" VPOS="619" HPOS="412"/>
+            <String WC="0.6575000286" CONTENT="id.;" HEIGHT="38" WIDTH="51" VPOS="617" HPOS="424"/>
+            <SP WIDTH="11" VPOS="629" HPOS="476"/>
+            <String WC="1." CONTENT="—" HEIGHT="4" WIDTH="40" VPOS="634" HPOS="488"/>
+            <SP WIDTH="9" VPOS="618" HPOS="529"/>
+            <String WC="0.8259999752" CONTENT="Raden" HEIGHT="29" WIDTH="97" VPOS="617" HPOS="539"/>
+            <SP WIDTH="12" VPOS="617" HPOS="637"/>
+            <String WC="0.5166666508" CONTENT="Pandji" HEIGHT="40" WIDTH="98" VPOS="617" HPOS="650"/>
+            <SP WIDTH="10" VPOS="617" HPOS="749"/>
+            <String WC="0.4499999881" CONTENT="Noto" HEIGHT="29" WIDTH="71" VPOS="617" HPOS="760"/>
+            <SP WIDTH="9" VPOS="617" HPOS="832"/>
+            <String WC="0.8883333206" CONTENT="Rodjo," HEIGHT="40" WIDTH="101" VPOS="617" HPOS="842"/>
+            <SP WIDTH="16" VPOS="619" HPOS="944"/>
+            <String WC="0.8550000191" CONTENT="id.;" HEIGHT="32" WIDTH="50" VPOS="617" HPOS="961"/>
+            <SP WIDTH="23" VPOS="628" HPOS="1012"/>
+            <String WC="1." CONTENT="—" HEIGHT="3" WIDTH="36" VPOS="634" HPOS="1036"/>
+            <SP WIDTH="23" VPOS="616" HPOS="1073"/>
+            <String WC="0.8166666627" CONTENT="Mas" HEIGHT="29" WIDTH="57" VPOS="616" HPOS="1097"/>
+            <SP WIDTH="21" VPOS="617" HPOS="1155"/>
+            <String WC="0.523999989" CONTENT="Hadji" HEIGHT="39" WIDTH="81" VPOS="616" HPOS="1177"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="1096" VPOS="654" HPOS="163">
+            <String WC="0.7024999857" CONTENT="Imam" HEIGHT="28" WIDTH="92" VPOS="658" HPOS="163"/>
+            <SP WIDTH="20" VPOS="658" HPOS="256"/>
+            <String WC="0.8399999738" CONTENT="Gadjali," HEIGHT="40" WIDTH="124" VPOS="658" HPOS="277"/>
+            <SP WIDTH="22" VPOS="661" HPOS="402"/>
+            <String WC="0.7300000191" CONTENT="id.;" HEIGHT="37" WIDTH="53" VPOS="659" HPOS="425"/>
+            <SP WIDTH="11" VPOS="671" HPOS="479"/>
+            <String WC="1." CONTENT="—" HEIGHT="4" WIDTH="39" VPOS="675" HPOS="491"/>
+            <SP WIDTH="12" VPOS="659" HPOS="531"/>
+            <String WC="0.6299999952" CONTENT="G." HEIGHT="28" WIDTH="32" VPOS="659" HPOS="544"/>
+            <SP WIDTH="21" VPOS="659" HPOS="577"/>
+            <String WC="1." CONTENT="de" HEIGHT="28" WIDTH="33" VPOS="659" HPOS="599"/>
+            <SP WIDTH="22" VPOS="659" HPOS="633"/>
+            <String WC="0.6000000238" CONTENT="Groot," HEIGHT="34" WIDTH="99" VPOS="659" HPOS="656"/>
+            <SP WIDTH="25" VPOS="658" HPOS="756"/>
+            <String WC="0.2949999869" CONTENT="10" HEIGHT="28" WIDTH="36" VPOS="658" HPOS="782"/>
+            <SP WIDTH="20" VPOS="658" HPOS="819"/>
+            <String WC="0.4460000098" CONTENT="maart" HEIGHT="24" WIDTH="87" VPOS="664" HPOS="840"/>
+            <SP WIDTH="21" VPOS="658" HPOS="928"/>
+            <String WC="0.5799999833" CONTENT="1873;" HEIGHT="39" WIDTH="93" VPOS="657" HPOS="950"/>
+            <SP WIDTH="18" VPOS="670" HPOS="1044"/>
+            <String WC="1." CONTENT="—" HEIGHT="4" WIDTH="37" VPOS="675" HPOS="1063"/>
+            <SP WIDTH="15" VPOS="658" HPOS="1101"/>
+            <String WC="1." CONTENT="de" HEIGHT="29" WIDTH="34" VPOS="658" HPOS="1117"/>
+            <SP WIDTH="19" VPOS="660" HPOS="1152"/>
+            <String WC="0.6499999762" CONTENT="in" HEIGHT="26" WIDTH="31" VPOS="660" HPOS="1172"/>
+            <SP WIDTH="20" VPOS="654" HPOS="1204"/>
+            <String WC="0.5" CONTENT="de" HEIGHT="32" WIDTH="34" VPOS="654" HPOS="1225"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1096" VPOS="699" HPOS="162">
+            <String WC="0.6244444251" CONTENT="betrokken" HEIGHT="29" WIDTH="152" VPOS="699" HPOS="162"/>
+            <SP WIDTH="32" VPOS="700" HPOS="315"/>
+            <String WC="0.5433333516" CONTENT="kontrole-afdeeling" HEIGHT="40" WIDTH="281" VPOS="700" HPOS="348"/>
+            <SP WIDTH="29" VPOS="700" HPOS="630"/>
+            <String WC="0.5580000281" CONTENT="bescheiden" HEIGHT="29" WIDTH="169" VPOS="700" HPOS="660"/>
+            <SP WIDTH="30" VPOS="700" HPOS="830"/>
+            <String WC="0.5400000215" CONTENT="kontroleur" HEIGHT="29" WIDTH="163" VPOS="700" HPOS="861"/>
+            <SP WIDTH="33" VPOS="710" HPOS="1025"/>
+            <String WC="0.3849999905" CONTENT="of" HEIGHT="28" WIDTH="32" VPOS="700" HPOS="1059"/>
+            <SP WIDTH="24" VPOS="700" HPOS="1092"/>
+            <String WC="0.6188889146" CONTENT="aspiranl-" HEIGHT="37" WIDTH="141" VPOS="702" HPOS="1117"/>
+          </TextLine>
+          <TextLine HEIGHT="40" WIDTH="687" VPOS="741" HPOS="162">
+            <String WC="0.6819999814" CONTENT="kontroleur" HEIGHT="30" WIDTH="162" VPOS="741" HPOS="162"/>
+            <SP WIDTH="19" VPOS="742" HPOS="325"/>
+            <String WC="0.4933333397" CONTENT="bij" HEIGHT="39" WIDTH="38" VPOS="742" HPOS="345"/>
+            <SP WIDTH="21" VPOS="743" HPOS="384"/>
+            <String WC="0.5749999881" CONTENT="liet" HEIGHT="28" WIDTH="50" VPOS="743" HPOS="406"/>
+            <SP WIDTH="17" VPOS="742" HPOS="457"/>
+            <String WC="0.6223077178" CONTENT="binnenlandsch" HEIGHT="30" WIDTH="227" VPOS="741" HPOS="475"/>
+            <SP WIDTH="20" VPOS="741" HPOS="703"/>
+            <String WC="0.6000000238" CONTENT="bestuur." HEIGHT="29" WIDTH="125" VPOS="742" HPOS="724"/>
+          </TextLine>
+          <TextLine HEIGHT="40" WIDTH="486" VPOS="783" HPOS="124">
+            <String STYLE="italics" WC="0.7545454502" CONTENT="Sekretaris." HEIGHT="30" WIDTH="181" VPOS="783" HPOS="124"/>
+            <SP WIDTH="43" VPOS="784" HPOS="306"/>
+            <String WC="0.6449999809" CONTENT="A." HEIGHT="28" WIDTH="35" VPOS="784" HPOS="350"/>
+            <SP WIDTH="22" VPOS="784" HPOS="386"/>
+            <String WC="0.8299999833" CONTENT="C." HEIGHT="28" WIDTH="30" VPOS="784" HPOS="409"/>
+            <SP WIDTH="21" VPOS="784" HPOS="440"/>
+            <String WC="0.8333333135" CONTENT="Schepper." HEIGHT="39" WIDTH="148" VPOS="784" HPOS="462"/>
+          </TextLine>
+          <TextLine HEIGHT="20" WIDTH="343" VPOS="864" HPOS="519" STYLEREFS="font0">
+            <String WC="0.2992307544" CONTENT="GOUVERNEMENÏS" HEIGHT="20" WIDTH="217" VPOS="864" HPOS="519"/>
+            <SP WIDTH="21" VPOS="865" HPOS="737"/>
+            <String WC="0.7114285827" CONTENT="SCHOOL." HEIGHT="18" WIDTH="103" VPOS="865" HPOS="759"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="877" VPOS="924" HPOS="126">
+            <String STYLE="italics" WC="0.7366666794" CONTENT="Onderwijzer." HEIGHT="39" WIDTH="215" VPOS="925" HPOS="126"/>
+            <SP WIDTH="43" VPOS="925" HPOS="342"/>
+            <String WC="0.8500000238" CONTENT="Raden" HEIGHT="29" WIDTH="98" VPOS="925" HPOS="386"/>
+            <SP WIDTH="21" VPOS="925" HPOS="485"/>
+            <String WC="0.6940000057" CONTENT="Djojo" HEIGHT="40" WIDTH="82" VPOS="925" HPOS="507"/>
+            <SP WIDTH="19" VPOS="925" HPOS="590"/>
+            <String WC="0.7562500238" CONTENT="Atmodjo," HEIGHT="41" WIDTH="146" VPOS="925" HPOS="610"/>
+            <SP WIDTH="21" VPOS="924" HPOS="757"/>
+            <String WC="0.6549999714" CONTENT="21" HEIGHT="29" WIDTH="35" VPOS="924" HPOS="779"/>
+            <SP WIDTH="20" VPOS="925" HPOS="815"/>
+            <String WC="0.7166666389" CONTENT="mei" HEIGHT="26" WIDTH="53" VPOS="928" HPOS="836"/>
+            <SP WIDTH="26" VPOS="925" HPOS="890"/>
+            <String WC="0.5780000091" CONTENT="1863." HEIGHT="30" WIDTH="86" VPOS="924" HPOS="917"/>
+          </TextLine>
+          <TextLine HEIGHT="43" WIDTH="1136" VPOS="963" HPOS="125">
+            <String STYLE="italics" WC="0.8368750215" CONTENT="Hulponderwijzers" HEIGHT="39" WIDTH="293" VPOS="967" HPOS="125"/>
+            <SP WIDTH="20" VPOS="967" HPOS="419"/>
+            <String WC="0.7200000286" CONTENT="3" HEIGHT="28" WIDTH="17" VPOS="967" HPOS="440"/>
+            <String STYLE="italics" WC="0.75" CONTENT="de" HEIGHT="28" WIDTH="33" VPOS="968" HPOS="462"/>
+            <SP WIDTH="20" VPOS="968" HPOS="496"/>
+            <String STYLE="italics" WC="0.6285714507" CONTENT="klasse." HEIGHT="29" WIDTH="103" VPOS="968" HPOS="517"/>
+            <SP WIDTH="42" VPOS="968" HPOS="621"/>
+            <String WC="0.4933333397" CONTENT="Radhen" HEIGHT="33" WIDTH="117" VPOS="963" HPOS="664"/>
+            <SP WIDTH="30" VPOS="967" HPOS="782"/>
+            <String WC="0.59375" CONTENT="Soloman," HEIGHT="34" WIDTH="144" VPOS="967" HPOS="813"/>
+            <SP WIDTH="21" VPOS="967" HPOS="958"/>
+            <String WC="1." CONTENT="7" HEIGHT="28" WIDTH="19" VPOS="967" HPOS="980"/>
+            <SP WIDTH="22" VPOS="967" HPOS="1000"/>
+            <String WC="0.337500006" CONTENT="aug." HEIGHT="27" WIDTH="62" VPOS="978" HPOS="1023"/>
+            <SP WIDTH="27" VPOS="967" HPOS="1086"/>
+            <String WC="0.675999999" CONTENT="1876;" HEIGHT="37" WIDTH="94" VPOS="965" HPOS="1114"/>
+            <SP WIDTH="12" VPOS="978" HPOS="1209"/>
+            <String WC="1." CONTENT="—" HEIGHT="4" WIDTH="39" VPOS="982" HPOS="1222"/>
+          </TextLine>
+          <TextLine HEIGHT="43" WIDTH="410" VPOS="1005" HPOS="164">
+            <String WC="0.853333354" CONTENT="Mas" HEIGHT="31" WIDTH="58" VPOS="1005" HPOS="164"/>
+            <SP WIDTH="21" VPOS="1008" HPOS="223"/>
+            <String WC="0.871999979" CONTENT="Soemo" HEIGHT="29" WIDTH="97" VPOS="1008" HPOS="245"/>
+            <SP WIDTH="22" VPOS="1009" HPOS="343"/>
+            <String WC="0.8287500143" CONTENT="Atmodjo," HEIGHT="39" WIDTH="148" VPOS="1009" HPOS="366"/>
+            <SP WIDTH="21" VPOS="1011" HPOS="515"/>
+            <String WC="0.7200000286" CONTENT="id." HEIGHT="29" WIDTH="37" VPOS="1009" HPOS="537"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1140" VPOS="1049" HPOS="122">
+            <String STYLE="italics" WC="0.8130769134" CONTENT="Kweekelingen." HEIGHT="40" WIDTH="240" VPOS="1050" HPOS="122"/>
+            <SP WIDTH="42" VPOS="1050" HPOS="363"/>
+            <String WC="0.7639999986" CONTENT="Raden" HEIGHT="29" WIDTH="98" VPOS="1050" HPOS="406"/>
+            <SP WIDTH="32" VPOS="1050" HPOS="505"/>
+            <String WC="0.4375" CONTENT="Noto" HEIGHT="29" WIDTH="71" VPOS="1050" HPOS="538"/>
+            <SP WIDTH="30" VPOS="1051" HPOS="610"/>
+            <String WC="0.7937499881" CONTENT="Widjojo," HEIGHT="40" WIDTH="142" VPOS="1050" HPOS="641"/>
+            <SP WIDTH="31" VPOS="1050" HPOS="784"/>
+            <String WC="0.6850000024" CONTENT="20" HEIGHT="30" WIDTH="40" VPOS="1049" HPOS="816"/>
+            <SP WIDTH="32" VPOS="1049" HPOS="857"/>
+            <String WC="0.4699999988" CONTENT="leb." HEIGHT="28" WIDTH="52" VPOS="1051" HPOS="890"/>
+            <SP WIDTH="31" VPOS="1050" HPOS="943"/>
+            <String WC="0.7480000257" CONTENT="1872;" HEIGHT="37" WIDTH="93" VPOS="1049" HPOS="975"/>
+            <SP WIDTH="23" VPOS="1061" HPOS="1069"/>
+            <String WC="1." CONTENT="—" HEIGHT="4" WIDTH="40" VPOS="1066" HPOS="1093"/>
+            <SP WIDTH="31" VPOS="1050" HPOS="1134"/>
+            <String WC="0.5339999795" CONTENT="Raden" HEIGHT="28" WIDTH="96" VPOS="1049" HPOS="1166"/>
+          </TextLine>
+          <TextLine HEIGHT="40" WIDTH="505" VPOS="1091" HPOS="163">
+            <String WC="0.5699999928" CONTENT="Djojo" HEIGHT="39" WIDTH="81" VPOS="1092" HPOS="163"/>
+            <SP WIDTH="20" VPOS="1092" HPOS="245"/>
+            <String WC="1." CONTENT="di" HEIGHT="28" WIDTH="26" VPOS="1092" HPOS="266"/>
+            <SP WIDTH="24" VPOS="1092" HPOS="293"/>
+            <String WC="0.4983333349" CONTENT="Poero," HEIGHT="36" WIDTH="96" VPOS="1092" HPOS="318"/>
+            <SP WIDTH="23" VPOS="1092" HPOS="415"/>
+            <String WC="0.5899999738" CONTENT="21" HEIGHT="28" WIDTH="35" VPOS="1092" HPOS="439"/>
+            <SP WIDTH="24" VPOS="1093" HPOS="475"/>
+            <String WC="0.3774999976" CONTENT="okt." HEIGHT="29" WIDTH="55" VPOS="1092" HPOS="500"/>
+            <SP WIDTH="25" VPOS="1092" HPOS="556"/>
+            <String WC="0.7200000286" CONTENT="1875." HEIGHT="30" WIDTH="86" VPOS="1091" HPOS="582"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="197" VPOS="1185" HPOS="595" STYLEREFS="font2">
+            <String WC="0.5699999928" CONTENT="Tjaroeban." HEIGHT="31" WIDTH="197" VPOS="1185" HPOS="595"/>
+          </TextLine>
+          <TextLine HEIGHT="26" WIDTH="449" VPOS="1248" HPOS="472" STYLEREFS="font1">
+            <String WC="0.4950000048" CONTENT="Plaatselijke" HEIGHT="25" WIDTH="174" VPOS="1249" HPOS="472"/>
+            <SP WIDTH="13" VPOS="1255" HPOS="647"/>
+            <String WC="0.5693749785" CONTENT="schoolkommissie." HEIGHT="22" WIDTH="260" VPOS="1248" HPOS="661"/>
+          </TextLine>
+          <TextLine HEIGHT="30" WIDTH="424" VPOS="1306" HPOS="128">
+            <String STYLE="italics" WC="0.8818181753" CONTENT="Voorzitter." HEIGHT="30" WIDTH="183" VPOS="1306" HPOS="128"/>
+            <SP WIDTH="43" VPOS="1308" HPOS="312"/>
+            <String WC="0.5450000167" CONTENT="De" HEIGHT="27" WIDTH="40" VPOS="1308" HPOS="356"/>
+            <SP WIDTH="21" VPOS="1318" HPOS="397"/>
+            <String WC="0.7577777505" CONTENT="resident." HEIGHT="29" WIDTH="133" VPOS="1307" HPOS="419"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1138" VPOS="1347" HPOS="126">
+            <String STYLE="italics" WC="0.7799999714" CONTENT="Leden." HEIGHT="28" WIDTH="106" VPOS="1349" HPOS="126"/>
+            <SP WIDTH="42" VPOS="1348" HPOS="233"/>
+            <String WC="0.6259999871" CONTENT="Raden" HEIGHT="29" WIDTH="97" VPOS="1348" HPOS="276"/>
+            <SP WIDTH="29" VPOS="1349" HPOS="374"/>
+            <String WC="0.3700000048" CONTENT="Ngabehi" HEIGHT="39" WIDTH="127" VPOS="1349" HPOS="404"/>
+            <SP WIDTH="28" VPOS="1349" HPOS="532"/>
+            <String WC="0.6775000095" CONTENT="Nolo" HEIGHT="29" WIDTH="71" VPOS="1349" HPOS="561"/>
+            <SP WIDTH="28" VPOS="1349" HPOS="633"/>
+            <String WC="0.5722222328" CONTENT="Soebroto," HEIGHT="35" WIDTH="148" VPOS="1348" HPOS="662"/>
+            <SP WIDTH="31" VPOS="1348" HPOS="811"/>
+            <String WC="0.400000006" CONTENT="10" HEIGHT="29" WIDTH="35" VPOS="1348" HPOS="843"/>
+            <SP WIDTH="21" VPOS="1348" HPOS="879"/>
+            <String WC="0.8274999857" CONTENT="feb." HEIGHT="29" WIDTH="54" VPOS="1348" HPOS="901"/>
+            <SP WIDTH="24" VPOS="1348" HPOS="956"/>
+            <String WC="0.6320000291" CONTENT="1873;" HEIGHT="37" WIDTH="94" VPOS="1347" HPOS="981"/>
+            <SP WIDTH="31" VPOS="1359" HPOS="1076"/>
+            <String WC="1." CONTENT="—" HEIGHT="4" WIDTH="38" VPOS="1364" HPOS="1108"/>
+            <SP WIDTH="30" VPOS="1347" HPOS="1147"/>
+            <String WC="1." CONTENT="de" HEIGHT="28" WIDTH="35" VPOS="1347" HPOS="1178"/>
+            <SP WIDTH="19" VPOS="1349" HPOS="1214"/>
+            <String WC="0.4499999881" CONTENT="in" HEIGHT="26" WIDTH="30" VPOS="1349" HPOS="1234"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1101" VPOS="1389" HPOS="165">
+            <String WC="1." CONTENT="de" HEIGHT="28" WIDTH="35" VPOS="1390" HPOS="165"/>
+            <SP WIDTH="20" VPOS="1390" HPOS="201"/>
+            <String WC="0.8477777839" CONTENT="betrokken" HEIGHT="29" WIDTH="156" VPOS="1390" HPOS="222"/>
+            <SP WIDTH="16" VPOS="1391" HPOS="379"/>
+            <String WC="0.4977777898" CONTENT="kontrole-afdeeling" HEIGHT="39" WIDTH="286" VPOS="1391" HPOS="396"/>
+            <SP WIDTH="20" VPOS="1390" HPOS="683"/>
+            <String WC="0.7850000262" CONTENT="bescheiden" HEIGHT="29" WIDTH="170" VPOS="1390" HPOS="704"/>
+            <SP WIDTH="18" VPOS="1390" HPOS="875"/>
+            <String WC="0.5389999747" CONTENT="kontroleur" HEIGHT="29" WIDTH="163" VPOS="1390" HPOS="894"/>
+            <SP WIDTH="20" VPOS="1400" HPOS="1058"/>
+            <String WC="0.3199999928" CONTENT="of" HEIGHT="28" WIDTH="32" VPOS="1389" HPOS="1079"/>
+            <SP WIDTH="16" VPOS="1389" HPOS="1112"/>
+            <String WC="0.6200000048" CONTENT="aspirant-" HEIGHT="37" WIDTH="137" VPOS="1391" HPOS="1129"/>
+          </TextLine>
+          <TextLine HEIGHT="39" WIDTH="689" VPOS="1431" HPOS="166">
+            <String WC="0.6269999743" CONTENT="kontrolcur" HEIGHT="30" WIDTH="163" VPOS="1431" HPOS="166"/>
+            <SP WIDTH="21" VPOS="1432" HPOS="330"/>
+            <String WC="0.4666666687" CONTENT="bij" HEIGHT="38" WIDTH="37" VPOS="1432" HPOS="352"/>
+            <SP WIDTH="19" VPOS="1432" HPOS="390"/>
+            <String WC="0.7466666698" CONTENT="het" HEIGHT="29" WIDTH="49" VPOS="1432" HPOS="410"/>
+            <SP WIDTH="19" VPOS="1432" HPOS="460"/>
+            <String WC="0.6707692146" CONTENT="binnenlandsch" HEIGHT="29" WIDTH="229" VPOS="1432" HPOS="480"/>
+            <SP WIDTH="20" VPOS="1432" HPOS="710"/>
+            <String WC="0.5074999928" CONTENT="bestuur." HEIGHT="28" WIDTH="124" VPOS="1433" HPOS="731"/>
+          </TextLine>
+          <TextLine HEIGHT="30" WIDTH="449" VPOS="1473" HPOS="128">
+            <String STYLE="italics" WC="0.8554545641" CONTENT="Sekretaris." HEIGHT="29" WIDTH="180" VPOS="1473" HPOS="128"/>
+            <SP WIDTH="44" VPOS="1474" HPOS="309"/>
+            <String WC="0.9800000191" CONTENT="J." HEIGHT="28" WIDTH="26" VPOS="1474" HPOS="354"/>
+            <SP WIDTH="23" VPOS="1473" HPOS="381"/>
+            <String WC="0.3950000107" CONTENT="N." HEIGHT="29" WIDTH="34" VPOS="1473" HPOS="405"/>
+            <SP WIDTH="23" VPOS="1474" HPOS="440"/>
+            <String WC="0.6428571343" CONTENT="Labaar." HEIGHT="30" WIDTH="113" VPOS="1473" HPOS="464"/>
+          </TextLine>
+          <TextLine HEIGHT="19" WIDTH="349" VPOS="1554" HPOS="522" STYLEREFS="font0">
+            <String WC="0.3799999952" CONTENT="GOUVERNEMENTS" HEIGHT="18" WIDTH="220" VPOS="1555" HPOS="522"/>
+            <SP WIDTH="20" VPOS="1555" HPOS="743"/>
+            <String WC="0.5171428323" CONTENT="SCHOOL." HEIGHT="18" WIDTH="107" VPOS="1554" HPOS="764"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="884" VPOS="1614" HPOS="131">
+            <String STYLE="italics" WC="0.8374999762" CONTENT="Onderwijzer." HEIGHT="39" WIDTH="212" VPOS="1615" HPOS="131"/>
+            <SP WIDTH="44" VPOS="1616" HPOS="344"/>
+            <String WC="0.7620000243" CONTENT="Raden" HEIGHT="29" WIDTH="97" VPOS="1616" HPOS="389"/>
+            <SP WIDTH="21" VPOS="1616" HPOS="487"/>
+            <String WC="0.6000000238" CONTENT="Sosro" HEIGHT="29" WIDTH="80" VPOS="1616" HPOS="509"/>
+            <SP WIDTH="19" VPOS="1616" HPOS="590"/>
+            <String WC="0.7287499905" CONTENT="Atmodjo," HEIGHT="39" WIDTH="147" VPOS="1616" HPOS="610"/>
+            <SP WIDTH="25" VPOS="1615" HPOS="758"/>
+            <String WC="0.6150000095" CONTENT="13" HEIGHT="28" WIDTH="35" VPOS="1615" HPOS="784"/>
+            <SP WIDTH="22" VPOS="1615" HPOS="820"/>
+            <String WC="0.8849999905" CONTENT="dec." HEIGHT="30" WIDTH="58" VPOS="1615" HPOS="843"/>
+            <SP WIDTH="27" VPOS="1616" HPOS="902"/>
+            <String WC="0.9319999814" CONTENT="1872." HEIGHT="29" WIDTH="85" VPOS="1614" HPOS="930"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="1057" VPOS="1654" HPOS="128">
+            <String STYLE="italics" WC="0.7666666508" CONTENT="Hulponderwijzer" HEIGHT="39" WIDTH="281" VPOS="1657" HPOS="128"/>
+            <SP WIDTH="21" VPOS="1657" HPOS="410"/>
+            <String WC="0.25" CONTENT="3" HEIGHT="29" WIDTH="17" VPOS="1657" HPOS="432"/>
+            <String STYLE="italics" WC="0.5899999738" CONTENT="de" HEIGHT="28" WIDTH="33" VPOS="1658" HPOS="453"/>
+            <SP WIDTH="22" VPOS="1659" HPOS="487"/>
+            <String STYLE="italics" WC="0.7014285922" CONTENT="klasse." HEIGHT="29" WIDTH="103" VPOS="1658" HPOS="510"/>
+            <SP WIDTH="43" VPOS="1657" HPOS="614"/>
+            <String WC="0.5899999738" CONTENT="Mas" HEIGHT="29" WIDTH="56" VPOS="1657" HPOS="658"/>
+            <SP WIDTH="20" VPOS="1658" HPOS="715"/>
+            <String WC="0.6075000167" CONTENT="Atmo" HEIGHT="28" WIDTH="85" VPOS="1658" HPOS="736"/>
+            <SP WIDTH="19" VPOS="1657" HPOS="822"/>
+            <String WC="0.6333333254" CONTENT="Redjo," HEIGHT="39" WIDTH="101" VPOS="1657" HPOS="842"/>
+            <SP WIDTH="22" VPOS="1657" HPOS="944"/>
+            <String WC="0.9300000072" CONTENT="7" HEIGHT="28" WIDTH="18" VPOS="1657" HPOS="967"/>
+            <SP WIDTH="21" VPOS="1657" HPOS="986"/>
+            <String WC="0.6800000072" CONTENT="aug." HEIGHT="27" WIDTH="61" VPOS="1667" HPOS="1008"/>
+            <SP WIDTH="24" VPOS="1655" HPOS="1070"/>
+            <String WC="0.7099999785" CONTENT="1876." HEIGHT="30" WIDTH="90" VPOS="1654" HPOS="1095"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="763" VPOS="1696" HPOS="127">
+            <String STYLE="italics" WC="0.8090909123" CONTENT="Kweekeling." HEIGHT="39" WIDTH="197" VPOS="1697" HPOS="127"/>
+            <SP WIDTH="42" VPOS="1698" HPOS="325"/>
+            <String WC="0.7275000215" CONTENT="Atmo" HEIGHT="28" WIDTH="86" VPOS="1698" HPOS="368"/>
+            <SP WIDTH="19" VPOS="1698" HPOS="455"/>
+            <String WC="0.5500000119" CONTENT="Di" HEIGHT="28" WIDTH="35" VPOS="1698" HPOS="475"/>
+            <SP WIDTH="20" VPOS="1698" HPOS="511"/>
+            <String WC="0.8799999952" CONTENT="Medjo," HEIGHT="40" WIDTH="104" VPOS="1698" HPOS="532"/>
+            <SP WIDTH="23" VPOS="1698" HPOS="637"/>
+            <String WC="0.6899999976" CONTENT="20" HEIGHT="29" WIDTH="39" VPOS="1697" HPOS="661"/>
+            <SP WIDTH="21" VPOS="1697" HPOS="701"/>
+            <String WC="0.5899999738" CONTENT="mei" HEIGHT="26" WIDTH="55" VPOS="1700" HPOS="723"/>
+            <SP WIDTH="24" VPOS="1697" HPOS="779"/>
+            <String WC="0.7120000124" CONTENT="1874." HEIGHT="30" WIDTH="86" VPOS="1696" HPOS="804"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="177" VPOS="1776" HPOS="606" STYLEREFS="font2">
+            <String WC="0.8188889027" CONTENT="Maospati." HEIGHT="31" WIDTH="177" VPOS="1776" HPOS="606"/>
+          </TextLine>
+          <TextLine HEIGHT="26" WIDTH="450" VPOS="1839" HPOS="472" STYLEREFS="font1">
+            <String WC="0.4600000083" CONTENT="Plaatselijke" HEIGHT="26" WIDTH="174" VPOS="1839" HPOS="472"/>
+            <SP WIDTH="16" VPOS="1845" HPOS="647"/>
+            <String WC="0.6181250215" CONTENT="schoolkommissie." HEIGHT="22" WIDTH="258" VPOS="1839" HPOS="664"/>
+          </TextLine>
+          <TextLine HEIGHT="30" WIDTH="401" VPOS="1893" HPOS="130">
+            <String STYLE="italics" WC="0.8563636541" CONTENT="Voorzitter." HEIGHT="30" WIDTH="183" VPOS="1893" HPOS="130"/>
+            <SP WIDTH="21" VPOS="1894" HPOS="314"/>
+            <String WC="0.3849999905" CONTENT="Dc" HEIGHT="28" WIDTH="40" VPOS="1894" HPOS="336"/>
+            <SP WIDTH="21" VPOS="1905" HPOS="377"/>
+            <String WC="0.7077777982" CONTENT="resident." HEIGHT="28" WIDTH="132" VPOS="1894" HPOS="399"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="1141" VPOS="1932" HPOS="129">
+            <String STYLE="italics" WC="0.9166666865" CONTENT="Leden." HEIGHT="29" WIDTH="105" VPOS="1935" HPOS="129"/>
+            <SP WIDTH="44" VPOS="1935" HPOS="235"/>
+            <String WC="0.69599998" CONTENT="Raden" HEIGHT="29" WIDTH="99" VPOS="1935" HPOS="280"/>
+            <SP WIDTH="29" VPOS="1934" HPOS="380"/>
+            <String WC="0.4566666782" CONTENT="Mas" HEIGHT="30" WIDTH="59" VPOS="1934" HPOS="410"/>
+            <SP WIDTH="28" VPOS="1935" HPOS="470"/>
+            <String WC="0.6620000005" CONTENT="Soero" HEIGHT="29" WIDTH="80" VPOS="1935" HPOS="499"/>
+            <SP WIDTH="27" VPOS="1935" HPOS="580"/>
+            <String WC="0.1650000066" CONTENT="Di" HEIGHT="28" WIDTH="34" VPOS="1935" HPOS="608"/>
+            <SP WIDTH="28" VPOS="1935" HPOS="643"/>
+            <String WC="0.7933333516" CONTENT="Redjo," HEIGHT="39" WIDTH="104" VPOS="1935" HPOS="672"/>
+            <SP WIDTH="31" VPOS="1934" HPOS="777"/>
+            <String WC="0.5899999738" CONTENT="29" HEIGHT="29" WIDTH="39" VPOS="1933" HPOS="809"/>
+            <SP WIDTH="24" VPOS="1933" HPOS="849"/>
+            <String WC="0.4939999878" CONTENT="junij" HEIGHT="39" WIDTH="71" VPOS="1935" HPOS="874"/>
+            <SP WIDTH="32" VPOS="1934" HPOS="946"/>
+            <String WC="0.4180000126" CONTENT="1873;" HEIGHT="38" WIDTH="94" VPOS="1933" HPOS="979"/>
+            <SP WIDTH="30" VPOS="1946" HPOS="1074"/>
+            <String WC="1." CONTENT="—" HEIGHT="4" WIDTH="40" VPOS="1949" HPOS="1105"/>
+            <SP WIDTH="28" VPOS="1932" HPOS="1146"/>
+            <String WC="1." CONTENT="de" HEIGHT="28" WIDTH="36" VPOS="1932" HPOS="1175"/>
+            <SP WIDTH="27" VPOS="1934" HPOS="1212"/>
+            <String WC="0.6050000191" CONTENT="in" HEIGHT="26" WIDTH="30" VPOS="1934" HPOS="1240"/>
+          </TextLine>
+          <TextLine HEIGHT="40" WIDTH="1104" VPOS="1975" HPOS="167">
+            <String WC="1." CONTENT="de" HEIGHT="28" WIDTH="33" VPOS="1976" HPOS="167"/>
+            <SP WIDTH="21" VPOS="1976" HPOS="201"/>
+            <String WC="0.5955555439" CONTENT="betrokken" HEIGHT="29" WIDTH="153" VPOS="1976" HPOS="223"/>
+            <SP WIDTH="23" VPOS="1976" HPOS="377"/>
+            <String WC="0.7511110902" CONTENT="kontrole-afdeeling" HEIGHT="39" WIDTH="276" VPOS="1976" HPOS="401"/>
+            <SP WIDTH="23" VPOS="1976" HPOS="678"/>
+            <String WC="0.6439999938" CONTENT="bescheiden" HEIGHT="30" WIDTH="170" VPOS="1976" HPOS="702"/>
+            <SP WIDTH="20" VPOS="1976" HPOS="873"/>
+            <String WC="0.8000000119" CONTENT="kontroleur" HEIGHT="29" WIDTH="162" VPOS="1976" HPOS="894"/>
+            <SP WIDTH="23" VPOS="1986" HPOS="1057"/>
+            <String WC="0.9599999785" CONTENT="of" HEIGHT="28" WIDTH="32" VPOS="1975" HPOS="1081"/>
+            <SP WIDTH="16" VPOS="1975" HPOS="1114"/>
+            <String WC="0.6399999857" CONTENT="aspirant-" HEIGHT="37" WIDTH="140" VPOS="1976" HPOS="1131"/>
+          </TextLine>
+          <TextLine HEIGHT="39" WIDTH="691" VPOS="2017" HPOS="169">
+            <String WC="0.7269999981" CONTENT="kontroleur" HEIGHT="28" WIDTH="161" VPOS="2018" HPOS="169"/>
+            <SP WIDTH="20" VPOS="2019" HPOS="331"/>
+            <String WC="0.5833333135" CONTENT="bij" HEIGHT="38" WIDTH="37" VPOS="2018" HPOS="352"/>
+            <SP WIDTH="21" VPOS="2018" HPOS="390"/>
+            <String WC="0.5866666436" CONTENT="het" HEIGHT="29" WIDTH="51" VPOS="2018" HPOS="412"/>
+            <SP WIDTH="18" VPOS="2017" HPOS="464"/>
+            <String WC="0.5476922989" CONTENT="binnenlandsch" HEIGHT="29" WIDTH="226" VPOS="2017" HPOS="483"/>
+            <SP WIDTH="21" VPOS="2017" HPOS="710"/>
+            <String WC="0.6387500167" CONTENT="bestuur." HEIGHT="29" WIDTH="128" VPOS="2017" HPOS="732"/>
+          </TextLine>
+          <TextLine HEIGHT="30" WIDTH="450" VPOS="2058" HPOS="131">
+            <String STYLE="italics" WC="0.6236363649" CONTENT="Sekretaris." HEIGHT="29" WIDTH="181" VPOS="2059" HPOS="131"/>
+            <SP WIDTH="45" VPOS="2060" HPOS="313"/>
+            <String WC="0.9200000167" CONTENT="J." HEIGHT="28" WIDTH="25" VPOS="2060" HPOS="359"/>
+            <SP WIDTH="22" VPOS="2059" HPOS="385"/>
+            <String WC="0.6949999928" CONTENT="N." HEIGHT="28" WIDTH="35" VPOS="2059" HPOS="408"/>
+            <SP WIDTH="22" VPOS="2060" HPOS="444"/>
+            <String WC="0.7900000215" CONTENT="Labaar." HEIGHT="30" WIDTH="114" VPOS="2058" HPOS="467"/>
+          </TextLine>
+          <TextLine HEIGHT="19" WIDTH="348" VPOS="2140" HPOS="524" STYLEREFS="font0">
+            <String WC="0.3792307675" CONTENT="GOUVERNEMENTS" HEIGHT="19" WIDTH="220" VPOS="2140" HPOS="524"/>
+            <SP WIDTH="21" VPOS="2140" HPOS="745"/>
+            <String WC="0.4742857218" CONTENT="SCHOOL." HEIGHT="18" WIDTH="105" VPOS="2140" HPOS="767"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="773" VPOS="2194" HPOS="133">
+            <String STYLE="italics" WC="0.6583333611" CONTENT="Onderwijzer." HEIGHT="39" WIDTH="213" VPOS="2196" HPOS="133"/>
+            <SP WIDTH="44" VPOS="2196" HPOS="347"/>
+            <String WC="0.4066666663" CONTENT="Mas" HEIGHT="29" WIDTH="58" VPOS="2196" HPOS="392"/>
+            <SP WIDTH="19" VPOS="2196" HPOS="451"/>
+            <String WC="0.7012500167" CONTENT="Wabiman," HEIGHT="35" WIDTH="170" VPOS="2196" HPOS="471"/>
+            <SP WIDTH="23" VPOS="2195" HPOS="642"/>
+            <String WC="1." CONTENT="4" HEIGHT="29" WIDTH="17" VPOS="2195" HPOS="666"/>
+            <SP WIDTH="22" VPOS="2195" HPOS="684"/>
+            <String WC="0.5" CONTENT="maart" HEIGHT="22" WIDTH="86" VPOS="2202" HPOS="707"/>
+            <SP WIDTH="24" VPOS="2195" HPOS="794"/>
+            <String WC="0.7540000081" CONTENT="1875." HEIGHT="30" WIDTH="87" VPOS="2194" HPOS="819"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

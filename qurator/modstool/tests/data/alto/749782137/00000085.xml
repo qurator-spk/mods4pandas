@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2016-03-03</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>ABBYY</softwareCreator>
+          <softwareName>ABBYY FineReader Engine</softwareName>
+          <softwareVersion>11</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+    <TextStyle ID="font0" FONTFAMILY="Times New Roman" FONTSIZE="5"/>
+    <TextStyle ID="font1" FONTFAMILY="Times New Roman" FONTSIZE="7"/>
+    <TextStyle ID="font2" FONTFAMILY="Times New Roman" FONTSIZE="8"/>
+    <TextStyle ID="font3" FONTFAMILY="Times New Roman" FONTSIZE="9"/>
+    <TextStyle ID="font4" FONTFAMILY="Times New Roman" FONTSIZE="10"/>
+    <TextStyle ID="font5" FONTFAMILY="Times New Roman" FONTSIZE="19"/>
+  </Styles>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2368" WIDTH="1452">
+      <TopMargin HEIGHT="278" WIDTH="1452" VPOS="0" HPOS="0">
+        <TextBlock ID="Page1_Block1" HEIGHT="40" WIDTH="50" VPOS="189" HPOS="1262" language="nl" STYLEREFS="font4">
+          <TextLine HEIGHT="28" WIDTH="38" VPOS="195" HPOS="1268">
+            <String STYLE="bold" WC="0.174999997" CONTENT="49" HEIGHT="28" WIDTH="38" VPOS="195" HPOS="1268"/>
+          </TextLine>
+        </TextBlock>
+      </TopMargin>
+      <LeftMargin HEIGHT="2068" WIDTH="163" VPOS="278" HPOS="0">
+</LeftMargin>
+      <RightMargin HEIGHT="2068" WIDTH="134" VPOS="278" HPOS="1318">
+</RightMargin>
+      <BottomMargin HEIGHT="22" WIDTH="1452" VPOS="2346" HPOS="0">
+</BottomMargin>
+      <PrintSpace HEIGHT="2068" WIDTH="1155" VPOS="278" HPOS="163">
+        <ComposedBlock ID="Page1_Block2" HEIGHT="326" WIDTH="590" VPOS="278" HPOS="453" TYPE="container">
+          <TextBlock ID="Page1_Block3" HEIGHT="68" WIDTH="590" VPOS="278" HPOS="453" language="nl" STYLEREFS="font5">
+            <TextLine HEIGHT="56" WIDTH="579" VPOS="284" HPOS="458">
+              <String WC="0.5109090805" CONTENT="DEPARTEMENT" HEIGHT="56" WIDTH="579" VPOS="284" HPOS="458"/>
+            </TextLine>
+          </TextBlock>
+          <ComposedBlock ID="Page1_Block4" HEIGHT="222" WIDTH="320" VPOS="382" HPOS="579" TYPE="container">
+            <TextBlock ID="Page1_Block5" HEIGHT="33" WIDTH="75" VPOS="382" HPOS="697" language="nl" STYLEREFS="font1">
+              <TextLine HEIGHT="20" WIDTH="63" VPOS="388" HPOS="702">
+                <String WC="0.2933333218" CONTENT="VAN" HEIGHT="20" WIDTH="63" VPOS="388" HPOS="702"/>
+              </TextLine>
+            </TextBlock>
+            <Illustration ID="Page1_Block6" HEIGHT="162" WIDTH="320" VPOS="442" HPOS="579"/>
+          </ComposedBlock>
+        </ComposedBlock>
+        <TextBlock ID="Page1_Block7" HEIGHT="1675" WIDTH="1155" VPOS="671" HPOS="163" language="nl" STYLEREFS="font1">
+          <TextLine HEIGHT="31" WIDTH="738" VPOS="676" HPOS="269">
+            <String STYLEREFS="font2" WC="0.3199999928" CONTENT="Tot" HEIGHT="23" WIDTH="45" VPOS="676" HPOS="269"/>
+            <SP WIDTH="15" VPOS="676" HPOS="315"/>
+            <String STYLEREFS="font2" WC="0.2466666698" CONTENT="den" HEIGHT="23" WIDTH="47" VPOS="676" HPOS="331"/>
+            <SP WIDTH="17" VPOS="684" HPOS="379"/>
+            <String STYLEREFS="font2" WC="0.4411111176" CONTENT="werkkring" HEIGHT="30" WIDTH="143" VPOS="676" HPOS="397"/>
+            <SP WIDTH="15" VPOS="684" HPOS="541"/>
+            <String STYLEREFS="font2" WC="0.4799999893" CONTENT="van" HEIGHT="15" WIDTH="47" VPOS="684" HPOS="557"/>
+            <SP WIDTH="17" VPOS="676" HPOS="605"/>
+            <String STYLEREFS="font2" WC="0.3300000131" CONTENT="dit" HEIGHT="23" WIDTH="35" VPOS="676" HPOS="623"/>
+            <SP WIDTH="16" VPOS="676" HPOS="659"/>
+            <String STYLEREFS="font2" WC="0.5872727036" CONTENT="departement" HEIGHT="31" WIDTH="174" VPOS="676" HPOS="676"/>
+            <SP WIDTH="17" VPOS="677" HPOS="851"/>
+            <String STYLEREFS="font2" WC="0.5011110902" CONTENT="belmoren:" HEIGHT="23" WIDTH="138" VPOS="677" HPOS="869"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="1137" VPOS="733" HPOS="169" STYLEREFS="font3">
+            <String STYLE="bold" WC="0.1966666728" CONTENT="cf." HEIGHT="18" WIDTH="38" VPOS="741" HPOS="169"/>
+            <SP WIDTH="22" VPOS="734" HPOS="208"/>
+            <String WC="0.3366666734" CONTENT="Het" HEIGHT="25" WIDTH="67" VPOS="734" HPOS="231"/>
+            <SP WIDTH="15" VPOS="735" HPOS="299"/>
+            <String WC="0.7555555701" CONTENT="personeel" HEIGHT="32" WIDTH="176" VPOS="734" HPOS="315"/>
+            <SP WIDTH="8" VPOS="733" HPOS="492"/>
+            <String WC="0.7566666603" CONTENT="der" HEIGHT="27" WIDTH="61" VPOS="733" HPOS="501"/>
+            <SP WIDTH="8" VPOS="740" HPOS="563"/>
+            <String WC="0.5972727537" CONTENT="regterlijke" HEIGHT="33" WIDTH="197" VPOS="733" HPOS="572"/>
+            <SP WIDTH="16" VPOS="740" HPOS="770"/>
+            <String WC="0.7524999976" CONTENT="magt" HEIGHT="30" WIDTH="95" VPOS="736" HPOS="787"/>
+            <SP WIDTH="17" VPOS="736" HPOS="883"/>
+            <String WC="0.7900000215" CONTENT="met" HEIGHT="24" WIDTH="68" VPOS="736" HPOS="901"/>
+            <SP WIDTH="13" VPOS="736" HPOS="970"/>
+            <String WC="0.7024999857" CONTENT="uitzondering" HEIGHT="32" WIDTH="239" VPOS="734" HPOS="984"/>
+            <SP WIDTH="15" VPOS="741" HPOS="1224"/>
+            <String WC="1." CONTENT="van" HEIGHT="20" WIDTH="66" VPOS="740" HPOS="1240"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1071" VPOS="767" HPOS="237" STYLEREFS="font3">
+            <String WC="0.9066666961" CONTENT="den" HEIGHT="26" WIDTH="64" VPOS="767" HPOS="237"/>
+            <SP WIDTH="32" VPOS="768" HPOS="302"/>
+            <String WC="0.8144444227" CONTENT="President" HEIGHT="26" WIDTH="176" VPOS="767" HPOS="335"/>
+            <SP WIDTH="31" VPOS="769" HPOS="512"/>
+            <String WC="0.6666666865" CONTENT="van" HEIGHT="19" WIDTH="68" VPOS="774" HPOS="544"/>
+            <SP WIDTH="25" VPOS="768" HPOS="613"/>
+            <String WC="0.6399999857" CONTENT="liet" HEIGHT="25" WIDTH="59" VPOS="768" HPOS="639"/>
+            <SP WIDTH="26" VPOS="768" HPOS="699"/>
+            <String WC="0.6486666799" CONTENT="Hoog-geregtshof" HEIGHT="32" WIDTH="312" VPOS="767" HPOS="726"/>
+            <SP WIDTH="30" VPOS="768" HPOS="1039"/>
+            <String WC="0.5299999714" CONTENT="van" HEIGHT="19" WIDTH="68" VPOS="774" HPOS="1070"/>
+            <SP WIDTH="38" VPOS="767" HPOS="1139"/>
+            <String WC="0.6949999928" CONTENT="Neder-" HEIGHT="26" WIDTH="130" VPOS="767" HPOS="1178"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1071" VPOS="801" HPOS="237" STYLEREFS="font3">
+            <String WC="0.7042857409" CONTENT="landsch-Indië," HEIGHT="32" WIDTH="279" VPOS="801" HPOS="237"/>
+            <SP WIDTH="29" VPOS="801" HPOS="517"/>
+            <String WC="0.6650000215" CONTENT="de" HEIGHT="25" WIDTH="41" VPOS="801" HPOS="547"/>
+            <SP WIDTH="24" VPOS="807" HPOS="589"/>
+            <String WC="0.9357143044" CONTENT="verdere" HEIGHT="26" WIDTH="141" VPOS="801" HPOS="614"/>
+            <SP WIDTH="25" VPOS="801" HPOS="756"/>
+            <String WC="0.7062500119" CONTENT="beambten" HEIGHT="26" WIDTH="183" VPOS="801" HPOS="782"/>
+            <SP WIDTH="25" VPOS="801" HPOS="966"/>
+            <String WC="1." CONTENT="der" HEIGHT="26" WIDTH="59" VPOS="801" HPOS="992"/>
+            <SP WIDTH="26" VPOS="801" HPOS="1052"/>
+            <String WC="0.6433333158" CONTENT="Justitie," HEIGHT="32" WIDTH="158" VPOS="801" HPOS="1079"/>
+            <SP WIDTH="28" VPOS="801" HPOS="1238"/>
+            <String WC="1." CONTENT="de" HEIGHT="25" WIDTH="41" VPOS="801" HPOS="1267"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="1070" VPOS="834" HPOS="238" STYLEREFS="font3">
+            <String WC="0.8370000124" CONTENT="advokaten," HEIGHT="33" WIDTH="209" VPOS="834" HPOS="238"/>
+            <SP WIDTH="18" VPOS="842" HPOS="448"/>
+            <String WC="0.8390908837" CONTENT="procureurs," HEIGHT="26" WIDTH="219" VPOS="841" HPOS="467"/>
+            <SP WIDTH="19" VPOS="842" HPOS="687"/>
+            <String WC="0.8918181658" CONTENT="notarissen," HEIGHT="32" WIDTH="209" VPOS="835" HPOS="707"/>
+            <SP WIDTH="19" VPOS="835" HPOS="917"/>
+            <String WC="0.8516666889" CONTENT="deurwaarders" HEIGHT="27" WIDTH="254" VPOS="834" HPOS="937"/>
+            <SP WIDTH="18" VPOS="841" HPOS="1192"/>
+            <String WC="0.6150000095" CONTENT="en" HEIGHT="19" WIDTH="41" VPOS="841" HPOS="1211"/>
+            <SP WIDTH="14" VPOS="834" HPOS="1253"/>
+            <String WC="0.7200000286" CONTENT="de" HEIGHT="26" WIDTH="40" VPOS="834" HPOS="1268"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="379" VPOS="867" HPOS="236" STYLEREFS="font3">
+            <String WC="0.8388888836" CONTENT="beëedigde" HEIGHT="33" WIDTH="185" VPOS="867" HPOS="236"/>
+            <SP WIDTH="17" VPOS="874" HPOS="422"/>
+            <String WC="0.8439999819" CONTENT="vertalers." HEIGHT="26" WIDTH="175" VPOS="868" HPOS="440"/>
+          </TextLine>
+          <TextLine HEIGHT="26" WIDTH="582" VPOS="921" HPOS="170" STYLEREFS="font3">
+            <String STYLE="bold italics" WC="0.3249999881" CONTENT="b." HEIGHT="26" WIDTH="38" VPOS="921" HPOS="170"/>
+            <SP WIDTH="26" VPOS="921" HPOS="209"/>
+            <String WC="0.6449999809" CONTENT="De" HEIGHT="26" WIDTH="49" VPOS="921" HPOS="236"/>
+            <SP WIDTH="15" VPOS="928" HPOS="286"/>
+            <String WC="0.6779999733" CONTENT="wees-" HEIGHT="20" WIDTH="106" VPOS="927" HPOS="302"/>
+            <SP WIDTH="17" VPOS="927" HPOS="409"/>
+            <String WC="0.8849999905" CONTENT="en" HEIGHT="20" WIDTH="41" VPOS="927" HPOS="427"/>
+            <SP WIDTH="16" VPOS="922" HPOS="469"/>
+            <String WC="0.9046154022" CONTENT="boedelkamers." HEIGHT="26" WIDTH="266" VPOS="921" HPOS="486"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="241" VPOS="974" HPOS="206">
+            <String STYLEREFS="font2" WC="0.6399999857" CONTENT="(Zie" HEIGHT="32" WIDTH="50" VPOS="975" HPOS="206"/>
+            <SP WIDTH="17" VPOS="983" HPOS="257"/>
+            <String STYLEREFS="font2" WC="0.2949999869" CONTENT="pagina" HEIGHT="31" WIDTH="87" VPOS="975" HPOS="275"/>
+            <SP WIDTH="16" VPOS="974" HPOS="363"/>
+            <String STYLEREFS="font2" WC="0.5" CONTENT="121)." HEIGHT="33" WIDTH="67" VPOS="974" HPOS="380"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1136" VPOS="1027" HPOS="170" STYLEREFS="font3">
+            <String WC="0.2049999982" CONTENT="e." HEIGHT="18" WIDTH="37" VPOS="1036" HPOS="170"/>
+            <SP WIDTH="26" VPOS="1029" HPOS="208"/>
+            <String WC="0.625" CONTENT="De" HEIGHT="25" WIDTH="49" VPOS="1029" HPOS="235"/>
+            <SP WIDTH="21" VPOS="1029" HPOS="285"/>
+            <String WC="0.777777791" CONTENT="toelating" HEIGHT="31" WIDTH="165" VPOS="1028" HPOS="307"/>
+            <SP WIDTH="24" VPOS="1034" HPOS="473"/>
+            <String WC="1." CONTENT="van" HEIGHT="19" WIDTH="68" VPOS="1034" HPOS="498"/>
+            <SP WIDTH="17" VPOS="1027" HPOS="567"/>
+            <String WC="0.7923076749" CONTENT="Nederlanders," HEIGHT="32" WIDTH="266" VPOS="1027" HPOS="585"/>
+            <SP WIDTH="19" VPOS="1027" HPOS="852"/>
+            <String WC="0.824000001" CONTENT="Westersche" HEIGHT="26" WIDTH="215" VPOS="1027" HPOS="872"/>
+            <SP WIDTH="17" VPOS="1034" HPOS="1088"/>
+            <String WC="1." CONTENT="en" HEIGHT="19" WIDTH="43" VPOS="1034" HPOS="1106"/>
+            <SP WIDTH="18" VPOS="1028" HPOS="1150"/>
+            <String WC="0.9128571153" CONTENT="Ooster-" HEIGHT="25" WIDTH="137" VPOS="1028" HPOS="1169"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="836" VPOS="1060" HPOS="237" STYLEREFS="font3">
+            <String WC="0.5049999952" CONTENT="sche" HEIGHT="26" WIDTH="81" VPOS="1061" HPOS="237"/>
+            <SP WIDTH="16" VPOS="1068" HPOS="319"/>
+            <String WC="0.8069230914" CONTENT="vreemdelingen" HEIGHT="31" WIDTH="276" VPOS="1061" HPOS="336"/>
+            <SP WIDTH="16" VPOS="1060" HPOS="613"/>
+            <String WC="1." CONTENT="in" HEIGHT="26" WIDTH="36" VPOS="1060" HPOS="630"/>
+            <SP WIDTH="16" VPOS="1060" HPOS="667"/>
+            <String WC="0.7010526061" CONTENT="Nederlandsch-Indië." HEIGHT="27" WIDTH="389" VPOS="1060" HPOS="684"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1103" VPOS="1114" HPOS="206">
+            <String STYLEREFS="font2" WC="0.5862500072" CONTENT="[Niemand" HEIGHT="24" WIDTH="115" VPOS="1114" HPOS="206"/>
+            <SP WIDTH="24" VPOS="1115" HPOS="322"/>
+            <String STYLEREFS="font2" WC="0.5133333206" CONTENT="van" HEIGHT="15" WIDTH="45" VPOS="1123" HPOS="347"/>
+            <SP WIDTH="22" VPOS="1123" HPOS="393"/>
+            <String STYLEREFS="font2" WC="0.5833333135" CONTENT="elders" HEIGHT="24" WIDTH="79" VPOS="1115" HPOS="416"/>
+            <SP WIDTH="27" VPOS="1115" HPOS="496"/>
+            <String STYLEREFS="font2" WC="0.5699999928" CONTENT="komende," HEIGHT="31" WIDTH="135" VPOS="1114" HPOS="524"/>
+            <SP WIDTH="26" VPOS="1123" HPOS="660"/>
+            <String STYLEREFS="font2" WC="0.8166666627" CONTENT="met" HEIGHT="20" WIDTH="50" VPOS="1117" HPOS="687"/>
+            <SP WIDTH="25" VPOS="1117" HPOS="738"/>
+            <String STYLEREFS="font2" WC="0.6324999928" CONTENT="uitzondering" HEIGHT="31" WIDTH="173" VPOS="1114" HPOS="764"/>
+            <SP WIDTH="16" VPOS="1123" HPOS="938"/>
+            <String STYLEREFS="font2" WC="0.8333333135" CONTENT="van" HEIGHT="15" WIDTH="46" VPOS="1123" HPOS="955"/>
+            <SP WIDTH="18" VPOS="1115" HPOS="1002"/>
+            <String STYLEREFS="font2" WC="0.625" CONTENT="de" HEIGHT="23" WIDTH="28" VPOS="1115" HPOS="1021"/>
+            <SP WIDTH="17" VPOS="1123" HPOS="1050"/>
+            <String STYLEREFS="font2" WC="0.5112500191" CONTENT="personen" HEIGHT="24" WIDTH="124" VPOS="1122" HPOS="1068"/>
+            <SP WIDTH="18" VPOS="1115" HPOS="1193"/>
+            <String STYLEREFS="font2" WC="0.7649999857" CONTENT="door" HEIGHT="22" WIDTH="60" VPOS="1115" HPOS="1212"/>
+            <SP WIDTH="19" VPOS="1115" HPOS="1273"/>
+            <String STYLEREFS="font2" WC="0.6600000262" CONTENT="’t" HEIGHT="21" WIDTH="16" VPOS="1115" HPOS="1293"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1138" VPOS="1147" HPOS="171">
+            <String STYLEREFS="font2" WC="0.6008333564" CONTENT="gouvernement" HEIGHT="27" WIDTH="197" VPOS="1152" HPOS="171"/>
+            <SP WIDTH="24" VPOS="1152" HPOS="369"/>
+            <String STYLEREFS="font2" WC="0.5975000262" CONTENT="naar" HEIGHT="15" WIDTH="57" VPOS="1157" HPOS="394"/>
+            <SP WIDTH="25" VPOS="1149" HPOS="452"/>
+            <String STYLEREFS="font2" WC="0.6572222114" CONTENT="Nederlandsch-Indië" HEIGHT="25" WIDTH="264" VPOS="1147" HPOS="478"/>
+            <SP WIDTH="21" VPOS="1149" HPOS="743"/>
+            <String STYLEREFS="font2" WC="0.6800000072" CONTENT="gezonden," HEIGHT="31" WIDTH="142" VPOS="1148" HPOS="765"/>
+            <SP WIDTH="18" VPOS="1157" HPOS="908"/>
+            <String STYLEREFS="font2" WC="0.4566666782" CONTENT="mag" HEIGHT="22" WIDTH="55" VPOS="1157" HPOS="927"/>
+            <SP WIDTH="15" VPOS="1157" HPOS="983"/>
+            <String STYLEREFS="font2" WC="0.3574999869" CONTENT="zich" HEIGHT="23" WIDTH="52" VPOS="1149" HPOS="999"/>
+            <SP WIDTH="17" VPOS="1149" HPOS="1052"/>
+            <String STYLEREFS="font2" WC="0.6600000262" CONTENT="in" HEIGHT="22" WIDTH="25" VPOS="1150" HPOS="1070"/>
+            <SP WIDTH="18" VPOS="1148" HPOS="1096"/>
+            <String STYLEREFS="font2" WC="0.7915384769" CONTENT="Nederlandsch-" HEIGHT="24" WIDTH="194" VPOS="1148" HPOS="1115"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1138" VPOS="1181" HPOS="172">
+            <String STYLEREFS="font2" WC="0.1819999963" CONTENT="Indië" HEIGHT="24" WIDTH="69" VPOS="1182" HPOS="172"/>
+            <SP WIDTH="27" VPOS="1184" HPOS="242"/>
+            <String STYLEREFS="font2" WC="0.6937500238" CONTENT="vestigen" HEIGHT="30" WIDTH="110" VPOS="1183" HPOS="270"/>
+            <SP WIDTH="25" VPOS="1191" HPOS="381"/>
+            <String STYLEREFS="font2" WC="0.9383333325" CONTENT="zonder" HEIGHT="23" WIDTH="88" VPOS="1183" HPOS="407"/>
+            <SP WIDTH="25" VPOS="1191" HPOS="496"/>
+            <String STYLEREFS="font2" WC="0.5653846264" CONTENT="schriftelijke" HEIGHT="31" WIDTH="160" VPOS="1182" HPOS="522"/>
+            <SP WIDTH="26" VPOS="1189" HPOS="683"/>
+            <String STYLEREFS="font2" WC="0.5619999766" CONTENT="vergunning" HEIGHT="30" WIDTH="157" VPOS="1182" HPOS="710"/>
+            <SP WIDTH="17" VPOS="1190" HPOS="868"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="op" HEIGHT="23" WIDTH="31" VPOS="1190" HPOS="886"/>
+            <SP WIDTH="22" VPOS="1182" HPOS="918"/>
+            <String STYLEREFS="font2" WC="0.8050000072" CONTENT="Java" HEIGHT="23" WIDTH="57" VPOS="1182" HPOS="941"/>
+            <SP WIDTH="18" VPOS="1190" HPOS="999"/>
+            <String STYLEREFS="font2" WC="0.6750000119" CONTENT="en" HEIGHT="14" WIDTH="31" VPOS="1191" HPOS="1018"/>
+            <SP WIDTH="17" VPOS="1182" HPOS="1050"/>
+            <String STYLEREFS="font2" WC="0.8357142806" CONTENT="Madoera" HEIGHT="24" WIDTH="112" VPOS="1182" HPOS="1068"/>
+            <SP WIDTH="17" VPOS="1189" HPOS="1181"/>
+            <String STYLEREFS="font2" WC="0.8566666842" CONTENT="van" HEIGHT="16" WIDTH="44" VPOS="1189" HPOS="1199"/>
+            <SP WIDTH="18" VPOS="1181" HPOS="1244"/>
+            <String STYLEREFS="font2" WC="0.9333333373" CONTENT="den" HEIGHT="24" WIDTH="47" VPOS="1181" HPOS="1263"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1141" VPOS="1215" HPOS="170">
+            <String STYLEREFS="font2" WC="0.7204999924" CONTENT="Gouverneur-Generaal," HEIGHT="31" WIDTH="310" VPOS="1216" HPOS="170"/>
+            <SP WIDTH="17" VPOS="1216" HPOS="481"/>
+            <String STYLEREFS="font2" WC="0.6524999738" CONTENT="daar" HEIGHT="23" WIDTH="58" VPOS="1216" HPOS="499"/>
+            <SP WIDTH="16" VPOS="1216" HPOS="558"/>
+            <String STYLEREFS="font2" WC="0.4550000131" CONTENT="buiten" HEIGHT="23" WIDTH="84" VPOS="1216" HPOS="575"/>
+            <SP WIDTH="18" VPOS="1224" HPOS="660"/>
+            <String STYLEREFS="font2" WC="0.7666666508" CONTENT="van" HEIGHT="16" WIDTH="47" VPOS="1223" HPOS="679"/>
+            <SP WIDTH="17" VPOS="1216" HPOS="727"/>
+            <String STYLEREFS="font2" WC="0.5866666436" CONTENT="den" HEIGHT="23" WIDTH="47" VPOS="1216" HPOS="745"/>
+            <SP WIDTH="14" VPOS="1216" HPOS="793"/>
+            <String STYLEREFS="font2" WC="0.7587500215" CONTENT="hoogsten" HEIGHT="31" WIDTH="123" VPOS="1216" HPOS="808"/>
+            <SP WIDTH="10" VPOS="1224" HPOS="932"/>
+            <String STYLEREFS="font2" WC="0.7084615231" CONTENT="gewestelijken" HEIGHT="31" WIDTH="184" VPOS="1216" HPOS="943"/>
+            <SP WIDTH="10" VPOS="1224" HPOS="1128"/>
+            <String STYLEREFS="font2" WC="0.300909102" CONTENT="gezaghebber" HEIGHT="31" WIDTH="172" VPOS="1215" HPOS="1139"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="226" VPOS="1249" HPOS="171">
+            <String STYLEREFS="font2" WC="0.4740000069" CONTENT="(Art." HEIGHT="32" WIDTH="63" VPOS="1250" HPOS="171"/>
+            <SP WIDTH="17" VPOS="1249" HPOS="235"/>
+            <String STYLEREFS="font2" WC="0.6566666961" CONTENT="105" HEIGHT="23" WIDTH="48" VPOS="1249" HPOS="253"/>
+            <SP WIDTH="17" VPOS="1250" HPOS="302"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="R." HEIGHT="23" WIDTH="29" VPOS="1250" HPOS="320"/>
+            <SP WIDTH="8" VPOS="1250" HPOS="350"/>
+            <String STYLEREFS="font2" WC="0.473333329" CONTENT="R)." HEIGHT="31" WIDTH="38" VPOS="1250" HPOS="359"/>
+          </TextLine>
+          <TextLine HEIGHT="30" WIDTH="1104" VPOS="1283" HPOS="205">
+            <String STYLEREFS="font2" WC="0.2949999869" CONTENT="De" HEIGHT="23" WIDTH="33" VPOS="1283" HPOS="205"/>
+            <SP WIDTH="27" VPOS="1291" HPOS="239"/>
+            <String STYLEREFS="font2" WC="0.5954545736" CONTENT="voorwaarden" HEIGHT="24" WIDTH="173" VPOS="1283" HPOS="267"/>
+            <SP WIDTH="29" VPOS="1292" HPOS="441"/>
+            <String STYLEREFS="font2" WC="0.5350000262" CONTENT="voor" HEIGHT="14" WIDTH="59" VPOS="1292" HPOS="471"/>
+            <SP WIDTH="25" VPOS="1283" HPOS="531"/>
+            <String STYLEREFS="font2" WC="0.7400000095" CONTENT="de" HEIGHT="23" WIDTH="29" VPOS="1283" HPOS="557"/>
+            <SP WIDTH="28" VPOS="1286" HPOS="587"/>
+            <String STYLEREFS="font2" WC="0.3444444537" CONTENT="toelating" HEIGHT="30" WIDTH="121" VPOS="1283" HPOS="616"/>
+            <SP WIDTH="22" VPOS="1284" HPOS="738"/>
+            <String STYLEREFS="font2" WC="0.5400000215" CONTENT="in" HEIGHT="22" WIDTH="22" VPOS="1284" HPOS="761"/>
+            <SP WIDTH="23" VPOS="1283" HPOS="784"/>
+            <String STYLEREFS="font2" WC="0.6577777863" CONTENT="Nederlandsch-Indië" HEIGHT="23" WIDTH="265" VPOS="1283" HPOS="808"/>
+            <SP WIDTH="16" VPOS="1284" HPOS="1074"/>
+            <String STYLEREFS="font2" WC="0.3725000024" CONTENT="zijn" HEIGHT="29" WIDTH="46" VPOS="1284" HPOS="1091"/>
+            <SP WIDTH="17" VPOS="1291" HPOS="1138"/>
+            <String STYLEREFS="font2" WC="0.6281818151" CONTENT="vastgesteld" HEIGHT="30" WIDTH="153" VPOS="1283" HPOS="1156"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1137" VPOS="1316" HPOS="172">
+            <String STYLEREFS="font2" WC="0.6374999881" CONTENT="voor" HEIGHT="15" WIDTH="61" VPOS="1325" HPOS="172"/>
+            <SP WIDTH="21" VPOS="1317" HPOS="234"/>
+            <String STYLEREFS="font2" WC="0.741538465" CONTENT="Nederlanders," HEIGHT="31" WIDTH="190" VPOS="1316" HPOS="256"/>
+            <SP WIDTH="25" VPOS="1326" HPOS="447"/>
+            <String STYLEREFS="font2" WC="0.5783333182" CONTENT="andere" HEIGHT="24" WIDTH="91" VPOS="1316" HPOS="473"/>
+            <SP WIDTH="26" VPOS="1317" HPOS="565"/>
+            <String STYLEREFS="font2" WC="0.5600000024" CONTENT="Europeanen" HEIGHT="31" WIDTH="161" VPOS="1317" HPOS="592"/>
+            <SP WIDTH="26" VPOS="1325" HPOS="754"/>
+            <String STYLEREFS="font2" WC="0.2700000107" CONTENT="en" HEIGHT="15" WIDTH="31" VPOS="1325" HPOS="781"/>
+            <SP WIDTH="23" VPOS="1325" HPOS="813"/>
+            <String STYLEREFS="font2" WC="0.853333354" CONTENT="met" HEIGHT="20" WIDTH="51" VPOS="1320" HPOS="837"/>
+            <SP WIDTH="17" VPOS="1317" HPOS="889"/>
+            <String STYLEREFS="font2" WC="0.7160000205" CONTENT="dezen" HEIGHT="23" WIDTH="75" VPOS="1317" HPOS="907"/>
+            <SP WIDTH="17" VPOS="1325" HPOS="983"/>
+            <String STYLEREFS="font2" WC="0.7346666455" CONTENT="gelijkgestelden" HEIGHT="31" WIDTH="205" VPOS="1316" HPOS="1001"/>
+            <SP WIDTH="17" VPOS="1317" HPOS="1207"/>
+            <String STYLEREFS="font2" WC="0.6433333158" CONTENT="bij" HEIGHT="29" WIDTH="30" VPOS="1317" HPOS="1225"/>
+            <SP WIDTH="19" VPOS="1316" HPOS="1256"/>
+            <String STYLEREFS="font2" WC="0.6299999952" CONTENT="St." HEIGHT="23" WIDTH="33" VPOS="1316" HPOS="1276"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="1139" VPOS="1350" HPOS="171">
+            <String STYLEREFS="font2" WC="0.349999994" CONTENT="1872," HEIGHT="30" WIDTH="78" VPOS="1350" HPOS="171"/>
+            <SP WIDTH="24" VPOS="1359" HPOS="250"/>
+            <String STYLEREFS="font2" WC="0.7466666698" CONTENT="no." HEIGHT="16" WIDTH="40" VPOS="1359" HPOS="275"/>
+            <SP WIDTH="17" VPOS="1351" HPOS="316"/>
+            <String STYLEREFS="font2" WC="0.3899999857" CONTENT="38;" HEIGHT="27" WIDTH="44" VPOS="1351" HPOS="334"/>
+            <SP WIDTH="27" VPOS="1359" HPOS="379"/>
+            <String STYLEREFS="font2" WC="0.9125000238" CONTENT="voor" HEIGHT="14" WIDTH="58" VPOS="1359" HPOS="407"/>
+            <SP WIDTH="16" VPOS="1351" HPOS="466"/>
+            <String STYLEREFS="font2" WC="0.6800000072" CONTENT="Oosterschc" HEIGHT="24" WIDTH="149" VPOS="1350" HPOS="483"/>
+            <SP WIDTH="16" VPOS="1358" HPOS="633"/>
+            <String STYLEREFS="font2" WC="0.5884615183" CONTENT="vreemdelingen" HEIGHT="31" WIDTH="200" VPOS="1350" HPOS="650"/>
+            <SP WIDTH="18" VPOS="1358" HPOS="851"/>
+            <String STYLEREFS="font2" WC="0.6200000048" CONTENT="of" HEIGHT="22" WIDTH="28" VPOS="1351" HPOS="870"/>
+            <SP WIDTH="12" VPOS="1351" HPOS="899"/>
+            <String STYLEREFS="font2" WC="0.7200000286" CONTENT="met" HEIGHT="21" WIDTH="50" VPOS="1353" HPOS="912"/>
+            <SP WIDTH="16" VPOS="1351" HPOS="963"/>
+            <String STYLEREFS="font2" WC="0.7288888693" CONTENT="inlanders" HEIGHT="24" WIDTH="123" VPOS="1350" HPOS="980"/>
+            <SP WIDTH="18" VPOS="1358" HPOS="1104"/>
+            <String STYLEREFS="font2" WC="0.6364285946" CONTENT="gelijkgestelde" HEIGHT="31" WIDTH="187" VPOS="1350" HPOS="1123"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="1138" VPOS="1383" HPOS="171">
+            <String STYLEREFS="font2" WC="0.8033333421" CONTENT="personen," HEIGHT="23" WIDTH="133" VPOS="1392" HPOS="171"/>
+            <SP WIDTH="18" VPOS="1392" HPOS="305"/>
+            <String STYLEREFS="font2" WC="0.3625000119" CONTENT="niet" HEIGHT="22" WIDTH="52" VPOS="1385" HPOS="324"/>
+            <SP WIDTH="15" VPOS="1384" HPOS="377"/>
+            <String STYLEREFS="font2" WC="0.5960000157" CONTENT="behoorende" HEIGHT="23" WIDTH="159" VPOS="1384" HPOS="393"/>
+            <SP WIDTH="19" VPOS="1387" HPOS="553"/>
+            <String STYLEREFS="font2" WC="0.3733333349" CONTENT="lot" HEIGHT="20" WIDTH="38" VPOS="1387" HPOS="573"/>
+            <SP WIDTH="14" VPOS="1384" HPOS="612"/>
+            <String STYLEREFS="font2" WC="0.6650000215" CONTENT="de" HEIGHT="23" WIDTH="30" VPOS="1384" HPOS="627"/>
+            <SP WIDTH="16" VPOS="1384" HPOS="658"/>
+            <String STYLEREFS="font2" WC="0.5672727227" CONTENT="ingezetenen" HEIGHT="31" WIDTH="160" VPOS="1384" HPOS="675"/>
+            <SP WIDTH="19" VPOS="1392" HPOS="836"/>
+            <String STYLEREFS="font2" WC="0.7599999905" CONTENT="van" HEIGHT="15" WIDTH="44" VPOS="1392" HPOS="856"/>
+            <SP WIDTH="18" VPOS="1384" HPOS="901"/>
+            <String STYLEREFS="font2" WC="0.5799999833" CONTENT="den" HEIGHT="23" WIDTH="45" VPOS="1384" HPOS="920"/>
+            <SP WIDTH="19" VPOS="1385" HPOS="966"/>
+            <String STYLEREFS="font2" WC="0.5155555606" CONTENT="Indischen" HEIGHT="23" WIDTH="130" VPOS="1384" HPOS="986"/>
+            <SP WIDTH="18" VPOS="1392" HPOS="1117"/>
+            <String STYLEREFS="font2" WC="0.6844444275" CONTENT="archipel," HEIGHT="33" WIDTH="123" VPOS="1383" HPOS="1136"/>
+            <SP WIDTH="17" VPOS="1384" HPOS="1260"/>
+            <String STYLEREFS="font2" WC="0.3466666639" CONTENT="bij" HEIGHT="30" WIDTH="31" VPOS="1384" HPOS="1278"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="251" VPOS="1417" HPOS="171">
+            <String STYLEREFS="font2" WC="0.7333333492" CONTENT="St." HEIGHT="22" WIDTH="34" VPOS="1419" HPOS="171"/>
+            <SP WIDTH="18" VPOS="1417" HPOS="206"/>
+            <String STYLEREFS="font2" WC="0.6240000129" CONTENT="1872," HEIGHT="31" WIDTH="78" VPOS="1417" HPOS="225"/>
+            <SP WIDTH="17" VPOS="1426" HPOS="304"/>
+            <String STYLEREFS="font2" WC="0.5566666722" CONTENT="no." HEIGHT="16" WIDTH="42" VPOS="1426" HPOS="322"/>
+            <SP WIDTH="17" VPOS="1417" HPOS="365"/>
+            <String STYLEREFS="font2" WC="0.5533333421" CONTENT="40." HEIGHT="25" WIDTH="39" VPOS="1417" HPOS="383"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1138" VPOS="1470" HPOS="171" STYLEREFS="font3">
+            <String STYLE="bold" WC="0.3066666722" CONTENT="cl." HEIGHT="26" WIDTH="40" VPOS="1470" HPOS="171"/>
+            <SP WIDTH="24" VPOS="1470" HPOS="212"/>
+            <String WC="0.9850000143" CONTENT="De" HEIGHT="26" WIDTH="48" VPOS="1470" HPOS="237"/>
+            <SP WIDTH="17" VPOS="1477" HPOS="286"/>
+            <String WC="0.7208333611" CONTENT="verwijdering" HEIGHT="32" WIDTH="242" VPOS="1470" HPOS="304"/>
+            <SP WIDTH="15" VPOS="1477" HPOS="547"/>
+            <String WC="0.7066666484" CONTENT="van" HEIGHT="18" WIDTH="66" VPOS="1477" HPOS="563"/>
+            <SP WIDTH="13" VPOS="1477" HPOS="630"/>
+            <String WC="0.75" CONTENT="personen" HEIGHT="25" WIDTH="168" VPOS="1476" HPOS="644"/>
+            <SP WIDTH="12" VPOS="1477" HPOS="813"/>
+            <String WC="0.7166666389" CONTENT="uit" HEIGHT="25" WIDTH="54" VPOS="1470" HPOS="826"/>
+            <SP WIDTH="14" VPOS="1472" HPOS="881"/>
+            <String WC="0.6933333278" CONTENT="geheel" HEIGHT="31" WIDTH="119" VPOS="1470" HPOS="896"/>
+            <SP WIDTH="13" VPOS="1471" HPOS="1016"/>
+            <String WC="0.5961538553" CONTENT="Nederlandsch-" HEIGHT="26" WIDTH="279" VPOS="1470" HPOS="1030"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1071" VPOS="1503" HPOS="238" STYLEREFS="font3">
+            <String WC="0.8360000253" CONTENT="Indië" HEIGHT="26" WIDTH="100" VPOS="1503" HPOS="238"/>
+            <SP WIDTH="8" VPOS="1504" HPOS="339"/>
+            <String WC="0.6399999857" CONTENT="of" HEIGHT="26" WIDTH="38" VPOS="1503" HPOS="348"/>
+            <SP WIDTH="3" VPOS="1503" HPOS="387"/>
+            <String WC="0.7166666389" CONTENT="uit" HEIGHT="25" WIDTH="52" VPOS="1504" HPOS="391"/>
+            <SP WIDTH="8" VPOS="1505" HPOS="444"/>
+            <String WC="0.75" CONTENT="een" HEIGHT="20" WIDTH="61" VPOS="1509" HPOS="453"/>
+            <SP WIDTH="8" VPOS="1504" HPOS="515"/>
+            <String WC="0.9714285731" CONTENT="bepaald" HEIGHT="31" WIDTH="145" VPOS="1503" HPOS="524"/>
+            <SP WIDTH="9" VPOS="1503" HPOS="670"/>
+            <String WC="0.9399999976" CONTENT="gedeelte" HEIGHT="31" WIDTH="151" VPOS="1503" HPOS="680"/>
+            <SP WIDTH="9" VPOS="1503" HPOS="832"/>
+            <String WC="1." CONTENT="daarvan" HEIGHT="26" WIDTH="151" VPOS="1503" HPOS="842"/>
+            <SP WIDTH="8" VPOS="1510" HPOS="994"/>
+            <String WC="1." CONTENT="en" HEIGHT="20" WIDTH="42" VPOS="1510" HPOS="1003"/>
+            <SP WIDTH="8" VPOS="1504" HPOS="1046"/>
+            <String WC="1." CONTENT="de" HEIGHT="25" WIDTH="41" VPOS="1504" HPOS="1055"/>
+            <SP WIDTH="8" VPOS="1510" HPOS="1097"/>
+            <String WC="0.9399999976" CONTENT="aanwijzing" HEIGHT="31" WIDTH="203" VPOS="1504" HPOS="1106"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="580" VPOS="1536" HPOS="239" STYLEREFS="font3">
+            <String WC="0.9366666675" CONTENT="van" HEIGHT="19" WIDTH="67" VPOS="1544" HPOS="239"/>
+            <SP WIDTH="16" VPOS="1537" HPOS="307"/>
+            <String WC="0.8387500048" CONTENT="bepaalde" HEIGHT="31" WIDTH="164" VPOS="1537" HPOS="324"/>
+            <SP WIDTH="17" VPOS="1543" HPOS="489"/>
+            <String WC="0.8535293937" CONTENT="verblijfplaatsen." HEIGHT="32" WIDTH="312" VPOS="1536" HPOS="507"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="1105" VPOS="1590" HPOS="206">
+            <String STYLEREFS="font2" WC="0.200000003" CONTENT="De" HEIGHT="23" WIDTH="32" VPOS="1591" HPOS="206"/>
+            <SP WIDTH="17" VPOS="1592" HPOS="239"/>
+            <String STYLEREFS="font2" WC="0.7405263186" CONTENT="Gouverneur-Generaal" HEIGHT="23" WIDTH="292" VPOS="1591" HPOS="257"/>
+            <SP WIDTH="17" VPOS="1591" HPOS="550"/>
+            <String STYLEREFS="font2" WC="0.8874999881" CONTENT="kan," HEIGHT="29" WIDTH="60" VPOS="1591" HPOS="568"/>
+            <SP WIDTH="18" VPOS="1591" HPOS="629"/>
+            <String STYLEREFS="font2" WC="0.2599999905" CONTENT="in" HEIGHT="22" WIDTH="25" VPOS="1591" HPOS="648"/>
+            <SP WIDTH="18" VPOS="1599" HPOS="674"/>
+            <String STYLEREFS="font2" WC="0.7606666684" CONTENT="overeenstemming" HEIGHT="30" WIDTH="239" VPOS="1591" HPOS="693"/>
+            <SP WIDTH="16" VPOS="1599" HPOS="933"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="met" HEIGHT="20" WIDTH="49" VPOS="1594" HPOS="950"/>
+            <SP WIDTH="17" VPOS="1592" HPOS="1000"/>
+            <String STYLEREFS="font2" WC="0.8433333039" CONTENT="den" HEIGHT="22" WIDTH="47" VPOS="1592" HPOS="1018"/>
+            <SP WIDTH="16" VPOS="1592" HPOS="1066"/>
+            <String STYLEREFS="font2" WC="0.5699999928" CONTENT="Raad" HEIGHT="23" WIDTH="67" VPOS="1591" HPOS="1083"/>
+            <SP WIDTH="14" VPOS="1591" HPOS="1151"/>
+            <String STYLEREFS="font2" WC="0.8600000143" CONTENT="van" HEIGHT="15" WIDTH="47" VPOS="1599" HPOS="1166"/>
+            <SP WIDTH="10" VPOS="1590" HPOS="1214"/>
+            <String STYLEREFS="font2" WC="0.6433333158" CONTENT="Neder-" HEIGHT="24" WIDTH="86" VPOS="1590" HPOS="1225"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="1138" VPOS="1624" HPOS="173">
+            <String STYLEREFS="font2" WC="0.6135714054" CONTENT="landsch-Indië," HEIGHT="30" WIDTH="195" VPOS="1625" HPOS="173"/>
+            <SP WIDTH="15" VPOS="1633" HPOS="369"/>
+            <String STYLEREFS="font2" WC="0.6066666842" CONTENT="aan" HEIGHT="15" WIDTH="44" VPOS="1632" HPOS="385"/>
+            <SP WIDTH="20" VPOS="1633" HPOS="430"/>
+            <String STYLEREFS="font2" WC="0.6255555749" CONTENT="personen," HEIGHT="23" WIDTH="133" VPOS="1632" HPOS="451"/>
+            <SP WIDTH="18" VPOS="1632" HPOS="585"/>
+            <String STYLEREFS="font2" WC="0.3824999928" CONTENT="niet" HEIGHT="22" WIDTH="50" VPOS="1625" HPOS="604"/>
+            <SP WIDTH="17" VPOS="1624" HPOS="655"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="in" HEIGHT="22" WIDTH="24" VPOS="1624" HPOS="673"/>
+            <SP WIDTH="17" VPOS="1624" HPOS="698"/>
+            <String STYLEREFS="font2" WC="0.7122222185" CONTENT="Nederlandsch-Indië" HEIGHT="24" WIDTH="269" VPOS="1624" HPOS="716"/>
+            <SP WIDTH="16" VPOS="1626" HPOS="986"/>
+            <String STYLEREFS="font2" WC="0.5862500072" CONTENT="geboren," HEIGHT="30" WIDTH="117" VPOS="1625" HPOS="1003"/>
+            <SP WIDTH="10" VPOS="1624" HPOS="1121"/>
+            <String STYLEREFS="font2" WC="0.7633333206" CONTENT="die" HEIGHT="24" WIDTH="39" VPOS="1624" HPOS="1132"/>
+            <SP WIDTH="9" VPOS="1633" HPOS="1172"/>
+            <String STYLEREFS="font2" WC="0.8100000024" CONTENT="gevaarlijk" HEIGHT="30" WIDTH="129" VPOS="1625" HPOS="1182"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1139" VPOS="1657" HPOS="173">
+            <String STYLEREFS="font2" WC="0.6200000048" CONTENT="worden" HEIGHT="23" WIDTH="102" VPOS="1658" HPOS="173"/>
+            <SP WIDTH="24" VPOS="1666" HPOS="276"/>
+            <String STYLEREFS="font2" WC="0.5350000262" CONTENT="geacht" HEIGHT="31" WIDTH="89" VPOS="1658" HPOS="301"/>
+            <SP WIDTH="21" VPOS="1661" HPOS="391"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="voor" HEIGHT="15" WIDTH="60" VPOS="1666" HPOS="413"/>
+            <SP WIDTH="16" VPOS="1658" HPOS="474"/>
+            <String STYLEREFS="font2" WC="0.7649999857" CONTENT="de" HEIGHT="23" WIDTH="30" VPOS="1658" HPOS="491"/>
+            <SP WIDTH="17" VPOS="1666" HPOS="522"/>
+            <String STYLEREFS="font2" WC="0.6587499976" CONTENT="openbare" HEIGHT="32" WIDTH="128" VPOS="1657" HPOS="540"/>
+            <SP WIDTH="17" VPOS="1666" HPOS="669"/>
+            <String STYLEREFS="font2" WC="0.7450000048" CONTENT="rust" HEIGHT="21" WIDTH="55" VPOS="1660" HPOS="687"/>
+            <SP WIDTH="15" VPOS="1660" HPOS="743"/>
+            <String STYLEREFS="font2" WC="0.3249999881" CONTENT="en" HEIGHT="15" WIDTH="29" VPOS="1666" HPOS="759"/>
+            <SP WIDTH="19" VPOS="1666" HPOS="789"/>
+            <String STYLEREFS="font2" WC="0.8659999967" CONTENT="orde," HEIGHT="30" WIDTH="74" VPOS="1658" HPOS="809"/>
+            <SP WIDTH="18" VPOS="1658" HPOS="884"/>
+            <String STYLEREFS="font2" WC="0.6474999785" CONTENT="liet" HEIGHT="24" WIDTH="42" VPOS="1658" HPOS="903"/>
+            <SP WIDTH="14" VPOS="1661" HPOS="946"/>
+            <String STYLEREFS="font2" WC="0.5862500072" CONTENT="verblijf" HEIGHT="31" WIDTH="100" VPOS="1658" HPOS="961"/>
+            <SP WIDTH="12" VPOS="1659" HPOS="1062"/>
+            <String STYLEREFS="font2" WC="0.625" CONTENT="in" HEIGHT="22" WIDTH="25" VPOS="1660" HPOS="1075"/>
+            <SP WIDTH="17" VPOS="1666" HPOS="1101"/>
+            <String STYLEREFS="font2" WC="0.6616666913" CONTENT="geheel" HEIGHT="31" WIDTH="87" VPOS="1658" HPOS="1119"/>
+            <SP WIDTH="16" VPOS="1658" HPOS="1207"/>
+            <String STYLEREFS="font2" WC="0.6116666794" CONTENT="Neder-" HEIGHT="24" WIDTH="88" VPOS="1658" HPOS="1224"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="1138" VPOS="1691" HPOS="171">
+            <String STYLEREFS="font2" WC="0.6376923323" CONTENT="landsch-Indië" HEIGHT="25" WIDTH="184" VPOS="1691" HPOS="171"/>
+            <SP WIDTH="17" VPOS="1693" HPOS="356"/>
+            <String STYLEREFS="font2" WC="0.9750000238" CONTENT="of" HEIGHT="22" WIDTH="28" VPOS="1692" HPOS="374"/>
+            <SP WIDTH="12" VPOS="1692" HPOS="403"/>
+            <String STYLEREFS="font2" WC="0.6399999857" CONTENT="wel" HEIGHT="23" WIDTH="47" VPOS="1692" HPOS="416"/>
+            <SP WIDTH="16" VPOS="1692" HPOS="464"/>
+            <String STYLEREFS="font2" WC="0.6100000143" CONTENT="in" HEIGHT="22" WIDTH="24" VPOS="1692" HPOS="481"/>
+            <SP WIDTH="18" VPOS="1691" HPOS="506"/>
+            <String STYLEREFS="font2" WC="0.6050000191" CONTENT="bepaalde" HEIGHT="32" WIDTH="119" VPOS="1691" HPOS="525"/>
+            <SP WIDTH="16" VPOS="1699" HPOS="645"/>
+            <String STYLEREFS="font2" WC="0.6999999881" CONTENT="gedeelten" HEIGHT="31" WIDTH="129" VPOS="1691" HPOS="662"/>
+            <SP WIDTH="19" VPOS="1692" HPOS="792"/>
+            <String STYLEREFS="font2" WC="0.4942857027" CONTENT="daarvan" HEIGHT="23" WIDTH="106" VPOS="1692" HPOS="812"/>
+            <SP WIDTH="18" VPOS="1700" HPOS="919"/>
+            <String STYLEREFS="font2" WC="0.5911111236" CONTENT="ontzeggen" HEIGHT="29" WIDTH="136" VPOS="1695" HPOS="938"/>
+            <SP WIDTH="9" VPOS="1701" HPOS="1075"/>
+            <String STYLEREFS="font2" WC="0.5699999928" CONTENT="en" HEIGHT="16" WIDTH="32" VPOS="1700" HPOS="1085"/>
+            <SP WIDTH="8" VPOS="1700" HPOS="1118"/>
+            <String STYLEREFS="font2" WC="0.5133333206" CONTENT="aan" HEIGHT="15" WIDTH="47" VPOS="1700" HPOS="1127"/>
+            <SP WIDTH="14" VPOS="1700" HPOS="1175"/>
+            <String STYLEREFS="font2" WC="0.8737499714" CONTENT="personen" HEIGHT="24" WIDTH="119" VPOS="1699" HPOS="1190"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1138" VPOS="1725" HPOS="172">
+            <String STYLEREFS="font2" WC="0.4466666579" CONTENT="binnen" HEIGHT="22" WIDTH="93" VPOS="1726" HPOS="172"/>
+            <SP WIDTH="14" VPOS="1725" HPOS="266"/>
+            <String STYLEREFS="font2" WC="0.569444418" CONTENT="Nederlandsch-Indië" HEIGHT="23" WIDTH="264" VPOS="1725" HPOS="281"/>
+            <SP WIDTH="10" VPOS="1726" HPOS="546"/>
+            <String STYLEREFS="font2" WC="0.6600000262" CONTENT="geboren" HEIGHT="30" WIDTH="106" VPOS="1725" HPOS="557"/>
+            <SP WIDTH="10" VPOS="1726" HPOS="664"/>
+            <String STYLEREFS="font2" WC="0.4350000024" CONTENT="in" HEIGHT="22" WIDTH="24" VPOS="1726" HPOS="675"/>
+            <SP WIDTH="8" VPOS="1725" HPOS="700"/>
+            <String STYLEREFS="font2" WC="0.3799999952" CONTENT="het" HEIGHT="23" WIDTH="43" VPOS="1725" HPOS="709"/>
+            <SP WIDTH="6" VPOS="1725" HPOS="753"/>
+            <String STYLEREFS="font2" WC="0.5899999738" CONTENT="belang" HEIGHT="31" WIDTH="90" VPOS="1725" HPOS="760"/>
+            <SP WIDTH="9" VPOS="1725" HPOS="851"/>
+            <String STYLEREFS="font2" WC="0.8833333254" CONTENT="der" HEIGHT="24" WIDTH="43" VPOS="1725" HPOS="861"/>
+            <SP WIDTH="9" VPOS="1734" HPOS="905"/>
+            <String STYLEREFS="font2" WC="0.6912500262" CONTENT="openbare" HEIGHT="31" WIDTH="123" VPOS="1726" HPOS="915"/>
+            <SP WIDTH="17" VPOS="1734" HPOS="1039"/>
+            <String STYLEREFS="font2" WC="0.8100000024" CONTENT="rust" HEIGHT="21" WIDTH="54" VPOS="1728" HPOS="1057"/>
+            <SP WIDTH="17" VPOS="1728" HPOS="1112"/>
+            <String STYLEREFS="font2" WC="0.3449999988" CONTENT="en" HEIGHT="15" WIDTH="31" VPOS="1734" HPOS="1130"/>
+            <SP WIDTH="19" VPOS="1734" HPOS="1162"/>
+            <String STYLEREFS="font2" WC="0.8675000072" CONTENT="orde" HEIGHT="24" WIDTH="57" VPOS="1725" HPOS="1182"/>
+            <SP WIDTH="8" VPOS="1733" HPOS="1240"/>
+            <String STYLEREFS="font2" WC="0.8675000072" CONTENT="eene" HEIGHT="16" WIDTH="61" VPOS="1733" HPOS="1249"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1138" VPOS="1758" HPOS="172">
+            <String STYLEREFS="font2" WC="0.7174999714" CONTENT="bepaalde" HEIGHT="31" WIDTH="118" VPOS="1759" HPOS="172"/>
+            <SP WIDTH="8" VPOS="1767" HPOS="291"/>
+            <String STYLEREFS="font2" WC="0.6850000024" CONTENT="verblijfplaats" HEIGHT="31" WIDTH="172" VPOS="1759" HPOS="300"/>
+            <SP WIDTH="9" VPOS="1760" HPOS="473"/>
+            <String STYLEREFS="font2" WC="0.2849999964" CONTENT="in" HEIGHT="21" WIDTH="23" VPOS="1760" HPOS="483"/>
+            <SP WIDTH="10" VPOS="1758" HPOS="507"/>
+            <String STYLEREFS="font2" WC="0.6572222114" CONTENT="Nederlandsch-Indië" HEIGHT="24" WIDTH="265" VPOS="1758" HPOS="518"/>
+            <SP WIDTH="9" VPOS="1760" HPOS="784"/>
+            <String STYLEREFS="font2" WC="0.5839999914" CONTENT="aanwijzen," HEIGHT="30" WIDTH="147" VPOS="1760" HPOS="794"/>
+            <SP WIDTH="10" VPOS="1768" HPOS="942"/>
+            <String STYLEREFS="font2" WC="0.8399999738" CONTENT="of" HEIGHT="22" WIDTH="27" VPOS="1760" HPOS="953"/>
+            <SP WIDTH="4" VPOS="1760" HPOS="981"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="het" HEIGHT="23" WIDTH="42" VPOS="1760" HPOS="986"/>
+            <SP WIDTH="16" VPOS="1762" HPOS="1029"/>
+            <String STYLEREFS="font2" WC="0.7375000119" CONTENT="verblijf" HEIGHT="31" WIDTH="99" VPOS="1759" HPOS="1046"/>
+            <SP WIDTH="5" VPOS="1759" HPOS="1146"/>
+            <String STYLEREFS="font2" WC="0.6200000048" CONTENT="in" HEIGHT="21" WIDTH="25" VPOS="1761" HPOS="1152"/>
+            <SP WIDTH="14" VPOS="1759" HPOS="1178"/>
+            <String STYLEREFS="font2" WC="0.7649999857" CONTENT="bepaalde" HEIGHT="32" WIDTH="117" VPOS="1758" HPOS="1193"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1136" VPOS="1792" HPOS="172">
+            <String STYLEREFS="font2" WC="0.5444444418" CONTENT="gedeelten" HEIGHT="30" WIDTH="129" VPOS="1792" HPOS="172"/>
+            <SP WIDTH="9" VPOS="1792" HPOS="302"/>
+            <String STYLEREFS="font2" WC="0.5728571415" CONTENT="daarvan" HEIGHT="23" WIDTH="104" VPOS="1792" HPOS="312"/>
+            <SP WIDTH="10" VPOS="1800" HPOS="417"/>
+            <String STYLEREFS="font2" WC="0.3589999974" CONTENT="ontzeggen," HEIGHT="28" WIDTH="153" VPOS="1795" HPOS="428"/>
+            <SP WIDTH="9" VPOS="1801" HPOS="582"/>
+            <String STYLEREFS="font2" WC="0.4799999893" CONTENT="mits" HEIGHT="23" WIDTH="55" VPOS="1792" HPOS="592"/>
+            <SP WIDTH="17" VPOS="1792" HPOS="648"/>
+            <String STYLEREFS="font2" WC="0.8349999785" CONTENT="de" HEIGHT="23" WIDTH="30" VPOS="1792" HPOS="666"/>
+            <SP WIDTH="15" VPOS="1792" HPOS="697"/>
+            <String STYLEREFS="font2" WC="0.7011111379" CONTENT="betrokken" HEIGHT="24" WIDTH="140" VPOS="1792" HPOS="713"/>
+            <SP WIDTH="18" VPOS="1801" HPOS="854"/>
+            <String STYLEREFS="font2" WC="0.571428597" CONTENT="persoon" HEIGHT="23" WIDTH="105" VPOS="1801" HPOS="873"/>
+            <SP WIDTH="17" VPOS="1801" HPOS="979"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="vóór" HEIGHT="22" WIDTH="60" VPOS="1794" HPOS="997"/>
+            <SP WIDTH="15" VPOS="1793" HPOS="1058"/>
+            <String STYLEREFS="font2" WC="0.7900000215" CONTENT="die" HEIGHT="23" WIDTH="40" VPOS="1793" HPOS="1074"/>
+            <SP WIDTH="16" VPOS="1793" HPOS="1115"/>
+            <String STYLEREFS="font2" WC="0.773999989" CONTENT="beslissing" HEIGHT="31" WIDTH="134" VPOS="1792" HPOS="1132"/>
+            <SP WIDTH="18" VPOS="1793" HPOS="1267"/>
+            <String STYLEREFS="font2" WC="0.3149999976" CONTENT="in" HEIGHT="21" WIDTH="22" VPOS="1793" HPOS="1286"/>
+          </TextLine>
+          <TextLine HEIGHT="34" WIDTH="1106" VPOS="1825" HPOS="171">
+            <String STYLEREFS="font2" WC="0.574000001" CONTENT="zijne" HEIGHT="30" WIDTH="60" VPOS="1826" HPOS="171"/>
+            <SP WIDTH="8" VPOS="1833" HPOS="232"/>
+            <String STYLEREFS="font2" WC="0.697272718" CONTENT="verdediging" HEIGHT="32" WIDTH="158" VPOS="1825" HPOS="241"/>
+            <SP WIDTH="7" VPOS="1834" HPOS="400"/>
+            <String STYLEREFS="font2" WC="0.6157143116" CONTENT="gehoord" HEIGHT="30" WIDTH="110" VPOS="1826" HPOS="408"/>
+            <SP WIDTH="12" VPOS="1826" HPOS="519"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="of" HEIGHT="22" WIDTH="27" VPOS="1826" HPOS="532"/>
+            <SP WIDTH="4" VPOS="1826" HPOS="560"/>
+            <String STYLEREFS="font2" WC="0.4785714149" CONTENT="daartoe" HEIGHT="23" WIDTH="101" VPOS="1826" HPOS="565"/>
+            <SP WIDTH="7" VPOS="1826" HPOS="667"/>
+            <String STYLEREFS="font2" WC="0.6899999976" CONTENT="behoorlijk" HEIGHT="30" WIDTH="137" VPOS="1826" HPOS="675"/>
+            <SP WIDTH="10" VPOS="1827" HPOS="813"/>
+            <String STYLEREFS="font2" WC="0.52700001" CONTENT="opgeroepen" HEIGHT="24" WIDTH="155" VPOS="1834" HPOS="824"/>
+            <SP WIDTH="10" VPOS="1827" HPOS="980"/>
+            <String STYLEREFS="font2" WC="0.7549999952" CONTENT="is" HEIGHT="22" WIDTH="19" VPOS="1827" HPOS="991"/>
+            <SP WIDTH="9" VPOS="1827" HPOS="1011"/>
+            <String STYLEREFS="font2" WC="0.5939999819" CONTENT="(Art." HEIGHT="32" WIDTH="60" VPOS="1827" HPOS="1021"/>
+            <SP WIDTH="10" VPOS="1826" HPOS="1082"/>
+            <String STYLEREFS="font2" WC="0.5939999819" CONTENT="45—48" HEIGHT="25" WIDTH="100" VPOS="1825" HPOS="1093"/>
+            <SP WIDTH="8" VPOS="1825" HPOS="1194"/>
+            <String STYLEREFS="font2" WC="0.7749999762" CONTENT="R.R.)." HEIGHT="30" WIDTH="74" VPOS="1826" HPOS="1203"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="1138" VPOS="1877" HPOS="173" STYLEREFS="font3">
+            <String WC="0.2450000048" CONTENT="e." HEIGHT="19" WIDTH="34" VPOS="1885" HPOS="173"/>
+            <SP WIDTH="31" VPOS="1879" HPOS="208"/>
+            <String WC="0.7599999905" CONTENT="Het" HEIGHT="25" WIDTH="67" VPOS="1879" HPOS="240"/>
+            <SP WIDTH="31" VPOS="1880" HPOS="308"/>
+            <String WC="0.6066666842" CONTENT="onderzoek" HEIGHT="26" WIDTH="190" VPOS="1878" HPOS="340"/>
+            <SP WIDTH="26" VPOS="1878" HPOS="531"/>
+            <String WC="0.7166666389" CONTENT="der" HEIGHT="26" WIDTH="61" VPOS="1878" HPOS="558"/>
+            <SP WIDTH="24" VPOS="1879" HPOS="620"/>
+            <String WC="1." CONTENT="door" HEIGHT="25" WIDTH="84" VPOS="1879" HPOS="645"/>
+            <SP WIDTH="27" VPOS="1878" HPOS="730"/>
+            <String WC="0.7400000095" CONTENT="de" HEIGHT="26" WIDTH="41" VPOS="1878" HPOS="758"/>
+            <SP WIDTH="26" VPOS="1878" HPOS="800"/>
+            <String WC="0.7371428609" CONTENT="hoofden" HEIGHT="26" WIDTH="151" VPOS="1878" HPOS="827"/>
+            <SP WIDTH="24" VPOS="1885" HPOS="979"/>
+            <String WC="0.5699999928" CONTENT="van" HEIGHT="20" WIDTH="67" VPOS="1884" HPOS="1004"/>
+            <SP WIDTH="26" VPOS="1884" HPOS="1072"/>
+            <String WC="0.9536363482" CONTENT="gewestelijk" HEIGHT="33" WIDTH="212" VPOS="1877" HPOS="1099"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1070" VPOS="1911" HPOS="239" STYLEREFS="font3">
+            <String WC="0.8114285469" CONTENT="bestuur" HEIGHT="25" WIDTH="141" VPOS="1912" HPOS="239"/>
+            <SP WIDTH="23" VPOS="1918" HPOS="381"/>
+            <String WC="0.8577777743" CONTENT="ontworpen" HEIGHT="30" WIDTH="201" VPOS="1913" HPOS="405"/>
+            <SP WIDTH="22" VPOS="1919" HPOS="607"/>
+            <String WC="0.9363636374" CONTENT="reglementen" HEIGHT="31" WIDTH="230" VPOS="1912" HPOS="630"/>
+            <SP WIDTH="17" VPOS="1918" HPOS="861"/>
+            <String WC="1." CONTENT="en" HEIGHT="20" WIDTH="42" VPOS="1918" HPOS="879"/>
+            <SP WIDTH="22" VPOS="1912" HPOS="922"/>
+            <String WC="0.8883333206" CONTENT="keuren" HEIGHT="26" WIDTH="128" VPOS="1912" HPOS="945"/>
+            <SP WIDTH="19" VPOS="1919" HPOS="1074"/>
+            <String WC="0.8899999857" CONTENT="van" HEIGHT="19" WIDTH="68" VPOS="1918" HPOS="1094"/>
+            <SP WIDTH="17" VPOS="1919" HPOS="1163"/>
+            <String WC="0.9162499905" CONTENT="politie." HEIGHT="32" WIDTH="128" VPOS="1911" HPOS="1181"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1104" VPOS="1965" HPOS="206">
+            <String STYLEREFS="font2" WC="0.75" CONTENT="De" HEIGHT="23" WIDTH="33" VPOS="1965" HPOS="206"/>
+            <SP WIDTH="24" VPOS="1973" HPOS="240"/>
+            <String STYLEREFS="font2" WC="0.4209090769" CONTENT="ambtenaren," HEIGHT="30" WIDTH="173" VPOS="1965" HPOS="265"/>
+            <SP WIDTH="25" VPOS="1974" HPOS="439"/>
+            <String STYLEREFS="font2" WC="0.6600000262" CONTENT="met" HEIGHT="20" WIDTH="51" VPOS="1969" HPOS="465"/>
+            <SP WIDTH="24" VPOS="1966" HPOS="517"/>
+            <String STYLEREFS="font2" WC="0.5575000048" CONTENT="liet" HEIGHT="23" WIDTH="44" VPOS="1966" HPOS="542"/>
+            <SP WIDTH="23" VPOS="1966" HPOS="587"/>
+            <String STYLEREFS="font2" WC="0.5514285564" CONTENT="hoogste" HEIGHT="30" WIDTH="104" VPOS="1966" HPOS="611"/>
+            <SP WIDTH="17" VPOS="1973" HPOS="716"/>
+            <String STYLEREFS="font2" WC="0.6836363673" CONTENT="gewestelijk" HEIGHT="31" WIDTH="152" VPOS="1966" HPOS="734"/>
+            <SP WIDTH="17" VPOS="1966" HPOS="887"/>
+            <String STYLEREFS="font2" WC="0.6639999747" CONTENT="gezag" HEIGHT="22" WIDTH="73" VPOS="1974" HPOS="905"/>
+            <SP WIDTH="16" VPOS="1966" HPOS="979"/>
+            <String STYLEREFS="font2" WC="0.5037500262" CONTENT="bekleed," HEIGHT="30" WIDTH="118" VPOS="1966" HPOS="996"/>
+            <SP WIDTH="18" VPOS="1974" HPOS="1115"/>
+            <String STYLEREFS="font2" WC="0.6549999714" CONTENT="zijn" HEIGHT="29" WIDTH="46" VPOS="1966" HPOS="1134"/>
+            <SP WIDTH="18" VPOS="1965" HPOS="1181"/>
+            <String STYLEREFS="font2" WC="0.6800000072" CONTENT="bevoegd" HEIGHT="30" WIDTH="110" VPOS="1965" HPOS="1200"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="1137" VPOS="1999" HPOS="174">
+            <String STYLEREFS="font2" WC="0.5433333516" CONTENT="tot" HEIGHT="20" WIDTH="37" VPOS="2001" HPOS="174"/>
+            <SP WIDTH="25" VPOS="1999" HPOS="212"/>
+            <String STYLEREFS="font2" WC="0.5766666532" CONTENT="het" HEIGHT="22" WIDTH="42" VPOS="1999" HPOS="238"/>
+            <SP WIDTH="24" VPOS="2002" HPOS="281"/>
+            <String STYLEREFS="font2" WC="0.9108333588" CONTENT="vervaardigen" HEIGHT="31" WIDTH="174" VPOS="1999" HPOS="306"/>
+            <SP WIDTH="25" VPOS="2007" HPOS="481"/>
+            <String STYLEREFS="font2" WC="0.7649999857" CONTENT="cn" HEIGHT="15" WIDTH="32" VPOS="2007" HPOS="507"/>
+            <SP WIDTH="22" VPOS="2007" HPOS="540"/>
+            <String STYLEREFS="font2" WC="0.6269999743" CONTENT="afkondigen" HEIGHT="31" WIDTH="153" VPOS="1999" HPOS="563"/>
+            <SP WIDTH="23" VPOS="2007" HPOS="717"/>
+            <String STYLEREFS="font2" WC="0.5833333135" CONTENT="van" HEIGHT="15" WIDTH="47" VPOS="2007" HPOS="741"/>
+            <SP WIDTH="17" VPOS="2008" HPOS="789"/>
+            <String STYLEREFS="font2" WC="0.7118181586" CONTENT="reglementen" HEIGHT="30" WIDTH="169" VPOS="2000" HPOS="807"/>
+            <SP WIDTH="17" VPOS="2007" HPOS="977"/>
+            <String STYLEREFS="font2" WC="0.7250000238" CONTENT="en" HEIGHT="14" WIDTH="30" VPOS="2008" HPOS="995"/>
+            <SP WIDTH="17" VPOS="2000" HPOS="1026"/>
+            <String STYLEREFS="font2" WC="0.6683333516" CONTENT="keuren" HEIGHT="23" WIDTH="94" VPOS="2000" HPOS="1044"/>
+            <SP WIDTH="19" VPOS="2007" HPOS="1139"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="van" HEIGHT="15" WIDTH="47" VPOS="2007" HPOS="1159"/>
+            <SP WIDTH="17" VPOS="2007" HPOS="1207"/>
+            <String STYLEREFS="font2" WC="0.6914285421" CONTENT="politie" HEIGHT="31" WIDTH="86" VPOS="1999" HPOS="1225"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1137" VPOS="2032" HPOS="173">
+            <String STYLEREFS="font2" WC="0.8439999819" CONTENT="(Art." HEIGHT="27" WIDTH="60" VPOS="2032" HPOS="173"/>
+            <SP WIDTH="16" VPOS="2032" HPOS="234"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="72" HEIGHT="23" WIDTH="32" VPOS="2032" HPOS="251"/>
+            <SP WIDTH="17" VPOS="2032" HPOS="284"/>
+            <String STYLEREFS="font2" WC="0.5950000286" CONTENT="R.R." HEIGHT="23" WIDTH="65" VPOS="2033" HPOS="302"/>
+            <SP WIDTH="18" VPOS="2040" HPOS="368"/>
+            <String STYLEREFS="font2" WC="0.4850000143" CONTENT="en" HEIGHT="15" WIDTH="30" VPOS="2040" HPOS="387"/>
+            <SP WIDTH="17" VPOS="2040" HPOS="418"/>
+            <String STYLEREFS="font2" WC="0.8475000262" CONTENT="art." HEIGHT="21" WIDTH="44" VPOS="2035" HPOS="436"/>
+            <SP WIDTH="16" VPOS="2032" HPOS="481"/>
+            <String STYLEREFS="font2" WC="0.1299999952" CONTENT="0" HEIGHT="23" WIDTH="15" VPOS="2032" HPOS="498"/>
+            <SP WIDTH="18" VPOS="2032" HPOS="514"/>
+            <String STYLEREFS="font2" WC="0.7900000215" CONTENT="der" HEIGHT="22" WIDTH="43" VPOS="2033" HPOS="533"/>
+            <SP WIDTH="18" VPOS="2033" HPOS="577"/>
+            <String STYLEREFS="font2" WC="0.7689999938" CONTENT="instruktic" HEIGHT="23" WIDTH="131" VPOS="2033" HPOS="596"/>
+            <SP WIDTH="19" VPOS="2041" HPOS="728"/>
+            <String STYLEREFS="font2" WC="0.6700000167" CONTENT="voor" HEIGHT="15" WIDTH="59" VPOS="2041" HPOS="748"/>
+            <SP WIDTH="16" VPOS="2033" HPOS="808"/>
+            <String STYLEREFS="font2" WC="0.125" CONTENT="de" HEIGHT="23" WIDTH="30" VPOS="2033" HPOS="825"/>
+            <SP WIDTH="8" VPOS="2033" HPOS="856"/>
+            <String STYLEREFS="font2" WC="0.7785714269" CONTENT="hoofden" HEIGHT="23" WIDTH="108" VPOS="2033" HPOS="865"/>
+            <SP WIDTH="10" VPOS="2041" HPOS="974"/>
+            <String STYLEREFS="font2" WC="0.7266666889" CONTENT="van" HEIGHT="15" WIDTH="46" VPOS="2041" HPOS="985"/>
+            <SP WIDTH="10" VPOS="2041" HPOS="1032"/>
+            <String STYLEREFS="font2" WC="0.624545455" CONTENT="gewestelijk" HEIGHT="31" WIDTH="154" VPOS="2033" HPOS="1043"/>
+            <SP WIDTH="8" VPOS="2032" HPOS="1198"/>
+            <String STYLEREFS="font2" WC="0.4799999893" CONTENT="bestuur" HEIGHT="23" WIDTH="103" VPOS="2032" HPOS="1207"/>
+          </TextLine>
+          <TextLine HEIGHT="31" WIDTH="317" VPOS="2065" HPOS="173">
+            <String STYLEREFS="font2" WC="0.6549999714" CONTENT="in" HEIGHT="21" WIDTH="24" VPOS="2067" HPOS="173"/>
+            <SP WIDTH="18" VPOS="2066" HPOS="198"/>
+            <String STYLEREFS="font2" WC="0.6600000262" CONTENT="St." HEIGHT="22" WIDTH="30" VPOS="2066" HPOS="217"/>
+            <SP WIDTH="18" VPOS="2065" HPOS="248"/>
+            <String STYLEREFS="font2" WC="0.4359999895" CONTENT="1867," HEIGHT="30" WIDTH="78" VPOS="2065" HPOS="267"/>
+            <SP WIDTH="18" VPOS="2074" HPOS="346"/>
+            <String STYLEREFS="font2" WC="0.6899999976" CONTENT="no." HEIGHT="16" WIDTH="40" VPOS="2074" HPOS="365"/>
+            <SP WIDTH="17" VPOS="2065" HPOS="406"/>
+            <String STYLEREFS="font2" WC="0.6579999924" CONTENT="114)." HEIGHT="31" WIDTH="66" VPOS="2065" HPOS="424"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1102" VPOS="2099" HPOS="207">
+            <String STYLEREFS="font2" WC="0.6999999881" CONTENT="De" HEIGHT="23" WIDTH="32" VPOS="2099" HPOS="207"/>
+            <SP WIDTH="25" VPOS="2099" HPOS="240"/>
+            <String STYLEREFS="font2" WC="0.5360000134" CONTENT="bepalingen" HEIGHT="32" WIDTH="148" VPOS="2099" HPOS="266"/>
+            <SP WIDTH="26" VPOS="2103" HPOS="415"/>
+            <String STYLEREFS="font2" WC="0.853333354" CONTENT="ter" HEIGHT="20" WIDTH="37" VPOS="2103" HPOS="442"/>
+            <SP WIDTH="24" VPOS="2108" HPOS="480"/>
+            <String STYLEREFS="font2" WC="0.6399999857" CONTENT="regeling" HEIGHT="30" WIDTH="113" VPOS="2100" HPOS="505"/>
+            <SP WIDTH="24" VPOS="2100" HPOS="619"/>
+            <String STYLEREFS="font2" WC="0.5266666412" CONTENT="hunner" HEIGHT="23" WIDTH="98" VPOS="2100" HPOS="644"/>
+            <SP WIDTH="26" VPOS="2107" HPOS="743"/>
+            <String STYLEREFS="font2" WC="0.77700001" CONTENT="wetgevende" HEIGHT="30" WIDTH="161" VPOS="2100" HPOS="770"/>
+            <SP WIDTH="16" VPOS="2100" HPOS="932"/>
+            <String STYLEREFS="font2" WC="0.7425000072" CONTENT="bevoegdheid," HEIGHT="31" WIDTH="186" VPOS="2099" HPOS="949"/>
+            <SP WIDTH="17" VPOS="2100" HPOS="1136"/>
+            <String STYLEREFS="font2" WC="0.8514285684" CONTENT="bedoeld" HEIGHT="24" WIDTH="104" VPOS="2099" HPOS="1154"/>
+            <SP WIDTH="18" VPOS="2099" HPOS="1259"/>
+            <String STYLEREFS="font2" WC="0.8366666436" CONTENT="bij" HEIGHT="30" WIDTH="31" VPOS="2099" HPOS="1278"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1002" VPOS="2132" HPOS="174">
+            <String STYLEREFS="font2" WC="0.5433333516" CONTENT="het" HEIGHT="23" WIDTH="42" VPOS="2132" HPOS="174"/>
+            <SP WIDTH="14" VPOS="2133" HPOS="217"/>
+            <String STYLEREFS="font2" WC="0.5552631617" CONTENT="Regeringsreglement," HEIGHT="31" WIDTH="284" VPOS="2133" HPOS="232"/>
+            <SP WIDTH="18" VPOS="2142" HPOS="517"/>
+            <String STYLEREFS="font2" WC="0.5224999785" CONTENT="zijn" HEIGHT="30" WIDTH="45" VPOS="2134" HPOS="536"/>
+            <SP WIDTH="18" VPOS="2141" HPOS="582"/>
+            <String STYLEREFS="font2" WC="0.545555532" CONTENT="opgenomen" HEIGHT="23" WIDTH="155" VPOS="2141" HPOS="601"/>
+            <SP WIDTH="18" VPOS="2134" HPOS="757"/>
+            <String STYLEREFS="font2" WC="0.8550000191" CONTENT="in" HEIGHT="22" WIDTH="25" VPOS="2134" HPOS="776"/>
+            <SP WIDTH="16" VPOS="2134" HPOS="802"/>
+            <String STYLEREFS="font2" WC="0.9499999881" CONTENT="St." HEIGHT="23" WIDTH="34" VPOS="2134" HPOS="819"/>
+            <SP WIDTH="18" VPOS="2133" HPOS="854"/>
+            <String STYLEREFS="font2" WC="0.7860000134" CONTENT="1858," HEIGHT="31" WIDTH="79" VPOS="2133" HPOS="873"/>
+            <SP WIDTH="17" VPOS="2142" HPOS="953"/>
+            <String STYLEREFS="font2" WC="0.6233333349" CONTENT="no." HEIGHT="15" WIDTH="40" VPOS="2142" HPOS="971"/>
+            <SP WIDTH="18" VPOS="2132" HPOS="1012"/>
+            <String STYLEREFS="font2" WC="1." CONTENT="17" HEIGHT="24" WIDTH="32" VPOS="2132" HPOS="1031"/>
+            <SP WIDTH="18" VPOS="2133" HPOS="1064"/>
+            <String STYLEREFS="font2" WC="0.6100000143" CONTENT="cn" HEIGHT="15" WIDTH="30" VPOS="2141" HPOS="1083"/>
+            <SP WIDTH="18" VPOS="2132" HPOS="1114"/>
+            <String STYLEREFS="font2" WC="0.6533333063" CONTENT="18*" HEIGHT="25" WIDTH="43" VPOS="2132" HPOS="1133"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1101" VPOS="2166" HPOS="208">
+            <String STYLEREFS="font2" WC="0.6666666865" CONTENT="Die" HEIGHT="23" WIDTH="42" VPOS="2166" HPOS="208"/>
+            <SP WIDTH="24" VPOS="2174" HPOS="251"/>
+            <String STYLEREFS="font2" WC="0.6690909266" CONTENT="reglementen" HEIGHT="31" WIDTH="169" VPOS="2166" HPOS="276"/>
+            <SP WIDTH="26" VPOS="2175" HPOS="446"/>
+            <String STYLEREFS="font2" WC="0.2899999917" CONTENT="en" HEIGHT="15" WIDTH="31" VPOS="2175" HPOS="473"/>
+            <SP WIDTH="27" VPOS="2168" HPOS="505"/>
+            <String STYLEREFS="font2" WC="0.5833333135" CONTENT="keuren" HEIGHT="22" WIDTH="95" VPOS="2168" HPOS="533"/>
+            <SP WIDTH="22" VPOS="2175" HPOS="629"/>
+            <String STYLEREFS="font2" WC="0.3733333349" CONTENT="van" HEIGHT="15" WIDTH="47" VPOS="2175" HPOS="652"/>
+            <SP WIDTH="23" VPOS="2175" HPOS="700"/>
+            <String STYLEREFS="font2" WC="0.6428571343" CONTENT="politie" HEIGHT="31" WIDTH="83" VPOS="2167" HPOS="724"/>
+            <SP WIDTH="16" VPOS="2168" HPOS="808"/>
+            <String STYLEREFS="font2" WC="0.8733333349" CONTENT="kunnen" HEIGHT="22" WIDTH="103" VPOS="2168" HPOS="825"/>
+            <SP WIDTH="17" VPOS="2175" HPOS="929"/>
+            <String STYLEREFS="font2" WC="0.9449999928" CONTENT="worden" HEIGHT="23" WIDTH="102" VPOS="2167" HPOS="947"/>
+            <SP WIDTH="15" VPOS="2175" HPOS="1050"/>
+            <String STYLEREFS="font2" WC="0.9136363864" CONTENT="vastgesteld" HEIGHT="31" WIDTH="152" VPOS="2166" HPOS="1066"/>
+            <SP WIDTH="16" VPOS="2166" HPOS="1219"/>
+            <String STYLEREFS="font2" WC="0.771666646" CONTENT="hetzij" HEIGHT="29" WIDTH="73" VPOS="2167" HPOS="1236"/>
+          </TextLine>
+          <TextLine HEIGHT="32" WIDTH="1137" VPOS="2200" HPOS="174">
+            <String STYLEREFS="font2" WC="0.6700000167" CONTENT="voor" HEIGHT="15" WIDTH="60" VPOS="2207" HPOS="174"/>
+            <SP WIDTH="15" VPOS="2207" HPOS="235"/>
+            <String STYLEREFS="font2" WC="0.6433333158" CONTENT="een" HEIGHT="15" WIDTH="46" VPOS="2208" HPOS="251"/>
+            <SP WIDTH="15" VPOS="2208" HPOS="298"/>
+            <String STYLEREFS="font2" WC="0.7133333087" CONTENT="geheel" HEIGHT="31" WIDTH="86" VPOS="2200" HPOS="314"/>
+            <SP WIDTH="16" VPOS="2200" HPOS="401"/>
+            <String STYLEREFS="font2" WC="0.6442857385" CONTENT="gewest," HEIGHT="26" WIDTH="101" VPOS="2204" HPOS="418"/>
+            <SP WIDTH="18" VPOS="2201" HPOS="520"/>
+            <String STYLEREFS="font2" WC="0.6866666675" CONTENT="hetzij" HEIGHT="30" WIDTH="73" VPOS="2201" HPOS="539"/>
+            <SP WIDTH="17" VPOS="2201" HPOS="613"/>
+            <String STYLEREFS="font2" WC="0.7099999785" CONTENT="voor" HEIGHT="16" WIDTH="60" VPOS="2208" HPOS="631"/>
+            <SP WIDTH="16" VPOS="2209" HPOS="692"/>
+            <String STYLEREFS="font2" WC="0.8199999928" CONTENT="een" HEIGHT="15" WIDTH="45" VPOS="2209" HPOS="709"/>
+            <SP WIDTH="15" VPOS="2201" HPOS="755"/>
+            <String STYLEREFS="font2" WC="0.7599999905" CONTENT="bepaald" HEIGHT="31" WIDTH="106" VPOS="2201" HPOS="771"/>
+            <SP WIDTH="16" VPOS="2201" HPOS="878"/>
+            <String STYLEREFS="font2" WC="0.6412500143" CONTENT="gedeelte" HEIGHT="32" WIDTH="111" VPOS="2200" HPOS="895"/>
+            <SP WIDTH="16" VPOS="2201" HPOS="1007"/>
+            <String STYLEREFS="font2" WC="0.7012500167" CONTENT="daarvan," HEIGHT="29" WIDTH="119" VPOS="2201" HPOS="1024"/>
+            <SP WIDTH="17" VPOS="2200" HPOS="1144"/>
+            <String STYLEREFS="font2" WC="0.5933333039" CONTENT="hetzij" HEIGHT="31" WIDTH="71" VPOS="2200" HPOS="1162"/>
+            <SP WIDTH="17" VPOS="2200" HPOS="1234"/>
+            <String STYLEREFS="font2" WC="0.7674999833" CONTENT="voor" HEIGHT="17" WIDTH="59" VPOS="2206" HPOS="1252"/>
+          </TextLine>
+          <TextLine HEIGHT="33" WIDTH="1137" VPOS="2233" HPOS="174">
+            <String STYLEREFS="font2" WC="0.7099999785" CONTENT="eene" HEIGHT="16" WIDTH="61" VPOS="2240" HPOS="174"/>
+            <SP WIDTH="21" VPOS="2234" HPOS="236"/>
+            <String STYLEREFS="font2" WC="0.5329999924" CONTENT="bijzondere" HEIGHT="30" WIDTH="135" VPOS="2234" HPOS="258"/>
+            <SP WIDTH="16" VPOS="2242" HPOS="394"/>
+            <String STYLEREFS="font2" WC="0.323333323" CONTENT="plaats" HEIGHT="31" WIDTH="79" VPOS="2234" HPOS="411"/>
+            <SP WIDTH="18" VPOS="2242" HPOS="491"/>
+            <String STYLEREFS="font2" WC="0.3350000083" CONTENT="of" HEIGHT="22" WIDTH="29" VPOS="2235" HPOS="510"/>
+            <SP WIDTH="12" VPOS="2235" HPOS="540"/>
+            <String STYLEREFS="font2" WC="0.7174999714" CONTENT="gemeente" HEIGHT="28" WIDTH="128" VPOS="2237" HPOS="553"/>
+            <SP WIDTH="17" VPOS="2234" HPOS="682"/>
+            <String STYLEREFS="font2" WC="0.4774999917" CONTENT="daar" HEIGHT="23" WIDTH="57" VPOS="2234" HPOS="700"/>
+            <SP WIDTH="15" VPOS="2234" HPOS="758"/>
+            <String STYLEREFS="font2" WC="0.5500000119" CONTENT="binnen;" HEIGHT="29" WIDTH="107" VPOS="2234" HPOS="774"/>
+            <SP WIDTH="18" VPOS="2243" HPOS="882"/>
+            <String STYLEREFS="font2" WC="0.8299999833" CONTENT="zij" HEIGHT="30" WIDTH="26" VPOS="2236" HPOS="901"/>
+            <SP WIDTH="18" VPOS="2236" HPOS="928"/>
+            <String STYLEREFS="font2" WC="0.4959999919" CONTENT="mogen" HEIGHT="23" WIDTH="89" VPOS="2242" HPOS="947"/>
+            <SP WIDTH="16" VPOS="2242" HPOS="1037"/>
+            <String STYLEREFS="font2" WC="0.5" CONTENT="zich" HEIGHT="22" WIDTH="52" VPOS="2235" HPOS="1054"/>
+            <SP WIDTH="18" VPOS="2235" HPOS="1107"/>
+            <String STYLEREFS="font2" WC="0.5124999881" CONTENT="niet" HEIGHT="23" WIDTH="53" VPOS="2234" HPOS="1126"/>
+            <SP WIDTH="16" VPOS="2236" HPOS="1180"/>
+            <String STYLEREFS="font2" WC="0.6712499857" CONTENT="uitstrek" HEIGHT="23" WIDTH="103" VPOS="2233" HPOS="1197" SUBS_TYPE="HypPart1" SUBS_CONTENT="uitstrekken"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="34" WIDTH="1136" VPOS="2266" HPOS="175">
+            <String STYLEREFS="font2" WC="0.6399999857" CONTENT="ken" HEIGHT="23" WIDTH="47" VPOS="2267" HPOS="175" SUBS_TYPE="HypPart2" SUBS_CONTENT="uitstrekken"/>
+            <SP WIDTH="22" VPOS="2270" HPOS="223"/>
+            <String STYLEREFS="font2" WC="0.6933333278" CONTENT="tot" HEIGHT="20" WIDTH="38" VPOS="2270" HPOS="246"/>
+            <SP WIDTH="22" VPOS="2271" HPOS="285"/>
+            <String STYLEREFS="font2" WC="0.6818181872" CONTENT="onderwerpen" HEIGHT="33" WIDTH="176" VPOS="2267" HPOS="308"/>
+            <SP WIDTH="19" VPOS="2276" HPOS="485"/>
+            <String STYLEREFS="font2" WC="0.7133333087" CONTENT="van" HEIGHT="15" WIDTH="47" VPOS="2276" HPOS="505"/>
+            <SP WIDTH="18" VPOS="2276" HPOS="553"/>
+            <String STYLEREFS="font2" WC="0.7774999738" CONTENT="algemeen" HEIGHT="30" WIDTH="126" VPOS="2268" HPOS="572"/>
+            <SP WIDTH="17" VPOS="2276" HPOS="699"/>
+            <String STYLEREFS="font2" WC="0.6200000048" CONTENT="strofregt." HEIGHT="31" WIDTH="129" VPOS="2268" HPOS="717"/>
+            <SP WIDTH="19" VPOS="2276" HPOS="847"/>
+            <String STYLEREFS="font2" WC="0.4399999976" CONTENT="nog" HEIGHT="23" WIDTH="49" VPOS="2276" HPOS="867"/>
+            <SP WIDTH="18" VPOS="2268" HPOS="917"/>
+            <String STYLEREFS="font2" WC="0.6725000143" CONTENT="iets" HEIGHT="24" WIDTH="45" VPOS="2268" HPOS="936"/>
+            <SP WIDTH="17" VPOS="2269" HPOS="982"/>
+            <String STYLEREFS="font2" WC="0.7749999762" CONTENT="inhouden" HEIGHT="23" WIDTH="128" VPOS="2268" HPOS="1000"/>
+            <SP WIDTH="18" VPOS="2276" HPOS="1129"/>
+            <String STYLEREFS="font2" WC="0.7475000024" CONTENT="strijdig" HEIGHT="32" WIDTH="94" VPOS="2266" HPOS="1148"/>
+            <SP WIDTH="16" VPOS="2275" HPOS="1243"/>
+            <String STYLEREFS="font2" WC="0.4799999893" CONTENT="met" HEIGHT="18" WIDTH="51" VPOS="2271" HPOS="1260"/>
+          </TextLine>
+          <TextLine HEIGHT="30" WIDTH="1029" VPOS="2310" HPOS="219" STYLEREFS="font4">
+            <String WC="0.4524999857" CONTENT="1877" HEIGHT="30" WIDTH="77" VPOS="2310" HPOS="219"/>
+            <String STYLE="bold" STYLEREFS="font0" WC="1." CONTENT="." HEIGHT="5" WIDTH="4" VPOS="2335" HPOS="302"/>
+            <SP WIDTH="924" VPOS="2311" HPOS="307"/>
+            <String WC="0.4300000072" CONTENT="4" HEIGHT="29" WIDTH="16" VPOS="2311" HPOS="1232"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

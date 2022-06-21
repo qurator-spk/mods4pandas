@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2016-08-07</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>ABBYY</softwareCreator>
+          <softwareName>ABBYY FineReader Engine</softwareName>
+          <softwareVersion>11</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+    <TextStyle ID="font0" FONTFAMILY="Arial" FONTSIZE="9"/>
+    <TextStyle ID="font1" FONTFAMILY="Arial" FONTSIZE="10"/>
+  </Styles>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2431" WIDTH="1412">
+      <TopMargin HEIGHT="110" WIDTH="1412" VPOS="0" HPOS="0">
+</TopMargin>
+      <LeftMargin HEIGHT="2133" WIDTH="65" VPOS="110" HPOS="0">
+</LeftMargin>
+      <RightMargin HEIGHT="2133" WIDTH="132" VPOS="110" HPOS="1280">
+</RightMargin>
+      <BottomMargin HEIGHT="188" WIDTH="1412" VPOS="2243" HPOS="0">
+</BottomMargin>
+      <PrintSpace HEIGHT="2133" WIDTH="1215" VPOS="110" HPOS="65">
+        <TextBlock ID="Page1_Block1" HEIGHT="43" WIDTH="58" VPOS="110" HPOS="682" language="de">
+          <TextLine HEIGHT="30" WIDTH="36" VPOS="117" HPOS="688">
+            <String STYLEREFS="font0" WC="1." CONTENT="16" HEIGHT="30" WIDTH="36" VPOS="117" HPOS="688"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="Page1_Block2" HEIGHT="2042" WIDTH="1215" VPOS="201" HPOS="65" language="de">
+          <TextLine HEIGHT="45" WIDTH="1127" VPOS="207" HPOS="143">
+            <String STYLEREFS="font0" WC="0.3600000143" CONTENT="die" HEIGHT="31" WIDTH="44" VPOS="211" HPOS="143"/>
+            <SP WIDTH="13" VPOS="209" HPOS="188"/>
+            <String STYLEREFS="font0" WC="0.69599998" CONTENT="Sorge" HEIGHT="41" WIDTH="104" VPOS="209" HPOS="202"/>
+            <SP WIDTH="21" VPOS="208" HPOS="307"/>
+            <String STYLEREFS="font0" WC="0.6899999976" CONTENT="für" HEIGHT="38" WIDTH="49" VPOS="207" HPOS="329"/>
+            <SP WIDTH="21" VPOS="211" HPOS="379"/>
+            <String STYLEREFS="font0" WC="0.8166666627" CONTENT="die" HEIGHT="32" WIDTH="45" VPOS="209" HPOS="401"/>
+            <SP WIDTH="15" VPOS="208" HPOS="447"/>
+            <String STYLEREFS="font0" WC="0.7057142854" CONTENT="Schulen" HEIGHT="39" WIDTH="136" VPOS="208" HPOS="463"/>
+            <SP WIDTH="21" VPOS="219" HPOS="600"/>
+            <String STYLEREFS="font0" WC="0.6116666794" CONTENT="vorzugsweise" HEIGHT="42" WIDTH="219" VPOS="210" HPOS="622"/>
+            <SP WIDTH="22" VPOS="219" HPOS="842"/>
+            <String STYLEREFS="font0" WC="0.7049999833" CONTENT="obliegt," HEIGHT="41" WIDTH="126" VPOS="209" HPOS="865"/>
+            <SP WIDTH="22" VPOS="217" HPOS="992"/>
+            <String STYLEREFS="font0" WC="0.7329999804" CONTENT="namentlich" HEIGHT="39" WIDTH="180" VPOS="209" HPOS="1015"/>
+            <SP WIDTH="25" VPOS="209" HPOS="1196"/>
+            <String STYLEREFS="font0" WC="0.7333333492" CONTENT="der" HEIGHT="29" WIDTH="48" VPOS="211" HPOS="1222"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="1126" VPOS="259" HPOS="147">
+            <String STYLEREFS="font0" WC="0.6711764932" CONTENT="Superintendenten," HEIGHT="39" WIDTH="311" VPOS="261" HPOS="147"/>
+            <SP WIDTH="22" VPOS="260" HPOS="459"/>
+            <String STYLEREFS="font0" WC="0.8583333492" CONTENT="Geistlichen," HEIGHT="39" WIDTH="195" VPOS="260" HPOS="482"/>
+            <SP WIDTH="24" VPOS="262" HPOS="678"/>
+            <String STYLEREFS="font0" WC="0.5533333421" CONTENT="Schul-" HEIGHT="38" WIDTH="118" VPOS="261" HPOS="703"/>
+            <SP WIDTH="20" VPOS="271" HPOS="822"/>
+            <String STYLEREFS="font0" WC="0.6000000238" CONTENT="und" HEIGHT="29" WIDTH="58" VPOS="264" HPOS="843"/>
+            <SP WIDTH="20" VPOS="262" HPOS="902"/>
+            <String STYLEREFS="font0" WC="0.6243749857" CONTENT="Polizeibehörden," HEIGHT="42" WIDTH="277" VPOS="259" HPOS="923"/>
+            <SP WIDTH="22" VPOS="263" HPOS="1201"/>
+            <String STYLEREFS="font0" WC="0.7366666794" CONTENT="der" HEIGHT="29" WIDTH="49" VPOS="263" HPOS="1224"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1129" VPOS="310" HPOS="143">
+            <String STYLEREFS="font0" WC="0.6957142949" CONTENT="Eltern," HEIGHT="36" WIDTH="121" VPOS="311" HPOS="143"/>
+            <SP WIDTH="21" VPOS="311" HPOS="265"/>
+            <String STYLEREFS="font0" WC="0.6222222447" CONTENT="Vormünder" HEIGHT="34" WIDTH="191" VPOS="310" HPOS="287"/>
+            <SP WIDTH="13" VPOS="321" HPOS="479"/>
+            <String STYLEREFS="font0" WC="0.4699999988" CONTENT="und" HEIGHT="29" WIDTH="59" VPOS="314" HPOS="493"/>
+            <SP WIDTH="16" VPOS="312" HPOS="553"/>
+            <String STYLEREFS="font0" WC="0.7442105412" CONTENT="Dienstherrschaften." HEIGHT="40" WIDTH="316" VPOS="311" HPOS="570"/>
+            <SP WIDTH="43" VPOS="312" HPOS="887"/>
+            <String STYLEREFS="font0" WC="0.8433333039" CONTENT="Wer" HEIGHT="32" WIDTH="73" VPOS="312" HPOS="931"/>
+            <SP WIDTH="21" VPOS="320" HPOS="1005"/>
+            <String STYLEREFS="font0" WC="0.9300000072" CONTENT="ein" HEIGHT="31" WIDTH="46" VPOS="312" HPOS="1027"/>
+            <SP WIDTH="14" VPOS="311" HPOS="1074"/>
+            <String STYLEREFS="font0" WC="0.8154545426" CONTENT="schulpflich" HEIGHT="40" WIDTH="167" VPOS="310" HPOS="1089" SUBS_TYPE="HypPart1" SUBS_CONTENT="schulpflichtiges"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="1131" VPOS="359" HPOS="142">
+            <String STYLEREFS="font0" WC="0.7699999809" CONTENT="tiges" HEIGHT="40" WIDTH="83" VPOS="363" HPOS="142" SUBS_TYPE="HypPart2" SUBS_CONTENT="schulpflichtiges"/>
+            <SP WIDTH="20" VPOS="362" HPOS="226"/>
+            <String STYLEREFS="font0" WC="0.5375000238" CONTENT="Kind" HEIGHT="34" WIDTH="82" VPOS="362" HPOS="247"/>
+            <SP WIDTH="21" VPOS="362" HPOS="330"/>
+            <String STYLEREFS="font0" WC="0.9100000262" CONTENT="in" HEIGHT="31" WIDTH="32" VPOS="362" HPOS="352"/>
+            <SP WIDTH="15" VPOS="360" HPOS="385"/>
+            <String STYLEREFS="font0" WC="0.401666671" CONTENT="Dienst" HEIGHT="40" WIDTH="109" VPOS="360" HPOS="401"/>
+            <SP WIDTH="14" VPOS="362" HPOS="511"/>
+            <String STYLEREFS="font0" WC="0.7666666508" CONTENT="nimmt," HEIGHT="36" WIDTH="123" VPOS="363" HPOS="526"/>
+            <SP WIDTH="25" VPOS="367" HPOS="650"/>
+            <String STYLEREFS="font0" WC="0.7480000257" CONTENT="tritt" HEIGHT="32" WIDTH="69" VPOS="363" HPOS="676"/>
+            <SP WIDTH="21" VPOS="364" HPOS="746"/>
+            <String STYLEREFS="font0" WC="0.6471428275" CONTENT="dadurch" HEIGHT="36" WIDTH="125" VPOS="362" HPOS="768"/>
+            <SP WIDTH="22" VPOS="362" HPOS="894"/>
+            <String STYLEREFS="font0" WC="0.5799999833" CONTENT="in" HEIGHT="31" WIDTH="32" VPOS="363" HPOS="917"/>
+            <SP WIDTH="22" VPOS="364" HPOS="950"/>
+            <String STYLEREFS="font0" WC="0.7733333111" CONTENT="die" HEIGHT="31" WIDTH="44" VPOS="362" HPOS="973"/>
+            <SP WIDTH="23" VPOS="364" HPOS="1018"/>
+            <String STYLEREFS="font0" WC="0.7549999952" CONTENT="dieserhalb" HEIGHT="40" WIDTH="161" VPOS="359" HPOS="1042"/>
+            <SP WIDTH="21" VPOS="361" HPOS="1204"/>
+            <String STYLEREFS="font0" WC="0.8550000191" CONTENT="be" HEIGHT="31" WIDTH="32" VPOS="362" HPOS="1226" SUBS_TYPE="HypPart1" SUBS_CONTENT="bestehende"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="45" WIDTH="1133" VPOS="410" HPOS="141">
+            <String STYLEREFS="font0" WC="0.6387500167" CONTENT="stehende" HEIGHT="41" WIDTH="132" VPOS="412" HPOS="141" SUBS_TYPE="HypPart2" SUBS_CONTENT="bestehende"/>
+            <SP WIDTH="11" VPOS="423" HPOS="274"/>
+            <String STYLEREFS="font0" WC="0.6727272868" CONTENT="gesetzliche" HEIGHT="43" WIDTH="157" VPOS="411" HPOS="286"/>
+            <SP WIDTH="13" VPOS="413" HPOS="444"/>
+            <String STYLEREFS="font0" WC="0.6238461733" CONTENT="Verpflichtung" HEIGHT="42" WIDTH="232" VPOS="413" HPOS="458"/>
+            <SP WIDTH="12" VPOS="423" HPOS="691"/>
+            <String STYLEREFS="font0" WC="0.5233333111" CONTENT="und" HEIGHT="30" WIDTH="57" VPOS="415" HPOS="704"/>
+            <SP WIDTH="12" VPOS="413" HPOS="762"/>
+            <String STYLEREFS="font0" WC="0.7011111379" CONTENT="Verantwortlichkeit" HEIGHT="39" WIDTH="315" VPOS="411" HPOS="775"/>
+            <SP WIDTH="15" VPOS="415" HPOS="1091"/>
+            <String STYLEREFS="font0" WC="0.6166666746" CONTENT="der" HEIGHT="29" WIDTH="49" VPOS="415" HPOS="1107"/>
+            <SP WIDTH="9" VPOS="410" HPOS="1157"/>
+            <String STYLEREFS="font0" WC="0.5866666436" CONTENT="Eltern" HEIGHT="34" WIDTH="107" VPOS="410" HPOS="1167"/>
+          </TextLine>
+          <TextLine HEIGHT="43" WIDTH="1131" VPOS="462" HPOS="143">
+            <String STYLEREFS="font0" WC="0.4666666687" CONTENT="und" HEIGHT="29" WIDTH="58" VPOS="468" HPOS="143"/>
+            <SP WIDTH="20" VPOS="468" HPOS="202"/>
+            <String STYLEREFS="font0" WC="0.4233333468" CONTENT="muß" HEIGHT="39" WIDTH="74" VPOS="464" HPOS="223"/>
+            <SP WIDTH="23" VPOS="464" HPOS="298"/>
+            <String STYLEREFS="font0" WC="0.4766666591" CONTENT="dem" HEIGHT="31" WIDTH="62" VPOS="465" HPOS="322"/>
+            <SP WIDTH="23" VPOS="464" HPOS="385"/>
+            <String STYLEREFS="font0" WC="0.6200000048" CONTENT="bei" HEIGHT="32" WIDTH="45" VPOS="464" HPOS="409"/>
+            <SP WIDTH="18" VPOS="464" HPOS="455"/>
+            <String STYLEREFS="font0" WC="0.6266666651" CONTENT="ihm" HEIGHT="37" WIDTH="62" VPOS="465" HPOS="474"/>
+            <SP WIDTH="23" VPOS="466" HPOS="537"/>
+            <String STYLEREFS="font0" WC="0.5777778029" CONTENT="dienenden" HEIGHT="31" WIDTH="158" VPOS="465" HPOS="561"/>
+            <SP WIDTH="21" VPOS="464" HPOS="720"/>
+            <String STYLEREFS="font0" WC="0.726000011" CONTENT="Kinde" HEIGHT="33" WIDTH="98" VPOS="464" HPOS="742"/>
+            <SP WIDTH="19" VPOS="473" HPOS="841"/>
+            <String STYLEREFS="font0" WC="0.7239999771" CONTENT="nicht" HEIGHT="38" WIDTH="80" VPOS="464" HPOS="861"/>
+            <SP WIDTH="25" VPOS="465" HPOS="942"/>
+            <String STYLEREFS="font0" WC="0.5325000286" CONTENT="bloß" HEIGHT="40" WIDTH="70" VPOS="463" HPOS="968"/>
+            <SP WIDTH="22" VPOS="464" HPOS="1039"/>
+            <String STYLEREFS="font0" WC="0.8799999952" CONTENT="die" HEIGHT="32" WIDTH="45" VPOS="463" HPOS="1062"/>
+            <SP WIDTH="22" VPOS="472" HPOS="1108"/>
+            <String STYLEREFS="font0" WC="0.7762500048" CONTENT="gehörige" HEIGHT="43" WIDTH="143" VPOS="462" HPOS="1131"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="1132" VPOS="515" HPOS="142">
+            <String STYLEREFS="font0" WC="0.7174999714" CONTENT="Zeit" HEIGHT="35" WIDTH="70" VPOS="517" HPOS="142"/>
+            <SP WIDTH="19" VPOS="522" HPOS="213"/>
+            <String STYLEREFS="font0" WC="0.3400000036" CONTENT="zu" HEIGHT="33" WIDTH="35" VPOS="524" HPOS="233"/>
+            <SP WIDTH="22" VPOS="516" HPOS="269"/>
+            <String STYLEREFS="font0" WC="0.6899999976" CONTENT="dem" HEIGHT="31" WIDTH="63" VPOS="516" HPOS="292"/>
+            <SP WIDTH="20" VPOS="524" HPOS="356"/>
+            <String STYLEREFS="font0" WC="0.6800000072" CONTENT="nothwendigen" HEIGHT="41" WIDTH="229" VPOS="515" HPOS="377"/>
+            <SP WIDTH="20" VPOS="516" HPOS="607"/>
+            <String STYLEREFS="font0" WC="0.7627272606" CONTENT="Schulbesuch" HEIGHT="39" WIDTH="201" VPOS="516" HPOS="628"/>
+            <SP WIDTH="24" VPOS="517" HPOS="830"/>
+            <String STYLEREFS="font0" WC="0.6949999928" CONTENT="geben," HEIGHT="40" WIDTH="103" VPOS="517" HPOS="855"/>
+            <SP WIDTH="25" VPOS="515" HPOS="959"/>
+            <String STYLEREFS="font0" WC="0.5514285564" CONTENT="sondern" HEIGHT="38" WIDTH="120" VPOS="515" HPOS="985"/>
+            <SP WIDTH="19" VPOS="523" HPOS="1106"/>
+            <String STYLEREFS="font0" WC="0.7699999809" CONTENT="auch" HEIGHT="36" WIDTH="70" VPOS="516" HPOS="1126"/>
+            <SP WIDTH="23" VPOS="516" HPOS="1197"/>
+            <String STYLEREFS="font0" WC="0.3199999928" CONTENT="da" HEIGHT="29" WIDTH="38" VPOS="517" HPOS="1221" SUBS_TYPE="HypPart1" SUBS_CONTENT="dafür"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1131" VPOS="566" HPOS="142">
+            <String STYLEREFS="font0" WC="0.8700000048" CONTENT="für" HEIGHT="39" WIDTH="49" VPOS="568" HPOS="142" SUBS_TYPE="HypPart2" SUBS_CONTENT="dafür"/>
+            <SP WIDTH="19" VPOS="568" HPOS="192"/>
+            <String STYLEREFS="font0" WC="0.5657142997" CONTENT="sorgen," HEIGHT="39" WIDTH="119" VPOS="568" HPOS="212"/>
+            <SP WIDTH="27" VPOS="568" HPOS="332"/>
+            <String STYLEREFS="font0" WC="0.6833333373" CONTENT="daß" HEIGHT="37" WIDTH="59" VPOS="568" HPOS="360"/>
+            <SP WIDTH="22" VPOS="568" HPOS="420"/>
+            <String STYLEREFS="font0" WC="0.6600000262" CONTENT="dieser" HEIGHT="37" WIDTH="89" VPOS="567" HPOS="443"/>
+            <SP WIDTH="27" VPOS="574" HPOS="533"/>
+            <String STYLEREFS="font0" WC="0.4633333385" CONTENT="von" HEIGHT="23" WIDTH="57" VPOS="574" HPOS="561"/>
+            <SP WIDTH="28" VPOS="569" HPOS="619"/>
+            <String STYLEREFS="font0" WC="0.573333323" CONTENT="dem" HEIGHT="29" WIDTH="64" VPOS="569" HPOS="648"/>
+            <SP WIDTH="30" VPOS="568" HPOS="713"/>
+            <String STYLEREFS="font0" WC="0.5166666508" CONTENT="betreffenden" HEIGHT="39" WIDTH="194" VPOS="566" HPOS="744"/>
+            <SP WIDTH="18" VPOS="566" HPOS="939"/>
+            <String STYLEREFS="font0" WC="0.6620000005" CONTENT="Kinde" HEIGHT="33" WIDTH="99" VPOS="566" HPOS="958"/>
+            <SP WIDTH="25" VPOS="574" HPOS="1058"/>
+            <String STYLEREFS="font0" WC="0.7680000067" CONTENT="regelmäßig" HEIGHT="40" WIDTH="189" VPOS="566" HPOS="1084"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="1133" VPOS="614" HPOS="139">
+            <String STYLEREFS="font0" WC="0.7400000095" CONTENT="benutzt" HEIGHT="37" WIDTH="113" VPOS="620" HPOS="139"/>
+            <SP WIDTH="20" VPOS="621" HPOS="253"/>
+            <String STYLEREFS="font0" WC="0.6620000005" CONTENT="wird." HEIGHT="31" WIDTH="85" VPOS="618" HPOS="274"/>
+            <SP WIDTH="43" VPOS="617" HPOS="360"/>
+            <String STYLEREFS="font0" WC="0.6311110854" CONTENT="(Verordn," HEIGHT="41" WIDTH="163" VPOS="617" HPOS="404"/>
+            <SP WIDTH="17" VPOS="626" HPOS="568"/>
+            <String STYLEREFS="font0" WC="0.6850000024" CONTENT="v." HEIGHT="24" WIDTH="26" VPOS="626" HPOS="586"/>
+            <SP WIDTH="15" VPOS="615" HPOS="613"/>
+            <String STYLEREFS="font0" WC="0.9950000048" CONTENT="3." HEIGHT="34" WIDTH="33" VPOS="615" HPOS="629"/>
+            <SP WIDTH="16" VPOS="617" HPOS="663"/>
+            <String STYLEREFS="font0" WC="0.6725000143" CONTENT="Okt." HEIGHT="33" WIDTH="71" VPOS="617" HPOS="680"/>
+            <SP WIDTH="19" VPOS="617" HPOS="752"/>
+            <String STYLEREFS="font0" WC="0.7559999824" CONTENT="1828," HEIGHT="38" WIDTH="95" VPOS="616" HPOS="772"/>
+            <SP WIDTH="24" VPOS="617" HPOS="868"/>
+            <String STYLEREFS="font0" WC="0.8000000119" CONTENT="Amtsbl." HEIGHT="32" WIDTH="136" VPOS="617" HPOS="893"/>
+            <SP WIDTH="15" VPOS="617" HPOS="1030"/>
+            <String STYLEREFS="font0" WC="0.8199999928" CONTENT="S." HEIGHT="33" WIDTH="42" VPOS="617" HPOS="1046"/>
+            <SP WIDTH="14" VPOS="614" HPOS="1089"/>
+            <String STYLEREFS="font0" WC="0.1150000021" CONTENT="322;" HEIGHT="43" WIDTH="78" VPOS="614" HPOS="1104"/>
+            <SP WIDTH="19" VPOS="626" HPOS="1183"/>
+            <String STYLEREFS="font0" WC="0.6100000143" CONTENT="vom" HEIGHT="23" WIDTH="69" VPOS="626" HPOS="1203"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="1131" VPOS="667" HPOS="140">
+            <String STYLEREFS="font0" WC="1." CONTENT="12." HEIGHT="32" WIDTH="51" VPOS="668" HPOS="140"/>
+            <SP WIDTH="15" VPOS="668" HPOS="192"/>
+            <String STYLEREFS="font0" WC="0.7820000052" CONTENT="Febr." HEIGHT="39" WIDTH="83" VPOS="668" HPOS="208"/>
+            <SP WIDTH="15" VPOS="667" HPOS="292"/>
+            <String STYLEREFS="font0" WC="0.400000006" CONTENT="1834," HEIGHT="39" WIDTH="93" VPOS="667" HPOS="308"/>
+            <SP WIDTH="16" VPOS="669" HPOS="402"/>
+            <String STYLEREFS="font0" WC="0.8814285994" CONTENT="Amtsbl." HEIGHT="32" WIDTH="138" VPOS="669" HPOS="419"/>
+            <SP WIDTH="16" VPOS="669" HPOS="558"/>
+            <String STYLEREFS="font0" WC="0.8899999857" CONTENT="S." HEIGHT="33" WIDTH="40" VPOS="669" HPOS="575"/>
+            <SP WIDTH="10" VPOS="668" HPOS="616"/>
+            <String STYLEREFS="font0" WC="0.5899999738" CONTENT="78;" HEIGHT="44" WIDTH="61" VPOS="667" HPOS="627"/>
+            <SP WIDTH="23" VPOS="677" HPOS="689"/>
+            <String STYLEREFS="font0" WC="0.8899999857" CONTENT="v." HEIGHT="24" WIDTH="27" VPOS="677" HPOS="713"/>
+            <SP WIDTH="12" VPOS="667" HPOS="741"/>
+            <String STYLEREFS="font0" WC="0.6666666865" CONTENT="23." HEIGHT="34" WIDTH="49" VPOS="667" HPOS="754"/>
+            <SP WIDTH="17" VPOS="667" HPOS="804"/>
+            <String STYLEREFS="font0" WC="0.5899999738" CONTENT="Mai" HEIGHT="34" WIDTH="77" VPOS="667" HPOS="822"/>
+            <SP WIDTH="15" VPOS="668" HPOS="900"/>
+            <String STYLEREFS="font0" WC="0.4799999893" CONTENT="1835" HEIGHT="32" WIDTH="81" VPOS="667" HPOS="916"/>
+            <SP WIDTH="15" VPOS="667" HPOS="998"/>
+            <String STYLEREFS="font0" WC="0.7524999976" CONTENT="lit." HEIGHT="31" WIDTH="45" VPOS="668" HPOS="1014"/>
+            <SP WIDTH="13" VPOS="677" HPOS="1060"/>
+            <String STYLEREFS="font0" WC="0.5400000215" CONTENT="a.," HEIGHT="28" WIDTH="44" VPOS="677" HPOS="1074"/>
+            <SP WIDTH="17" VPOS="667" HPOS="1119"/>
+            <String STYLEREFS="font0" WC="0.7900000215" CONTENT="Amtsbl." HEIGHT="34" WIDTH="134" VPOS="667" HPOS="1137"/>
+          </TextLine>
+          <TextLine HEIGHT="40" WIDTH="807" VPOS="719" HPOS="141">
+            <String STYLEREFS="font0" WC="0.4716666639" CONTENT="@.241," HEIGHT="39" WIDTH="128" VPOS="720" HPOS="141"/>
+            <SP WIDTH="23" VPOS="729" HPOS="270"/>
+            <String STYLEREFS="font0" WC="0.5299999714" CONTENT="und" HEIGHT="30" WIDTH="59" VPOS="722" HPOS="294"/>
+            <SP WIDTH="12" VPOS="722" HPOS="354"/>
+            <String STYLEREFS="font0" WC="0.6750000119" CONTENT="v." HEIGHT="24" WIDTH="27" VPOS="728" HPOS="367"/>
+            <SP WIDTH="12" VPOS="719" HPOS="395"/>
+            <String STYLEREFS="font0" WC="0.3799999952" CONTENT="5." HEIGHT="34" WIDTH="32" VPOS="719" HPOS="408"/>
+            <SP WIDTH="13" VPOS="720" HPOS="441"/>
+            <String STYLEREFS="font0" WC="0.8974999785" CONTENT="Juli" HEIGHT="36" WIDTH="72" VPOS="720" HPOS="455"/>
+            <SP WIDTH="13" VPOS="720" HPOS="528"/>
+            <String STYLEREFS="font0" WC="0.6159999967" CONTENT="1851," HEIGHT="40" WIDTH="95" VPOS="719" HPOS="542"/>
+            <SP WIDTH="15" VPOS="721" HPOS="638"/>
+            <String STYLEREFS="font0" WC="0.7742857337" CONTENT="Amtsbl." HEIGHT="32" WIDTH="137" VPOS="720" HPOS="654"/>
+            <SP WIDTH="12" VPOS="720" HPOS="792"/>
+            <String STYLEREFS="font0" WC="0.75" CONTENT="S." HEIGHT="33" WIDTH="41" VPOS="720" HPOS="805"/>
+            <SP WIDTH="14" VPOS="719" HPOS="847"/>
+            <String STYLEREFS="font0" WC="0.8960000277" CONTENT="172.)" HEIGHT="40" WIDTH="86" VPOS="719" HPOS="862"/>
+          </TextLine>
+          <TextLine HEIGHT="43" WIDTH="1047" VPOS="767" HPOS="224">
+            <String STYLEREFS="font0" WC="0.628888905" CONTENT="Besondere" HEIGHT="38" WIDTH="166" VPOS="772" HPOS="224"/>
+            <SP WIDTH="21" VPOS="771" HPOS="391"/>
+            <String STYLEREFS="font0" WC="0.7558333278" CONTENT="Vorschriften" HEIGHT="38" WIDTH="203" VPOS="771" HPOS="413"/>
+            <SP WIDTH="28" VPOS="770" HPOS="617"/>
+            <String STYLEREFS="font0" WC="0.8666666746" CONTENT="für" HEIGHT="38" WIDTH="50" VPOS="770" HPOS="646"/>
+            <SP WIDTH="21" VPOS="770" HPOS="697"/>
+            <String STYLEREFS="font0" WC="0.6399999857" CONTENT="Kinder," HEIGHT="38" WIDTH="130" VPOS="770" HPOS="719"/>
+            <SP WIDTH="30" VPOS="778" HPOS="850"/>
+            <String STYLEREFS="font0" WC="0.7816666961" CONTENT="welche" HEIGHT="38" WIDTH="106" VPOS="770" HPOS="881"/>
+            <SP WIDTH="25" VPOS="771" HPOS="988"/>
+            <String STYLEREFS="font0" WC="1." CONTENT="im" HEIGHT="30" WIDTH="43" VPOS="771" HPOS="1014"/>
+            <SP WIDTH="30" VPOS="769" HPOS="1058"/>
+            <String STYLEREFS="font0" WC="0.7172726989" CONTENT="schulpflich" HEIGHT="43" WIDTH="167" VPOS="767" HPOS="1089" SUBS_TYPE="HypPart1" SUBS_CONTENT="schulpflichtigen"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="46" WIDTH="927" VPOS="819" HPOS="141">
+            <String STYLEREFS="font0" WC="0.6919999719" CONTENT="tigen" HEIGHT="40" WIDTH="83" VPOS="825" HPOS="141" SUBS_TYPE="HypPart2" SUBS_CONTENT="schulpflichtigen"/>
+            <SP WIDTH="21" VPOS="823" HPOS="225"/>
+            <String STYLEREFS="font0" WC="0.7559999824" CONTENT="Alter" HEIGHT="32" WIDTH="87" VPOS="822" HPOS="247"/>
+            <SP WIDTH="19" VPOS="822" HPOS="335"/>
+            <String STYLEREFS="font0" WC="0.7900000215" CONTENT="im" HEIGHT="30" WIDTH="42" VPOS="822" HPOS="355"/>
+            <SP WIDTH="22" VPOS="820" HPOS="398"/>
+            <String STYLEREFS="font0" WC="0.6485714316" CONTENT="Dienste" HEIGHT="37" WIDTH="126" VPOS="820" HPOS="421"/>
+            <SP WIDTH="20" VPOS="819" HPOS="548"/>
+            <String STYLEREFS="font0" WC="0.7142857313" CONTENT="stehen," HEIGHT="38" WIDTH="112" VPOS="819" HPOS="569"/>
+            <SP WIDTH="21" VPOS="819" HPOS="682"/>
+            <String STYLEREFS="font0" WC="0.3524999917" CONTENT="find" HEIGHT="39" WIDTH="62" VPOS="819" HPOS="704"/>
+            <SP WIDTH="23" VPOS="822" HPOS="767"/>
+            <String STYLEREFS="font0" WC="0.6999999881" CONTENT="erlassen" HEIGHT="38" WIDTH="121" VPOS="820" HPOS="791"/>
+            <SP WIDTH="18" VPOS="828" HPOS="913"/>
+            <String STYLEREFS="font0" WC="0.7457143068" CONTENT="worden:" HEIGHT="29" WIDTH="136" VPOS="823" HPOS="932"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="1050" VPOS="869" HPOS="223">
+            <String STYLEREFS="font0" WC="0.7400000095" CONTENT="A." HEIGHT="32" WIDTH="42" VPOS="871" HPOS="223"/>
+            <SP WIDTH="21" VPOS="872" HPOS="266"/>
+            <String STYLEREFS="font0" WC="0.8700000048" CONTENT="in" HEIGHT="31" WIDTH="31" VPOS="872" HPOS="288"/>
+            <SP WIDTH="28" VPOS="873" HPOS="320"/>
+            <String STYLEREFS="font0" WC="0.6600000262" CONTENT="dem" HEIGHT="29" WIDTH="64" VPOS="873" HPOS="349"/>
+            <SP WIDTH="27" VPOS="870" HPOS="414"/>
+            <String STYLEREFS="font0" WC="0.722222209" CONTENT="Regulativ" HEIGHT="41" WIDTH="171" VPOS="870" HPOS="442"/>
+            <SP WIDTH="30" VPOS="870" HPOS="614"/>
+            <String STYLEREFS="font0" WC="0.7766666412" CONTENT="für" HEIGHT="40" WIDTH="50" VPOS="869" HPOS="645"/>
+            <SP WIDTH="31" VPOS="873" HPOS="696"/>
+            <String STYLEREFS="font0" WC="0.6133333445" CONTENT="die" HEIGHT="31" WIDTH="44" VPOS="870" HPOS="728"/>
+            <SP WIDTH="27" VPOS="870" HPOS="773"/>
+            <String STYLEREFS="font0" WC="0.6369230747" CONTENT="Beschäftigung" HEIGHT="43" WIDTH="238" VPOS="870" HPOS="801"/>
+            <SP WIDTH="28" VPOS="872" HPOS="1040"/>
+            <String STYLEREFS="font0" WC="0.7533333302" CONTENT="jugendlicher" HEIGHT="42" WIDTH="204" VPOS="871" HPOS="1069"/>
+          </TextLine>
+          <TextLine HEIGHT="43" WIDTH="1131" VPOS="919" HPOS="142">
+            <String STYLEREFS="font0" WC="0.6187499762" CONTENT="Arbeiter" HEIGHT="33" WIDTH="138" VPOS="922" HPOS="142"/>
+            <SP WIDTH="17" VPOS="929" HPOS="281"/>
+            <String STYLEREFS="font0" WC="0.8199999928" CONTENT="v." HEIGHT="24" WIDTH="28" VPOS="929" HPOS="299"/>
+            <SP WIDTH="13" VPOS="919" HPOS="328"/>
+            <String STYLEREFS="font0" WC="1." CONTENT="9." HEIGHT="31" WIDTH="29" VPOS="919" HPOS="342"/>
+            <SP WIDTH="11" VPOS="919" HPOS="372"/>
+            <String STYLEREFS="font0" WC="0.8349999785" CONTENT="März" HEIGHT="43" WIDTH="94" VPOS="919" HPOS="384"/>
+            <SP WIDTH="11" VPOS="920" HPOS="479"/>
+            <String STYLEREFS="font0" WC="0.9100000262" CONTENT="1839," HEIGHT="40" WIDTH="95" VPOS="919" HPOS="491"/>
+            <SP WIDTH="16" VPOS="920" HPOS="587"/>
+            <String STYLEREFS="font0" WC="0.8157142997" CONTENT="Ges.-S." HEIGHT="39" WIDTH="139" VPOS="919" HPOS="604"/>
+            <SP WIDTH="11" VPOS="919" HPOS="744"/>
+            <String STYLEREFS="font0" WC="0.8700000048" CONTENT="S." HEIGHT="33" WIDTH="44" VPOS="919" HPOS="756"/>
+            <SP WIDTH="16" VPOS="920" HPOS="801"/>
+            <String STYLEREFS="font0" WC="0.9433333278" CONTENT="156" HEIGHT="31" WIDTH="59" VPOS="919" HPOS="818"/>
+            <SP WIDTH="14" VPOS="919" HPOS="878"/>
+            <String STYLEREFS="font0" WC="0.8933333158" CONTENT="ff." HEIGHT="38" WIDTH="33" VPOS="920" HPOS="893"/>
+            <SP WIDTH="21" VPOS="930" HPOS="927"/>
+            <String STYLEREFS="font0" WC="0.7633333206" CONTENT="und" HEIGHT="29" WIDTH="58" VPOS="924" HPOS="949"/>
+            <SP WIDTH="23" VPOS="923" HPOS="1008"/>
+            <String STYLEREFS="font0" WC="0.8349999785" CONTENT="in" HEIGHT="30" WIDTH="32" VPOS="923" HPOS="1032"/>
+            <SP WIDTH="28" VPOS="925" HPOS="1065"/>
+            <String STYLEREFS="font0" WC="0.7766666412" CONTENT="den" HEIGHT="28" WIDTH="53" VPOS="925" HPOS="1094"/>
+            <SP WIDTH="21" VPOS="922" HPOS="1148"/>
+            <String STYLEREFS="font0" WC="0.5724999905" CONTENT="Abän" HEIGHT="33" WIDTH="88" VPOS="921" HPOS="1170" SUBS_TYPE="HypPart1" SUBS_CONTENT="Abänderungen"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="46" WIDTH="1130" VPOS="968" HPOS="142">
+            <String STYLEREFS="font0" WC="0.6687499881" CONTENT="derungen" HEIGHT="38" WIDTH="147" VPOS="976" HPOS="142" SUBS_TYPE="HypPart2" SUBS_CONTENT="Abänderungen"/>
+            <SP WIDTH="22" VPOS="973" HPOS="290"/>
+            <String STYLEREFS="font0" WC="0.550999999" CONTENT="desselben," HEIGHT="41" WIDTH="153" VPOS="972" HPOS="313"/>
+            <SP WIDTH="25" VPOS="972" HPOS="467"/>
+            <String STYLEREFS="font0" WC="0.603333354" CONTENT="Gesetz" HEIGHT="41" WIDTH="97" VPOS="972" HPOS="493"/>
+            <SP WIDTH="17" VPOS="978" HPOS="591"/>
+            <String STYLEREFS="font0" WC="0.875" CONTENT="v." HEIGHT="23" WIDTH="28" VPOS="982" HPOS="609"/>
+            <SP WIDTH="16" VPOS="972" HPOS="638"/>
+            <String STYLEREFS="font0" WC="1." CONTENT="16." HEIGHT="34" WIDTH="49" VPOS="971" HPOS="655"/>
+            <SP WIDTH="13" VPOS="971" HPOS="705"/>
+            <String STYLEREFS="font0" WC="0.5366666913" CONTENT="Mai" HEIGHT="34" WIDTH="75" VPOS="971" HPOS="719"/>
+            <SP WIDTH="18" VPOS="970" HPOS="795"/>
+            <String STYLEREFS="font0" WC="0.7080000043" CONTENT="1853," HEIGHT="39" WIDTH="97" VPOS="968" HPOS="814"/>
+            <SP WIDTH="19" VPOS="970" HPOS="912"/>
+            <String STYLEREFS="font0" WC="0.7542856932" CONTENT="Ges.-S." HEIGHT="37" WIDTH="132" VPOS="970" HPOS="932"/>
+            <SP WIDTH="13" VPOS="972" HPOS="1065"/>
+            <String STYLEREFS="font0" WC="0.6850000024" CONTENT="S." HEIGHT="30" WIDTH="42" VPOS="972" HPOS="1079"/>
+            <SP WIDTH="15" VPOS="971" HPOS="1122"/>
+            <String STYLEREFS="font0" WC="0.4275000095" CONTENT="225," HEIGHT="37" WIDTH="76" VPOS="971" HPOS="1138"/>
+            <SP WIDTH="21" VPOS="982" HPOS="1215"/>
+            <String STYLEREFS="font0" WC="0.5350000262" CONTENT="zu" HEIGHT="30" WIDTH="35" VPOS="982" HPOS="1237"/>
+          </TextLine>
+          <TextLine HEIGHT="46" WIDTH="1132" VPOS="1020" HPOS="141">
+            <String STYLEREFS="font0" WC="0.6542857289" CONTENT="welcher" HEIGHT="38" WIDTH="122" VPOS="1026" HPOS="141"/>
+            <SP WIDTH="20" VPOS="1034" HPOS="264"/>
+            <String STYLEREFS="font0" WC="0.7316666842" CONTENT="unterm" HEIGHT="28" WIDTH="116" VPOS="1028" HPOS="285"/>
+            <SP WIDTH="25" VPOS="1024" HPOS="402"/>
+            <String STYLEREFS="font0" WC="1." CONTENT="18." HEIGHT="32" WIDTH="48" VPOS="1024" HPOS="428"/>
+            <SP WIDTH="16" VPOS="1025" HPOS="477"/>
+            <String STYLEREFS="font0" WC="0.7024999857" CONTENT="Aug." HEIGHT="41" WIDTH="81" VPOS="1025" HPOS="494"/>
+            <SP WIDTH="16" VPOS="1024" HPOS="576"/>
+            <String STYLEREFS="font0" WC="0.8420000076" CONTENT="1853," HEIGHT="39" WIDTH="93" VPOS="1023" HPOS="593"/>
+            <SP WIDTH="19" VPOS="1025" HPOS="687"/>
+            <String STYLEREFS="font0" WC="0.8999999762" CONTENT="Amtsbl." HEIGHT="34" WIDTH="137" VPOS="1022" HPOS="707"/>
+            <SP WIDTH="14" VPOS="1022" HPOS="845"/>
+            <String STYLEREFS="font0" WC="0.8924999833" CONTENT="1854" HEIGHT="33" WIDTH="83" VPOS="1020" HPOS="860"/>
+            <SP WIDTH="14" VPOS="1021" HPOS="944"/>
+            <String STYLEREFS="font0" WC="0.7099999785" CONTENT="S." HEIGHT="33" WIDTH="42" VPOS="1022" HPOS="959"/>
+            <SP WIDTH="11" VPOS="1021" HPOS="1002"/>
+            <String STYLEREFS="font0" WC="0.8625000119" CONTENT="1—6," HEIGHT="39" WIDTH="96" VPOS="1020" HPOS="1014"/>
+            <SP WIDTH="23" VPOS="1031" HPOS="1111"/>
+            <String STYLEREFS="font0" WC="0.5299999714" CONTENT="eine" HEIGHT="31" WIDTH="61" VPOS="1022" HPOS="1135"/>
+            <SP WIDTH="12" VPOS="1022" HPOS="1197"/>
+            <String STYLEREFS="font0" WC="0.6850000024" CONTENT="An" HEIGHT="30" WIDTH="49" VPOS="1022" HPOS="1210" SUBS_TYPE="HypPart1" SUBS_CONTENT="Anweisung"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="46" WIDTH="1131" VPOS="1072" HPOS="141">
+            <String STYLEREFS="font0" WC="0.8199999928" CONTENT="weisung" HEIGHT="40" WIDTH="132" VPOS="1078" HPOS="141" SUBS_TYPE="HypPart2" SUBS_CONTENT="Anweisung"/>
+            <SP WIDTH="21" VPOS="1077" HPOS="274"/>
+            <String STYLEREFS="font0" WC="0.6999999881" CONTENT="in" HEIGHT="31" WIDTH="32" VPOS="1077" HPOS="296"/>
+            <SP WIDTH="20" VPOS="1076" HPOS="329"/>
+            <String STYLEREFS="font0" WC="0.5479999781" CONTENT="Bezug" HEIGHT="40" WIDTH="107" VPOS="1076" HPOS="350"/>
+            <SP WIDTH="25" VPOS="1085" HPOS="458"/>
+            <String STYLEREFS="font0" WC="0.473333329" CONTENT="auf" HEIGHT="39" WIDTH="55" VPOS="1075" HPOS="484"/>
+            <SP WIDTH="18" VPOS="1075" HPOS="540"/>
+            <String STYLEREFS="font0" WC="0.4633333385" CONTENT="die" HEIGHT="32" WIDTH="45" VPOS="1075" HPOS="559"/>
+            <SP WIDTH="26" VPOS="1075" HPOS="605"/>
+            <String STYLEREFS="font0" WC="0.5669999719" CONTENT="Ausführung" HEIGHT="42" WIDTH="206" VPOS="1074" HPOS="632"/>
+            <SP WIDTH="30" VPOS="1077" HPOS="839"/>
+            <String STYLEREFS="font0" WC="0.7183333039" CONTENT="dieses" HEIGHT="37" WIDTH="93" VPOS="1075" HPOS="870"/>
+            <SP WIDTH="22" VPOS="1074" HPOS="964"/>
+            <String STYLEREFS="font0" WC="0.78125" CONTENT="Gesetzes" HEIGHT="41" WIDTH="136" VPOS="1074" HPOS="987"/>
+            <SP WIDTH="27" VPOS="1076" HPOS="1124"/>
+            <String STYLEREFS="font0" WC="0.7562500238" CONTENT="erlassen" HEIGHT="40" WIDTH="120" VPOS="1072" HPOS="1152"/>
+          </TextLine>
+          <TextLine HEIGHT="39" WIDTH="274" VPOS="1127" HPOS="141">
+            <String STYLEREFS="font0" WC="0.4550000131" CONTENT="worden" HEIGHT="30" WIDTH="118" VPOS="1130" HPOS="141"/>
+            <SP WIDTH="20" VPOS="1128" HPOS="260"/>
+            <String STYLEREFS="font0" WC="0.5874999762" CONTENT="ist," HEIGHT="39" WIDTH="51" VPOS="1127" HPOS="281"/>
+            <SP WIDTH="23" VPOS="1136" HPOS="333"/>
+            <String STYLEREFS="font0" WC="0.6366666555" CONTENT="und" HEIGHT="29" WIDTH="58" VPOS="1129" HPOS="357"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1047" VPOS="1175" HPOS="224">
+            <String STYLEREFS="font0" WC="0.6299999952" CONTENT="B." HEIGHT="32" WIDTH="38" VPOS="1177" HPOS="224"/>
+            <SP WIDTH="19" VPOS="1178" HPOS="263"/>
+            <String STYLEREFS="font0" WC="0.7400000095" CONTENT="in" HEIGHT="30" WIDTH="31" VPOS="1178" HPOS="283"/>
+            <SP WIDTH="29" VPOS="1179" HPOS="315"/>
+            <String STYLEREFS="font0" WC="0.4833333194" CONTENT="der" HEIGHT="29" WIDTH="49" VPOS="1179" HPOS="345"/>
+            <SP WIDTH="24" VPOS="1177" HPOS="395"/>
+            <String STYLEREFS="font0" WC="0.4639999866" CONTENT="Verordnung" HEIGHT="39" WIDTH="200" VPOS="1177" HPOS="420"/>
+            <SP WIDTH="28" VPOS="1184" HPOS="621"/>
+            <String STYLEREFS="font0" WC="0.8299999833" CONTENT="vom" HEIGHT="23" WIDTH="69" VPOS="1184" HPOS="650"/>
+            <SP WIDTH="27" VPOS="1175" HPOS="720"/>
+            <String STYLEREFS="font0" WC="0.5" CONTENT="5." HEIGHT="30" WIDTH="31" VPOS="1175" HPOS="748"/>
+            <SP WIDTH="21" VPOS="1176" HPOS="780"/>
+            <String STYLEREFS="font0" WC="0.7039999962" CONTENT="Sept." HEIGHT="39" WIDTH="92" VPOS="1176" HPOS="802"/>
+            <SP WIDTH="20" VPOS="1176" HPOS="895"/>
+            <String STYLEREFS="font0" WC="0.7519999743" CONTENT="1853," HEIGHT="37" WIDTH="95" VPOS="1176" HPOS="916"/>
+            <SP WIDTH="29" VPOS="1177" HPOS="1012"/>
+            <String STYLEREFS="font0" WC="0.6060000062" CONTENT="betreffend" HEIGHT="38" WIDTH="158" VPOS="1176" HPOS="1042"/>
+            <SP WIDTH="25" VPOS="1178" HPOS="1201"/>
+            <String STYLEREFS="font0" WC="0.6600000262" CONTENT="die" HEIGHT="32" WIDTH="44" VPOS="1176" HPOS="1227"/>
+          </TextLine>
+          <TextLine HEIGHT="45" WIDTH="1132" VPOS="1224" HPOS="141">
+            <String STYLEREFS="font0" WC="0.6533333063" CONTENT="Heranziehung" HEIGHT="41" WIDTH="233" VPOS="1228" HPOS="141"/>
+            <SP WIDTH="22" VPOS="1226" HPOS="375"/>
+            <String STYLEREFS="font0" WC="0.6125000119" CONTENT="schulpflichtiger" HEIGHT="40" WIDTH="250" VPOS="1225" HPOS="398"/>
+            <SP WIDTH="20" VPOS="1224" HPOS="649"/>
+            <String STYLEREFS="font0" WC="0.6283333302" CONTENT="Kinder" HEIGHT="32" WIDTH="117" VPOS="1224" HPOS="670"/>
+            <SP WIDTH="21" VPOS="1234" HPOS="788"/>
+            <String STYLEREFS="font0" WC="0.4199999869" CONTENT="zu" HEIGHT="30" WIDTH="35" VPOS="1234" HPOS="810"/>
+            <SP WIDTH="15" VPOS="1224" HPOS="846"/>
+            <String STYLEREFS="font0" WC="0.4499999881" CONTENT="Garten-" HEIGHT="32" WIDTH="133" VPOS="1224" HPOS="862"/>
+            <SP WIDTH="23" VPOS="1234" HPOS="996"/>
+            <String STYLEREFS="font0" WC="0.7566666603" CONTENT="und" HEIGHT="27" WIDTH="58" VPOS="1228" HPOS="1020"/>
+            <SP WIDTH="23" VPOS="1226" HPOS="1079"/>
+            <String STYLEREFS="font0" WC="0.6255555749" CONTENT="Feldarbei" HEIGHT="36" WIDTH="155" VPOS="1226" HPOS="1103" SUBS_TYPE="HypPart1" SUBS_CONTENT="Feldarbeiten"/>
+            <HYP CONTENT="­"/>
+          </TextLine>
+          <TextLine HEIGHT="48" WIDTH="1131" VPOS="1273" HPOS="139">
+            <String STYLEREFS="font0" WC="0.6666666865" CONTENT="ten" HEIGHT="27" WIDTH="48" VPOS="1286" HPOS="139" SUBS_TYPE="HypPart2" SUBS_CONTENT="Feldarbeiten"/>
+            <SP WIDTH="21" VPOS="1290" HPOS="188"/>
+            <String STYLEREFS="font0" WC="0.5966666937" CONTENT="und" HEIGHT="30" WIDTH="59" VPOS="1283" HPOS="210"/>
+            <SP WIDTH="28" VPOS="1283" HPOS="270"/>
+            <String STYLEREFS="font0" WC="0.8000000119" CONTENT="zum" HEIGHT="33" WIDTH="66" VPOS="1288" HPOS="299"/>
+            <SP WIDTH="24" VPOS="1277" HPOS="366"/>
+            <String STYLEREFS="font0" WC="0.5379999876" CONTENT="Hüten" HEIGHT="42" WIDTH="103" VPOS="1276" HPOS="391"/>
+            <SP WIDTH="29" VPOS="1278" HPOS="495"/>
+            <String STYLEREFS="font0" WC="0.8566666842" CONTENT="des" HEIGHT="30" WIDTH="52" VPOS="1278" HPOS="525"/>
+            <SP WIDTH="20" VPOS="1276" HPOS="578"/>
+            <String STYLEREFS="font0" WC="0.6114285588" CONTENT="Viehes." HEIGHT="38" WIDTH="126" VPOS="1276" HPOS="599"/>
+            <SP WIDTH="37" VPOS="1277" HPOS="726"/>
+            <String STYLEREFS="font0" WC="0.7087500095" CONTENT="(Amtsbl." HEIGHT="40" WIDTH="154" VPOS="1275" HPOS="764"/>
+            <SP WIDTH="17" VPOS="1274" HPOS="919"/>
+            <String STYLEREFS="font0" WC="1." CONTENT="1853" HEIGHT="33" WIDTH="82" VPOS="1273" HPOS="937"/>
+            <SP WIDTH="13" VPOS="1273" HPOS="1020"/>
+            <String STYLEREFS="font0" WC="0.9100000262" CONTENT="S." HEIGHT="33" WIDTH="42" VPOS="1275" HPOS="1034"/>
+            <SP WIDTH="11" VPOS="1274" HPOS="1077"/>
+            <String STYLEREFS="font0" WC="0.8075000048" CONTENT="307—10.)" HEIGHT="41" WIDTH="181" VPOS="1274" HPOS="1089"/>
+          </TextLine>
+          <TextLine HEIGHT="39" WIDTH="305" VPOS="1332" HPOS="112">
+            <String STYLEREFS="font0" WC="0.9900000095" CONTENT="-" HEIGHT="3" WIDTH="6" VPOS="1351" HPOS="112"/>
+            <SP WIDTH="19" VPOS="1333" HPOS="119"/>
+            <String STYLEREFS="font0" WC="0.8019999862" CONTENT="Diese" HEIGHT="38" WIDTH="90" VPOS="1333" HPOS="139"/>
+            <SP WIDTH="18" VPOS="1333" HPOS="230"/>
+            <String STYLEREFS="font0" WC="0.777777791" CONTENT="bestimmt:" HEIGHT="37" WIDTH="168" VPOS="1332" HPOS="249"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="1044" VPOS="1378" HPOS="225">
+            <String STYLEREFS="font0" WC="0.4850000143" CONTENT="1)" HEIGHT="38" WIDTH="31" VPOS="1382" HPOS="225"/>
+            <SP WIDTH="22" VPOS="1382" HPOS="257"/>
+            <String STYLEREFS="font0" WC="0.5325000286" CONTENT="Kein" HEIGHT="33" WIDTH="79" VPOS="1382" HPOS="280"/>
+            <SP WIDTH="21" VPOS="1382" HPOS="360"/>
+            <String STYLEREFS="font0" WC="0.6593750119" CONTENT="schulpflichtiges" HEIGHT="42" WIDTH="253" VPOS="1380" HPOS="382"/>
+            <SP WIDTH="15" VPOS="1380" HPOS="636"/>
+            <String STYLEREFS="font0" WC="0.4724999964" CONTENT="Kind" HEIGHT="33" WIDTH="82" VPOS="1380" HPOS="652"/>
+            <SP WIDTH="23" VPOS="1381" HPOS="735"/>
+            <String STYLEREFS="font0" WC="0.4950000048" CONTENT="darf" HEIGHT="39" WIDTH="71" VPOS="1379" HPOS="759"/>
+            <SP WIDTH="16" VPOS="1379" HPOS="831"/>
+            <String STYLEREFS="font0" WC="0.6650000215" CONTENT="ohne" HEIGHT="36" WIDTH="72" VPOS="1380" HPOS="848"/>
+            <SP WIDTH="22" VPOS="1380" HPOS="921"/>
+            <String STYLEREFS="font0" WC="0.6783333421" CONTENT="schriftliche" HEIGHT="42" WIDTH="172" VPOS="1378" HPOS="944"/>
+            <SP WIDTH="22" VPOS="1380" HPOS="1117"/>
+            <String STYLEREFS="font0" WC="0.6271428466" CONTENT="Crlaub-" HEIGHT="33" WIDTH="129" VPOS="1380" HPOS="1140"/>
+          </TextLine>
+          <TextLine HEIGHT="45" WIDTH="1128" VPOS="1430" HPOS="139">
+            <String STYLEREFS="font0" WC="0.6833333373" CONTENT="niß" HEIGHT="40" WIDTH="53" VPOS="1435" HPOS="139"/>
+            <SP WIDTH="21" VPOS="1435" HPOS="193"/>
+            <String STYLEREFS="font0" WC="0.7333333492" CONTENT="des" HEIGHT="30" WIDTH="52" VPOS="1435" HPOS="215"/>
+            <SP WIDTH="20" VPOS="1432" HPOS="268"/>
+            <String STYLEREFS="font0" WC="0.7311538458" CONTENT="Kirchspiel-Schulinspectors" HEIGHT="40" WIDTH="461" VPOS="1430" HPOS="289"/>
+            <SP WIDTH="18" VPOS="1431" HPOS="751"/>
+            <String STYLEREFS="font0" WC="0.5454545617" CONTENT="(Predigers)" HEIGHT="39" WIDTH="199" VPOS="1431" HPOS="770"/>
+            <SP WIDTH="24" VPOS="1431" HPOS="970"/>
+            <String STYLEREFS="font0" WC="0.8766666651" CONTENT="und" HEIGHT="28" WIDTH="58" VPOS="1433" HPOS="995"/>
+            <SP WIDTH="25" VPOS="1433" HPOS="1054"/>
+            <String STYLEREFS="font0" WC="0.5633333325" CONTENT="deö" HEIGHT="28" WIDTH="53" VPOS="1434" HPOS="1080"/>
+            <SP WIDTH="20" VPOS="1431" HPOS="1134"/>
+            <String STYLEREFS="font0" WC="0.7116666436" CONTENT="Schul-" HEIGHT="37" WIDTH="112" VPOS="1430" HPOS="1155"/>
+          </TextLine>
+          <TextLine HEIGHT="45" WIDTH="1198" VPOS="1479" HPOS="71">
+            <String STYLEREFS="font0" WC="0.7649999857" CONTENT="&gt;." HEIGHT="13" WIDTH="15" VPOS="1502" HPOS="71"/>
+            <SP WIDTH="51" VPOS="1495" HPOS="87"/>
+            <String STYLEREFS="font0" WC="0.625" CONTENT="Vorstandes" HEIGHT="39" WIDTH="176" VPOS="1485" HPOS="139"/>
+            <SP WIDTH="21" VPOS="1486" HPOS="316"/>
+            <String STYLEREFS="font0" WC="0.8033333421" CONTENT="zum" HEIGHT="32" WIDTH="65" VPOS="1491" HPOS="338"/>
+            <SP WIDTH="22" VPOS="1481" HPOS="404"/>
+            <String STYLEREFS="font0" WC="0.7144444585" CONTENT="Viehhüten" HEIGHT="39" WIDTH="173" VPOS="1479" HPOS="427"/>
+            <SP WIDTH="20" VPOS="1488" HPOS="601"/>
+            <String STYLEREFS="font0" WC="0.5860000253" CONTENT="vermiethet" HEIGHT="35" WIDTH="178" VPOS="1479" HPOS="622"/>
+            <SP WIDTH="20" VPOS="1483" HPOS="801"/>
+            <String STYLEREFS="font0" WC="0.4875000119" CONTENT="oder" HEIGHT="29" WIDTH="67" VPOS="1480" HPOS="822"/>
+            <SP WIDTH="19" VPOS="1479" HPOS="890"/>
+            <String STYLEREFS="font0" WC="0.5466666818" CONTENT="überhaupt" HEIGHT="38" WIDTH="169" VPOS="1479" HPOS="910"/>
+            <SP WIDTH="20" VPOS="1484" HPOS="1080"/>
+            <String STYLEREFS="font0" WC="0.5566666722" CONTENT="verwendet" HEIGHT="28" WIDTH="168" VPOS="1482" HPOS="1101"/>
+          </TextLine>
+          <TextLine HEIGHT="47" WIDTH="1128" VPOS="1527" HPOS="138">
+            <String STYLEREFS="font0" WC="0.5528571606" CONTENT="werden." HEIGHT="30" WIDTH="124" VPOS="1538" HPOS="138"/>
+            <SP WIDTH="44" VPOS="1536" HPOS="263"/>
+            <String STYLEREFS="font0" WC="0.6600000262" CONTENT="Auch" HEIGHT="38" WIDTH="81" VPOS="1534" HPOS="308"/>
+            <SP WIDTH="21" VPOS="1534" HPOS="390"/>
+            <String STYLEREFS="font0" WC="0.6166666746" CONTENT="wer" HEIGHT="24" WIDTH="61" VPOS="1541" HPOS="412"/>
+            <SP WIDTH="22" VPOS="1532" HPOS="474"/>
+            <String STYLEREFS="font0" WC="0.6750000119" CONTENT="sein" HEIGHT="38" WIDTH="56" VPOS="1532" HPOS="497"/>
+            <SP WIDTH="28" VPOS="1541" HPOS="554"/>
+            <String STYLEREFS="font0" WC="0.6314285994" CONTENT="eigenes" HEIGHT="43" WIDTH="120" VPOS="1531" HPOS="583"/>
+            <SP WIDTH="21" VPOS="1529" HPOS="704"/>
+            <String STYLEREFS="font0" WC="0.5500000119" CONTENT="Kind" HEIGHT="34" WIDTH="82" VPOS="1529" HPOS="726"/>
+            <SP WIDTH="27" VPOS="1531" HPOS="809"/>
+            <String STYLEREFS="font0" WC="0.8633333445" CONTENT="zum" HEIGHT="33" WIDTH="67" VPOS="1538" HPOS="837"/>
+            <SP WIDTH="21" VPOS="1528" HPOS="905"/>
+            <String STYLEREFS="font0" WC="0.7233333588" CONTENT="Viehhüten" HEIGHT="40" WIDTH="173" VPOS="1527" HPOS="927"/>
+            <SP WIDTH="24" VPOS="1536" HPOS="1101"/>
+            <String STYLEREFS="font0" WC="0.7657142878" CONTENT="während" HEIGHT="37" WIDTH="140" VPOS="1529" HPOS="1126"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="1127" VPOS="1580" HPOS="139">
+            <String STYLEREFS="font0" WC="0.6866666675" CONTENT="der" HEIGHT="29" WIDTH="49" VPOS="1588" HPOS="139"/>
+            <SP WIDTH="22" VPOS="1586" HPOS="189"/>
+            <String STYLEREFS="font0" WC="0.648888886" CONTENT="Schulzeit" HEIGHT="39" WIDTH="160" VPOS="1585" HPOS="212"/>
+            <SP WIDTH="18" VPOS="1586" HPOS="373"/>
+            <String STYLEREFS="font0" WC="0.6800000072" CONTENT="benutzen" HEIGHT="37" WIDTH="134" VPOS="1586" HPOS="392"/>
+            <SP WIDTH="21" VPOS="1593" HPOS="527"/>
+            <String STYLEREFS="font0" WC="0.8100000024" CONTENT="will," HEIGHT="37" WIDTH="80" VPOS="1585" HPOS="549"/>
+            <SP WIDTH="22" VPOS="1593" HPOS="630"/>
+            <String STYLEREFS="font0" WC="0.6566666961" CONTENT="muß" HEIGHT="39" WIDTH="73" VPOS="1584" HPOS="653"/>
+            <SP WIDTH="24" VPOS="1584" HPOS="727"/>
+            <String STYLEREFS="font0" WC="0.6100000143" CONTENT="dazu" HEIGHT="39" WIDTH="73" VPOS="1585" HPOS="752"/>
+            <SP WIDTH="23" VPOS="1592" HPOS="826"/>
+            <String STYLEREFS="font0" WC="0.4816666543" CONTENT="vorher" HEIGHT="38" WIDTH="105" VPOS="1583" HPOS="850"/>
+            <SP WIDTH="20" VPOS="1591" HPOS="956"/>
+            <String STYLEREFS="font0" WC="0.7779999971" CONTENT="einen" HEIGHT="32" WIDTH="82" VPOS="1582" HPOS="977"/>
+            <SP WIDTH="19" VPOS="1580" HPOS="1060"/>
+            <String STYLEREFS="font0" WC="0.5379999876" CONTENT="Erlaubniß-" HEIGHT="43" WIDTH="186" VPOS="1580" HPOS="1080"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="1086" VPOS="1633" HPOS="137">
+            <String STYLEREFS="font0" WC="0.8283333182" CONTENT="schein" HEIGHT="39" WIDTH="92" VPOS="1636" HPOS="137"/>
+            <SP WIDTH="20" VPOS="1637" HPOS="230"/>
+            <String STYLEREFS="font0" WC="0.8733333349" CONTENT="des" HEIGHT="29" WIDTH="53" VPOS="1637" HPOS="251"/>
+            <SP WIDTH="22" VPOS="1635" HPOS="305"/>
+            <String STYLEREFS="font0" WC="0.6486666799" CONTENT="Schulinspectors" HEIGHT="39" WIDTH="267" VPOS="1634" HPOS="328"/>
+            <SP WIDTH="22" VPOS="1641" HPOS="596"/>
+            <String STYLEREFS="font0" WC="0.8066666722" CONTENT="und" HEIGHT="29" WIDTH="58" VPOS="1637" HPOS="619"/>
+            <SP WIDTH="24" VPOS="1637" HPOS="678"/>
+            <String STYLEREFS="font0" WC="0.8033333421" CONTENT="des" HEIGHT="29" WIDTH="51" VPOS="1637" HPOS="703"/>
+            <SP WIDTH="20" VPOS="1635" HPOS="755"/>
+            <String STYLEREFS="font0" WC="0.7126666903" CONTENT="Schulvorstandes" HEIGHT="39" WIDTH="277" VPOS="1633" HPOS="776"/>
+            <SP WIDTH="23" VPOS="1637" HPOS="1054"/>
+            <String STYLEREFS="font0" WC="0.6955555677" CONTENT="einholen." HEIGHT="37" WIDTH="145" VPOS="1635" HPOS="1078"/>
+          </TextLine>
+          <TextLine HEIGHT="42" WIDTH="1050" VPOS="1684" HPOS="220">
+            <String STYLEREFS="font0" WC="1." CONTENT="2)" HEIGHT="40" WIDTH="36" VPOS="1686" HPOS="220"/>
+            <SP WIDTH="22" VPOS="1686" HPOS="257"/>
+            <String STYLEREFS="font0" WC="0.5833333135" CONTENT="Die" HEIGHT="31" WIDTH="61" VPOS="1686" HPOS="280"/>
+            <SP WIDTH="30" VPOS="1685" HPOS="342"/>
+            <String STYLEREFS="font0" WC="0.6333333254" CONTENT="Erlaubniß" HEIGHT="39" WIDTH="171" VPOS="1685" HPOS="373"/>
+            <SP WIDTH="26" VPOS="1686" HPOS="545"/>
+            <String STYLEREFS="font0" WC="0.6299999952" CONTENT="zur" HEIGHT="31" WIDTH="51" VPOS="1694" HPOS="572"/>
+            <SP WIDTH="28" VPOS="1686" HPOS="624"/>
+            <String STYLEREFS="font0" WC="0.5310000181" CONTENT="Verwendung" HEIGHT="39" WIDTH="214" VPOS="1686" HPOS="653"/>
+            <SP WIDTH="30" VPOS="1686" HPOS="868"/>
+            <String STYLEREFS="font0" WC="0.474999994" CONTENT="beim" HEIGHT="30" WIDTH="77" VPOS="1686" HPOS="899"/>
+            <SP WIDTH="25" VPOS="1686" HPOS="977"/>
+            <String STYLEREFS="font0" WC="0.6344444156" CONTENT="Viehhüten" HEIGHT="39" WIDTH="173" VPOS="1685" HPOS="1003"/>
+            <SP WIDTH="22" VPOS="1687" HPOS="1177"/>
+            <String STYLEREFS="font0" WC="0.5274999738" CONTENT="darf" HEIGHT="38" WIDTH="70" VPOS="1684" HPOS="1200"/>
+          </TextLine>
+          <TextLine HEIGHT="41" WIDTH="1126" VPOS="1734" HPOS="139">
+            <String STYLEREFS="font0" WC="0.6142857075" CONTENT="Seitens" HEIGHT="33" WIDTH="130" VPOS="1736" HPOS="139"/>
+            <SP WIDTH="15" VPOS="1740" HPOS="270"/>
+            <String STYLEREFS="font0" WC="0.8933333158" CONTENT="des" HEIGHT="28" WIDTH="52" VPOS="1740" HPOS="286"/>
+            <SP WIDTH="15" VPOS="1736" HPOS="339"/>
+            <String STYLEREFS="font0" WC="0.6320000291" CONTENT="Schülinspectors" HEIGHT="39" WIDTH="267" VPOS="1736" HPOS="355"/>
+            <SP WIDTH="21" VPOS="1738" HPOS="623"/>
+            <String STYLEREFS="font0" WC="0.5333333611" CONTENT="und" HEIGHT="28" WIDTH="57" VPOS="1739" HPOS="645"/>
+            <SP WIDTH="17" VPOS="1739" HPOS="703"/>
+            <String STYLEREFS="font0" WC="0.6200000048" CONTENT="des" HEIGHT="28" WIDTH="51" VPOS="1739" HPOS="721"/>
+            <SP WIDTH="16" VPOS="1735" HPOS="773"/>
+            <String STYLEREFS="font0" WC="0.6773333549" CONTENT="Schulvorstandes" HEIGHT="40" WIDTH="277" VPOS="1734" HPOS="790"/>
+            <SP WIDTH="17" VPOS="1739" HPOS="1068"/>
+            <String STYLEREFS="font0" WC="0.5939999819" CONTENT="unter" HEIGHT="27" WIDTH="85" VPOS="1740" HPOS="1086"/>
+            <SP WIDTH="14" VPOS="1743" HPOS="1172"/>
+            <String STYLEREFS="font0" WC="0.773999989" CONTENT="allen" HEIGHT="33" WIDTH="78" VPOS="1734" HPOS="1187"/>
+          </TextLine>
+          <TextLine HEIGHT="43" WIDTH="1127" VPOS="1785" HPOS="136">
+            <String STYLEREFS="font0" WC="0.8566666842" CONTENT="Umständen" HEIGHT="38" WIDTH="180" VPOS="1786" HPOS="136"/>
+            <SP WIDTH="18" VPOS="1797" HPOS="317"/>
+            <String STYLEREFS="font0" WC="0.5400000215" CONTENT="nur" HEIGHT="24" WIDTH="56" VPOS="1797" HPOS="336"/>
+            <SP WIDTH="21" VPOS="1787" HPOS="393"/>
+            <String STYLEREFS="font0" WC="0.676666677" CONTENT="für" HEIGHT="40" WIDTH="48" VPOS="1787" HPOS="415"/>
+            <SP WIDTH="21" VPOS="1787" HPOS="464"/>
+            <String STYLEREFS="font0" WC="0.771666646" CONTENT="solche" HEIGHT="39" WIDTH="88" VPOS="1786" HPOS="486"/>
+            <SP WIDTH="21" VPOS="1787" HPOS="575"/>
+            <String STYLEREFS="font0" WC="0.7820000052" CONTENT="schulpflichtige" HEIGHT="42" WIDTH="232" VPOS="1786" HPOS="597"/>
+            <SP WIDTH="19" VPOS="1785" HPOS="830"/>
+            <String STYLEREFS="font0" WC="0.6600000262" CONTENT="Kinder" HEIGHT="34" WIDTH="115" VPOS="1785" HPOS="850"/>
+            <SP WIDTH="22" VPOS="1796" HPOS="966"/>
+            <String STYLEREFS="font0" WC="0.71714288" CONTENT="gegeben" HEIGHT="41" WIDTH="128" VPOS="1787" HPOS="989"/>
+            <SP WIDTH="19" VPOS="1792" HPOS="1118"/>
+            <String STYLEREFS="font0" WC="0.7142857313" CONTENT="werden," HEIGHT="37" WIDTH="125" VPOS="1787" HPOS="1138"/>
+          </TextLine>
+          <TextLine HEIGHT="37" WIDTH="106" VPOS="1837" HPOS="136">
+            <String STYLEREFS="font0" WC="0.8000000119" CONTENT="welche" HEIGHT="37" WIDTH="106" VPOS="1837" HPOS="136"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="692" VPOS="1887" HPOS="220">
+            <String STYLEREFS="font0" WC="0.5049999952" CONTENT="a)" HEIGHT="40" WIDTH="37" VPOS="1888" HPOS="220"/>
+            <SP WIDTH="24" VPOS="1888" HPOS="258"/>
+            <String STYLEREFS="font0" WC="0.603333354" CONTENT="das" HEIGHT="29" WIDTH="56" VPOS="1891" HPOS="283"/>
+            <SP WIDTH="23" VPOS="1893" HPOS="340"/>
+            <String STYLEREFS="font0" WC="0.5149999857" CONTENT="zehnte" HEIGHT="37" WIDTH="99" VPOS="1893" HPOS="364"/>
+            <SP WIDTH="23" VPOS="1890" HPOS="464"/>
+            <String STYLEREFS="font0" WC="0.6190000176" CONTENT="Lebensjahr" HEIGHT="40" WIDTH="181" VPOS="1890" HPOS="488"/>
+            <SP WIDTH="21" VPOS="1900" HPOS="670"/>
+            <String STYLEREFS="font0" WC="0.6215384603" CONTENT="zurückgelegt;" HEIGHT="44" WIDTH="220" VPOS="1887" HPOS="692"/>
+          </TextLine>
+          <TextLine HEIGHT="44" WIDTH="896" VPOS="1936" HPOS="220">
+            <String STYLEREFS="font1" WC="0.6299999952" CONTENT="b)" HEIGHT="42" WIDTH="39" VPOS="1938" HPOS="220"/>
+            <SP WIDTH="21" VPOS="1938" HPOS="260"/>
+            <String STYLEREFS="font0" WC="0.5433333516" CONTENT="bis" HEIGHT="31" WIDTH="49" VPOS="1940" HPOS="282"/>
+            <SP WIDTH="23" VPOS="1942" HPOS="332"/>
+            <String STYLEREFS="font0" WC="0.7720000148" CONTENT="dahin" HEIGHT="37" WIDTH="90" VPOS="1942" HPOS="356"/>
+            <SP WIDTH="23" VPOS="1946" HPOS="447"/>
+            <String STYLEREFS="font0" WC="0.6666666865" CONTENT="die" HEIGHT="32" WIDTH="44" VPOS="1943" HPOS="471"/>
+            <SP WIDTH="20" VPOS="1942" HPOS="516"/>
+            <String STYLEREFS="font0" WC="0.6533333063" CONTENT="Winterschule" HEIGHT="39" WIDTH="213" VPOS="1941" HPOS="537"/>
+            <SP WIDTH="21" VPOS="1950" HPOS="751"/>
+            <String STYLEREFS="font0" WC="0.6230000257" CONTENT="regelmäßig" HEIGHT="43" WIDTH="188" VPOS="1937" HPOS="773"/>
+            <SP WIDTH="22" VPOS="1938" HPOS="962"/>
+            <String STYLEREFS="font0" WC="0.7012500167" CONTENT="besucht;" HEIGHT="42" WIDTH="131" VPOS="1936" HPOS="985"/>
+          </TextLine>
+          <TextLine HEIGHT="46" WIDTH="833" VPOS="1988" HPOS="221">
+            <String STYLEREFS="font0" WC="0.3799999952" CONTENT="v)" HEIGHT="42" WIDTH="36" VPOS="1990" HPOS="221"/>
+            <SP WIDTH="23" VPOS="1990" HPOS="258"/>
+            <String STYLEREFS="font0" WC="0.6377778053" CONTENT="genügende" HEIGHT="43" WIDTH="169" VPOS="1989" HPOS="282"/>
+            <SP WIDTH="21" VPOS="1993" HPOS="452"/>
+            <String STYLEREFS="font0" WC="0.6728571653" CONTENT="Lesefertigkeit" HEIGHT="42" WIDTH="215" VPOS="1992" HPOS="474"/>
+            <SP WIDTH="21" VPOS="1998" HPOS="690"/>
+            <String STYLEREFS="font0" WC="0.5957142711" CONTENT="erlangt" HEIGHT="39" WIDTH="119" VPOS="1992" HPOS="712"/>
+            <SP WIDTH="22" VPOS="1990" HPOS="832"/>
+            <String STYLEREFS="font0" WC="0.5616666675" CONTENT="haben," HEIGHT="37" WIDTH="107" VPOS="1990" HPOS="855"/>
+            <SP WIDTH="31" VPOS="1997" HPOS="963"/>
+            <String STYLEREFS="font0" WC="0.5199999809" CONTENT="und" HEIGHT="32" WIDTH="59" VPOS="1988" HPOS="995"/>
+          </TextLine>
+          <TextLine HEIGHT="47" WIDTH="1041" VPOS="2038" HPOS="222">
+            <String STYLEREFS="font0" WC="0.3799999952" CONTENT="st)" HEIGHT="43" WIDTH="37" VPOS="2042" HPOS="222"/>
+            <SP WIDTH="22" VPOS="2040" HPOS="260"/>
+            <String STYLEREFS="font0" WC="0.7024999857" CONTENT="über" HEIGHT="34" WIDTH="70" VPOS="2040" HPOS="283"/>
+            <SP WIDTH="30" VPOS="2042" HPOS="354"/>
+            <String STYLEREFS="font0" WC="0.5099999905" CONTENT="deren" HEIGHT="31" WIDTH="82" VPOS="2042" HPOS="385"/>
+            <SP WIDTH="29" VPOS="2046" HPOS="468"/>
+            <String STYLEREFS="font0" WC="0.6733333468" CONTENT="Armuth" HEIGHT="38" WIDTH="128" VPOS="2044" HPOS="498"/>
+            <SP WIDTH="32" VPOS="2044" HPOS="627"/>
+            <String STYLEREFS="font0" WC="0.8033333421" CONTENT="die" HEIGHT="32" WIDTH="45" VPOS="2045" HPOS="660"/>
+            <SP WIDTH="27" VPOS="2044" HPOS="706"/>
+            <String STYLEREFS="font0" WC="0.582857132" CONTENT="Beweise" HEIGHT="38" WIDTH="134" VPOS="2040" HPOS="734"/>
+            <SP WIDTH="27" VPOS="2049" HPOS="869"/>
+            <String STYLEREFS="font0" WC="0.6299999952" CONTENT="mittelst" HEIGHT="39" WIDTH="127" VPOS="2038" HPOS="897"/>
+            <SP WIDTH="25" VPOS="2038" HPOS="1025"/>
+            <String STYLEREFS="font0" WC="0.7087500095" CONTENT="Attestes" HEIGHT="44" WIDTH="134" VPOS="2039" HPOS="1051"/>
+            <SP WIDTH="28" VPOS="2043" HPOS="1186"/>
+            <String STYLEREFS="font0" WC="0.4399999976" CONTENT="der" HEIGHT="28" WIDTH="48" VPOS="2043" HPOS="1215"/>
+          </TextLine>
+          <TextLine HEIGHT="45" WIDTH="794" VPOS="2092" HPOS="281">
+            <String STYLEREFS="font0" WC="0.6581818461" CONTENT="zuständigen" HEIGHT="44" WIDTH="192" VPOS="2092" HPOS="281"/>
+            <SP WIDTH="21" VPOS="2095" HPOS="474"/>
+            <String STYLEREFS="font0" WC="0.7107692361" CONTENT="Ortsobrigkeit" HEIGHT="42" WIDTH="228" VPOS="2095" HPOS="496"/>
+            <SP WIDTH="21" VPOS="2096" HPOS="725"/>
+            <String STYLEREFS="font0" WC="0.8381817937" CONTENT="beigebracht" HEIGHT="41" WIDTH="185" VPOS="2092" HPOS="747"/>
+            <SP WIDTH="18" VPOS="2096" HPOS="933"/>
+            <String STYLEREFS="font0" WC="0.5299999714" CONTENT="werden." HEIGHT="33" WIDTH="123" VPOS="2093" HPOS="952"/>
+          </TextLine>
+          <TextLine HEIGHT="46" WIDTH="1124" VPOS="2140" HPOS="137">
+            <String STYLEREFS="font0" WC="0.8366666436" CONTENT="Die" HEIGHT="34" WIDTH="62" VPOS="2141" HPOS="137"/>
+            <SP WIDTH="23" VPOS="2145" HPOS="200"/>
+            <String STYLEREFS="font0" WC="0.7018749714" CONTENT="Schulinspectoren" HEIGHT="41" WIDTH="283" VPOS="2145" HPOS="224"/>
+            <SP WIDTH="22" VPOS="2144" HPOS="508"/>
+            <String STYLEREFS="font0" WC="0.5575000048" CONTENT="sind" HEIGHT="38" WIDTH="61" VPOS="2144" HPOS="531"/>
+            <SP WIDTH="22" VPOS="2148" HPOS="593"/>
+            <String STYLEREFS="font0" WC="0.7839999795" CONTENT="dafür" HEIGHT="39" WIDTH="88" VPOS="2147" HPOS="616"/>
+            <SP WIDTH="20" VPOS="2155" HPOS="705"/>
+            <String STYLEREFS="font0" WC="0.7200000286" CONTENT="verantwortlich," HEIGHT="40" WIDTH="256" VPOS="2142" HPOS="726"/>
+            <SP WIDTH="25" VPOS="2147" HPOS="983"/>
+            <String STYLEREFS="font0" WC="0.473333329" CONTENT="daß" HEIGHT="39" WIDTH="59" VPOS="2146" HPOS="1009"/>
+            <SP WIDTH="18" VPOS="2146" HPOS="1069"/>
+            <String STYLEREFS="font0" WC="0.400000006" CONTENT="von" HEIGHT="24" WIDTH="57" VPOS="2152" HPOS="1088"/>
+            <SP WIDTH="22" VPOS="2144" HPOS="1146"/>
+            <String STYLEREFS="font0" WC="0.6349999905" CONTENT="diesen" HEIGHT="40" WIDTH="92" VPOS="2140" HPOS="1169"/>
+          </TextLine>
+          <TextLine HEIGHT="45" WIDTH="913" VPOS="2192" HPOS="137">
+            <String STYLEREFS="font0" WC="0.5809090734" CONTENT="Bedingungen" HEIGHT="45" WIDTH="223" VPOS="2192" HPOS="137"/>
+            <SP WIDTH="25" VPOS="2196" HPOS="361"/>
+            <String STYLEREFS="font0" WC="0.5600000024" CONTENT="keinerlei" HEIGHT="37" WIDTH="135" VPOS="2193" HPOS="387"/>
+            <SP WIDTH="22" VPOS="2194" HPOS="523"/>
+            <String STYLEREFS="font0" WC="0.49888888" CONTENT="Ausnahmen" HEIGHT="42" WIDTH="198" VPOS="2194" HPOS="546"/>
+            <SP WIDTH="24" VPOS="2205" HPOS="745"/>
+            <String STYLEREFS="font0" WC="0.4985714257" CONTENT="gemacht" HEIGHT="42" WIDTH="134" VPOS="2194" HPOS="770"/>
+            <SP WIDTH="19" VPOS="2199" HPOS="905"/>
+            <String STYLEREFS="font0" WC="0.6628571153" CONTENT="werden." HEIGHT="30" WIDTH="125" VPOS="2199" HPOS="925"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

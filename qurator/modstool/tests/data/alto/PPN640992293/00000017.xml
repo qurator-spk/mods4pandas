@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:a="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <a:Description>
+    <a:MeasurementUnit>mm10</a:MeasurementUnit>
+    <a:sourceImageInformation>
+      <a:fileName>Ee705-0301_00000017.tif</a:fileName>
+    </a:sourceImageInformation>
+    <a:OCRProcessing ID="ID_BIT_e0c01a61-5280-42b2-9d46-92941a62d11f">
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:30:51</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Color Enhancement</a:processingStepDescription>
+        <a:processingStepSettings>ContrastR=0.5 ContrastG=0.5 ContrastB=0.5 GammaR=1.0 GammaG=1.0 GammaB=1.0 LuminanceR=0.55 LuminanceG=0.55 LuminanceB=0.55</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:30:51</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Rotation</a:processingStepDescription>
+        <a:processingStepSettings>Type=None Margins={Left=0.5 Right=0.5 Top=0.800000011920929 Bottom=0.5}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:30:51</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Binarisation</a:processingStepDescription>
+        <a:processingStepSettings>SourceBPP=8 Algorithm=Intensity based algorithm</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:30:58</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Cleaning</a:processingStepDescription>
+        <a:processingStepSettings>ContrastR=0.5 ContrastG=0.5 ContrastB=0.5 GammaR=1.0 GammaG=1.0 GammaB=1.0 LuminanceR=0.55 LuminanceG=0.55 LuminanceB=0.55</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:31:02</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Remove Dots</a:processingStepDescription>
+        <a:processingStepSettings>ContrastR=0.5 ContrastG=0.5 ContrastB=0.5 GammaR=1.0 GammaG=1.0 GammaB=1.0 LuminanceR=0.55 LuminanceG=0.55 LuminanceB=0.55</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:31:09</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Blackborder elimination</a:processingStepDescription>
+        <a:processingStepSettings>ContrastR=0.5 ContrastG=0.5 ContrastB=0.5 GammaR=1.0 GammaG=1.0 GammaB=1.0 LuminanceR=0.55 LuminanceG=0.55 LuminanceB=0.55</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:31:11</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Detection of horizonzal lines</a:processingStepDescription>
+        <a:processingStepSettings>ForceBitmap=true MaxThickness=0.699999988079071 MinThickness=0.0 MaxWhiteLength=0.2 MinBlackLength=0.3 MinTotalLength=1.0 Margins={Left=0.5 Right=0.5 Top=0.800000011920929 Bottom=0.5}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:31:12</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Detection of vertical lines</a:processingStepDescription>
+        <a:processingStepSettings>ForceBitmap=true MaxThickness=2.0 MinThickness=0.0 MaxWhiteLength=0.1 MinBlackLength=0.9 MinTotalLength=10.0 Margins={Left=0.5 Right=0.5 Top=0.800000011920929 Bottom=0.5}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:31:14</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Segmentation</a:processingStepDescription>
+        <a:processingStepSettings>MinHeight=0.1 MinWidth=0.1 MinVertDist=2.0 MinHorDist=2.0 Margins={Left=0.5 Right=0.5 Top=0.800000011920929 Bottom=0.5}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:preProcessingStep>
+        <a:processingDateTime>2012-02-17T11:31:14</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Region identification</a:processingStepDescription>
+        <a:processingStepSettings>Default=Binary ColorRegions={Detect=false} PaletteRegions={Detect=false} BinaryRegions={Detect=false}</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:preProcessingStep>
+      <a:ocrProcessingStep>
+        <a:processingDateTime>2012-02-17T11:31:15</a:processingDateTime>
+        <a:processingAgency>B.I.T. Bureau Ingénieur Tomasi (France)</a:processingAgency>
+        <a:processingStepDescription>Optical Character Recognition</a:processingStepDescription>
+        <a:processingStepSettings>not implemented.</a:processingStepSettings>
+        <a:processingSoftware>
+          <a:softwareCreator>B.I.T. Bureau Ingénieur Tomasi</a:softwareCreator>
+          <a:softwareName>BIT-Alpha</a:softwareName>
+          <a:softwareVersion>2.0.38.614 (Rel. 38)</a:softwareVersion>
+        </a:processingSoftware>
+      </a:ocrProcessingStep>
+    </a:OCRProcessing>
+  </a:Description>
+  <a:Layout>
+    <a:Page ID="ID_BIT_3f3a7c7c-7ee2-46be-a01b-a571ee027190" HEIGHT="2154" WIDTH="1891" PHYSICAL_IMG_NR="0" QUALITY="OK" PROCESSING="ID_BIT_e0c01a61-5280-42b2-9d46-92941a62d11f">
+      <a:PrintSpace ID="ID_BIT_f952f258-43ec-4239-8a29-200be21fcd67" HEIGHT="2023.92" WIDTH="1790.61" HPOS="50.0" VPOS="80.0">
+        <a:TextBlock ID="ID_BIT_b39b9aa5-68f2-4112-8fb7-e99e1b33dda3" HEIGHT="2" WIDTH="320" HPOS="976" VPOS="513"/>
+        <a:TextBlock ID="ID_BIT_b7713c67-1a0a-43ef-a4c3-fe5fc7b7ae55" HEIGHT="1" WIDTH="531" HPOS="754" VPOS="852"/>
+        <a:TextBlock ID="ID_BIT_bcaa0f1d-34c4-471f-bec8-ea257c670916" HEIGHT="4" WIDTH="806" HPOS="490" VPOS="1090"/>
+        <a:TextBlock ID="ID_BIT_ccc96819-938a-48fa-90d7-4d738e251dc7" HEIGHT="38" WIDTH="960" HPOS="314" VPOS="1096">
+          <a:TextLine ID="ID_BIT_60a02284-0d38-45bb-bb4c-1f37c7fe60f9" HEIGHT="5.08" WIDTH="37.25" HPOS="620.6" VPOS="0.84">
+            <a:String HEIGHT="5.08" WIDTH="4.23" VPOS="0.84" HPOS="620.6" CONTENT="."/>
+            <a:SP WIDTH="31.32" VPOS="0.84" HPOS="620.6"/>
+            <a:String HEIGHT="5.08" WIDTH="5.92" VPOS="0.84" HPOS="651.93" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_a823b1a3-85a6-4d34-a2bc-b38974d88449" HEIGHT="7.62" WIDTH="5.08" HPOS="570.65" VPOS="0.84">
+            <a:String HEIGHT="7.62" WIDTH="5.08" VPOS="0.84" HPOS="570.65" CONTENT="r"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_4e2a6f23-e3ef-4504-b1de-4b595046744d" HEIGHT="6.77" WIDTH="7.62" HPOS="238.76" VPOS="0.84">
+            <a:String HEIGHT="6.77" WIDTH="7.62" VPOS="0.84" HPOS="238.76" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_3be06b87-ece3-48e2-8947-e8e0e554f321" HEIGHT="6.77" WIDTH="38.94" HPOS="0.0" VPOS="0.84">
+            <a:String HEIGHT="6.77" WIDTH="5.92" VPOS="0.84" HPOS="0.0" CONTENT="W"/>
+            <a:SP WIDTH="31.32" VPOS="0.84" HPOS="0.0"/>
+            <a:String HEIGHT="6.77" WIDTH="7.62" VPOS="0.84" HPOS="31.32" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_90144be0-299b-4f8b-8dce-1090554b7353" HEIGHT="6.77" WIDTH="6.77" HPOS="710.35" VPOS="0.84">
+            <a:String HEIGHT="6.77" WIDTH="6.77" VPOS="0.84" HPOS="710.35" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_51ab02f7-3432-4b7d-a7ea-896c9602dbcf" HEIGHT="36.4" WIDTH="960.96" HPOS="0.0" VPOS="6.77">
+            <a:String HEIGHT="36.4" WIDTH="87.2" VPOS="6.77" HPOS="0.0" CONTENT="schen"/>
+            <a:SP WIDTH="99.06" VPOS="7.19" HPOS="0.0"/>
+            <a:String HEIGHT="35.56" WIDTH="59.26" VPOS="7.62" HPOS="99.06" CONTENT="lsist"/>
+            <a:SP WIDTH="60.11" VPOS="7.62" HPOS="99.06"/>
+            <a:String HEIGHT="35.56" WIDTH="9.31" VPOS="7.62" HPOS="159.17" CONTENT="."/>
+            <a:SP WIDTH="33.02" VPOS="7.62" HPOS="159.17"/>
+            <a:String HEIGHT="35.56" WIDTH="28.78" VPOS="7.62" HPOS="192.19" CONTENT="T"/>
+            <a:SP WIDTH="28.78" VPOS="7.62" HPOS="192.19"/>
+            <a:String HEIGHT="35.56" WIDTH="14.39" VPOS="7.62" HPOS="220.98" CONTENT="/"/>
+            <a:SP WIDTH="17.78" VPOS="7.62" HPOS="220.98"/>
+            <a:String HEIGHT="35.56" WIDTH="68.58" VPOS="7.62" HPOS="238.76" CONTENT="nuit"/>
+            <a:SP WIDTH="82.97" VPOS="7.19" HPOS="238.76"/>
+            <a:String HEIGHT="36.4" WIDTH="33.86" VPOS="6.77" HPOS="321.73" CONTENT="nJ"/>
+            <a:SP WIDTH="35.56" VPOS="6.77" HPOS="321.73"/>
+            <a:String HEIGHT="36.4" WIDTH="12.7" VPOS="6.77" HPOS="357.29" CONTENT="-"/>
+            <a:SP WIDTH="16.08" VPOS="6.77" HPOS="357.29"/>
+            <a:String HEIGHT="36.4" WIDTH="44.02" VPOS="6.77" HPOS="373.38" CONTENT="ich"/>
+            <a:SP WIDTH="55.88" VPOS="6.77" HPOS="373.38"/>
+            <a:String HEIGHT="35.56" WIDTH="44.87" VPOS="6.77" HPOS="429.26" CONTENT="mi"/>
+            <a:SP WIDTH="46.56" VPOS="6.77" HPOS="429.26"/>
+            <a:String HEIGHT="35.56" WIDTH="13.54" VPOS="6.77" HPOS="475.82" CONTENT="-"/>
+            <a:SP WIDTH="27.09" VPOS="6.77" HPOS="475.82"/>
+            <a:String HEIGHT="35.56" WIDTH="31.32" VPOS="6.77" HPOS="502.92" CONTENT="hi"/>
+            <a:SP WIDTH="34.71" VPOS="6.77" HPOS="502.92"/>
+            <a:String HEIGHT="35.56" WIDTH="13.54" VPOS="6.77" HPOS="537.63" CONTENT="-"/>
+            <a:SP WIDTH="23.7" VPOS="6.77" HPOS="537.63"/>
+            <a:String HEIGHT="35.56" WIDTH="110.06" VPOS="6.77" HPOS="561.34" CONTENT="heilini"/>
+            <a:SP WIDTH="114.3" VPOS="6.77" HPOS="561.34"/>
+            <a:String HEIGHT="35.56" WIDTH="6.77" VPOS="6.77" HPOS="675.64" CONTENT="/"/>
+            <a:SP WIDTH="10.16" VPOS="6.77" HPOS="675.64"/>
+            <a:String HEIGHT="35.56" WIDTH="8.46" VPOS="6.77" HPOS="685.8" CONTENT="Y"/>
+            <a:SP WIDTH="23.7" VPOS="6.77" HPOS="685.8"/>
+            <a:String HEIGHT="35.56" WIDTH="11.85" VPOS="6.77" HPOS="709.5" CONTENT="("/>
+            <a:SP WIDTH="11.85" VPOS="6.77" HPOS="709.5"/>
+            <a:String HEIGHT="35.56" WIDTH="93.98" VPOS="6.77" HPOS="721.36" CONTENT="Fimol"/>
+            <a:SP WIDTH="105.83" VPOS="6.77" HPOS="721.36"/>
+            <a:String HEIGHT="36.4" WIDTH="6.77" VPOS="6.77" HPOS="827.19" CONTENT="i"/>
+            <a:SP WIDTH="11.85" VPOS="6.77" HPOS="827.19"/>
+            <a:String HEIGHT="36.4" WIDTH="11.85" VPOS="6.77" HPOS="839.04" CONTENT=":"/>
+            <a:SP WIDTH="11.85" VPOS="6.77" HPOS="839.04"/>
+            <a:String HEIGHT="36.4" WIDTH="72.81" VPOS="6.77" HPOS="850.9" CONTENT="itsid"/>
+            <a:SP WIDTH="71.12" VPOS="6.77" HPOS="850.9"/>
+            <a:String HEIGHT="36.4" WIDTH="10.16" VPOS="6.77" HPOS="922.02" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="6.77" HPOS="922.02"/>
+            <a:String HEIGHT="36.4" WIDTH="13.54" VPOS="6.77" HPOS="935.56" CONTENT="r"/>
+            <a:SP WIDTH="14.39" VPOS="6.77" HPOS="935.56"/>
+            <a:String HEIGHT="36.4" WIDTH="11.0" VPOS="6.77" HPOS="949.96" CONTENT="-"/>
+          </a:TextLine>
+        </a:TextBlock>
+        <a:TextBlock ID="ID_BIT_013425e1-9990-4832-b569-bbd8efbbde81" HEIGHT="1" WIDTH="764" HPOS="514" VPOS="1137"/>
+        <a:TextBlock ID="ID_BIT_1cb4ebfa-6309-4950-9336-181271208e9b" HEIGHT="2" WIDTH="313" HPOS="969" VPOS="1189"/>
+        <a:TextBlock ID="ID_BIT_ff34d487-b42a-450b-aaa3-8dcf12a52da2" HEIGHT="1" WIDTH="448" HPOS="846" VPOS="1236"/>
+        <a:TextBlock ID="ID_BIT_9cabd423-9fc7-4ae4-b331-62bb2e8e035e" HEIGHT="0" WIDTH="605" HPOS="689" VPOS="1380"/>
+        <a:TextBlock ID="ID_BIT_47d22c20-d748-4a94-934f-d9ef69f113ed" HEIGHT="1" WIDTH="709" HPOS="585" VPOS="1507"/>
+        <a:TextBlock ID="ID_BIT_d1df3403-c182-4131-ab83-9de3a73d68ab" HEIGHT="61" WIDTH="958" HPOS="322" VPOS="356">
+          <a:TextLine ID="ID_BIT_e055d4f7-314f-44da-8b6a-a09dd0bb104c" HEIGHT="61.8" WIDTH="860.21" HPOS="98.21" VPOS="4.23">
+            <a:String HEIGHT="60.11" WIDTH="234.52" VPOS="4.23" HPOS="98.21" CONTENT="destfronen"/>
+            <a:SP WIDTH="242.99" VPOS="2.96" HPOS="98.21"/>
+            <a:String HEIGHT="59.26" WIDTH="95.67" VPOS="1.69" HPOS="341.2" CONTENT="Ertz"/>
+            <a:SP WIDTH="95.67" VPOS="1.69" HPOS="341.2"/>
+            <a:String HEIGHT="59.26" WIDTH="16.93" VPOS="1.69" HPOS="436.88" CONTENT="-"/>
+            <a:SP WIDTH="15.24" VPOS="1.69" HPOS="436.88"/>
+            <a:String HEIGHT="59.26" WIDTH="408.09" VPOS="1.69" HPOS="452.12" CONTENT="VatteroAbrahams"/>
+            <a:SP WIDTH="412.32" VPOS="1.69" HPOS="452.12"/>
+            <a:String HEIGHT="59.26" WIDTH="13.54" VPOS="1.69" HPOS="864.44" CONTENT="."/>
+            <a:SP WIDTH="70.27" VPOS="0.84" HPOS="864.44"/>
+            <a:String HEIGHT="57.57" WIDTH="23.7" VPOS="0.0" HPOS="934.72" CONTENT="ii"/>
+          </a:TextLine>
+        </a:TextBlock>
+        <a:TextBlock ID="ID_BIT_d1e0487e-98cd-4870-9c1d-1d0d79ced3ce" HEIGHT="6" WIDTH="982" HPOS="319" VPOS="419"/>
+        <a:TextBlock ID="ID_BIT_b07a8c60-66e6-4c13-9695-77b1127e119e" HEIGHT="1376" WIDTH="13" HPOS="1557" VPOS="331"/>
+        <a:TextBlock ID="ID_BIT_25f9811e-f6c0-49cb-a19f-5acb7259ba76" HEIGHT="233" WIDTH="965" HPOS="313" VPOS="1141">
+          <a:TextLine ID="ID_BIT_dc5d6ec1-ed3a-4f6d-b019-167bcab85f07" HEIGHT="5.92" WIDTH="19.47" HPOS="745.91" VPOS="0.84">
+            <a:String HEIGHT="5.92" WIDTH="7.62" VPOS="0.84" HPOS="745.91" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.84" HPOS="745.91"/>
+            <a:String HEIGHT="5.92" WIDTH="5.92" VPOS="0.84" HPOS="759.46" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_dbbe59eb-fec2-4062-90e9-8ac5db8156ca" HEIGHT="3.38" WIDTH="60.11" HPOS="509.69" VPOS="0.0">
+            <a:String HEIGHT="3.38" WIDTH="10.16" VPOS="0.0" HPOS="509.69" CONTENT="."/>
+            <a:SP WIDTH="20.32" VPOS="0.0" HPOS="509.69"/>
+            <a:String HEIGHT="3.38" WIDTH="5.08" VPOS="0.0" HPOS="530.01" CONTENT="."/>
+            <a:SP WIDTH="33.02" VPOS="0.0" HPOS="530.01"/>
+            <a:String HEIGHT="3.38" WIDTH="6.77" VPOS="0.0" HPOS="563.03" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_972ff0dc-a21d-4e13-aa5f-bfc3c3c14a2e" HEIGHT="3.38" WIDTH="57.57" HPOS="434.34" VPOS="0.0">
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="434.34" CONTENT="."/>
+            <a:SP WIDTH="14.39" VPOS="0.0" HPOS="434.34"/>
+            <a:String HEIGHT="3.38" WIDTH="8.46" VPOS="0.0" HPOS="448.73" CONTENT="."/>
+            <a:SP WIDTH="19.47" VPOS="0.0" HPOS="448.73"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="468.2" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.0" HPOS="468.2"/>
+            <a:String HEIGHT="3.38" WIDTH="11.0" VPOS="0.0" HPOS="480.9" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_97cca989-5971-4b03-8e9a-faaf229c4d0f" HEIGHT="3.38" WIDTH="44.02" HPOS="362.37" VPOS="0.0">
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="362.37" CONTENT="."/>
+            <a:SP WIDTH="11.85" VPOS="0.0" HPOS="362.37"/>
+            <a:String HEIGHT="3.38" WIDTH="6.77" VPOS="0.0" HPOS="374.22" CONTENT="."/>
+            <a:SP WIDTH="15.24" VPOS="0.0" HPOS="374.22"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="389.46" CONTENT="."/>
+            <a:SP WIDTH="10.16" VPOS="0.0" HPOS="389.46"/>
+            <a:String HEIGHT="3.38" WIDTH="6.77" VPOS="0.0" HPOS="399.62" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_115013c1-d3db-484e-a777-77bc39423d23" HEIGHT="3.38" WIDTH="81.28" HPOS="614.68" VPOS="0.0">
+            <a:String HEIGHT="3.38" WIDTH="9.31" VPOS="0.0" HPOS="614.68" CONTENT="."/>
+            <a:SP WIDTH="25.4" VPOS="0.0" HPOS="614.68"/>
+            <a:String HEIGHT="3.38" WIDTH="5.08" VPOS="0.0" HPOS="640.08" CONTENT="."/>
+            <a:SP WIDTH="23.7" VPOS="0.0" HPOS="640.08"/>
+            <a:String HEIGHT="3.38" WIDTH="7.62" VPOS="0.0" HPOS="663.78" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.0" HPOS="663.78"/>
+            <a:String HEIGHT="3.38" WIDTH="5.08" VPOS="0.0" HPOS="677.33" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.0" HPOS="677.33"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="690.03" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_8d5c4195-0925-4f5e-814c-6b65f347d739" HEIGHT="3.38" WIDTH="150.7" HPOS="795.86" VPOS="0.0">
+            <a:String HEIGHT="3.38" WIDTH="7.62" VPOS="0.0" HPOS="795.86" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.0" HPOS="795.86"/>
+            <a:String HEIGHT="3.38" WIDTH="11.0" VPOS="0.0" HPOS="809.41" CONTENT="."/>
+            <a:SP WIDTH="20.32" VPOS="0.0" HPOS="809.41"/>
+            <a:String HEIGHT="3.38" WIDTH="10.16" VPOS="0.0" HPOS="829.73" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.0" HPOS="829.73"/>
+            <a:String HEIGHT="3.38" WIDTH="8.46" VPOS="0.0" HPOS="843.28" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.0" HPOS="843.28"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="854.28" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.0" HPOS="854.28"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="866.98" CONTENT="."/>
+            <a:SP WIDTH="25.4" VPOS="0.0" HPOS="866.98"/>
+            <a:String HEIGHT="3.38" WIDTH="5.08" VPOS="0.0" HPOS="892.38" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.0" HPOS="892.38"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="905.08" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.0" HPOS="905.08"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="916.09" CONTENT="."/>
+            <a:SP WIDTH="24.55" VPOS="0.0" HPOS="916.09"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="940.64" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_8b6be06c-1d2d-4142-b6b7-900367475201" HEIGHT="64.34" WIDTH="965.2" HPOS="0.0" VPOS="0.84">
+            <a:String HEIGHT="58.42" WIDTH="80.43" VPOS="0.84" HPOS="0.0" CONTENT="care"/>
+            <a:SP WIDTH="98.21" VPOS="0.0" HPOS="0.0"/>
+            <a:String HEIGHT="59.26" WIDTH="131.23" VPOS="0.84" HPOS="98.21" CONTENT="Glister"/>
+            <a:SP WIDTH="145.62" VPOS="2.11" HPOS="98.21"/>
+            <a:String HEIGHT="58.42" WIDTH="69.42" VPOS="3.38" HPOS="243.84" CONTENT="suid"/>
+            <a:SP WIDTH="76.2" VPOS="3.81" HPOS="243.84"/>
+            <a:String HEIGHT="57.57" WIDTH="24.55" VPOS="4.23" HPOS="320.04" CONTENT="s"/>
+            <a:SP WIDTH="32.17" VPOS="4.65" HPOS="320.04"/>
+            <a:String HEIGHT="57.57" WIDTH="68.58" VPOS="5.08" HPOS="352.21" CONTENT="und"/>
+            <a:SP WIDTH="77.04" VPOS="5.08" HPOS="352.21"/>
+            <a:String HEIGHT="58.42" WIDTH="60.11" VPOS="5.08" HPOS="429.26" CONTENT="sich"/>
+            <a:SP WIDTH="70.27" VPOS="5.5" HPOS="429.26"/>
+            <a:String HEIGHT="57.57" WIDTH="33.02" VPOS="5.92" HPOS="499.53" CONTENT="in"/>
+            <a:SP WIDTH="44.02" VPOS="5.92" HPOS="499.53"/>
+            <a:String HEIGHT="57.57" WIDTH="202.35" VPOS="5.92" HPOS="543.56" CONTENT="diesetQVelt"/>
+            <a:SP WIDTH="214.2" VPOS="5.5" HPOS="543.56"/>
+            <a:String HEIGHT="58.42" WIDTH="61.8" VPOS="5.08" HPOS="757.76" CONTENT="iiiit"/>
+            <a:SP WIDTH="73.66" VPOS="4.65" HPOS="757.76"/>
+            <a:String HEIGHT="58.42" WIDTH="119.38" VPOS="4.23" HPOS="831.42" CONTENT="flet"/>
+            <a:SP WIDTH="120.22" VPOS="4.23" HPOS="831.42"/>
+            <a:String HEIGHT="58.42" WIDTH="13.54" VPOS="4.23" HPOS="951.65" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_ebeaa165-e325-4e49-8b53-9ad1ae4138e5" HEIGHT="54.18" WIDTH="965.2" HPOS="0.0" VPOS="57.57">
+            <a:String HEIGHT="51.64" WIDTH="298.87" VPOS="57.57" HPOS="0.0" CONTENT="chenAugemticht"/>
+            <a:SP WIDTH="307.34" VPOS="57.57" HPOS="0.0"/>
+            <a:String HEIGHT="50.8" WIDTH="193.88" VPOS="57.57" HPOS="307.34" CONTENT="sehenlassen"/>
+            <a:SP WIDTH="200.66" VPOS="57.57" HPOS="307.34"/>
+            <a:String HEIGHT="50.8" WIDTH="6.77" VPOS="57.57" HPOS="508.0" CONTENT=";"/>
+            <a:SP WIDTH="19.47" VPOS="57.57" HPOS="508.0"/>
+            <a:String HEIGHT="50.8" WIDTH="69.42" VPOS="57.57" HPOS="527.47" CONTENT="Sie"/>
+            <a:SP WIDTH="81.28" VPOS="57.57" HPOS="527.47"/>
+            <a:String HEIGHT="51.64" WIDTH="79.58" VPOS="57.57" HPOS="608.75" CONTENT="aber"/>
+            <a:SP WIDTH="87.2" VPOS="57.99" HPOS="608.75"/>
+            <a:String HEIGHT="51.64" WIDTH="126.15" VPOS="58.42" HPOS="695.96" CONTENT="selbsten"/>
+            <a:SP WIDTH="139.7" VPOS="58.84" HPOS="695.96"/>
+            <a:String HEIGHT="52.49" WIDTH="129.54" VPOS="59.26" HPOS="835.66" CONTENT="können"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_5b217f3e-adb5-4f1d-a975-d8ea85f0255c" HEIGHT="53.34" WIDTH="963.5" HPOS="0.0" VPOS="107.52">
+            <a:String HEIGHT="51.64" WIDTH="59.26" VPOS="109.22" HPOS="0.0" CONTENT="sich"/>
+            <a:SP WIDTH="67.73" VPOS="108.37" HPOS="0.0"/>
+            <a:String HEIGHT="52.49" WIDTH="358.14" VPOS="107.52" HPOS="67.73" CONTENT="untereinanderwohl"/>
+            <a:SP WIDTH="366.6" VPOS="107.52" HPOS="67.73"/>
+            <a:String HEIGHT="50.8" WIDTH="88.05" VPOS="107.52" HPOS="434.34" CONTENT="sehen"/>
+            <a:SP WIDTH="90.59" VPOS="107.52" HPOS="434.34"/>
+            <a:String HEIGHT="50.8" WIDTH="11.0" VPOS="107.52" HPOS="524.93" CONTENT="."/>
+            <a:SP WIDTH="33.02" VPOS="107.52" HPOS="524.93"/>
+            <a:String HEIGHT="50.8" WIDTH="84.66" VPOS="107.52" HPOS="557.95" CONTENT="Also"/>
+            <a:SP WIDTH="92.28" VPOS="107.52" HPOS="557.95"/>
+            <a:String HEIGHT="51.64" WIDTH="156.63" VPOS="107.52" HPOS="650.24" CONTENT="suidauch"/>
+            <a:SP WIDTH="164.25" VPOS="107.95" HPOS="650.24"/>
+            <a:String HEIGHT="50.8" WIDTH="48.26" VPOS="108.37" HPOS="814.49" CONTENT="die"/>
+            <a:SP WIDTH="57.57" VPOS="108.37" HPOS="814.49"/>
+            <a:String HEIGHT="51.64" WIDTH="72.81" VPOS="108.37" HPOS="872.06" CONTENT="See"/>
+            <a:SP WIDTH="72.81" VPOS="108.37" HPOS="872.06"/>
+            <a:String HEIGHT="51.64" WIDTH="18.62" VPOS="108.37" HPOS="944.88" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_1d3a4246-ce4a-40ce-b81d-cfb840686129" HEIGHT="48.26" WIDTH="963.5" HPOS="0.0" VPOS="158.32">
+            <a:String HEIGHT="48.26" WIDTH="49.1" VPOS="158.32" HPOS="0.0" CONTENT="len"/>
+            <a:SP WIDTH="56.72" VPOS="158.32" HPOS="0.0"/>
+            <a:String HEIGHT="48.26" WIDTH="57.57" VPOS="158.32" HPOS="56.72" CONTENT="der"/>
+            <a:SP WIDTH="66.04" VPOS="158.32" HPOS="56.72"/>
+            <a:String HEIGHT="48.26" WIDTH="390.31" VPOS="158.32" HPOS="122.76" CONTENT="Wenschenunsichtbare"/>
+            <a:SP WIDTH="406.4" VPOS="158.32" HPOS="122.76"/>
+            <a:String HEIGHT="48.26" WIDTH="131.23" VPOS="158.32" HPOS="529.16" CONTENT="Geister"/>
+            <a:SP WIDTH="138.0" VPOS="158.32" HPOS="529.16"/>
+            <a:String HEIGHT="48.26" WIDTH="16.08" VPOS="158.32" HPOS="667.17" CONTENT="/"/>
+            <a:SP WIDTH="33.02" VPOS="158.32" HPOS="667.17"/>
+            <a:String HEIGHT="48.26" WIDTH="49.1" VPOS="158.32" HPOS="700.19" CONTENT="die"/>
+            <a:SP WIDTH="56.72" VPOS="158.32" HPOS="700.19"/>
+            <a:String HEIGHT="48.26" WIDTH="206.58" VPOS="158.32" HPOS="756.92" CONTENT="wirindiesee"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_d429a152-dec0-4370-8eff-20b5f819a653" HEIGHT="30.48" WIDTH="965.2" HPOS="0.0" VPOS="207.43">
+            <a:String HEIGHT="28.78" WIDTH="50.8" VPOS="207.43" HPOS="0.0" CONTENT="OR"/>
+            <a:SP WIDTH="50.8" VPOS="207.43" HPOS="0.0"/>
+            <a:String HEIGHT="28.78" WIDTH="14.39" VPOS="207.43" HPOS="50.8" CONTENT="-"/>
+            <a:SP WIDTH="16.93" VPOS="207.43" HPOS="50.8"/>
+            <a:String HEIGHT="28.78" WIDTH="25.4" VPOS="207.43" HPOS="67.73" CONTENT="t§"/>
+            <a:SP WIDTH="31.32" VPOS="207.85" HPOS="67.73"/>
+            <a:String HEIGHT="28.78" WIDTH="44.87" VPOS="208.28" HPOS="99.06" CONTENT="itas"/>
+            <a:SP WIDTH="48.26" VPOS="208.28" HPOS="99.06"/>
+            <a:String HEIGHT="28.78" WIDTH="14.39" VPOS="208.28" HPOS="147.32" CONTENT="/"/>
+            <a:SP WIDTH="19.47" VPOS="208.28" HPOS="147.32"/>
+            <a:String HEIGHT="28.78" WIDTH="144.78" VPOS="208.28" HPOS="166.79" CONTENT="AeistAlitt"/>
+            <a:SP WIDTH="144.78" VPOS="208.28" HPOS="166.79"/>
+            <a:String HEIGHT="28.78" WIDTH="9.31" VPOS="208.28" HPOS="311.57" CONTENT=","/>
+            <a:SP WIDTH="9.31" VPOS="208.28" HPOS="311.57"/>
+            <a:String HEIGHT="28.78" WIDTH="4.23" VPOS="208.28" HPOS="320.88" CONTENT="-"/>
+            <a:SP WIDTH="4.23" VPOS="208.28" HPOS="320.88"/>
+            <a:String HEIGHT="28.78" WIDTH="36.4" VPOS="208.28" HPOS="325.12" CONTENT="uta"/>
+            <a:SP WIDTH="44.87" VPOS="208.28" HPOS="325.12"/>
+            <a:String HEIGHT="29.63" WIDTH="23.7" VPOS="208.28" HPOS="369.99" CONTENT="D"/>
+            <a:SP WIDTH="23.7" VPOS="208.28" HPOS="369.99"/>
+            <a:String HEIGHT="29.63" WIDTH="13.54" VPOS="208.28" HPOS="393.7" CONTENT="/"/>
+            <a:SP WIDTH="15.24" VPOS="208.28" HPOS="393.7"/>
+            <a:String HEIGHT="29.63" WIDTH="86.36" VPOS="208.28" HPOS="408.94" CONTENT="evitoea"/>
+            <a:SP WIDTH="99.06" VPOS="208.7" HPOS="408.94"/>
+            <a:String HEIGHT="28.78" WIDTH="33.86" VPOS="209.12" HPOS="508.0" CONTENT="vti"/>
+            <a:SP WIDTH="35.56" VPOS="209.12" HPOS="508.0"/>
+            <a:String HEIGHT="28.78" WIDTH="11.85" VPOS="209.12" HPOS="543.56" CONTENT="/"/>
+            <a:SP WIDTH="11.85" VPOS="209.12" HPOS="543.56"/>
+            <a:String HEIGHT="28.78" WIDTH="38.1" VPOS="209.12" HPOS="555.41" CONTENT="Ab"/>
+            <a:SP WIDTH="44.02" VPOS="209.12" HPOS="555.41"/>
+            <a:String HEIGHT="28.78" WIDTH="86.36" VPOS="209.12" HPOS="599.44" CONTENT="leAovv"/>
+            <a:SP WIDTH="99.06" VPOS="209.12" HPOS="599.44"/>
+            <a:String HEIGHT="28.78" WIDTH="8.46" VPOS="209.12" HPOS="698.5" CONTENT="i"/>
+            <a:SP WIDTH="16.93" VPOS="209.12" HPOS="698.5"/>
+            <a:String HEIGHT="28.78" WIDTH="43.18" VPOS="209.12" HPOS="715.43" CONTENT="ah"/>
+            <a:SP WIDTH="45.72" VPOS="209.12" HPOS="715.43"/>
+            <a:String HEIGHT="28.78" WIDTH="13.54" VPOS="209.12" HPOS="761.15" CONTENT="."/>
+            <a:SP WIDTH="16.93" VPOS="209.12" HPOS="761.15"/>
+            <a:String HEIGHT="28.78" WIDTH="18.62" VPOS="209.12" HPOS="778.08" CONTENT="V"/>
+            <a:SP WIDTH="27.09" VPOS="208.7" HPOS="778.08"/>
+            <a:String HEIGHT="29.63" WIDTH="33.02" VPOS="208.28" HPOS="805.18" CONTENT="tit"/>
+            <a:SP WIDTH="35.56" VPOS="208.28" HPOS="805.18"/>
+            <a:String HEIGHT="29.63" WIDTH="5.92" VPOS="208.28" HPOS="840.74" CONTENT="."/>
+            <a:SP WIDTH="6.77" VPOS="208.28" HPOS="840.74"/>
+            <a:String HEIGHT="29.63" WIDTH="61.8" VPOS="208.28" HPOS="847.51" CONTENT="mart"/>
+            <a:SP WIDTH="73.66" VPOS="208.28" HPOS="847.51"/>
+            <a:String HEIGHT="28.78" WIDTH="23.7" VPOS="208.28" HPOS="921.17" CONTENT="a"/>
+            <a:SP WIDTH="25.4" VPOS="208.28" HPOS="921.17"/>
+            <a:String HEIGHT="28.78" WIDTH="18.62" VPOS="208.28" HPOS="946.57" CONTENT="."/>
+          </a:TextLine>
+        </a:TextBlock>
+        <a:TextBlock ID="ID_BIT_c0a1fda1-4bb1-4622-a5e7-f3475655cee9" HEIGHT="0" WIDTH="802" HPOS="315" VPOS="1378"/>
+        <a:TextBlock ID="ID_BIT_2608575e-3ba5-4e80-9d78-85a82545c3e3" HEIGHT="643" WIDTH="969" HPOS="309" VPOS="1381">
+          <a:TextLine ID="ID_BIT_753905a9-4dc9-4050-bdfe-27e77c77c4ac" HEIGHT="3.38" WIDTH="6.77" HPOS="185.42" VPOS="0.84">
+            <a:String HEIGHT="3.38" WIDTH="6.77" VPOS="0.84" HPOS="185.42" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_391eb4e0-64e2-42dd-9645-f372ef066f86" HEIGHT="3.38" WIDTH="154.09" HPOS="811.1" VPOS="0.0">
+            <a:String HEIGHT="3.38" WIDTH="7.62" VPOS="0.0" HPOS="811.1" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.0" HPOS="811.1"/>
+            <a:String HEIGHT="3.38" WIDTH="10.16" VPOS="0.0" HPOS="824.65" CONTENT="."/>
+            <a:SP WIDTH="22.01" VPOS="0.0" HPOS="824.65"/>
+            <a:String HEIGHT="3.38" WIDTH="5.08" VPOS="0.0" HPOS="846.66" CONTENT="."/>
+            <a:SP WIDTH="10.16" VPOS="0.0" HPOS="846.66"/>
+            <a:String HEIGHT="3.38" WIDTH="5.92" VPOS="0.0" HPOS="856.82" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.0" HPOS="856.82"/>
+            <a:String HEIGHT="3.38" WIDTH="7.62" VPOS="0.0" HPOS="867.83" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.0" HPOS="867.83"/>
+            <a:String HEIGHT="3.38" WIDTH="5.08" VPOS="0.0" HPOS="881.38" CONTENT="."/>
+            <a:SP WIDTH="10.16" VPOS="0.0" HPOS="881.38"/>
+            <a:String HEIGHT="3.38" WIDTH="7.62" VPOS="0.0" HPOS="891.54" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.0" HPOS="891.54"/>
+            <a:String HEIGHT="3.38" WIDTH="6.77" VPOS="0.0" HPOS="904.24" CONTENT="."/>
+            <a:SP WIDTH="22.86" VPOS="0.0" HPOS="904.24"/>
+            <a:String HEIGHT="3.38" WIDTH="5.08" VPOS="0.0" HPOS="927.1" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.0" HPOS="927.1"/>
+            <a:String HEIGHT="3.38" WIDTH="5.08" VPOS="0.0" HPOS="940.64" CONTENT="W"/>
+            <a:SP WIDTH="12.7" VPOS="0.0" HPOS="940.64"/>
+            <a:String HEIGHT="3.38" WIDTH="11.85" VPOS="0.0" HPOS="953.34" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_66b15acb-0d41-4c1d-976b-b1b9a2e4c9eb" HEIGHT="5.08" WIDTH="177.8" HPOS="616.37" VPOS="0.84">
+            <a:String HEIGHT="5.08" WIDTH="8.46" VPOS="0.84" HPOS="616.37" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.84" HPOS="616.37"/>
+            <a:String HEIGHT="5.08" WIDTH="9.31" VPOS="0.84" HPOS="629.07" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.84" HPOS="629.07"/>
+            <a:String HEIGHT="5.08" WIDTH="5.92" VPOS="0.84" HPOS="640.08" CONTENT="."/>
+            <a:SP WIDTH="14.39" VPOS="0.84" HPOS="640.08"/>
+            <a:String HEIGHT="5.08" WIDTH="8.46" VPOS="0.84" HPOS="654.47" CONTENT="."/>
+            <a:SP WIDTH="15.24" VPOS="0.84" HPOS="654.47"/>
+            <a:String HEIGHT="5.08" WIDTH="5.92" VPOS="0.84" HPOS="669.71" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.84" HPOS="669.71"/>
+            <a:String HEIGHT="5.08" WIDTH="5.92" VPOS="0.84" HPOS="682.41" CONTENT="."/>
+            <a:SP WIDTH="14.39" VPOS="0.84" HPOS="682.41"/>
+            <a:String HEIGHT="5.08" WIDTH="5.92" VPOS="0.84" HPOS="696.8" CONTENT="."/>
+            <a:SP WIDTH="24.55" VPOS="0.84" HPOS="696.8"/>
+            <a:String HEIGHT="5.08" WIDTH="6.77" VPOS="0.84" HPOS="721.36" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.84" HPOS="721.36"/>
+            <a:String HEIGHT="5.08" WIDTH="5.92" VPOS="0.84" HPOS="732.36" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.84" HPOS="732.36"/>
+            <a:String HEIGHT="5.08" WIDTH="13.54" VPOS="0.84" HPOS="743.37" CONTENT="."/>
+            <a:SP WIDTH="22.86" VPOS="0.84" HPOS="743.37"/>
+            <a:String HEIGHT="5.08" WIDTH="9.31" VPOS="0.84" HPOS="766.23" CONTENT="."/>
+            <a:SP WIDTH="16.08" VPOS="0.84" HPOS="766.23"/>
+            <a:String HEIGHT="5.08" WIDTH="11.85" VPOS="0.84" HPOS="782.32" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_6358d3df-6264-4b37-ab01-9695c8b26861" HEIGHT="5.08" WIDTH="197.27" HPOS="236.22" VPOS="0.0">
+            <a:String HEIGHT="5.08" WIDTH="8.46" VPOS="0.0" HPOS="236.22" CONTENT="."/>
+            <a:SP WIDTH="11.85" VPOS="0.0" HPOS="236.22"/>
+            <a:String HEIGHT="5.08" WIDTH="6.77" VPOS="0.0" HPOS="248.07" CONTENT="."/>
+            <a:SP WIDTH="22.86" VPOS="0.0" HPOS="248.07"/>
+            <a:String HEIGHT="5.08" WIDTH="8.46" VPOS="0.0" HPOS="270.93" CONTENT="."/>
+            <a:SP WIDTH="11.85" VPOS="0.0" HPOS="270.93"/>
+            <a:String HEIGHT="5.08" WIDTH="5.92" VPOS="0.0" HPOS="282.78" CONTENT="."/>
+            <a:SP WIDTH="11.85" VPOS="0.0" HPOS="282.78"/>
+            <a:String HEIGHT="5.08" WIDTH="11.0" VPOS="0.0" HPOS="294.64" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.0" HPOS="294.64"/>
+            <a:String HEIGHT="5.08" WIDTH="9.31" VPOS="0.0" HPOS="305.64" CONTENT="."/>
+            <a:SP WIDTH="10.16" VPOS="0.0" HPOS="305.64"/>
+            <a:String HEIGHT="5.08" WIDTH="7.62" VPOS="0.0" HPOS="315.8" CONTENT="."/>
+            <a:SP WIDTH="14.39" VPOS="0.0" HPOS="315.8"/>
+            <a:String HEIGHT="5.08" WIDTH="10.16" VPOS="0.0" HPOS="330.2" CONTENT="."/>
+            <a:SP WIDTH="15.24" VPOS="0.0" HPOS="330.2"/>
+            <a:String HEIGHT="5.08" WIDTH="7.62" VPOS="0.0" HPOS="345.44" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.0" HPOS="345.44"/>
+            <a:String HEIGHT="5.08" WIDTH="7.62" VPOS="0.0" HPOS="358.14" CONTENT="."/>
+            <a:SP WIDTH="22.86" VPOS="0.0" HPOS="358.14"/>
+            <a:String HEIGHT="5.08" WIDTH="12.7" VPOS="0.0" HPOS="381.0" CONTENT="."/>
+            <a:SP WIDTH="16.93" VPOS="0.0" HPOS="381.0"/>
+            <a:String HEIGHT="5.08" WIDTH="11.0" VPOS="0.0" HPOS="397.93" CONTENT="."/>
+            <a:SP WIDTH="15.24" VPOS="0.0" HPOS="397.93"/>
+            <a:String HEIGHT="5.08" WIDTH="11.0" VPOS="0.0" HPOS="413.17" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.0" HPOS="413.17"/>
+            <a:String HEIGHT="5.08" WIDTH="9.31" VPOS="0.0" HPOS="424.18" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_d1e09f86-8d35-437d-9bb5-3b99d3c0d56e" HEIGHT="5.08" WIDTH="132.08" HPOS="463.12" VPOS="0.0">
+            <a:String HEIGHT="5.08" WIDTH="9.31" VPOS="0.0" HPOS="463.12" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.0" HPOS="463.12"/>
+            <a:String HEIGHT="5.08" WIDTH="8.46" VPOS="0.0" HPOS="476.67" CONTENT="."/>
+            <a:SP WIDTH="13.54" VPOS="0.0" HPOS="476.67"/>
+            <a:String HEIGHT="5.08" WIDTH="10.16" VPOS="0.0" HPOS="490.22" CONTENT="."/>
+            <a:SP WIDTH="22.86" VPOS="0.0" HPOS="490.22"/>
+            <a:String HEIGHT="5.08" WIDTH="7.62" VPOS="0.0" HPOS="513.08" CONTENT="."/>
+            <a:SP WIDTH="12.7" VPOS="0.0" HPOS="513.08"/>
+            <a:String HEIGHT="5.08" WIDTH="7.62" VPOS="0.0" HPOS="525.78" CONTENT="."/>
+            <a:SP WIDTH="11.85" VPOS="0.0" HPOS="525.78"/>
+            <a:String HEIGHT="5.08" WIDTH="6.77" VPOS="0.0" HPOS="537.63" CONTENT="."/>
+            <a:SP WIDTH="11.85" VPOS="0.0" HPOS="537.63"/>
+            <a:String HEIGHT="5.08" WIDTH="10.16" VPOS="0.0" HPOS="549.48" CONTENT="."/>
+            <a:SP WIDTH="10.16" VPOS="0.0" HPOS="549.48"/>
+            <a:String HEIGHT="5.08" WIDTH="11.0" VPOS="0.0" HPOS="559.64" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="0.0" HPOS="559.64"/>
+            <a:String HEIGHT="5.08" WIDTH="10.16" VPOS="0.0" HPOS="570.65" CONTENT="."/>
+            <a:SP WIDTH="14.39" VPOS="0.0" HPOS="570.65"/>
+            <a:String HEIGHT="5.08" WIDTH="10.16" VPOS="0.0" HPOS="585.04" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_414207b5-544e-444c-b9ce-d6a689e24d47" HEIGHT="60.96" WIDTH="963.5" HPOS="2.54" VPOS="2.54">
+            <a:String HEIGHT="55.88" WIDTH="67.73" VPOS="2.54" HPOS="2.54" CONTENT="von"/>
+            <a:SP WIDTH="82.97" VPOS="2.96" HPOS="2.54"/>
+            <a:String HEIGHT="56.72" WIDTH="196.42" VPOS="3.38" HPOS="85.51" CONTENT="derüiteii"/>
+            <a:SP WIDTH="211.66" VPOS="4.65" HPOS="85.51"/>
+            <a:String HEIGHT="55.03" WIDTH="59.26" VPOS="5.92" HPOS="297.18" CONTENT="diß"/>
+            <a:SP WIDTH="68.58" VPOS="5.92" HPOS="297.18"/>
+            <a:String HEIGHT="55.88" WIDTH="111.76" VPOS="5.92" HPOS="365.76" CONTENT="Leibie"/>
+            <a:SP WIDTH="123.61" VPOS="6.35" HPOS="365.76"/>
+            <a:String HEIGHT="55.88" WIDTH="176.1" VPOS="6.77" HPOS="489.37" CONTENT="auffgelöst"/>
+            <a:SP WIDTH="186.26" VPOS="7.19" HPOS="489.37"/>
+            <a:String HEIGHT="55.88" WIDTH="15.24" VPOS="7.62" HPOS="675.64" CONTENT="/"/>
+            <a:SP WIDTH="20.32" VPOS="7.62" HPOS="675.64"/>
+            <a:String HEIGHT="55.88" WIDTH="4.23" VPOS="7.62" HPOS="695.96" CONTENT="'"/>
+            <a:SP WIDTH="11.0" VPOS="7.62" HPOS="695.96"/>
+            <a:String HEIGHT="55.88" WIDTH="68.58" VPOS="7.62" HPOS="706.96" CONTENT="med"/>
+            <a:SP WIDTH="80.43" VPOS="8.04" HPOS="706.96"/>
+            <a:String HEIGHT="55.03" WIDTH="100.75" VPOS="8.46" HPOS="787.4" CONTENT="durch"/>
+            <a:SP WIDTH="115.14" VPOS="8.46" HPOS="787.4"/>
+            <a:String HEIGHT="55.03" WIDTH="63.5" VPOS="8.46" HPOS="902.54" CONTENT="den"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_7d56c477-967f-4b56-aad5-68215c44671d" HEIGHT="57.57" WIDTH="967.74" HPOS="1.69" VPOS="57.57">
+            <a:String HEIGHT="54.18" WIDTH="238.76" VPOS="57.57" HPOS="1.69" CONTENT="zeitlichenTod"/>
+            <a:SP WIDTH="245.53" VPOS="58.42" HPOS="1.69"/>
+            <a:String HEIGHT="53.34" WIDTH="68.58" VPOS="59.26" HPOS="247.22" CONTENT="von"/>
+            <a:SP WIDTH="74.5" VPOS="59.26" HPOS="247.22"/>
+            <a:String HEIGHT="53.34" WIDTH="55.03" VPOS="59.26" HPOS="321.73" CONTENT="der"/>
+            <a:SP WIDTH="62.65" VPOS="59.69" HPOS="321.73"/>
+            <a:String HEIGHT="53.34" WIDTH="91.44" VPOS="60.11" HPOS="384.38" CONTENT="Welt"/>
+            <a:SP WIDTH="101.6" VPOS="60.11" HPOS="384.38"/>
+            <a:String HEIGHT="54.18" WIDTH="212.51" VPOS="60.11" HPOS="485.98" CONTENT="abgesondert"/>
+            <a:SP WIDTH="218.44" VPOS="60.53" HPOS="485.98"/>
+            <a:String HEIGHT="53.34" WIDTH="15.24" VPOS="60.96" HPOS="704.42" CONTENT="/"/>
+            <a:SP WIDTH="23.7" VPOS="60.96" HPOS="704.42"/>
+            <a:String HEIGHT="54.18" WIDTH="125.3" VPOS="60.96" HPOS="728.13" CONTENT="können"/>
+            <a:SP WIDTH="133.77" VPOS="61.38" HPOS="728.13"/>
+            <a:String HEIGHT="53.34" WIDTH="37.25" VPOS="61.8" HPOS="861.9" CONTENT="sie"/>
+            <a:SP WIDTH="44.02" VPOS="61.8" HPOS="861.9"/>
+            <a:String HEIGHT="53.34" WIDTH="63.5" VPOS="61.8" HPOS="905.93" CONTENT="sich"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_53c6fa03-b50b-4a6c-92fc-4f68dbc32098" HEIGHT="54.18" WIDTH="964.35" HPOS="2.54" VPOS="107.52">
+            <a:String HEIGHT="49.95" WIDTH="99.9" VPOS="107.52" HPOS="2.54" CONTENT="unter"/>
+            <a:SP WIDTH="112.6" VPOS="108.37" HPOS="2.54"/>
+            <a:String HEIGHT="51.64" WIDTH="251.46" VPOS="109.22" HPOS="115.14" CONTENT="einanderwohl"/>
+            <a:SP WIDTH="259.08" VPOS="110.49" HPOS="115.14"/>
+            <a:String HEIGHT="49.95" WIDTH="87.2" VPOS="111.76" HPOS="374.22" CONTENT="sehen"/>
+            <a:SP WIDTH="89.74" VPOS="111.76" HPOS="374.22"/>
+            <a:String HEIGHT="49.95" WIDTH="16.08" VPOS="111.76" HPOS="463.97" CONTENT="/"/>
+            <a:SP WIDTH="22.01" VPOS="111.76" HPOS="463.97"/>
+            <a:String HEIGHT="49.95" WIDTH="245.53" VPOS="111.76" HPOS="485.98" CONTENT="wiedieHistori"/>
+            <a:SP WIDTH="260.77" VPOS="111.76" HPOS="485.98"/>
+            <a:String HEIGHT="49.1" WIDTH="68.58" VPOS="111.76" HPOS="746.76" CONTENT="von"/>
+            <a:SP WIDTH="78.74" VPOS="111.33" HPOS="746.76"/>
+            <a:String HEIGHT="49.1" WIDTH="76.2" VPOS="110.91" HPOS="825.5" CONTENT="dent"/>
+            <a:SP WIDTH="82.97" VPOS="110.49" HPOS="825.5"/>
+            <a:String HEIGHT="49.95" WIDTH="44.02" VPOS="110.06" HPOS="908.47" CONTENT="rei"/>
+            <a:SP WIDTH="44.02" VPOS="110.06" HPOS="908.47"/>
+            <a:String HEIGHT="49.95" WIDTH="14.39" VPOS="110.06" HPOS="952.5" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_a54c3921-4fa2-4d31-aea9-c78d8adf130a" HEIGHT="53.34" WIDTH="966.04" HPOS="1.69" VPOS="156.63">
+            <a:String HEIGHT="52.49" WIDTH="75.35" VPOS="156.63" HPOS="1.69" CONTENT="chen"/>
+            <a:SP WIDTH="83.82" VPOS="156.63" HPOS="1.69"/>
+            <a:String HEIGHT="53.34" WIDTH="326.81" VPOS="156.63" HPOS="85.51" CONTENT="WannundLazaro"/>
+            <a:SP WIDTH="336.97" VPOS="157.05" HPOS="85.51"/>
+            <a:String HEIGHT="52.49" WIDTH="147.32" VPOS="157.48" HPOS="422.48" CONTENT="bezeuget"/>
+            <a:SP WIDTH="154.09" VPOS="157.48" HPOS="422.48"/>
+            <a:String HEIGHT="52.49" WIDTH="6.77" VPOS="157.48" HPOS="576.58" CONTENT="i"/>
+            <a:SP WIDTH="14.39" VPOS="157.48" HPOS="576.58"/>
+            <a:String HEIGHT="52.49" WIDTH="67.73" VPOS="157.48" HPOS="590.97" CONTENT="von"/>
+            <a:SP WIDTH="77.04" VPOS="157.48" HPOS="590.97"/>
+            <a:String HEIGHT="52.49" WIDTH="299.72" VPOS="157.48" HPOS="668.02" CONTENT="ivelchenderHErr"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_7bc7f6bd-b0a1-47b8-a034-8dec2b9be854" HEIGHT="51.64" WIDTH="964.35" HPOS="2.54" VPOS="204.89">
+            <a:String HEIGHT="50.8" WIDTH="160.86" VPOS="204.89" HPOS="2.54" CONTENT="Christus"/>
+            <a:SP WIDTH="167.64" VPOS="205.31" HPOS="2.54"/>
+            <a:String HEIGHT="50.8" WIDTH="116.84" VPOS="205.74" HPOS="170.18" CONTENT="tueldet"/>
+            <a:SP WIDTH="116.84" VPOS="205.74" HPOS="170.18"/>
+            <a:String HEIGHT="50.8" WIDTH="16.93" VPOS="205.74" HPOS="287.02" CONTENT="/"/>
+            <a:SP WIDTH="19.47" VPOS="205.74" HPOS="287.02"/>
+            <a:String HEIGHT="50.8" WIDTH="66.88" VPOS="205.74" HPOS="306.49" CONTENT="daß"/>
+            <a:SP WIDTH="76.2" VPOS="206.16" HPOS="306.49"/>
+            <a:String HEIGHT="49.95" WIDTH="183.72" VPOS="206.58" HPOS="382.69" CONTENT="derReiche"/>
+            <a:SP WIDTH="190.5" VPOS="206.58" HPOS="382.69"/>
+            <a:String HEIGHT="49.95" WIDTH="199.81" VPOS="206.58" HPOS="573.19" CONTENT="nachsanem"/>
+            <a:SP WIDTH="209.97" VPOS="206.58" HPOS="573.19"/>
+            <a:String HEIGHT="49.95" WIDTH="94.82" VPOS="206.58" HPOS="783.16" CONTENT="Tode"/>
+            <a:SP WIDTH="105.83" VPOS="206.58" HPOS="783.16"/>
+            <a:String HEIGHT="49.95" WIDTH="77.89" VPOS="206.58" HPOS="889.0" CONTENT="seine"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_4d6cefd9-0eb8-4df4-8569-d6900e84662e" HEIGHT="55.03" WIDTH="966.89" HPOS="1.69" VPOS="253.15">
+            <a:String HEIGHT="55.03" WIDTH="358.98" VPOS="253.15" HPOS="1.69" CONTENT="Augenauffgehoben"/>
+            <a:SP WIDTH="371.68" VPOS="253.57" HPOS="1.69"/>
+            <a:String HEIGHT="54.18" WIDTH="82.12" VPOS="254.0" HPOS="373.38" CONTENT="habe"/>
+            <a:SP WIDTH="88.05" VPOS="254.0" HPOS="373.38"/>
+            <a:String HEIGHT="54.18" WIDTH="16.93" VPOS="254.0" HPOS="461.43" CONTENT="/"/>
+            <a:SP WIDTH="27.94" VPOS="254.0" HPOS="461.43"/>
+            <a:String HEIGHT="54.18" WIDTH="69.42" VPOS="254.0" HPOS="489.37" CONTENT="und"/>
+            <a:SP WIDTH="78.74" VPOS="254.0" HPOS="489.37"/>
+            <a:String HEIGHT="54.18" WIDTH="171.02" VPOS="254.0" HPOS="568.11" CONTENT="Bazaruni"/>
+            <a:SP WIDTH="185.42" VPOS="254.0" HPOS="568.11"/>
+            <a:String HEIGHT="54.18" WIDTH="66.88" VPOS="254.0" HPOS="753.53" CONTENT="von"/>
+            <a:SP WIDTH="79.58" VPOS="254.0" HPOS="753.53"/>
+            <a:String HEIGHT="54.18" WIDTH="88.05" VPOS="254.0" HPOS="833.12" CONTENT="seme"/>
+            <a:SP WIDTH="98.21" VPOS="254.0" HPOS="833.12"/>
+            <a:String HEIGHT="54.18" WIDTH="37.25" VPOS="254.0" HPOS="931.33" CONTENT="iu"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_3c8c4eaa-ce8e-485c-87c7-70103924ae0a" HEIGHT="53.34" WIDTH="965.2" HPOS="1.69" VPOS="301.41">
+            <a:String HEIGHT="51.64" WIDTH="206.58" VPOS="301.41" HPOS="1.69" CONTENT="Abrahams"/>
+            <a:SP WIDTH="216.74" VPOS="301.83" HPOS="1.69"/>
+            <a:String HEIGHT="51.64" WIDTH="147.32" VPOS="302.26" HPOS="218.44" CONTENT="Schvoß"/>
+            <a:SP WIDTH="154.09" VPOS="302.68" HPOS="218.44"/>
+            <a:String HEIGHT="50.8" WIDTH="128.69" VPOS="303.1" HPOS="372.53" CONTENT="gesehen"/>
+            <a:SP WIDTH="130.38" VPOS="303.1" HPOS="372.53"/>
+            <a:String HEIGHT="50.8" WIDTH="11.0" VPOS="303.1" HPOS="502.92" CONTENT="."/>
+            <a:SP WIDTH="57.57" VPOS="303.1" HPOS="502.92"/>
+            <a:String HEIGHT="50.8" WIDTH="104.98" VPOS="303.1" HPOS="560.49" CONTENT="Nicht"/>
+            <a:SP WIDTH="113.45" VPOS="303.53" HPOS="560.49"/>
+            <a:String HEIGHT="50.8" WIDTH="97.36" VPOS="303.95" HPOS="673.94" CONTENT="allein"/>
+            <a:SP WIDTH="110.06" VPOS="303.95" HPOS="673.94"/>
+            <a:String HEIGHT="50.8" WIDTH="82.97" VPOS="303.95" HPOS="784.01" CONTENT="aber"/>
+            <a:SP WIDTH="92.28" VPOS="303.95" HPOS="784.01"/>
+            <a:String HEIGHT="50.8" WIDTH="90.59" VPOS="303.95" HPOS="876.3" CONTENT="sehen"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_0931221c-8f48-4abb-a2d0-d2c483d7e89a" HEIGHT="52.49" WIDTH="969.43" HPOS="0.0" VPOS="351.36">
+            <a:String HEIGHT="49.95" WIDTH="104.14" VPOS="351.36" HPOS="0.0" CONTENT="siesich"/>
+            <a:SP WIDTH="111.76" VPOS="351.36" HPOS="0.0"/>
+            <a:String HEIGHT="49.95" WIDTH="16.08" VPOS="351.36" HPOS="111.76" CONTENT="/"/>
+            <a:SP WIDTH="27.09" VPOS="351.36" HPOS="111.76"/>
+            <a:String HEIGHT="50.8" WIDTH="138.85" VPOS="351.36" HPOS="138.85" CONTENT="sondern"/>
+            <a:SP WIDTH="160.86" VPOS="351.79" HPOS="138.85"/>
+            <a:String HEIGHT="49.95" WIDTH="110.06" VPOS="352.21" HPOS="299.72" CONTENT="indem"/>
+            <a:SP WIDTH="123.61" VPOS="352.21" HPOS="299.72"/>
+            <a:String HEIGHT="49.95" WIDTH="39.79" VPOS="352.21" HPOS="423.33" CONTENT="sie"/>
+            <a:SP WIDTH="55.03" VPOS="352.63" HPOS="423.33"/>
+            <a:String HEIGHT="49.95" WIDTH="157.48" VPOS="353.06" HPOS="478.36" CONTENT="sichschen"/>
+            <a:SP WIDTH="170.18" VPOS="353.06" HPOS="478.36"/>
+            <a:String HEIGHT="49.95" WIDTH="16.93" VPOS="353.06" HPOS="648.54" CONTENT="/"/>
+            <a:SP WIDTH="27.94" VPOS="353.06" HPOS="648.54"/>
+            <a:String HEIGHT="49.95" WIDTH="171.87" VPOS="353.06" HPOS="676.48" CONTENT="dakennen"/>
+            <a:SP WIDTH="184.57" VPOS="353.06" HPOS="676.48"/>
+            <a:String HEIGHT="50.8" WIDTH="108.37" VPOS="353.06" HPOS="861.06" CONTENT="siesich"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_b1a3e852-3aa8-4507-a213-433b6abe31d9" HEIGHT="50.8" WIDTH="966.04" HPOS="0.0" VPOS="399.62">
+            <a:String HEIGHT="48.26" WIDTH="80.43" VPOS="399.62" HPOS="0.0" CONTENT="auch"/>
+            <a:SP WIDTH="88.9" VPOS="400.05" HPOS="0.0"/>
+            <a:String HEIGHT="49.95" WIDTH="255.69" VPOS="400.47" HPOS="88.9" CONTENT="untereinander"/>
+            <a:SP WIDTH="257.38" VPOS="400.47" HPOS="88.9"/>
+            <a:String HEIGHT="49.95" WIDTH="16.93" VPOS="400.47" HPOS="346.28" CONTENT="/"/>
+            <a:SP WIDTH="17.78" VPOS="400.47" HPOS="346.28"/>
+            <a:String HEIGHT="49.95" WIDTH="44.02" VPOS="400.47" HPOS="364.06" CONTENT="da"/>
+            <a:SP WIDTH="49.95" VPOS="401.74" HPOS="364.06"/>
+            <a:String HEIGHT="47.41" WIDTH="47.41" VPOS="403.01" HPOS="414.02" CONTENT="nu"/>
+            <a:SP WIDTH="53.34" VPOS="403.01" HPOS="414.02"/>
+            <a:String HEIGHT="47.41" WIDTH="36.4" VPOS="403.01" HPOS="467.36" CONTENT="es"/>
+            <a:SP WIDTH="42.33" VPOS="403.01" HPOS="467.36"/>
+            <a:String HEIGHT="47.41" WIDTH="109.22" VPOS="403.01" HPOS="509.69" CONTENT="kennet"/>
+            <a:SP WIDTH="114.3" VPOS="403.01" HPOS="509.69"/>
+            <a:String HEIGHT="47.41" WIDTH="34.71" VPOS="403.01" HPOS="623.99" CONTENT="ja"/>
+            <a:SP WIDTH="39.79" VPOS="402.59" HPOS="623.99"/>
+            <a:String HEIGHT="48.26" WIDTH="58.42" VPOS="402.16" HPOS="663.78" CONTENT="der"/>
+            <a:SP WIDTH="64.34" VPOS="401.74" HPOS="663.78"/>
+            <a:String HEIGHT="48.26" WIDTH="151.55" VPOS="401.32" HPOS="728.13" CONTENT="Gottlose"/>
+            <a:SP WIDTH="157.48" VPOS="401.32" HPOS="728.13"/>
+            <a:String HEIGHT="47.41" WIDTH="67.73" VPOS="401.32" HPOS="885.61" CONTENT="Rei"/>
+            <a:SP WIDTH="67.73" VPOS="401.32" HPOS="885.61"/>
+            <a:String HEIGHT="47.41" WIDTH="12.7" VPOS="401.32" HPOS="953.34" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_58a2b4ba-5aea-404a-b71b-8d5c25077f0f" HEIGHT="56.72" WIDTH="966.89" HPOS="0.0" VPOS="446.19">
+            <a:String HEIGHT="54.18" WIDTH="51.64" VPOS="446.19" HPOS="0.0" CONTENT="che"/>
+            <a:SP WIDTH="60.96" VPOS="446.19" HPOS="0.0"/>
+            <a:String HEIGHT="55.88" WIDTH="237.91" VPOS="446.19" HPOS="60.96" CONTENT="denLazarum"/>
+            <a:SP WIDTH="242.99" VPOS="446.19" HPOS="60.96"/>
+            <a:String HEIGHT="55.88" WIDTH="16.93" VPOS="446.19" HPOS="303.95" CONTENT="/"/>
+            <a:SP WIDTH="26.24" VPOS="447.04" HPOS="303.95"/>
+            <a:String HEIGHT="54.18" WIDTH="44.02" VPOS="447.88" HPOS="330.2" CONTENT="ob"/>
+            <a:SP WIDTH="56.72" VPOS="447.88" HPOS="330.2"/>
+            <a:String HEIGHT="55.03" WIDTH="138.85" VPOS="447.88" HPOS="386.92" CONTENT="erschon"/>
+            <a:SP WIDTH="153.24" VPOS="448.31" HPOS="386.92"/>
+            <a:String HEIGHT="54.18" WIDTH="36.4" VPOS="448.73" HPOS="540.17" CONTENT="in"/>
+            <a:SP WIDTH="45.72" VPOS="448.73" HPOS="540.17"/>
+            <a:String HEIGHT="54.18" WIDTH="57.57" VPOS="448.73" HPOS="585.89" CONTENT="der"/>
+            <a:SP WIDTH="70.27" VPOS="448.31" HPOS="585.89"/>
+            <a:String HEIGHT="55.03" WIDTH="122.76" VPOS="447.88" HPOS="656.16" CONTENT="Höllen"/>
+            <a:SP WIDTH="135.46" VPOS="447.88" HPOS="656.16"/>
+            <a:String HEIGHT="54.18" WIDTH="16.93" VPOS="447.88" HPOS="791.63" CONTENT="/"/>
+            <a:SP WIDTH="22.01" VPOS="447.88" HPOS="791.63"/>
+            <a:String HEIGHT="54.18" WIDTH="1.69" VPOS="447.88" HPOS="813.64" CONTENT="'"/>
+            <a:SP WIDTH="1.69" VPOS="447.88" HPOS="813.64"/>
+            <a:String HEIGHT="54.18" WIDTH="0.84" VPOS="447.88" HPOS="815.34" CONTENT="'"/>
+            <a:SP WIDTH="0.84" VPOS="447.88" HPOS="815.34"/>
+            <a:String HEIGHT="54.18" WIDTH="1.69" VPOS="447.88" HPOS="816.18" CONTENT="'"/>
+            <a:SP WIDTH="5.08" VPOS="447.88" HPOS="816.18"/>
+            <a:String HEIGHT="54.18" WIDTH="60.11" VPOS="447.88" HPOS="821.26" CONTENT="ivit"/>
+            <a:SP WIDTH="70.27" VPOS="447.46" HPOS="821.26"/>
+            <a:String HEIGHT="54.18" WIDTH="63.5" VPOS="447.04" HPOS="891.54" CONTENT="viel"/>
+            <a:SP WIDTH="63.5" VPOS="447.04" HPOS="891.54"/>
+            <a:String HEIGHT="54.18" WIDTH="11.85" VPOS="447.04" HPOS="955.04" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_5b0b02af-2337-4bb7-b604-507b406cbacf" HEIGHT="53.34" WIDTH="966.89" HPOS="0.0" VPOS="495.3">
+            <a:String HEIGHT="50.8" WIDTH="97.36" VPOS="495.3" HPOS="0.0" CONTENT="mehr"/>
+            <a:SP WIDTH="105.83" VPOS="495.72" HPOS="0.0"/>
+            <a:String HEIGHT="50.8" WIDTH="283.63" VPOS="496.14" HPOS="105.83" CONTENT="kennensichdann"/>
+            <a:SP WIDTH="298.87" VPOS="496.99" HPOS="105.83"/>
+            <a:String HEIGHT="49.95" WIDTH="49.1" VPOS="497.84" HPOS="404.7" CONTENT="die"/>
+            <a:SP WIDTH="61.8" VPOS="497.84" HPOS="404.7"/>
+            <a:String HEIGHT="49.95" WIDTH="114.3" VPOS="497.84" HPOS="466.51" CONTENT="Außet"/>
+            <a:SP WIDTH="111.76" VPOS="497.84" HPOS="466.51"/>
+            <a:String HEIGHT="49.95" WIDTH="19.47" VPOS="497.84" HPOS="578.27" CONTENT="\"/>
+            <a:SP WIDTH="19.47" VPOS="497.84" HPOS="578.27"/>
+            <a:String HEIGHT="49.95" WIDTH="130.38" VPOS="497.84" HPOS="597.74" CONTENT="vehlreu"/>
+            <a:SP WIDTH="139.7" VPOS="497.84" HPOS="597.74"/>
+            <a:String HEIGHT="50.8" WIDTH="48.26" VPOS="497.84" HPOS="737.44" CONTENT="ini"/>
+            <a:SP WIDTH="56.72" VPOS="498.26" HPOS="737.44"/>
+            <a:String HEIGHT="49.95" WIDTH="149.86" VPOS="498.68" HPOS="794.17" CONTENT="Himmel"/>
+            <a:SP WIDTH="149.86" VPOS="498.68" HPOS="794.17"/>
+            <a:String HEIGHT="49.95" WIDTH="22.86" VPOS="498.68" HPOS="944.03" CONTENT="/"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_59b31f9d-63db-418e-9dbc-07f75061019c" HEIGHT="59.26" WIDTH="965.2" HPOS="0.84" VPOS="542.71">
+            <a:String HEIGHT="55.88" WIDTH="70.27" VPOS="542.71" HPOS="0.84" CONTENT="und"/>
+            <a:SP WIDTH="82.97" VPOS="543.13" HPOS="0.84"/>
+            <a:String HEIGHT="55.88" WIDTH="44.02" VPOS="543.56" HPOS="83.82" CONTENT="da"/>
+            <a:SP WIDTH="53.34" VPOS="543.98" HPOS="83.82"/>
+            <a:String HEIGHT="56.72" WIDTH="134.62" VPOS="544.4" HPOS="137.16" CONTENT="jemand"/>
+            <a:SP WIDTH="143.93" VPOS="545.25" HPOS="137.16"/>
+            <a:String HEIGHT="55.88" WIDTH="187.11" VPOS="546.1" HPOS="281.09" CONTENT="sieheteines"/>
+            <a:SP WIDTH="198.96" VPOS="546.52" HPOS="281.09"/>
+            <a:String HEIGHT="55.03" WIDTH="69.42" VPOS="546.94" HPOS="480.06" CONTENT="von"/>
+            <a:SP WIDTH="77.89" VPOS="546.52" HPOS="480.06"/>
+            <a:String HEIGHT="55.88" WIDTH="100.75" VPOS="546.1" HPOS="557.95" CONTENT="seinen"/>
+            <a:SP WIDTH="113.45" VPOS="545.67" HPOS="557.95"/>
+            <a:String HEIGHT="55.88" WIDTH="100.75" VPOS="545.25" HPOS="671.4" CONTENT="lieben"/>
+            <a:SP WIDTH="110.91" VPOS="543.98" HPOS="671.4"/>
+            <a:String HEIGHT="57.57" WIDTH="171.02" VPOS="542.71" HPOS="782.32" CONTENT="Vorange"/>
+            <a:SP WIDTH="171.02" VPOS="542.71" HPOS="782.32"/>
+            <a:String HEIGHT="57.57" WIDTH="12.7" VPOS="542.71" HPOS="953.34" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_d235ad24-9be4-40cd-8dff-c4c92ea25760" HEIGHT="48.26" WIDTH="144.78" HPOS="818.72" VPOS="596.9">
+            <a:String HEIGHT="48.26" WIDTH="115.99" VPOS="596.9" HPOS="818.72" CONTENT="schickte"/>
+            <a:SP WIDTH="120.22" VPOS="596.9" HPOS="818.72"/>
+            <a:String HEIGHT="48.26" WIDTH="24.55" VPOS="596.9" HPOS="938.95" CONTENT="ii"/>
+          </a:TextLine>
+        </a:TextBlock>
+        <a:TextBlock ID="ID_BIT_20a8f1f2-04a5-410b-b12b-63182fe93838" HEIGHT="0" WIDTH="182" HPOS="1098" VPOS="1965"/>
+        <a:TextBlock ID="ID_BIT_5f1737b7-179f-426c-8245-2a25cf254ffb" HEIGHT="1583" WIDTH="52" HPOS="52" VPOS="436">
+          <a:TextLine ID="ID_BIT_043919aa-18cf-4cc8-bf6f-0bf1cd5f10dd" HEIGHT="36.4" WIDTH="52.49" HPOS="0.0" VPOS="0.84">
+            <a:String HEIGHT="36.4" WIDTH="40.64" VPOS="0.84" HPOS="0.0" CONTENT="Lu"/>
+            <a:SP WIDTH="40.64" VPOS="0.84" HPOS="0.0"/>
+            <a:String HEIGHT="36.4" WIDTH="11.85" VPOS="0.84" HPOS="40.64" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_79fdbfd6-d917-4410-8d56-53199276c72c" HEIGHT="46.56" WIDTH="52.49" HPOS="0.0" VPOS="41.48">
+            <a:String HEIGHT="46.56" WIDTH="35.56" VPOS="41.48" HPOS="0.0" CONTENT="ge"/>
+            <a:SP WIDTH="38.94" VPOS="41.48" HPOS="0.0"/>
+            <a:String HEIGHT="46.56" WIDTH="13.54" VPOS="41.48" HPOS="38.94" CONTENT="i"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_ded50be3-cff7-4d39-8408-e2e73eda4283" HEIGHT="44.02" WIDTH="49.95" HPOS="0.0" VPOS="90.59">
+            <a:String HEIGHT="44.02" WIDTH="31.32" VPOS="90.59" HPOS="0.0" CONTENT="9t"/>
+            <a:SP WIDTH="32.17" VPOS="90.59" HPOS="0.0"/>
+            <a:String HEIGHT="44.02" WIDTH="17.78" VPOS="90.59" HPOS="32.17" CONTENT="/"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_dde4b5f4-e77a-4791-a215-edd8258a30da" HEIGHT="42.33" WIDTH="46.56" HPOS="3.38" VPOS="138.85">
+            <a:String HEIGHT="42.33" WIDTH="28.78" VPOS="138.85" HPOS="3.38" CONTENT="te"/>
+            <a:SP WIDTH="29.63" VPOS="138.85" HPOS="3.38"/>
+            <a:String HEIGHT="42.33" WIDTH="16.93" VPOS="138.85" HPOS="33.02" CONTENT="/"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_3cf6b620-52ed-443d-b7c0-01ecd429481f" HEIGHT="49.95" WIDTH="50.8" HPOS="0.0" VPOS="186.26">
+            <a:String HEIGHT="49.95" WIDTH="50.8" VPOS="186.26" HPOS="0.0" CONTENT="ger"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_48a80589-04be-47a9-9088-0652c8bcd995" HEIGHT="3.38" WIDTH="3.38" HPOS="0.0" VPOS="246.38">
+            <a:String HEIGHT="3.38" WIDTH="3.38" VPOS="246.38" HPOS="0.0" CONTENT="n"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_daaf171a-f1e3-4392-9d52-9eda7409f410" HEIGHT="8.46" WIDTH="44.02" HPOS="5.92" VPOS="258.23">
+            <a:String HEIGHT="8.46" WIDTH="5.92" VPOS="258.23" HPOS="5.92" CONTENT="."/>
+            <a:SP WIDTH="38.1" VPOS="258.23" HPOS="5.92"/>
+            <a:String HEIGHT="8.46" WIDTH="5.92" VPOS="258.23" HPOS="44.02" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_13d2bfa3-e46e-44ff-b407-2ac080753689" HEIGHT="55.03" WIDTH="50.8" HPOS="0.0" VPOS="272.62">
+            <a:String HEIGHT="55.03" WIDTH="11.85" VPOS="272.62" HPOS="0.0" CONTENT="e"/>
+            <a:SP WIDTH="15.24" VPOS="272.62" HPOS="0.0"/>
+            <a:String HEIGHT="55.03" WIDTH="35.56" VPOS="272.62" HPOS="15.24" CONTENT="iit"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_2caa04ef-d93f-4c49-a8d0-13d221ecf2cf" HEIGHT="44.87" WIDTH="52.49" HPOS="0.0" VPOS="328.5">
+            <a:String HEIGHT="44.87" WIDTH="38.94" VPOS="328.5" HPOS="0.0" CONTENT="äb"/>
+            <a:SP WIDTH="41.48" VPOS="328.5" HPOS="0.0"/>
+            <a:String HEIGHT="44.87" WIDTH="11.0" VPOS="328.5" HPOS="41.48" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_0db8c523-eee9-45c8-be98-e0dfafbfa79d" HEIGHT="38.1" WIDTH="51.64" HPOS="0.84" VPOS="386.92">
+            <a:String HEIGHT="38.1" WIDTH="51.64" VPOS="386.92" HPOS="0.84" CONTENT="em"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_369efe4b-a958-44f6-ba7d-1aa9a31f28c5" HEIGHT="47.41" WIDTH="52.49" HPOS="0.0" VPOS="425.87">
+            <a:String HEIGHT="47.41" WIDTH="15.24" VPOS="425.87" HPOS="0.0" CONTENT="h"/>
+            <a:SP WIDTH="18.62" VPOS="425.87" HPOS="0.0"/>
+            <a:String HEIGHT="47.41" WIDTH="33.86" VPOS="425.87" HPOS="18.62" CONTENT="in"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_5f822bee-8807-4ba1-ac77-6f724121d04a" HEIGHT="42.33" WIDTH="45.72" HPOS="6.77" VPOS="478.36">
+            <a:String HEIGHT="42.33" WIDTH="17.78" VPOS="478.36" HPOS="6.77" CONTENT="it"/>
+            <a:SP WIDTH="21.16" VPOS="478.36" HPOS="6.77"/>
+            <a:String HEIGHT="42.33" WIDTH="11.0" VPOS="478.36" HPOS="27.94" CONTENT="r"/>
+            <a:SP WIDTH="11.0" VPOS="478.36" HPOS="27.94"/>
+            <a:String HEIGHT="42.33" WIDTH="13.54" VPOS="478.36" HPOS="38.94" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_ae2be7c4-78f9-48de-8a92-6a62b8b3e104" HEIGHT="39.79" WIDTH="52.49" HPOS="0.0" VPOS="530.01">
+            <a:String HEIGHT="39.79" WIDTH="52.49" VPOS="530.01" HPOS="0.0" CONTENT="ias"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_726ab096-d0a7-4891-8969-627057105b23" HEIGHT="42.33" WIDTH="49.1" HPOS="3.38" VPOS="574.88">
+            <a:String HEIGHT="42.33" WIDTH="49.1" VPOS="574.88" HPOS="3.38" CONTENT="die"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_26782b8e-74a1-4699-a5c2-8fb44404ac7e" HEIGHT="34.71" WIDTH="46.56" HPOS="5.92" VPOS="631.61">
+            <a:String HEIGHT="34.71" WIDTH="6.77" VPOS="631.61" HPOS="5.92" CONTENT="l"/>
+            <a:SP WIDTH="11.85" VPOS="631.61" HPOS="5.92"/>
+            <a:String HEIGHT="34.71" WIDTH="34.71" VPOS="631.61" HPOS="17.78" CONTENT="tit"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_e926c994-1bba-4378-bd2c-32fa4ad0d2ec" HEIGHT="48.26" WIDTH="52.49" HPOS="0.0" VPOS="667.17">
+            <a:String HEIGHT="48.26" WIDTH="38.94" VPOS="667.17" HPOS="0.0" CONTENT="iti"/>
+            <a:SP WIDTH="38.94" VPOS="667.17" HPOS="0.0"/>
+            <a:String HEIGHT="48.26" WIDTH="13.54" VPOS="667.17" HPOS="38.94" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_1b914ad5-24be-48f6-b31e-e3d160487efb" HEIGHT="38.94" WIDTH="52.49" HPOS="0.0" VPOS="726.44">
+            <a:String HEIGHT="38.94" WIDTH="11.0" VPOS="726.44" HPOS="0.0" CONTENT=")"/>
+            <a:SP WIDTH="14.39" VPOS="726.44" HPOS="0.0"/>
+            <a:String HEIGHT="38.94" WIDTH="38.1" VPOS="726.44" HPOS="14.39" CONTENT="en"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_b6f1d153-00c5-4566-ad64-f17dc4802922" HEIGHT="42.33" WIDTH="52.49" HPOS="0.0" VPOS="767.08">
+            <a:String HEIGHT="42.33" WIDTH="11.85" VPOS="767.08" HPOS="0.0" CONTENT="i"/>
+            <a:SP WIDTH="14.39" VPOS="767.08" HPOS="0.0"/>
+            <a:String HEIGHT="42.33" WIDTH="25.4" VPOS="767.08" HPOS="14.39" CONTENT="ie"/>
+            <a:SP WIDTH="25.4" VPOS="767.08" HPOS="14.39"/>
+            <a:String HEIGHT="42.33" WIDTH="12.7" VPOS="767.08" HPOS="39.79" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_96f29c17-9707-4857-a15d-24454b9d4e58" HEIGHT="38.1" WIDTH="52.49" HPOS="0.0" VPOS="824.65">
+            <a:String HEIGHT="38.1" WIDTH="37.25" VPOS="824.65" HPOS="0.0" CONTENT="en"/>
+            <a:SP WIDTH="40.64" VPOS="824.65" HPOS="0.0"/>
+            <a:String HEIGHT="38.1" WIDTH="11.85" VPOS="824.65" HPOS="40.64" CONTENT="i"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_f29e37ee-5bb9-4564-acf7-3be443905def" HEIGHT="37.25" WIDTH="50.8" HPOS="0.0" VPOS="872.91">
+            <a:String HEIGHT="37.25" WIDTH="50.8" VPOS="872.91" HPOS="0.0" CONTENT="em"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_f65efffb-a633-45f8-8105-91f4e33e6294" HEIGHT="49.1" WIDTH="49.95" HPOS="0.0" VPOS="910.16">
+            <a:String HEIGHT="49.1" WIDTH="12.7" VPOS="910.16" HPOS="0.0" CONTENT=")"/>
+            <a:SP WIDTH="16.08" VPOS="910.16" HPOS="0.0"/>
+            <a:String HEIGHT="49.1" WIDTH="21.16" VPOS="910.16" HPOS="16.08" CONTENT="u"/>
+            <a:SP WIDTH="21.16" VPOS="910.16" HPOS="16.08"/>
+            <a:String HEIGHT="49.1" WIDTH="12.7" VPOS="910.16" HPOS="37.25" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_f7ad9e0c-2c1d-47b6-a993-a0445a3674cf" HEIGHT="43.18" WIDTH="46.56" HPOS="3.38" VPOS="1011.76">
+            <a:String HEIGHT="43.18" WIDTH="46.56" VPOS="1011.76" HPOS="3.38" CONTENT="dis"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_d0e1ef76-bc34-41d2-b67d-4a9955b3f857" HEIGHT="44.87" WIDTH="52.49" HPOS="0.0" VPOS="1054.94">
+            <a:String HEIGHT="44.87" WIDTH="25.4" VPOS="1054.94" HPOS="0.0" CONTENT=")"/>
+            <a:SP WIDTH="28.78" VPOS="1054.94" HPOS="0.0"/>
+            <a:String HEIGHT="44.87" WIDTH="23.7" VPOS="1054.94" HPOS="28.78" CONTENT="u"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_b89fb2ec-463d-4f21-8c01-7c843d4684a0" HEIGHT="47.41" WIDTH="52.49" HPOS="0.0" VPOS="1106.59">
+            <a:String HEIGHT="47.41" WIDTH="52.49" VPOS="1106.59" HPOS="0.0" CONTENT="hei"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_f7d51816-b77f-4626-bf44-5379300114d8" HEIGHT="36.4" WIDTH="45.72" HPOS="5.08" VPOS="1163.32">
+            <a:String HEIGHT="36.4" WIDTH="34.71" VPOS="1163.32" HPOS="5.08" CONTENT="tr"/>
+            <a:SP WIDTH="34.71" VPOS="1163.32" HPOS="5.08"/>
+            <a:String HEIGHT="36.4" WIDTH="11.0" VPOS="1163.32" HPOS="39.79" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_0bc8fe76-f4bd-4d27-8208-b86165706d7b" HEIGHT="27.09" WIDTH="49.95" HPOS="0.0" VPOS="1217.5">
+            <a:String HEIGHT="27.09" WIDTH="6.77" VPOS="1217.5" HPOS="0.0" CONTENT="."/>
+            <a:SP WIDTH="10.16" VPOS="1217.5" HPOS="0.0"/>
+            <a:String HEIGHT="27.09" WIDTH="32.17" VPOS="1217.5" HPOS="10.16" CONTENT="2o"/>
+            <a:SP WIDTH="33.86" VPOS="1217.5" HPOS="10.16"/>
+            <a:String HEIGHT="27.09" WIDTH="5.92" VPOS="1217.5" HPOS="44.02" CONTENT="."/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_3d9b0ac3-691b-443b-972e-06e13878dbb5" HEIGHT="41.48" WIDTH="44.02" HPOS="6.77" VPOS="1255.6">
+            <a:String HEIGHT="41.48" WIDTH="44.02" VPOS="1255.6" HPOS="6.77" CONTENT="ad"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_4ce47fdb-25e7-46a9-9017-88ead09281a7" HEIGHT="26.24" WIDTH="47.41" HPOS="2.54" VPOS="1314.87">
+            <a:String HEIGHT="26.24" WIDTH="47.41" VPOS="1314.87" HPOS="2.54" CONTENT="sUs"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_1d2c2b4a-bb8d-42e7-ac91-97bda2fcc8d7" HEIGHT="38.1" WIDTH="49.1" HPOS="3.38" VPOS="1357.2">
+            <a:String HEIGHT="38.1" WIDTH="49.1" VPOS="1357.2" HPOS="3.38" CONTENT="ter"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_42f543b2-6177-437c-a939-ca65b6fcd0bf" HEIGHT="44.02" WIDTH="52.49" HPOS="0.0" VPOS="1399.54">
+            <a:String HEIGHT="44.02" WIDTH="40.64" VPOS="1399.54" HPOS="0.0" CONTENT="rei"/>
+            <a:SP WIDTH="40.64" VPOS="1399.54" HPOS="0.0"/>
+            <a:String HEIGHT="44.02" WIDTH="11.85" VPOS="1399.54" HPOS="40.64" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_c5e8b14e-bf9f-4766-b6c1-4891638747a5" HEIGHT="37.25" WIDTH="52.49" HPOS="0.0" VPOS="1455.42">
+            <a:String HEIGHT="37.25" WIDTH="9.31" VPOS="1455.42" HPOS="0.0" CONTENT="f"/>
+            <a:SP WIDTH="12.7" VPOS="1455.42" HPOS="0.0"/>
+            <a:String HEIGHT="37.25" WIDTH="39.79" VPOS="1455.42" HPOS="12.7" CONTENT="ru"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_47e4449d-80b8-4433-ab4c-e18f2e8f40f4" HEIGHT="38.1" WIDTH="52.49" HPOS="0.0" VPOS="1503.68">
+            <a:String HEIGHT="38.1" WIDTH="36.4" VPOS="1503.68" HPOS="0.0" CONTENT="su"/>
+            <a:SP WIDTH="41.48" VPOS="1503.68" HPOS="0.0"/>
+            <a:String HEIGHT="38.1" WIDTH="11.0" VPOS="1503.68" HPOS="41.48" CONTENT=":"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_6abe5f45-3dc9-4ba3-815a-c8058ea22bb1" HEIGHT="44.02" WIDTH="52.49" HPOS="0.0" VPOS="1547.7">
+            <a:String HEIGHT="44.02" WIDTH="52.49" VPOS="1547.7" HPOS="0.0" CONTENT="llid"/>
+          </a:TextLine>
+        </a:TextBlock>
+        <a:TextBlock ID="ID_BIT_0f1a438c-71d1-4b45-9e9e-4db5c58613c0" HEIGHT="656" WIDTH="967" HPOS="315" VPOS="431">
+          <a:TextLine ID="ID_BIT_6685c80a-fc2f-4736-9692-b4d480ae307e" HEIGHT="49.95" WIDTH="962.66" HPOS="2.54" VPOS="2.54">
+            <a:String HEIGHT="48.26" WIDTH="67.73" VPOS="2.54" HPOS="2.54" CONTENT="und"/>
+            <a:SP WIDTH="75.35" VPOS="1.69" HPOS="2.54"/>
+            <a:String HEIGHT="47.41" WIDTH="71.96" VPOS="0.84" HPOS="77.89" CONTENT="gibt"/>
+            <a:SP WIDTH="78.74" VPOS="0.84" HPOS="77.89"/>
+            <a:String HEIGHT="48.26" WIDTH="106.68" VPOS="0.84" HPOS="156.63" CONTENT="damit"/>
+            <a:SP WIDTH="115.99" VPOS="0.42" HPOS="156.63"/>
+            <a:String HEIGHT="47.41" WIDTH="203.2" VPOS="0.0" HPOS="272.62" CONTENT="zuverstehen"/>
+            <a:SP WIDTH="205.74" VPOS="0.0" HPOS="272.62"/>
+            <a:String HEIGHT="47.41" WIDTH="16.08" VPOS="0.0" HPOS="478.36" CONTENT="/"/>
+            <a:SP WIDTH="24.55" VPOS="0.0" HPOS="478.36"/>
+            <a:String HEIGHT="47.41" WIDTH="103.29" VPOS="0.0" HPOS="502.92" CONTENT="wann"/>
+            <a:SP WIDTH="111.76" VPOS="0.0" HPOS="502.92"/>
+            <a:String HEIGHT="47.41" WIDTH="49.1" VPOS="0.0" HPOS="614.68" CONTENT="ein"/>
+            <a:SP WIDTH="60.96" VPOS="0.0" HPOS="614.68"/>
+            <a:String HEIGHT="47.41" WIDTH="163.4" VPOS="0.0" HPOS="675.64" CONTENT="frommer"/>
+            <a:SP WIDTH="175.26" VPOS="0.0" HPOS="675.64"/>
+            <a:String HEIGHT="47.41" WIDTH="114.3" VPOS="0.0" HPOS="850.9" CONTENT="Christ"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_432df2d1-c8d5-4a54-891b-a468ff6e595b" HEIGHT="56.72" WIDTH="963.5" HPOS="1.69" VPOS="41.48">
+            <a:String HEIGHT="52.49" WIDTH="89.74" VPOS="41.48" HPOS="1.69" CONTENT="seelig"/>
+            <a:SP WIDTH="99.9" VPOS="42.33" HPOS="1.69"/>
+            <a:String HEIGHT="51.64" WIDTH="33.02" VPOS="43.18" HPOS="101.6" CONTENT="in"/>
+            <a:SP WIDTH="41.48" VPOS="43.6" HPOS="101.6"/>
+            <a:String HEIGHT="51.64" WIDTH="71.96" VPOS="44.02" HPOS="143.08" CONTENT="dem"/>
+            <a:SP WIDTH="82.97" VPOS="44.45" HPOS="143.08"/>
+            <a:String HEIGHT="52.49" WIDTH="123.61" VPOS="44.87" HPOS="226.06" CONTENT="HErin"/>
+            <a:SP WIDTH="134.62" VPOS="45.29" HPOS="226.06"/>
+            <a:String HEIGHT="51.64" WIDTH="93.98" VPOS="45.72" HPOS="360.68" CONTENT="stirbt"/>
+            <a:SP WIDTH="100.75" VPOS="45.72" HPOS="360.68"/>
+            <a:String HEIGHT="51.64" WIDTH="16.08" VPOS="45.72" HPOS="461.43" CONTENT="/"/>
+            <a:SP WIDTH="27.94" VPOS="46.14" HPOS="461.43"/>
+            <a:String HEIGHT="51.64" WIDTH="69.42" VPOS="46.56" HPOS="489.37" CONTENT="ulid"/>
+            <a:SP WIDTH="81.28" VPOS="46.56" HPOS="489.37"/>
+            <a:String HEIGHT="51.64" WIDTH="184.57" VPOS="46.56" HPOS="570.65" CONTENT="seineSeele"/>
+            <a:SP WIDTH="196.42" VPOS="46.56" HPOS="570.65"/>
+            <a:String HEIGHT="51.64" WIDTH="68.58" VPOS="46.56" HPOS="767.08" CONTENT="von"/>
+            <a:SP WIDTH="78.74" VPOS="46.56" HPOS="767.08"/>
+            <a:String HEIGHT="51.64" WIDTH="119.38" VPOS="46.56" HPOS="845.82" CONTENT="hinnen"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_6c692856-635c-40d4-aaf6-6d9f3c761d08" HEIGHT="58.42" WIDTH="963.5" HPOS="1.69" VPOS="88.9">
+            <a:String HEIGHT="55.03" WIDTH="192.19" VPOS="88.9" HPOS="1.69" CONTENT="führee/daß"/>
+            <a:SP WIDTH="202.35" VPOS="91.01" HPOS="1.69"/>
+            <a:String HEIGHT="50.8" WIDTH="37.25" VPOS="93.13" HPOS="204.04" CONTENT="sie"/>
+            <a:SP WIDTH="47.41" VPOS="93.55" HPOS="204.04"/>
+            <a:String HEIGHT="51.64" WIDTH="148.16" VPOS="93.98" HPOS="251.46" CONTENT="alsdann"/>
+            <a:SP WIDTH="154.94" VPOS="94.4" HPOS="251.46"/>
+            <a:String HEIGHT="50.8" WIDTH="66.88" VPOS="94.82" HPOS="406.4" CONTENT="von"/>
+            <a:SP WIDTH="74.5" VPOS="94.82" HPOS="406.4"/>
+            <a:String HEIGHT="50.8" WIDTH="59.26" VPOS="94.82" HPOS="480.9" CONTENT="den"/>
+            <a:SP WIDTH="67.73" VPOS="94.82" HPOS="480.9"/>
+            <a:String HEIGHT="50.8" WIDTH="273.47" VPOS="94.82" HPOS="548.64" CONTENT="heiligenEngebt"/>
+            <a:SP WIDTH="280.24" VPOS="95.25" HPOS="548.64"/>
+            <a:String HEIGHT="51.64" WIDTH="136.31" VPOS="95.67" HPOS="828.88" CONTENT="stattlich"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_8930f07f-e6ee-4567-ab30-2bbf6ad88e68" HEIGHT="57.57" WIDTH="961.81" HPOS="4.23" VPOS="137.16">
+            <a:String HEIGHT="55.88" WIDTH="198.12" VPOS="137.16" HPOS="4.23" CONTENT="eiupfltAtgen"/>
+            <a:SP WIDTH="204.89" VPOS="138.85" HPOS="4.23"/>
+            <a:String HEIGHT="53.34" WIDTH="69.42" VPOS="140.54" HPOS="209.12" CONTENT="und"/>
+            <a:SP WIDTH="76.2" VPOS="140.97" HPOS="209.12"/>
+            <a:String HEIGHT="52.49" WIDTH="143.93" VPOS="141.39" HPOS="285.32" CONTENT="begleitet"/>
+            <a:SP WIDTH="150.7" VPOS="140.97" HPOS="285.32"/>
+            <a:String HEIGHT="53.34" WIDTH="105.83" VPOS="140.54" HPOS="436.03" CONTENT="werde"/>
+            <a:SP WIDTH="107.52" VPOS="140.54" HPOS="436.03"/>
+            <a:String HEIGHT="53.34" WIDTH="16.93" VPOS="140.54" HPOS="543.56" CONTENT="/"/>
+            <a:SP WIDTH="18.62" VPOS="140.54" HPOS="543.56"/>
+            <a:String HEIGHT="53.34" WIDTH="68.58" VPOS="140.54" HPOS="562.18" CONTENT="und"/>
+            <a:SP WIDTH="81.28" VPOS="140.54" HPOS="562.18"/>
+            <a:String HEIGHT="52.49" WIDTH="127.0" VPOS="140.54" HPOS="643.46" CONTENT="koumte"/>
+            <a:SP WIDTH="135.46" VPOS="140.54" HPOS="643.46"/>
+            <a:String HEIGHT="52.49" WIDTH="54.18" VPOS="140.54" HPOS="778.93" CONTENT="ins"/>
+            <a:SP WIDTH="65.19" VPOS="140.54" HPOS="778.93"/>
+            <a:String HEIGHT="54.18" WIDTH="110.06" VPOS="140.54" HPOS="844.12" CONTENT="Para"/>
+            <a:SP WIDTH="110.06" VPOS="140.54" HPOS="844.12"/>
+            <a:String HEIGHT="54.18" WIDTH="11.85" VPOS="140.54" HPOS="954.19" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_cd706484-52ce-4af1-836d-4f395624c73a" HEIGHT="59.26" WIDTH="965.2" HPOS="2.54" VPOS="183.72">
+            <a:String HEIGHT="55.88" WIDTH="99.06" VPOS="183.72" HPOS="2.54" CONTENT="dißzu"/>
+            <a:SP WIDTH="114.3" VPOS="185.84" HPOS="2.54"/>
+            <a:String HEIGHT="55.03" WIDTH="104.98" VPOS="187.96" HPOS="116.84" CONTENT="ihrem"/>
+            <a:SP WIDTH="115.14" VPOS="189.23" HPOS="116.84"/>
+            <a:String HEIGHT="52.49" WIDTH="124.46" VPOS="190.5" HPOS="231.98" CONTENT="liebsten"/>
+            <a:SP WIDTH="141.39" VPOS="189.23" HPOS="231.98"/>
+            <a:String HEIGHT="55.03" WIDTH="216.74" VPOS="187.96" HPOS="373.38" CONTENT="Brdntigam"/>
+            <a:SP WIDTH="229.44" VPOS="187.53" HPOS="373.38"/>
+            <a:String HEIGHT="53.34" WIDTH="136.31" VPOS="187.11" HPOS="602.82" CONTENT="Chriso"/>
+            <a:SP WIDTH="150.7" VPOS="187.11" HPOS="602.82"/>
+            <a:String HEIGHT="53.34" WIDTH="102.44" VPOS="187.11" HPOS="753.53" CONTENT="JEsu"/>
+            <a:SP WIDTH="109.22" VPOS="187.53" HPOS="753.53"/>
+            <a:String HEIGHT="52.49" WIDTH="16.93" VPOS="187.96" HPOS="862.75" CONTENT="/"/>
+            <a:SP WIDTH="32.17" VPOS="188.38" HPOS="862.75"/>
+            <a:String HEIGHT="54.18" WIDTH="72.81" VPOS="188.8" HPOS="894.92" CONTENT="und"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_204d5ce3-6d43-4ecc-a521-894bd74409e0" HEIGHT="58.42" WIDTH="965.2" HPOS="2.54" VPOS="231.98">
+            <a:String HEIGHT="55.88" WIDTH="86.36" VPOS="231.98" HPOS="2.54" CONTENT="siitoe"/>
+            <a:SP WIDTH="93.98" VPOS="232.83" HPOS="2.54"/>
+            <a:String HEIGHT="56.72" WIDTH="182.88" VPOS="233.68" HPOS="96.52" CONTENT="daselbstein"/>
+            <a:SP WIDTH="192.19" VPOS="234.52" HPOS="96.52"/>
+            <a:String HEIGHT="55.03" WIDTH="88.05" VPOS="235.37" HPOS="288.71" CONTENT="groß"/>
+            <a:SP WIDTH="101.6" VPOS="235.37" HPOS="288.71"/>
+            <a:String HEIGHT="55.03" WIDTH="182.88" VPOS="235.37" HPOS="390.31" CONTENT="Volckund"/>
+            <a:SP WIDTH="190.5" VPOS="234.95" HPOS="390.31"/>
+            <a:String HEIGHT="55.88" WIDTH="130.38" VPOS="234.52" HPOS="580.81" CONTENT="Wenge"/>
+            <a:SP WIDTH="139.7" VPOS="234.52" HPOS="580.81"/>
+            <a:String HEIGHT="55.03" WIDTH="94.82" VPOS="234.52" HPOS="720.51" CONTENT="vieler"/>
+            <a:SP WIDTH="106.68" VPOS="233.68" HPOS="720.51"/>
+            <a:String HEIGHT="55.88" WIDTH="120.22" VPOS="232.83" HPOS="827.19" CONTENT="oluster"/>
+            <a:SP WIDTH="120.22" VPOS="232.83" HPOS="827.19"/>
+            <a:String HEIGHT="55.88" WIDTH="20.32" VPOS="232.83" HPOS="947.42" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_82b4ef49-1d6d-41fd-b945-900e0bca910e" HEIGHT="56.72" WIDTH="963.5" HPOS="1.69" VPOS="283.63">
+            <a:String HEIGHT="53.34" WIDTH="138.85" VPOS="283.63" HPOS="1.69" CONTENT="wehltev"/>
+            <a:SP WIDTH="149.01" VPOS="284.48" HPOS="1.69"/>
+            <a:String HEIGHT="53.34" WIDTH="124.46" VPOS="285.32" HPOS="150.7" CONTENT="Seelen"/>
+            <a:SP WIDTH="132.08" VPOS="285.75" HPOS="150.7"/>
+            <a:String HEIGHT="52.49" WIDTH="14.39" VPOS="286.17" HPOS="282.78" CONTENT="/"/>
+            <a:SP WIDTH="24.55" VPOS="286.17" HPOS="282.78"/>
+            <a:String HEIGHT="52.49" WIDTH="33.02" VPOS="286.17" HPOS="307.34" CONTENT="ja"/>
+            <a:SP WIDTH="42.33" VPOS="286.17" HPOS="307.34"/>
+            <a:String HEIGHT="53.34" WIDTH="37.25" VPOS="286.17" HPOS="349.67" CONTENT="sie"/>
+            <a:SP WIDTH="46.56" VPOS="286.59" HPOS="349.67"/>
+            <a:String HEIGHT="53.34" WIDTH="127.0" VPOS="287.02" HPOS="396.24" CONTENT="komme"/>
+            <a:SP WIDTH="138.0" VPOS="287.44" HPOS="396.24"/>
+            <a:String HEIGHT="52.49" WIDTH="138.85" VPOS="287.86" HPOS="534.24" CONTENT="zuehren"/>
+            <a:SP WIDTH="147.32" VPOS="287.44" HPOS="534.24"/>
+            <a:String HEIGHT="53.34" WIDTH="154.09" VPOS="287.02" HPOS="681.56" CONTENT="Vsittern"/>
+            <a:SP WIDTH="160.02" VPOS="287.02" HPOS="681.56"/>
+            <a:String HEIGHT="52.49" WIDTH="20.32" VPOS="287.02" HPOS="841.58" CONTENT="/"/>
+            <a:SP WIDTH="27.94" VPOS="286.59" HPOS="841.58"/>
+            <a:String HEIGHT="52.49" WIDTH="38.94" VPOS="286.17" HPOS="869.52" CONTENT="zu"/>
+            <a:SP WIDTH="47.41" VPOS="285.75" HPOS="869.52"/>
+            <a:String HEIGHT="52.49" WIDTH="28.78" VPOS="285.32" HPOS="916.94" CONTENT="ih"/>
+            <a:SP WIDTH="28.78" VPOS="285.32" HPOS="916.94"/>
+            <a:String HEIGHT="52.49" WIDTH="19.47" VPOS="285.32" HPOS="945.72" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_dea6bf82-0f1c-444e-8f83-75408978220f" HEIGHT="52.49" WIDTH="961.81" HPOS="2.54" VPOS="335.28">
+            <a:String HEIGHT="49.95" WIDTH="57.57" VPOS="335.28" HPOS="2.54" CONTENT="ren"/>
+            <a:SP WIDTH="68.58" VPOS="335.28" HPOS="2.54"/>
+            <a:String HEIGHT="49.95" WIDTH="97.36" VPOS="335.28" HPOS="71.12" CONTENT="lieben"/>
+            <a:SP WIDTH="103.29" VPOS="335.28" HPOS="71.12"/>
+            <a:String HEIGHT="51.64" WIDTH="295.48" VPOS="335.28" HPOS="174.41" CONTENT="vorangeschickten"/>
+            <a:SP WIDTH="303.95" VPOS="336.12" HPOS="174.41"/>
+            <a:String HEIGHT="50.8" WIDTH="84.66" VPOS="336.97" HPOS="478.36" CONTENT="Vor"/>
+            <a:SP WIDTH="86.36" VPOS="336.97" HPOS="478.36"/>
+            <a:String HEIGHT="50.8" WIDTH="9.31" VPOS="336.97" HPOS="564.72" CONTENT="-"/>
+            <a:SP WIDTH="12.7" VPOS="336.97" HPOS="564.72"/>
+            <a:String HEIGHT="50.8" WIDTH="116.84" VPOS="336.97" HPOS="577.42" CONTENT="Eltern"/>
+            <a:SP WIDTH="118.53" VPOS="336.97" HPOS="577.42"/>
+            <a:String HEIGHT="50.8" WIDTH="16.08" VPOS="336.97" HPOS="695.96" CONTENT="/"/>
+            <a:SP WIDTH="22.86" VPOS="337.39" HPOS="695.96"/>
+            <a:String HEIGHT="49.95" WIDTH="38.94" VPOS="337.82" HPOS="718.82" CONTENT="zu"/>
+            <a:SP WIDTH="45.72" VPOS="336.97" HPOS="718.82"/>
+            <a:String HEIGHT="51.64" WIDTH="187.11" VPOS="336.12" HPOS="764.54" CONTENT="ihremVat"/>
+            <a:SP WIDTH="187.11" VPOS="336.12" HPOS="764.54"/>
+            <a:String HEIGHT="51.64" WIDTH="12.7" VPOS="336.12" HPOS="951.65" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_29e06c91-d3e0-4ab7-a5cb-3a05424f2cd8" HEIGHT="50.8" WIDTH="963.5" HPOS="0.0" VPOS="381.84">
+            <a:String HEIGHT="48.26" WIDTH="49.1" VPOS="381.84" HPOS="0.0" CONTENT="ter"/>
+            <a:SP WIDTH="48.26" VPOS="381.84" HPOS="0.0"/>
+            <a:String HEIGHT="48.26" WIDTH="18.62" VPOS="381.84" HPOS="48.26" CONTENT="/"/>
+            <a:SP WIDTH="27.94" VPOS="382.27" HPOS="48.26"/>
+            <a:String HEIGHT="48.26" WIDTH="138.0" VPOS="382.69" HPOS="76.2" CONTENT="Wutier"/>
+            <a:SP WIDTH="139.7" VPOS="382.69" HPOS="76.2"/>
+            <a:String HEIGHT="48.26" WIDTH="19.47" VPOS="382.69" HPOS="215.9" CONTENT="/"/>
+            <a:SP WIDTH="27.09" VPOS="383.54" HPOS="215.9"/>
+            <a:String HEIGHT="47.41" WIDTH="165.1" VPOS="384.38" HPOS="242.99" CONTENT="Briidern"/>
+            <a:SP WIDTH="167.64" VPOS="384.38" HPOS="242.99"/>
+            <a:String HEIGHT="47.41" WIDTH="15.24" VPOS="384.38" HPOS="410.63" CONTENT="/"/>
+            <a:SP WIDTH="21.16" VPOS="384.38" HPOS="410.63"/>
+            <a:String HEIGHT="47.41" WIDTH="213.36" VPOS="384.38" HPOS="431.8" CONTENT="Schwestern"/>
+            <a:SP WIDTH="215.05" VPOS="384.38" HPOS="431.8"/>
+            <a:String HEIGHT="47.41" WIDTH="16.08" VPOS="384.38" HPOS="646.85" CONTENT="/"/>
+            <a:SP WIDTH="23.7" VPOS="384.38" HPOS="646.85"/>
+            <a:String HEIGHT="47.41" WIDTH="152.4" VPOS="384.38" HPOS="670.56" CONTENT="Kindern"/>
+            <a:SP WIDTH="160.86" VPOS="384.38" HPOS="670.56"/>
+            <a:String HEIGHT="47.41" WIDTH="68.58" VPOS="384.38" HPOS="831.42" CONTENT="und"/>
+            <a:SP WIDTH="77.04" VPOS="384.38" HPOS="831.42"/>
+            <a:String HEIGHT="48.26" WIDTH="42.33" VPOS="384.38" HPOS="908.47" CONTENT="an"/>
+            <a:SP WIDTH="42.33" VPOS="384.38" HPOS="908.47"/>
+            <a:String HEIGHT="48.26" WIDTH="12.7" VPOS="384.38" HPOS="950.8" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_7a7089c1-149e-4e7a-9ebd-1505f2115a65" HEIGHT="55.03" WIDTH="963.5" HPOS="0.0" VPOS="426.72">
+            <a:String HEIGHT="51.64" WIDTH="81.28" VPOS="426.72" HPOS="0.0" CONTENT="dern"/>
+            <a:SP WIDTH="88.05" VPOS="427.56" HPOS="0.0"/>
+            <a:String HEIGHT="51.64" WIDTH="177.8" VPOS="428.41" HPOS="88.05" CONTENT="Freunden"/>
+            <a:SP WIDTH="177.8" VPOS="428.41" HPOS="88.05"/>
+            <a:String HEIGHT="51.64" WIDTH="21.16" VPOS="428.41" HPOS="265.85" CONTENT="/"/>
+            <a:SP WIDTH="22.01" VPOS="428.41" HPOS="265.85"/>
+            <a:String HEIGHT="51.64" WIDTH="163.4" VPOS="428.41" HPOS="287.86" CONTENT="welcheim"/>
+            <a:SP WIDTH="170.18" VPOS="428.83" HPOS="287.86"/>
+            <a:String HEIGHT="50.8" WIDTH="5.08" VPOS="429.26" HPOS="458.04" CONTENT="-"/>
+            <a:SP WIDTH="8.46" VPOS="429.26" HPOS="458.04"/>
+            <a:String HEIGHT="50.8" WIDTH="161.71" VPOS="429.26" HPOS="466.51" CONTENT="Glauben"/>
+            <a:SP WIDTH="173.56" VPOS="429.26" HPOS="466.51"/>
+            <a:String HEIGHT="49.95" WIDTH="44.02" VPOS="429.26" HPOS="640.08" CONTENT="an"/>
+            <a:SP WIDTH="58.42" VPOS="429.26" HPOS="640.08"/>
+            <a:String HEIGHT="50.8" WIDTH="174.41" VPOS="429.26" HPOS="698.5" CONTENT="Christum"/>
+            <a:SP WIDTH="188.8" VPOS="430.1" HPOS="698.5"/>
+            <a:String HEIGHT="50.8" WIDTH="64.34" VPOS="430.95" HPOS="887.3" CONTENT="vor"/>
+            <a:SP WIDTH="64.34" VPOS="430.95" HPOS="887.3"/>
+            <a:String HEIGHT="50.8" WIDTH="11.85" VPOS="430.95" HPOS="951.65" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_b0c83dfd-3c09-431f-bb90-3be986ca8458" HEIGHT="53.34" WIDTH="964.35" HPOS="0.0" VPOS="477.52">
+            <a:String HEIGHT="51.64" WIDTH="201.5" VPOS="477.52" HPOS="0.0" CONTENT="hergezogen"/>
+            <a:SP WIDTH="206.58" VPOS="477.52" HPOS="0.0"/>
+            <a:String HEIGHT="51.64" WIDTH="21.16" VPOS="477.52" HPOS="206.58" CONTENT="/"/>
+            <a:SP WIDTH="32.17" VPOS="478.36" HPOS="206.58"/>
+            <a:String HEIGHT="49.95" WIDTH="67.73" VPOS="479.21" HPOS="238.76" CONTENT="und"/>
+            <a:SP WIDTH="83.82" VPOS="479.21" HPOS="238.76"/>
+            <a:String HEIGHT="50.8" WIDTH="101.6" VPOS="479.21" HPOS="322.58" CONTENT="durch"/>
+            <a:SP WIDTH="110.91" VPOS="479.63" HPOS="322.58"/>
+            <a:String HEIGHT="49.95" WIDTH="60.11" VPOS="480.06" HPOS="433.49" CONTENT="den"/>
+            <a:SP WIDTH="74.5" VPOS="480.06" HPOS="433.49"/>
+            <a:String HEIGHT="49.95" WIDTH="77.89" VPOS="480.06" HPOS="508.0" CONTENT="Tod"/>
+            <a:SP WIDTH="92.28" VPOS="480.06" HPOS="508.0"/>
+            <a:String HEIGHT="49.95" WIDTH="54.18" VPOS="480.06" HPOS="600.28" CONTENT="ins"/>
+            <a:SP WIDTH="64.34" VPOS="480.48" HPOS="600.28"/>
+            <a:String HEIGHT="49.95" WIDTH="190.5" VPOS="480.9" HPOS="664.63" CONTENT="himmlische"/>
+            <a:SP WIDTH="203.2" VPOS="480.48" HPOS="664.63"/>
+            <a:String HEIGHT="50.8" WIDTH="82.12" VPOS="480.06" HPOS="867.83" CONTENT="Vat"/>
+            <a:SP WIDTH="82.12" VPOS="480.06" HPOS="867.83"/>
+            <a:String HEIGHT="50.8" WIDTH="14.39" VPOS="480.06" HPOS="949.96" CONTENT="-"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_31fbe990-5973-4b0f-b5a0-f2556b64288c" HEIGHT="58.42" WIDTH="962.66" HPOS="0.0" VPOS="523.24">
+            <a:String HEIGHT="57.57" WIDTH="379.3" VPOS="523.24" HPOS="0.0" CONTENT="teriandeingedrungen"/>
+            <a:SP WIDTH="383.54" VPOS="523.24" HPOS="0.0"/>
+            <a:String HEIGHT="57.57" WIDTH="10.16" VPOS="523.24" HPOS="383.54" CONTENT="."/>
+            <a:SP WIDTH="47.41" VPOS="525.35" HPOS="383.54"/>
+            <a:String HEIGHT="53.34" WIDTH="96.52" VPOS="527.47" HPOS="430.95" CONTENT="Leuch"/>
+            <a:SP WIDTH="114.3" VPOS="527.47" HPOS="430.95"/>
+            <a:String HEIGHT="54.18" WIDTH="131.23" VPOS="527.47" HPOS="545.25" CONTENT="dörffen"/>
+            <a:SP WIDTH="140.54" VPOS="527.89" HPOS="545.25"/>
+            <a:String HEIGHT="53.34" WIDTH="63.5" VPOS="528.32" HPOS="685.8" CONTENT="wir"/>
+            <a:SP WIDTH="75.35" VPOS="528.32" HPOS="685.8"/>
+            <a:String HEIGHT="53.34" WIDTH="83.82" VPOS="528.32" HPOS="761.15" CONTENT="nicht"/>
+            <a:SP WIDTH="99.06" VPOS="528.32" HPOS="761.15"/>
+            <a:String HEIGHT="53.34" WIDTH="102.44" VPOS="528.32" HPOS="860.21" CONTENT="zweist"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_7cf9139d-1b17-4e81-9dba-627060b1d456" HEIGHT="52.49" WIDTH="961.81" HPOS="0.0" VPOS="574.04">
+            <a:String HEIGHT="50.8" WIDTH="63.5" VPOS="574.04" HPOS="0.0" CONTENT="fetu"/>
+            <a:SP WIDTH="71.12" VPOS="574.46" HPOS="0.0"/>
+            <a:String HEIGHT="49.95" WIDTH="44.87" VPOS="574.88" HPOS="71.12" CONTENT="an"/>
+            <a:SP WIDTH="52.49" VPOS="575.31" HPOS="71.12"/>
+            <a:String HEIGHT="49.95" WIDTH="115.14" VPOS="575.73" HPOS="123.61" CONTENT="solcher"/>
+            <a:SP WIDTH="121.92" VPOS="576.15" HPOS="123.61"/>
+            <a:String HEIGHT="49.95" WIDTH="257.38" VPOS="576.58" HPOS="245.53" CONTENT="Gemeinschafft"/>
+            <a:SP WIDTH="258.23" VPOS="576.58" HPOS="245.53"/>
+            <a:String HEIGHT="49.95" WIDTH="16.08" VPOS="576.58" HPOS="503.76" CONTENT="/"/>
+            <a:SP WIDTH="18.62" VPOS="576.58" HPOS="503.76"/>
+            <a:String HEIGHT="49.95" WIDTH="65.19" VPOS="576.58" HPOS="522.39" CONTENT="daß"/>
+            <a:SP WIDTH="72.81" VPOS="576.58" HPOS="522.39"/>
+            <a:String HEIGHT="49.95" WIDTH="38.1" VPOS="576.58" HPOS="595.2" CONTENT="sie"/>
+            <a:SP WIDTH="47.41" VPOS="576.58" HPOS="595.2"/>
+            <a:String HEIGHT="49.95" WIDTH="137.16" VPOS="576.58" HPOS="642.62" CONTENT="sichtbar"/>
+            <a:SP WIDTH="143.08" VPOS="576.58" HPOS="642.62"/>
+            <a:String HEIGHT="49.95" WIDTH="45.72" VPOS="576.58" HPOS="785.7" CONTENT="sey"/>
+            <a:SP WIDTH="47.41" VPOS="576.58" HPOS="785.7"/>
+            <a:String HEIGHT="49.95" WIDTH="16.93" VPOS="576.58" HPOS="833.12" CONTENT="/"/>
+            <a:SP WIDTH="18.62" VPOS="576.58" HPOS="833.12"/>
+            <a:String HEIGHT="49.95" WIDTH="40.64" VPOS="576.58" HPOS="851.74" CONTENT="ob"/>
+            <a:SP WIDTH="49.95" VPOS="576.58" HPOS="851.74"/>
+            <a:String HEIGHT="49.95" WIDTH="60.11" VPOS="576.58" HPOS="901.7" CONTENT="sich"/>
+          </a:TextLine>
+          <a:TextLine ID="ID_BIT_3366e018-3985-41b5-a508-d94549d5fbe9" HEIGHT="36.4" WIDTH="963.5" HPOS="0.0" VPOS="624.84">
+            <a:String HEIGHT="36.4" WIDTH="89.74" VPOS="624.84" HPOS="0.0" CONTENT="AHinn"/>
+            <a:SP WIDTH="99.9" VPOS="624.84" HPOS="0.0"/>
+            <a:String HEIGHT="35.56" WIDTH="185.42" VPOS="624.84" HPOS="99.9" CONTENT="nnaHnosan"/>
+            <a:SP WIDTH="193.88" VPOS="624.84" HPOS="99.9"/>
+            <a:String HEIGHT="35.56" WIDTH="19.47" VPOS="624.84" HPOS="293.79" CONTENT="n"/>
+            <a:SP WIDTH="22.86" VPOS="624.84" HPOS="293.79"/>
+            <a:String HEIGHT="35.56" WIDTH="13.54" VPOS="624.84" HPOS="316.65" CONTENT="-"/>
+            <a:SP WIDTH="16.93" VPOS="624.84" HPOS="316.65"/>
+            <a:String HEIGHT="35.56" WIDTH="16.08" VPOS="624.84" HPOS="333.58" CONTENT="r"/>
+            <a:SP WIDTH="24.55" VPOS="624.84" HPOS="333.58"/>
+            <a:String HEIGHT="35.56" WIDTH="42.33" VPOS="624.84" HPOS="358.14" CONTENT="cis"/>
+            <a:SP WIDTH="44.02" VPOS="624.84" HPOS="358.14"/>
+            <a:String HEIGHT="35.56" WIDTH="13.54" VPOS="624.84" HPOS="402.16" CONTENT="-"/>
+            <a:SP WIDTH="16.08" VPOS="624.84" HPOS="402.16"/>
+            <a:String HEIGHT="35.56" WIDTH="64.34" VPOS="624.84" HPOS="418.25" CONTENT="elin"/>
+            <a:SP WIDTH="74.5" VPOS="624.84" HPOS="418.25"/>
+            <a:String HEIGHT="35.56" WIDTH="7.62" VPOS="624.84" HPOS="492.76" CONTENT="i"/>
+            <a:SP WIDTH="11.0" VPOS="624.84" HPOS="492.76"/>
+            <a:String HEIGHT="35.56" WIDTH="10.16" VPOS="624.84" HPOS="503.76" CONTENT="."/>
+            <a:SP WIDTH="11.85" VPOS="624.84" HPOS="503.76"/>
+            <a:String HEIGHT="35.56" WIDTH="38.1" VPOS="624.84" HPOS="515.62" CONTENT="tit"/>
+            <a:SP WIDTH="51.64" VPOS="624.84" HPOS="515.62"/>
+            <a:String HEIGHT="35.56" WIDTH="193.88" VPOS="624.84" HPOS="567.26" CONTENT="ssrisHilirhon"/>
+            <a:SP WIDTH="210.82" VPOS="625.26" HPOS="567.26"/>
+            <a:String HEIGHT="35.56" WIDTH="121.92" VPOS="625.68" HPOS="778.08" CONTENT="Hsnnon"/>
+            <a:SP WIDTH="135.46" VPOS="625.26" HPOS="778.08"/>
+            <a:String HEIGHT="36.4" WIDTH="9.31" VPOS="624.84" HPOS="913.55" CONTENT="."/>
+            <a:SP WIDTH="11.0" VPOS="624.84" HPOS="913.55"/>
+            <a:String HEIGHT="36.4" WIDTH="38.94" VPOS="624.84" HPOS="924.56" CONTENT="tit"/>
+          </a:TextLine>
+        </a:TextBlock>
+      </a:PrintSpace>
+    </a:Page>
+  </a:Layout>
+</alto>

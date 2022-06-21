@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto-v2.0.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2014-05-21</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>ABBYY</softwareCreator>
+          <softwareName>ABBYY FineReader Engine</softwareName>
+          <softwareVersion>11</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+    <TextStyle ID="font0" FONTFAMILY="Arial" FONTSIZE="9"/>
+    <TextStyle ID="font1" FONTFAMILY="Arial" FONTSIZE="10"/>
+    <TextStyle ID="font2" FONTFAMILY="Arial" FONTSIZE="11"/>
+  </Styles>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="3357" WIDTH="2513">
+      <TopMargin HEIGHT="2648" WIDTH="2513" VPOS="0" HPOS="0">
+</TopMargin>
+      <LeftMargin HEIGHT="472" WIDTH="587" VPOS="2648" HPOS="0">
+</LeftMargin>
+      <RightMargin HEIGHT="472" WIDTH="940" VPOS="2648" HPOS="1573">
+</RightMargin>
+      <BottomMargin HEIGHT="237" WIDTH="2513" VPOS="3120" HPOS="0">
+</BottomMargin>
+      <PrintSpace HEIGHT="472" WIDTH="986" VPOS="2648" HPOS="587">
+        <TextBlock ID="Page1_Block1" HEIGHT="169" WIDTH="699" VPOS="2648" HPOS="588" language="de">
+          <Shape>
+            <Polygon POINTS="599,2656 1297,2656 1297,2822 599,2822 599,2656"/>
+          </Shape>
+          <TextLine HEIGHT="37" WIDTH="341" VPOS="2655" HPOS="790">
+            <String STYLE="bold" STYLEREFS="font2" WC="0.8937500119" CONTENT="Staatsbibliothek" HEIGHT="37" WIDTH="341" VPOS="2655" HPOS="790"/>
+          </TextLine>
+          <TextLine HEIGHT="36" WIDTH="183" VPOS="2708" HPOS="791">
+            <String STYLE="bold" STYLEREFS="font2" WC="0.8899999857" CONTENT="zu" HEIGHT="26" WIDTH="45" VPOS="2716" HPOS="791"/>
+            <SP WIDTH="15" VPOS="2710" HPOS="837"/>
+            <String STYLE="bold" STYLEREFS="font2" WC="0.9866666794" CONTENT="Berlin" HEIGHT="36" WIDTH="121" VPOS="2708" HPOS="853"/>
+          </TextLine>
+          <TextLine HEIGHT="58" WIDTH="638" VPOS="2753" HPOS="642">
+            <String STYLE="bold" STYLEREFS="font1" WC="1." CONTENT="WM" HEIGHT="55" WIDTH="100" VPOS="2753" HPOS="642"/>
+            <SP WIDTH="47" VPOS="2753" HPOS="743"/>
+            <String STYLE="bold" STYLEREFS="font1" WC="0.8927272558" CONTENT="Preußischer" HEIGHT="40" WIDTH="233" VPOS="2770" HPOS="791"/>
+            <SP WIDTH="16" VPOS="2773" HPOS="1025"/>
+            <String STYLE="bold" STYLEREFS="font1" WC="0.9058333039" CONTENT="Kulturbesitz" HEIGHT="35" WIDTH="238" VPOS="2771" HPOS="1042"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="Page1_Block2" HEIGHT="142" WIDTH="537" VPOS="2978" HPOS="1034" language="de" STYLEREFS="font0">
+          <Shape>
+            <Polygon POINTS="1046,2984 1583,2984 1583,3124 1046,3124 1046,2984"/>
+          </Shape>
+          <TextLine HEIGHT="66" WIDTH="525" VPOS="2984" HPOS="1040" STYLEREFS="font2">
+            <String STYLE="italics" WC="0.3578571379" CONTENT="PuiM.AUvl'l'S," HEIGHT="65" WIDTH="319" VPOS="2984" HPOS="1040"/>
+            <SP WIDTH="14" VPOS="3007" HPOS="1360"/>
+            <String STYLE="italics" STYLEREFS="font1" WC="0.3400000036" CONTENT="HHAZ," HEIGHT="38" WIDTH="117" VPOS="3007" HPOS="1375"/>
+            <SP WIDTH="21" VPOS="3011" HPOS="1493"/>
+            <String STYLE="italics" STYLEREFS="font1" WC="0.200000003" CONTENT="fo" HEIGHT="39" WIDTH="50" VPOS="3011" HPOS="1515"/>
+          </TextLine>
+          <TextLine HEIGHT="51" WIDTH="321" VPOS="3063" HPOS="1062">
+            <String STYLE="italics" WC="0.2633333206" CONTENT="(&lt;f" HEIGHT="40" WIDTH="43" VPOS="3063" HPOS="1062"/>
+            <SP WIDTH="5" VPOS="3071" HPOS="1106"/>
+            <String STYLE="italics" WC="0.4799999893" CONTENT="???(&gt;&amp;-" HEIGHT="38" WIDTH="151" VPOS="3071" HPOS="1112"/>
+            <SP WIDTH="22" VPOS="3076" HPOS="1264"/>
+            <String STYLE="italics" WC="0.3149999976" CONTENT="1VO)" HEIGHT="41" WIDTH="96" VPOS="3073" HPOS="1287"/>
+          </TextLine>
+        </TextBlock>
+        <GraphicalElement ID="Page1_Block3" HEIGHT="32" WIDTH="865" VPOS="2847" HPOS="587"/>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

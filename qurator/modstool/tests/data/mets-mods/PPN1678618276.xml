@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd http://www.loc.gov/mix/v10 http://www.loc.gov/standards/mix/mix10/mix10.xsd">
+  <mets:metsHdr CREATEDATE="2020-06-08T06:20:49">
+    <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+      <mets:name>Kitodo - kitodo-ugh-2.1.3-kitodo-ugh-2.1.1-11-g4b06eaa - 30−July−2019</mets:name>
+      <mets:note>Kitodo</mets:note>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="DMDLOG_0000">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:location>
+            <mods:physicalLocation authority="marcorg" valueURI="http://ld.zdb-services.de/resource/organisations/DE-1">Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Berlin, Germany</mods:physicalLocation>
+            <mods:shelfLocator>55 Nachl 100/B,25431</mods:shelfLocator>
+          </mods:location>
+          <mods:originInfo>
+            <mods:place>
+              <mods:placeTerm type="text">Wertheim</mods:placeTerm>
+            </mods:place>
+            <mods:dateCreated encoding="iso8601" keyDate="yes">1825</mods:dateCreated>
+            <mods:dateCreated encoding="iso8601">1825-07-30</mods:dateCreated>
+          </mods:originInfo>
+          <mods:originInfo eventType="digitization">
+            <mods:place>
+              <mods:placeTerm type="text">Berlin</mods:placeTerm>
+            </mods:place>
+            <mods:dateCaptured encoding="iso8601">2019</mods:dateCaptured>
+            <mods:publisher>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, Germany</mods:publisher>
+            <mods:edition>[Electronic ed.]</mods:edition>
+          </mods:originInfo>
+          <mods:classification authority="ZVDD">Musik</mods:classification>
+          <mods:classification authority="ZVDD">Nachlässe und Autographe</mods:classification>
+          <mods:classification authority="ZVDD">Schott-Archiv</mods:classification>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="gbv-ppn">PPN1678618276</mods:recordIdentifier>
+          </mods:recordInfo>
+          <mods:identifier type="purl">http://resolver.staatsbibliothek-berlin.de/SBB0002A14000000000</mods:identifier>
+          <mods:identifier type="KOPE">3489696</mods:identifier>
+          <mods:titleInfo>
+            <mods:title>Brief an B. Schott's Söhne : 30.07.1825</mods:title>
+          </mods:titleInfo>
+          <mods:note type="source characteristics">P_SBB_Sondermat_Nachlaesse</mods:note>
+          <mods:name type="personal">
+            <mods:namePart type="given">...</mods:namePart>
+            <mods:namePart type="family">Goebel</mods:namePart>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name authority="gnd" authorityURI="http://d-nb.de/gnd" type="corporate" valueURI="http://d-nb.info/gnd/4053219-7">
+            <mods:namePart>B. Schott's Söhne</mods:namePart>
+            <mods:nameIdentifier type="ppn">106168096</mods:nameIdentifier>
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">oth</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+            <mods:extent>1 Br., 1 S.</mods:extent>
+          </mods:physicalDescription>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title>Nachlässe und Autographe digital</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title>Schott-Archiv digital</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:accessCondition type="use and reproduction">CC BY-NC-SA 4.0 International</mods:accessCondition>
+          <mods:typeOfResource>text</mods:typeOfResource>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD">
+    <mets:rightsMD ID="RIGHTS">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights xmlns:dv="http://dfg-viewer.de/">
+            <dv:owner>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</dv:owner>
+            <dv:ownerLogo>http://resolver.staatsbibliothek-berlin.de/SBB0000000100000000</dv:ownerLogo>
+            <dv:ownerSiteURL>http://www.staatsbibliothek-berlin.de</dv:ownerSiteURL>
+            <dv:ownerContact>mailto:info@sbb.spk-berlin.de</dv:ownerContact>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="DIGIPROV">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links xmlns:dv="http://dfg-viewer.de/">
+            <dv:reference>http://www.stabikat.de/DB=1/PPN?PPN=1678618276 </dv:reference>
+            <dv:presentation>http://digital.staatsbibliothek-berlin.de/dms/werkansicht/?PPN=PPN1678618276</dv:presentation>
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="PRESENTATION">
+      <mets:file ID="FILE_0001_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1678618276/00000001.tif"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1678618276/00000002.tif"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_PRESENTATION" MIMETYPE="image/tiff">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:///goobi/tiff001/sbb/PPN1678618276/00000003.tif"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="THUMBS">
+      <mets:file ID="FILE_0001_THUMBS" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN1678618276/150/0/00000001.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_THUMBS" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN1678618276/150/0/00000002.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_THUMBS" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN1678618276/150/0/00000003.jpg"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="FILE_0001_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN1678618276/800/0/00000001.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0002_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN1678618276/800/0/00000002.jpg"/>
+      </mets:file>
+      <mets:file ID="FILE_0003_DEFAULT" MIMETYPE="image/jpg">
+        <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://content.staatsbibliothek-berlin.de/dms/PPN1678618276/800/0/00000003.jpg"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ADMID="AMD" CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0002A14000000000" DMDID="DMDLOG_0000" ID="LOG_0000" LABEL="Brief an B. Schott's Söhne : 30.07.1825" ORDERLABEL="Brief an B. Schott's Söhne : 30.07.1825" TYPE="manuscript">
+      <mets:div ID="LOG_0001" TYPE="colourchecker"/>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0002A14000000000" ID="PHYS_0000" TYPE="physSequence">
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0002A14000000001" ID="PHYS_0001" ORDER="1" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0001_PRESENTATION"/>
+        <mets:fptr FILEID="FILE_0001_THUMBS"/>
+        <mets:fptr FILEID="FILE_0001_DEFAULT"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0002A14000000002" ID="PHYS_0002" ORDER="2" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0002_PRESENTATION"/>
+        <mets:fptr FILEID="FILE_0002_THUMBS"/>
+        <mets:fptr FILEID="FILE_0002_DEFAULT"/>
+      </mets:div>
+      <mets:div CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0002A14000000003" ID="PHYS_0003" ORDER="3" ORDERLABEL=" - " TYPE="page">
+        <mets:fptr FILEID="FILE_0003_PRESENTATION"/>
+        <mets:fptr FILEID="FILE_0003_THUMBS"/>
+        <mets:fptr FILEID="FILE_0003_DEFAULT"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structLink>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0001" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0002" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0003" xlink:from="LOG_0000"/>
+    <mets:smLink xmlns:xlink="http://www.w3.org/1999/xlink" xlink:to="PHYS_0003" xlink:from="LOG_0001"/>
+  </mets:structLink>
+</mets:mets>
