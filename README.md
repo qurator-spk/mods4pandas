@@ -10,7 +10,7 @@ instead of ordered lists for topics, etc. Parts of the tool are specific to
 our environment/needs at the State Library Berlin and may need to be changed for
 your library.
 
-**alto4pandas** convets the metadata from ALTO files into a pandas DataFrame.
+**alto4pandas** converts the metadata from ALTO files into a pandas DataFrame.
 
 Column names are derived from the corresponding ALTO elements. Some columns
 contain descriptive statistics (e.g. counts or mean) of the corresponding ALTO
