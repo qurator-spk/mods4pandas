@@ -21,7 +21,7 @@ elements or attributes.
 modstool /path/to/a/directory/containing/mets_files
 ~~~
 
-~~
+~~~
 alto4pandas /path/to/a/directory/full/of/alto_files
 ~~~
 
