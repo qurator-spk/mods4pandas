@@ -2,7 +2,7 @@ Extract the MODS/ALTO metadata of a bunch of METS/ALTO files into pandas DataFra
 
 [![Build Status](https://circleci.com/gh/qurator-spk/modstool.svg?style=svg)](https://circleci.com/gh/qurator-spk/modstool)
 
-**modstool** converts the MODS metadata from METS files into a pandas DataFrame.
+**mods4pandas** converts the MODS metadata from METS files into a pandas DataFrame.
 
 Column names are derived from the corresponding MODS elements. Some domain
 knowledge is used to convert elements to a useful column, e.g. produce sets
@@ -18,7 +18,7 @@ elements or attributes.
 
 ## Usage
 ~~~
-modstool /path/to/a/directory/containing/mets_files
+mods4pandas /path/to/a/directory/containing/mets_files
 ~~~
 
 ~~~
@@ -32,7 +32,7 @@ In this example we convert the MODS metadata contained in the METS files in
 `pd.read_pickle()`.
 
 ~~~
-% modstool /srv/data/digisam_mets-sample-300
+% mods4pandas /srv/data/digisam_mets-sample-300
 INFO:root:Scanning directory /srv/data/digisam_mets-sample-300
 301it [00:00, 19579.19it/s]
 INFO:root:Processing METS files
