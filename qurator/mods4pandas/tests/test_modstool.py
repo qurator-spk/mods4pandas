@@ -3,8 +3,8 @@ from lxml import etree as ET
 import pytest
 
 
-from qurator.modstool.mods4pandas import mods_to_dict
-from qurator.modstool.lib import flatten
+from qurator.mods4pandas.mods4pandas import mods_to_dict
+from qurator.mods4pandas.lib import flatten
 
 
 def dict_fromstring(x):

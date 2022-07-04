@@ -1,8 +1,8 @@
 from lxml import etree as ET
 
 
-from qurator.modstool.alto4pandas import alto_to_dict
-from qurator.modstool.lib import flatten
+from qurator.mods4pandas.alto4pandas import alto_to_dict
+from qurator.mods4pandas.lib import flatten
 
 
 def dict_fromstring(x):
