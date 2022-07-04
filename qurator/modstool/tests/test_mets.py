@@ -1,7 +1,7 @@
 from lxml import etree as ET
 
 
-from qurator.modstool.modstool import mets_to_dict
+from qurator.modstool.mods4pandas import mets_to_dict
 from qurator.modstool.lib import flatten
 
 

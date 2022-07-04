@@ -3,7 +3,7 @@ from lxml import etree as ET
 import pytest
 
 
-from qurator.modstool.modstool import mods_to_dict
+from qurator.modstool.mods4pandas import mods_to_dict
 from qurator.modstool.lib import flatten
 
 

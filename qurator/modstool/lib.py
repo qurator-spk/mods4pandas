@@ -164,7 +164,7 @@ class TagGroup:
         return self
 
     def merge_sub_tags_to_set(self):
-        from .modstool import mods_to_dict
+        from .mods4pandas import mods_to_dict
         value = {}
 
         sub_dicts = [mods_to_dict(e) for e in self.group]
@@ -254,7 +254,7 @@ def sorted_groupby(iterable, key=None):
 
 
 def _to_dict(root, raise_errors):
-    from .modstool import mods_to_dict, mets_to_dict
+    from .mods4pandas import mods_to_dict, mets_to_dict
     from .alto4pandas import alto_to_dict
 
     root_name = ET.QName(root.tag)
