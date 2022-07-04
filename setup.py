@@ -7,7 +7,7 @@ with open('requirements-test.txt') as fp:
     tests_requires = fp.read()
 
 setup(
-    name='modstool',
+    name='mods4pandas',
     author='Mike Gerber, The QURATOR SPK Team',
     author_email='mike.gerber@sbb.spk-berlin.de, qurator@sbb.spk-berlin.de',
     description='Convert MODS metadata to a pandas DataFrame',
