@@ -103,7 +103,7 @@ def alto_to_dict(alto, raise_errors=True):
 
 
 def walk(m):
-    # XXX do this in modstool, too
+    # XXX do this in mods4pandas, too
     if os.path.isdir(m):
         tqdm.write(f'Scanning directory {m}')
         for f in tqdm(os.scandir(m), leave=False):

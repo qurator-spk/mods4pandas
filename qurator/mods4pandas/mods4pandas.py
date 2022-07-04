@@ -18,7 +18,7 @@ from .lib import sorted_groupby, TagGroup, ns, flatten
 
 
 
-logger = logging.getLogger('modstool')
+logger = logging.getLogger('mods4pandas')
 
 def mods_to_dict(mods, raise_errors=True):
     """Convert MODS metadata to a nested dictionary"""
@@ -255,7 +255,7 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
     INPUT is assumed to be a METS document with MODS metadata. INPUT may optionally be a directory. The tool then reads
     all files in the directory.
 
-    modstool writes two output files: A pickled pandas DataFrame and a CSV file with all conversion warnings.
+    mods4pandas writes two output files: A pickled pandas DataFrame and a CSV file with all conversion warnings.
     """
 
     # Extend file list if directories are given
