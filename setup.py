@@ -20,8 +20,8 @@ setup(
     install_requires=install_requires,
     entry_points={
       'console_scripts': [
-        'mods4pandas=qurator.modstool.mods4pandas:main',
-        'alto4pandas=qurator.modstool.alto4pandas:main',
+        'mods4pandas=qurator.mods4pandas.mods4pandas:main',
+        'alto4pandas=qurator.mods4pandas.alto4pandas:main',
       ]
     },
     python_requires='>=3.0.0',

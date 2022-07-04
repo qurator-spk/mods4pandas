@@ -44,17 +44,17 @@ In the next example we convert the metadata from the ALTO files in the test data
 directory:
 
 ~~~
-% alto4pandas qurator/modstool/tests/data/alto
-Scanning directory qurator/modstool/tests/data/alto
-Scanning directory qurator/modstool/tests/data/alto/PPN636777308
-Scanning directory qurator/modstool/tests/data/alto/734008031
-Scanning directory qurator/modstool/tests/data/alto/PPN895016346
-Scanning directory qurator/modstool/tests/data/alto/PPN640992293
-Scanning directory qurator/modstool/tests/data/alto/alto-ner
-Scanning directory qurator/modstool/tests/data/alto/PPN767883624
-Scanning directory qurator/modstool/tests/data/alto/PPN715049151
-Scanning directory qurator/modstool/tests/data/alto/749782137
-Scanning directory qurator/modstool/tests/data/alto/weird-ns
+% alto4pandas qurator/mods4pandas/tests/data/alto
+Scanning directory qurator/mods4pandas/tests/data/alto
+Scanning directory qurator/mods4pandas/tests/data/alto/PPN636777308
+Scanning directory qurator/mods4pandas/tests/data/alto/734008031
+Scanning directory qurator/mods4pandas/tests/data/alto/PPN895016346
+Scanning directory qurator/mods4pandas/tests/data/alto/PPN640992293
+Scanning directory qurator/mods4pandas/tests/data/alto/alto-ner
+Scanning directory qurator/mods4pandas/tests/data/alto/PPN767883624
+Scanning directory qurator/mods4pandas/tests/data/alto/PPN715049151
+Scanning directory qurator/mods4pandas/tests/data/alto/749782137
+Scanning directory qurator/mods4pandas/tests/data/alto/weird-ns
 INFO:alto4pandas:Processing ALTO files
 INFO:alto4pandas:Writing DataFrame to alto_info_df.pkl
 ~~~
