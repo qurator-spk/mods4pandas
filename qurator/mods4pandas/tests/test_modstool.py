@@ -1,4 +1,3 @@
-from tkinter import W
 from lxml import etree as ET
 import pytest
 
@@ -126,3 +125,16 @@ def test_originInfo_no_event_type():
 
     assert len(ws) == 1
     assert ws[0].message.args[0] == 'Filtered {http://www.loc.gov/mods/v3}originInfo element (has no eventType)'
+
+def test_relatedItem():
+    d = dict_fromstring("""
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:relatedItem type="original">
+            <mods:recordInfo>
+                <mods:recordIdentifier source="gbv-ppn">PPN167755803</mods:recordIdentifier>
+            </mods:recordInfo>
+        </mods:relatedItem>
+    </mods:mods>
+    """)
+
+    assert d['relatedItem-original_recordInfo_recordIdentifier'] == 'PPN167755803'

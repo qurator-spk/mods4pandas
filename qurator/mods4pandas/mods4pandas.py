@@ -152,7 +152,15 @@ def mods_to_dict(mods, raise_errors=True):
                 .has_attributes({'authority': 'iso15924', 'type': 'code'}) \
                 .text_set()
         elif tag == '{http://www.loc.gov/mods/v3}relatedItem':
-            pass
+            tag_group = TagGroup(tag, group)
+            for type_, grouped_group in sorted_groupby(tag_group.group, key=lambda g: g.attrib['type']):
+                sub_tag = 'relatedItem-{}'.format(type_)
+                grouped_group = list(grouped_group)
+                if type_ in ["original", "host"]:
+                    value[sub_tag] = TagGroup(sub_tag, grouped_group).is_singleton().descend(raise_errors)
+                else:
+                    # TODO type="series"
+                    pass
         elif tag == '{http://www.loc.gov/mods/v3}name':
             for n, e in enumerate(group):
                 value['name{}'.format(n)] = mods_to_dict(e, raise_errors)
