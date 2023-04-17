@@ -138,3 +138,16 @@ def test_relatedItem():
     """)
 
     assert d['relatedItem-original_recordInfo_recordIdentifier'] == 'PPN167755803'
+
+    # mods:relatedItem may also have source="dnb-ppn" recordIdentifiers:
+    d = dict_fromstring("""
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:relatedItem type="original">
+            <mods:recordInfo>
+                <mods:recordIdentifier source="dnb-ppn">1236513355</mods:recordIdentifier>
+            </mods:recordInfo>
+        </mods:relatedItem>
+    </mods:mods>
+    """)
+
+    assert d['relatedItem-original_recordInfo_recordIdentifier-dnb-ppn'] == '1236513355'

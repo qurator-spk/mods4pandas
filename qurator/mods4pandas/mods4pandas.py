@@ -95,7 +95,13 @@ def mods_to_dict(mods, raise_errors=True):
         elif tag == '{http://www.loc.gov/mods/v3}recordInfo':
             value['recordInfo'] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
         elif tag == '{http://www.loc.gov/mods/v3}recordIdentifier':
-            value['recordIdentifier'] = TagGroup(tag, group).is_singleton().has_attributes({'source': 'gbv-ppn'}).text()
+            # By default we assume source="gbv-ppn" mods:recordIdentifiers (= PPNs),
+            # however, in mods:relatedItems, there may be source="dnb-ppns",
+            # which we need to distinguish by using a separate field name.
+            try:
+                value['recordIdentifier'] = TagGroup(tag, group).is_singleton().has_attributes({'source': 'gbv-ppn'}).text()
+            except ValueError:
+                value['recordIdentifier-dnb-ppn'] = TagGroup(tag, group).is_singleton().has_attributes({'source': 'dnb-ppn'}).text()
         elif tag == '{http://www.loc.gov/mods/v3}identifier':
             for e in group:
                 if len(e.attrib) != 1:
