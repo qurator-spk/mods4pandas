@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd http://www.loc.gov/mix/v10 http://www.loc.gov/standards/mix/mix10/mix10.xsd">
   <mets:metsHdr CREATEDATE="2021-10-06T12:38:59">
     <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
@@ -122,7 +122,8 @@
           <dv:links xmlns:dv="http://dfg-viewer.de/">
             <dv:reference>http://www.stabikat.de/DB=1/PPN?PPN=1769395962 </dv:reference>
             <dv:presentation>http://digital.staatsbibliothek-berlin.de/dms/werkansicht/?PPN=PPN1769395962</dv:presentation>
-          <dv:iiif>https://content.staatsbibliothek-berlin.de/dc/PPN1769395962/manifest</dv:iiif></dv:links>
+            <dv:iiif>https://content.staatsbibliothek-berlin.de/dc/PPN1769395962/manifest</dv:iiif>
+          </dv:links>
         </mets:xmlData>
       </mets:mdWrap>
     </mets:digiprovMD>
