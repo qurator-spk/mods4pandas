@@ -252,8 +252,89 @@ def mets_to_dict(mets, raise_errors=True):
                 raise ValueError('Unknown tag "{}"'.format(tag))
             else:
                 pass
-
     return value
+
+def pages_to_dict(mets, raise_errors=True) -> list[dict]:
+    # TODO replace asserts by ValueError
+
+    result = []
+
+    # PPN
+    def get_mets_recordIdentifier(*, source="gbv-ppn"):
+        return (mets.xpath(f'//mets:dmdSec[1]//mods:mods/mods:recordInfo/mods:recordIdentifier[@source="{source}"]',
+                           namespaces=ns) or [None])[0].text
+    ppn = get_mets_recordIdentifier()
+
+    # Getting per-page/structure information is a bit different
+    structMap_PHYSICAL = (mets.xpath('//mets:structMap[@TYPE="PHYSICAL"]', namespaces=ns) or [None])[0]
+    if not structMap_PHYSICAL:
+        raise ValueError("No structMap[@TYPE='PHYSICAL'] found")
+
+    div_physSequence = structMap_PHYSICAL[0]
+    assert div_physSequence.attrib.get("TYPE") == "physSequence"
+
+    for page in div_physSequence:
+
+        # TODO sort by ORDER?
+        assert page.attrib.get("TYPE") == "page"
+        page_dict = {}
+        page_dict["ppn"] = ppn
+        page_dict["ID"] = page.attrib.get("ID")
+        for fptr in page:
+            assert fptr.tag == "{http://www.loc.gov/METS/}fptr"
+            file_id = fptr.attrib.get("FILEID")
+            assert file_id
+
+            def get_mets_file(*, ID):
+                if ID:
+                    file_ = (mets.xpath(f'//mets:file[@ID="{ID}"]', namespaces=ns) or [None])[0]
+                    return file_
+
+            file_ = get_mets_file(ID=file_id)
+            fileGrp_USE = file_.getparent().attrib.get("USE")
+            file_FLocat_href = (file_.xpath('mets:FLocat/@xlink:href', namespaces=ns) or [None])[0]
+            page_dict[f"fileGrp_{fileGrp_USE}_file_FLocat_href"] = file_FLocat_href
+
+        def get_struct_log(*, to_phys):
+            """
+            Get the logical structMap elements that link to the given physical page.
+
+            Keyword arguments:
+            to_phys -- ID of the page, as per structMap[@TYPE="PHYSICAL"]
+            """
+
+            # This is all XLink, there might be a more generic way to traverse the links. However, currently,
+            # it suffices to do this the old-fashioned way.
+
+            sm_links = mets.xpath(f'//mets:structLink/mets:smLink[@xlink:to="{to_phys}"]', namespaces=ns)
+
+            targets = []
+            for sm_link in sm_links:
+                xlink_from = sm_link.attrib.get(f"{{{ns['xlink']}}}from")
+                targets.extend(mets.xpath(f'//mets:div[@ID="{xlink_from}"]', namespaces=ns))
+            return targets
+
+        struct_divs = set(get_struct_log(to_phys=page_dict["ID"]))
+
+        # In our documents, there are already links to parent elements, but we want to make
+        # sure and add them.
+        def get_struct_log_parents(div):
+            cursor = div
+            while (cursor := cursor.getparent()).tag == f"{{{ns['mets']}}}div":
+                yield cursor
+
+        for struct_div in struct_divs:
+            struct_divs.update(get_struct_log_parents(struct_div))
+
+        for struct_div in struct_divs:
+            type_ = struct_div.attrib.get("TYPE")
+            assert type_
+            page_dict[f"structmap_LOGICAL_TYPE_{type_}"] = 1
+
+        from pprint import pprint; pprint(page_dict); print()
+        result.append(page_dict)
+
+    return result
 
 
 @click.command()
@@ -286,6 +367,7 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
     with open(output_file + '.warnings.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         mods_info = []
+        page_info = []
         logger.info('Processing METS files')
         for mets_file in tqdm(mets_files_real, leave=False):
             try:
@@ -298,6 +380,7 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
 
                     # MODS
                     d = flatten(mods_to_dict(mods, raise_errors=True))
+
                     # METS
                     d_mets = flatten(mets_to_dict(mets, raise_errors=True))
                     for k, v in d_mets.items():
@@ -305,7 +388,11 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
                     # "meta"
                     d['mets_file'] = mets_file
 
+                    # METS - per-page
+                    page_info_doc: list[dict] = pages_to_dict(mets, raise_errors=True)
+
                     mods_info.append(d)
+                    page_info.extend(page_info_doc)
 
                     if caught_warnings:
                         # PyCharm thinks caught_warnings is not Iterable:

@@ -13,7 +13,8 @@ __all__ = ["ns"]
 ns = {
     'mets': 'http://www.loc.gov/METS/',
     'mods': 'http://www.loc.gov/mods/v3',
-    "alto": "http://www.loc.gov/standards/alto/ns-v2"
+    "alto": "http://www.loc.gov/standards/alto/ns-v2",
+    "xlink": "http://www.w3.org/1999/xlink",
 }
 
 
@@ -25,8 +26,11 @@ class TagGroup:
         self.tag = tag
         self.group = group
 
-    def __str__(self):
+    def to_xml(self):
         return '\n'.join(str(ET.tostring(e), 'utf-8').strip() for e in self.group)
+
+    def __str__(self):
+        return f"TagGroup with content:\n{self.to_xml()}"
 
     def is_singleton(self):
         if len(self.group) != 1:
