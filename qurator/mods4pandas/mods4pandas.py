@@ -331,7 +331,6 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             assert type_
             page_dict[f"structMap-LOGICAL_TYPE_{type_}"] = 1
 
-        from pprint import pprint; pprint(page_dict); print()
         result.append(page_dict)
 
     return result
