@@ -1,8 +1,9 @@
 from itertools import groupby
 import re
 import warnings
-from typing import List, Sequence, MutableMapping
+from typing import List, Sequence, MutableMapping, Dict
 
+import pandas as pd
 import numpy as np
 from lxml import etree as ET
 
@@ -298,3 +299,26 @@ def flatten(d: MutableMapping, parent='', separator='_'):
 
     return dict(items)
 
+
+def dicts_to_df(data_list: List[Dict], *, index_column: str) -> pd.DataFrame:
+    """
+    Convert the given list of dicts to a Pandas DataFrame.
+
+    The keys of the dicts make the columns.
+    """
+
+    # Build columns from keys
+    columns = []
+    for m in data_list:
+        for c in m.keys():
+            if c not in columns:
+                columns.append(c)
+
+    # Build data table
+    data = [[m.get(c) for c in columns] for m in data_list]
+
+    # Build index
+    index = [m[index_column] for m in data_list]
+
+    df = pd.DataFrame(data=data, index=index, columns=columns)
+    return df

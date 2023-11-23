@@ -14,7 +14,7 @@ import click
 import pandas as pd
 from tqdm import tqdm
 
-from .lib import sorted_groupby, TagGroup, ns, flatten
+from .lib import sorted_groupby, TagGroup, ns, flatten, dicts_to_df
 
 
 
@@ -404,14 +404,7 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
                 #import traceback; traceback.print_exc()
 
     # Convert the mods_info List[Dict] to a pandas DataFrame
-    columns = []
-    for m in mods_info:
-        for c in m.keys():
-            if c not in columns:
-                columns.append(c)
-    data = [[m.get(c) for c in columns] for m in mods_info]
-    index = [m['recordInfo_recordIdentifier'] for m in mods_info]  # PPN
-    mods_info_df = pd.DataFrame(data=data, index=index, columns=columns)
+    mods_info_df = dicts_to_df(mods_info, index_column="recordInfo_recordIdentifier")
 
     # Pickle the DataFrame
     logger.info('Writing DataFrame to {}'.format(output_file))
