@@ -329,7 +329,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
         for struct_div in struct_divs:
             type_ = struct_div.attrib.get("TYPE")
             assert type_
-            page_dict[f"structmap_LOGICAL_TYPE_{type_}"] = 1
+            page_dict[f"structMap-LOGICAL_TYPE_{type_}"] = 1
 
         from pprint import pprint; pprint(page_dict); print()
         result.append(page_dict)
