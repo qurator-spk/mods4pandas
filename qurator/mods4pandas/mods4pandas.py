@@ -7,7 +7,7 @@ import warnings
 from lxml import etree as ET
 from itertools import groupby
 from operator import attrgetter
-from typing import List
+from typing import Dict, List
 from collections.abc import MutableMapping, Sequence
 
 import click
@@ -254,7 +254,7 @@ def mets_to_dict(mets, raise_errors=True):
                 pass
     return value
 
-def pages_to_dict(mets, raise_errors=True) -> list[dict]:
+def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     # TODO replace asserts by ValueError
 
     result = []
