@@ -415,6 +415,13 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
         logger.info('Writing Excel .xlsx to {}'.format(output_xlsx))
         mods_info_df.to_excel(output_xlsx)
 
+    # Convert page_info
+    # XXX hardcoded filenames + other formats
+    page_info_df = dicts_to_df(page_info, index_column=("ppn", "ID"))
+    # Pickle the DataFrame
+    logger.info('Writing DataFrame to {}'.format("page_info_df.pkl"))
+    page_info_df.to_pickle("page_info_df.pkl")
+
 
 def main():
     logging.basicConfig(level=logging.INFO)

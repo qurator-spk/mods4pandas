@@ -300,7 +300,7 @@ def flatten(d: MutableMapping, parent='', separator='_'):
     return dict(items)
 
 
-def dicts_to_df(data_list: List[Dict], *, index_column: str) -> pd.DataFrame:
+def dicts_to_df(data_list: List[Dict], *, index_column) -> pd.DataFrame:
     """
     Convert the given list of dicts to a Pandas DataFrame.
 
@@ -318,7 +318,13 @@ def dicts_to_df(data_list: List[Dict], *, index_column: str) -> pd.DataFrame:
     data = [[m.get(c) for c in columns] for m in data_list]
 
     # Build index
-    index = [m[index_column] for m in data_list]
+    if isinstance(index_column, str):
+        index = [m[index_column] for m in data_list]
+    elif isinstance(index_column, tuple):
+        index = [[m[c] for m in data_list] for c in index_column]
+        index = pd.MultiIndex.from_arrays(index, names=index_column)
+    else:
+        raise ValueError(f"index_column must")
 
     df = pd.DataFrame(data=data, index=index, columns=columns)
     return df
