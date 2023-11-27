@@ -328,6 +328,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             struct_divs_to_add.update(get_struct_log_parents(struct_div))
         struct_divs.update(struct_divs_to_add)
 
+        # Populate structure type indicator variables
         for struct_div in struct_divs:
             type_ = struct_div.attrib.get("TYPE")
             assert type_
