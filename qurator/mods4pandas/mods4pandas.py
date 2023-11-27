@@ -323,8 +323,10 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             while (cursor := cursor.getparent()).tag == f"{{{ns['mets']}}}div":
                 yield cursor
 
+        struct_divs_to_add = set()
         for struct_div in struct_divs:
-            struct_divs.update(get_struct_log_parents(struct_div))
+            struct_divs_to_add.update(get_struct_log_parents(struct_div))
+        struct_divs.update(struct_divs_to_add)
 
         for struct_div in struct_divs:
             type_ = struct_div.attrib.get("TYPE")
