@@ -268,17 +268,20 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     # Getting per-page/structure information is a bit different
     structMap_PHYSICAL = mets.find('./mets:structMap[@TYPE="PHYSICAL"]', ns)
     structMap_LOGICAL = mets.find('./mets:structMap[@TYPE="LOGICAL"]', ns)
+    fileSec = mets.find('./mets:fileSec', ns)
     if structMap_PHYSICAL is None:
         raise ValueError("No structMap[@TYPE='PHYSICAL'] found")
     if structMap_LOGICAL is None:
         raise ValueError("No structMap[@TYPE='LOGICAL'] found")
+    if fileSec is None:
+        raise ValueError("No fileSec found")
 
     div_physSequence = structMap_PHYSICAL[0]
     assert div_physSequence.attrib.get("TYPE") == "physSequence"
 
     def get_mets_file(*, ID):
         if ID:
-            file_ = mets.find(f'.//{{{ns["mets"]}}}file[@ID="{ID}"]')
+            file_ = fileSec.find(f'./mets:fileGrp/mets:file[@ID="{ID}"]', ns)
             return file_
 
     def get_mets_div(*, ID):
