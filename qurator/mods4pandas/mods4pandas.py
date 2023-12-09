@@ -279,10 +279,18 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     div_physSequence = structMap_PHYSICAL[0]
     assert div_physSequence.attrib.get("TYPE") == "physSequence"
 
+
+    # Build a look-up table to get mets:file by @ID
+    # This cuts retrieving the mets:file down to half the time.
+    mets_file_by_ID = {}
+    def _init_mets_file_by_ID():
+        for f in fileSec.iterfind('./mets:fileGrp/mets:file', ns):
+            mets_file_by_ID[f.attrib.get("ID")] = f
+    _init_mets_file_by_ID()
+
     def get_mets_file(*, ID):
         if ID:
-            file_ = fileSec.find(f'./mets:fileGrp/mets:file[@ID="{ID}"]', ns)
-            return file_
+            return mets_file_by_ID[ID]
 
     def get_mets_div(*, ID):
         if ID:
