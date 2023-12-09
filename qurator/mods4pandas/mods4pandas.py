@@ -308,12 +308,14 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             # This is all XLink, there might be a more generic way to traverse the links. However, currently,
             # it suffices to do this the old-fashioned way.
 
-            sm_links = mets.xpath(f'//mets:structLink/mets:smLink[@xlink:to="{to_phys}"]', namespaces=ns)
+            sm_links = mets.findall(
+                    f'//mets:structLink/mets:smLink[@xlink:to="{to_phys}"]', ns
+            )
 
             targets = []
             for sm_link in sm_links:
                 xlink_from = sm_link.attrib.get(f"{{{ns['xlink']}}}from")
-                targets.extend(mets.xpath(f'//mets:div[@ID="{xlink_from}"]', namespaces=ns))
+                targets.extend(mets.findall(f'//mets:div[@ID="{xlink_from}"]', ns))
             return targets
 
         struct_divs = set(get_struct_log(to_phys=page_dict["ID"]))
