@@ -1,3 +1,4 @@
+import sys
 from pathlib import Path
 
 from lxml import etree as ET
@@ -6,6 +7,13 @@ from qurator.mods4pandas.mods4pandas import pages_to_dict
 
 
 TESTS_DATA_DIR = Path(__file__).parent / "data"
+
+
+def removeprefix(s, prefix):
+    if sys.version_info < (3,9):
+        return s[len(prefix):] if s.startswith(prefix) else s
+    else:
+        return s.removeprefix(prefix)
 
 
 def test_page_info():
@@ -25,5 +33,5 @@ def test_page_info():
 
     # This is a title page with an illustration, check that we correctly got this info from the
     # structMap.
-    struct_types = sorted(k.removeprefix("structMap-LOGICAL_TYPE_") for k, v in page_info_page.items() if k.startswith("structMap-LOGICAL_TYPE_") and v == 1)
+    struct_types = sorted(removeprefix(k, "structMap-LOGICAL_TYPE_") for k, v in page_info_page.items() if k.startswith("structMap-LOGICAL_TYPE_") and v == 1)
     assert struct_types == ["illustration", "monograph", "title_page"]
