@@ -273,6 +273,12 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     div_physSequence = structMap_PHYSICAL[0]
     assert div_physSequence.attrib.get("TYPE") == "physSequence"
 
+    def get_mets_file(*, ID):
+        if ID:
+            file_ = mets.find(f'.//{{{ns["mets"]}}}file[@ID="{ID}"]')
+            return file_
+
+
     for page in div_physSequence:
 
         # TODO sort by ORDER?
@@ -285,12 +291,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             file_id = fptr.attrib.get("FILEID")
             assert file_id
 
-            def get_mets_file(*, ID):
-                if ID:
-                    file_ = (mets.xpath(f'//mets:file[@ID="{ID}"]', namespaces=ns) or [None])[0]
-                    return file_
-
             file_ = get_mets_file(ID=file_id)
+            assert file_ is not None
             fileGrp_USE = file_.getparent().attrib.get("USE")
             file_FLocat_href = (file_.xpath('mets:FLocat/@xlink:href', namespaces=ns) or [None])[0]
             page_dict[f"fileGrp_{fileGrp_USE}_file_FLocat_href"] = file_FLocat_href
