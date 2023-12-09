@@ -266,9 +266,12 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     ppn = get_mets_recordIdentifier()
 
     # Getting per-page/structure information is a bit different
-    structMap_PHYSICAL = (mets.xpath('//mets:structMap[@TYPE="PHYSICAL"]', namespaces=ns) or [None])[0]
-    if not structMap_PHYSICAL:
+    structMap_PHYSICAL = mets.find('./mets:structMap[@TYPE="PHYSICAL"]', ns)
+    structMap_LOGICAL = mets.find('./mets:structMap[@TYPE="LOGICAL"]', ns)
+    if structMap_PHYSICAL is None:
         raise ValueError("No structMap[@TYPE='PHYSICAL'] found")
+    if structMap_LOGICAL is None:
+        raise ValueError("No structMap[@TYPE='LOGICAL'] found")
 
     div_physSequence = structMap_PHYSICAL[0]
     assert div_physSequence.attrib.get("TYPE") == "physSequence"
@@ -278,6 +281,9 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             file_ = mets.find(f'.//{{{ns["mets"]}}}file[@ID="{ID}"]')
             return file_
 
+    def get_mets_div(*, ID):
+        if ID:
+            return structMap_LOGICAL.findall(f'.//mets:div[@ID="{ID}"]', ns)
 
     for page in div_physSequence:
 
@@ -315,7 +321,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             targets = []
             for sm_link in sm_links:
                 xlink_from = sm_link.attrib.get(f"{{{ns['xlink']}}}from")
-                targets.extend(mets.findall(f'//mets:div[@ID="{xlink_from}"]', ns))
+                targets.extend(get_mets_div(ID=xlink_from))
             return targets
 
         struct_divs = set(get_struct_log(to_phys=page_dict["ID"]))
