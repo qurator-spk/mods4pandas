@@ -326,7 +326,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             # it suffices to do this the old-fashioned way.
 
             sm_links = mets.findall(
-                    f'//mets:structLink/mets:smLink[@xlink:to="{to_phys}"]', ns
+                    f'./mets:structLink/mets:smLink[@xlink:to="{to_phys}"]', ns
             )
 
             targets = []
