@@ -273,7 +273,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
         # This is expected in a multivolume work or periodical!
         if any(
                 structMap_LOGICAL.find(f'./mets:div[@TYPE="{t}"]', ns) is not None
-                for t in ["multivolume_work", "periodical"]
+                for t in ["multivolume_work", "MultivolumeWork", "periodical"]
         ):
             return []
         else:
