@@ -270,8 +270,11 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     structMap_LOGICAL = mets.find('./mets:structMap[@TYPE="LOGICAL"]', ns)
     fileSec = mets.find('./mets:fileSec', ns)
     if structMap_PHYSICAL is None:
-        # This is expected in a multivolume work!
-        if structMap_LOGICAL.find('./mets:div[@TYPE="multivolume_work"]', ns) is not None:
+        # This is expected in a multivolume work or periodical!
+        if any(
+                structMap_LOGICAL.find(f'./mets:div[@TYPE="{t}"]', ns) is not None
+                for t in ["multivolume_work", "periodical"]
+        ):
             return []
         else:
             raise ValueError("No structMap[@TYPE='PHYSICAL'] found (but not a multivolume work)")
