@@ -35,3 +35,11 @@ def test_page_info():
     # structMap.
     struct_types = sorted(removeprefix(k, "structMap-LOGICAL_TYPE_") for k, v in page_info_page.items() if k.startswith("structMap-LOGICAL_TYPE_") and v == 1)
     assert struct_types == ["illustration", "monograph", "title_page"]
+
+
+def test_page_info_multivolume_work():
+    """Test creation of page_info for multivolume_work"""
+    mets = ET.parse(TESTS_DATA_DIR / "mets-mods" / "PPN717884805-multivolume_work-no-structMap-PHYSICAL.xml")
+    page_info = pages_to_dict(mets)
+    assert page_info == []
+
