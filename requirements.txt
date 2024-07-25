@@ -1,5 +1,6 @@
 click
 pandas ~= 1.1.5
+numpy < 2
 tqdm
 lxml
 openpyxl
