@@ -29,8 +29,8 @@ classifiers = [
 ]
 
 [project.scripts]
-mods4pandas="qurator.mods4pandas.mods4pandas:main"
-alto4pandas="qurator.mods4pandas.alto4pandas:main"
+mods4pandas="mods4pandas.mods4pandas:main"
+alto4pandas="mods4pandas.alto4pandas:main"
 
 
 [project.urls]
@@ -43,5 +43,4 @@ dependencies = {file = ["requirements.txt"]}
 optional-dependencies.dev = {file = ["requirements-dev.txt"]}
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["qurator"]
+where = ["src"]
