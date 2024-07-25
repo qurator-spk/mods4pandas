@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+
+[project]
+name = "mods4pandas"
+version = "0.0.0"
+authors = [
+    {name = "Mike Gerber", email = "mike.gerber@sbb.spk-berlin.de"},
+    {name = "The QURATOR SPK Team", email = "qurator@sbb.spk-berlin.de"},
+]
+description = "Convert MODS metadata to a pandas DataFrame"
+readme = "README.md"
+license.file = "LICENSE"
+requires-python = ">=3.8"
+keywords = ["qurator", "mets", "mods", "metadata", "library"]
+
+dynamic = ["dependencies", "optional-dependencies"]
+
+# https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.scripts]
+mods4pandas="qurator.mods4pandas.mods4pandas:main"
+alto4pandas="qurator.mods4pandas.alto4pandas:main"
+
+
+[project.urls]
+Homepage = "https://github.com/qurator-spk/mods4pandas"
+Repository = "https://github.com/qurator-spk/mods4pandas.git"
+
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+optional-dependencies.dev = {file = ["requirements-dev.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qurator"]
