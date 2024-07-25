@@ -266,12 +266,42 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     ppn = get_mets_recordIdentifier()
 
     # Getting per-page/structure information is a bit different
-    structMap_PHYSICAL = (mets.xpath('//mets:structMap[@TYPE="PHYSICAL"]', namespaces=ns) or [None])[0]
-    if not structMap_PHYSICAL:
-        raise ValueError("No structMap[@TYPE='PHYSICAL'] found")
+    structMap_PHYSICAL = mets.find('./mets:structMap[@TYPE="PHYSICAL"]', ns)
+    structMap_LOGICAL = mets.find('./mets:structMap[@TYPE="LOGICAL"]', ns)
+    fileSec = mets.find('./mets:fileSec', ns)
+    if structMap_PHYSICAL is None:
+        # This is expected in a multivolume work or periodical!
+        if any(
+                structMap_LOGICAL.find(f'./mets:div[@TYPE="{t}"]', ns) is not None
+                for t in ["multivolume_work", "MultivolumeWork", "periodical"]
+        ):
+            return []
+        else:
+            raise ValueError("No structMap[@TYPE='PHYSICAL'] found (but not a multivolume work)")
+    if structMap_LOGICAL is None:
+        raise ValueError("No structMap[@TYPE='LOGICAL'] found")
+    if fileSec is None:
+        raise ValueError("No fileSec found")
 
     div_physSequence = structMap_PHYSICAL[0]
     assert div_physSequence.attrib.get("TYPE") == "physSequence"
+
+
+    # Build a look-up table to get mets:file by @ID
+    # This cuts retrieving the mets:file down to half the time.
+    mets_file_by_ID = {}
+    def _init_mets_file_by_ID():
+        for f in fileSec.iterfind('./mets:fileGrp/mets:file', ns):
+            mets_file_by_ID[f.attrib.get("ID")] = f
+    _init_mets_file_by_ID()
+
+    def get_mets_file(*, ID):
+        if ID:
+            return mets_file_by_ID[ID]
+
+    def get_mets_div(*, ID):
+        if ID:
+            return structMap_LOGICAL.findall(f'.//mets:div[@ID="{ID}"]', ns)
 
     for page in div_physSequence:
 
@@ -285,12 +315,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             file_id = fptr.attrib.get("FILEID")
             assert file_id
 
-            def get_mets_file(*, ID):
-                if ID:
-                    file_ = (mets.xpath(f'//mets:file[@ID="{ID}"]', namespaces=ns) or [None])[0]
-                    return file_
-
             file_ = get_mets_file(ID=file_id)
+            assert file_ is not None
             fileGrp_USE = file_.getparent().attrib.get("USE")
             file_FLocat_href = (file_.xpath('mets:FLocat/@xlink:href', namespaces=ns) or [None])[0]
             page_dict[f"fileGrp_{fileGrp_USE}_file_FLocat_href"] = file_FLocat_href
@@ -306,12 +332,14 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             # This is all XLink, there might be a more generic way to traverse the links. However, currently,
             # it suffices to do this the old-fashioned way.
 
-            sm_links = mets.xpath(f'//mets:structLink/mets:smLink[@xlink:to="{to_phys}"]', namespaces=ns)
+            sm_links = mets.findall(
+                    f'./mets:structLink/mets:smLink[@xlink:to="{to_phys}"]', ns
+            )
 
             targets = []
             for sm_link in sm_links:
                 xlink_from = sm_link.attrib.get(f"{{{ns['xlink']}}}from")
-                targets.extend(mets.xpath(f'//mets:div[@ID="{xlink_from}"]', namespaces=ns))
+                targets.extend(get_mets_div(ID=xlink_from))
             return targets
 
         struct_divs = set(get_struct_log(to_phys=page_dict["ID"]))
