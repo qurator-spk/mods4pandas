@@ -1,6 +1,7 @@
 click
-pandas ~= 1.1.5
-numpy < 2
+pandas
+numpy
 tqdm
 lxml
 openpyxl
+pyarrow

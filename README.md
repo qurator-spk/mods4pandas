@@ -28,8 +28,8 @@ alto4pandas /path/to/a/directory/full/of/alto_files
 ## Example
 In this example we convert the MODS metadata contained in the METS files in
 `/srv/data/digisam_mets-sample-300` to a pandas DataFrame under
-`mods_info_df.pkl`. This file can then be read by your data scientist using
-`pd.read_pickle()`.
+`mods_info_df.parquet`. This file can then be read by your data scientist using
+`pd.read_parquet()`.
 
 ~~~
 % mods4pandas /srv/data/digisam_mets-sample-300

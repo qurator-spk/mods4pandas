@@ -369,8 +369,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
 
 @click.command()
 @click.argument('mets_files', type=click.Path(exists=True), required=True, nargs=-1)
-@click.option('--output', '-o', 'output_file', type=click.Path(), help='Output pickle file',
-              default='mods_info_df.pkl', show_default=True)
+@click.option('--output', '-o', 'output_file', type=click.Path(), help='Output file',
+              default='mods_info_df.parquet', show_default=True)
 @click.option('--output-csv', type=click.Path(), help='Output CSV file')
 @click.option('--output-xlsx', type=click.Path(), help='Output Excel .xlsx file')
 def process(mets_files: List[str], output_file: str, output_csv: str, output_xlsx: str):
@@ -436,9 +436,9 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
     # Convert the mods_info List[Dict] to a pandas DataFrame
     mods_info_df = dicts_to_df(mods_info, index_column="recordInfo_recordIdentifier")
 
-    # Pickle the DataFrame
+    # Save the DataFrame
     logger.info('Writing DataFrame to {}'.format(output_file))
-    mods_info_df.to_pickle(output_file)
+    mods_info_df.to_parquet(output_file)
     if output_csv:
         logger.info('Writing CSV to {}'.format(output_csv))
         mods_info_df.to_csv(output_csv)
@@ -449,9 +449,9 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
     # Convert page_info
     # XXX hardcoded filenames + other formats
     page_info_df = dicts_to_df(page_info, index_column=("ppn", "ID"))
-    # Pickle the DataFrame
-    logger.info('Writing DataFrame to {}'.format("page_info_df.pkl"))
-    page_info_df.to_pickle("page_info_df.pkl")
+    # Save the DataFrame
+    logger.info('Writing DataFrame to {}'.format("page_info_df.parquet"))
+    page_info_df.to_parquet("page_info_df.parquet")
 
 
 def main():
