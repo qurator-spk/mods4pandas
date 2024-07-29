@@ -373,7 +373,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
               default='mods_info_df.parquet', show_default=True)
 @click.option('--output-csv', type=click.Path(), help='Output CSV file')
 @click.option('--output-xlsx', type=click.Path(), help='Output Excel .xlsx file')
-def process(mets_files: List[str], output_file: str, output_csv: str, output_xlsx: str):
+@click.option('--page-info', is_flag=True, show_default=True, default=False, help='Save page info')
+def process(mets_files: List[str], output_file: str, output_csv: str, output_xlsx: str, page_info: bool):
     """
     A tool to convert the MODS metadata in INPUT to a pandas DataFrame.
 
@@ -419,10 +420,12 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
                     d['mets_file'] = mets_file
 
                     # METS - per-page
-                    page_info_doc: list[dict] = pages_to_dict(mets, raise_errors=True)
+                    if page_info:
+                        page_info_doc: list[dict] = pages_to_dict(mets, raise_errors=True)
 
                     mods_info.append(d)
-                    page_info.extend(page_info_doc)
+                    if page_info:
+                        page_info.extend(page_info_doc)
 
                     if caught_warnings:
                         # PyCharm thinks caught_warnings is not Iterable:
@@ -448,10 +451,11 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
 
     # Convert page_info
     # XXX hardcoded filenames + other formats
-    page_info_df = dicts_to_df(page_info, index_column=("ppn", "ID"))
-    # Save the DataFrame
-    logger.info('Writing DataFrame to {}'.format("page_info_df.parquet"))
-    page_info_df.to_parquet("page_info_df.parquet")
+    if page_info:
+        page_info_df = dicts_to_df(page_info, index_column=("ppn", "ID"))
+        # Save the DataFrame
+        logger.info('Writing DataFrame to {}'.format("page_info_df.parquet"))
+        page_info_df.to_parquet("page_info_df.parquet")
 
 
 def main():
