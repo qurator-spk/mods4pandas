@@ -373,8 +373,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
               default='mods_info_df.parquet', show_default=True)
 @click.option('--output-csv', type=click.Path(), help='Output CSV file')
 @click.option('--output-xlsx', type=click.Path(), help='Output Excel .xlsx file')
-@click.option('--page-info', is_flag=True, show_default=True, default=False, help='Save page info')
-def process(mets_files: List[str], output_file: str, output_csv: str, output_xlsx: str, page_info: bool):
+@click.option('--output-page-info', type=click.Path(), help='Save page info')
+def process(mets_files: List[str], output_file: str, output_csv: str, output_xlsx: str, output_page_info: str):
     """
     A tool to convert the MODS metadata in INPUT to a pandas DataFrame.
 
@@ -420,11 +420,11 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
                     d['mets_file'] = mets_file
 
                     # METS - per-page
-                    if page_info:
+                    if output_page_info:
                         page_info_doc: list[dict] = pages_to_dict(mets, raise_errors=True)
 
                     mods_info.append(d)
-                    if page_info:
+                    if output_page_info:
                         page_info.extend(page_info_doc)
 
                     if caught_warnings:
@@ -450,12 +450,11 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
         mods_info_df.to_excel(output_xlsx)
 
     # Convert page_info
-    # XXX hardcoded filenames + other formats
-    if page_info:
+    if output_page_info:
         page_info_df = dicts_to_df(page_info, index_column=("ppn", "ID"))
         # Save the DataFrame
-        logger.info('Writing DataFrame to {}'.format("page_info_df.parquet"))
-        page_info_df.to_parquet("page_info_df.parquet")
+        logger.info('Writing DataFrame to {}'.format(output_page_info))
+        page_info_df.to_parquet(output_page_info)
 
 
 def main():
