@@ -369,19 +369,19 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
 
 @click.command()
 @click.argument('mets_files', type=click.Path(exists=True), required=True, nargs=-1)
-@click.option('--output', '-o', 'output_file', type=click.Path(), help='Output file',
+@click.option('--output', '-o', 'output_file', type=click.Path(), help='Output Parquet file',
               default='mods_info_df.parquet', show_default=True)
-@click.option('--output-csv', type=click.Path(), help='Output CSV file')
-@click.option('--output-xlsx', type=click.Path(), help='Output Excel .xlsx file')
-@click.option('--output-page-info', type=click.Path(), help='Save page info')
-def process(mets_files: List[str], output_file: str, output_csv: str, output_xlsx: str, output_page_info: str):
+@click.option('--output-page-info', type=click.Path(), help='Output page info Parquet file')
+def process(mets_files: List[str], output_file: str, output_page_info: str):
     """
     A tool to convert the MODS metadata in INPUT to a pandas DataFrame.
 
     INPUT is assumed to be a METS document with MODS metadata. INPUT may optionally be a directory. The tool then reads
     all files in the directory.
 
-    mods4pandas writes two output files: A pickled pandas DataFrame and a CSV file with all conversion warnings.
+    mods4pandas writes two output files: A pandas DataFrame (as Parquet) and a CSV file with all conversion warnings.
+
+    Per-page information (e.g. structure information) can be output to a separate Parquet file.
     """
 
     # Extend file list if directories are given
@@ -442,12 +442,6 @@ def process(mets_files: List[str], output_file: str, output_csv: str, output_xls
     # Save the DataFrame
     logger.info('Writing DataFrame to {}'.format(output_file))
     mods_info_df.to_parquet(output_file)
-    if output_csv:
-        logger.info('Writing CSV to {}'.format(output_csv))
-        mods_info_df.to_csv(output_csv)
-    if output_xlsx:
-        logger.info('Writing Excel .xlsx to {}'.format(output_xlsx))
-        mods_info_df.to_excel(output_xlsx)
 
     # Convert page_info
     if output_page_info:

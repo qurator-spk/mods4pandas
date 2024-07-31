@@ -3,5 +3,5 @@ pandas
 numpy
 tqdm
 lxml
-openpyxl
 pyarrow
+XslxWriter

@@ -28,6 +28,18 @@ mods4pandas /path/to/a/directory/containing/mets_files
 alto4pandas /path/to/a/directory/full/of/alto_files
 ~~~
 
+### Conversion to other formats
+
+CSV:
+```
+python -c 'import pandas as pd; pd.read_parquet("mods_info_df.parquet").to_csv("mods_info_df.csv")'
+```
+Excel (requires `XlsxWriter`):
+```
+python -c 'import pandas as pd; pd.read_parquet("mods_info_df.parquet").to_excel("mods_info_df.xlsx"
+, engine="xlsxwriter")'
+```
+
 ## Example
 In this example we convert the MODS metadata contained in the METS files in
 `/srv/data/digisam_mets-sample-300` to a pandas DataFrame under
