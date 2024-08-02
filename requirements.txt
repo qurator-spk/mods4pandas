@@ -4,4 +4,4 @@ numpy
 tqdm
 lxml
 pyarrow
-XslxWriter
+XlsxWriter
