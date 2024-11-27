@@ -362,7 +362,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
 
         # Populate structure type indicator variables
         for struct_div in struct_divs:
-            type_ = struct_div.attrib.get("TYPE")
+            type_ = struct_div.attrib.get("TYPE").lower()
             assert type_
             page_dict[f"structMap-LOGICAL_TYPE_{type_}"] = 1
 
