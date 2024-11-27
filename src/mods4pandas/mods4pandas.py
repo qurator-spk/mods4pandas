@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import contextlib
 import csv
 import logging
 import os
@@ -401,10 +402,14 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
 
     # Process METS files
     output_file_sqlite3 = output_file + ".sqlite3"
+    with contextlib.suppress(FileNotFoundError):
+        os.remove(output_file_sqlite3)
     con = sqlite3.connect(output_file_sqlite3)
 
     if output_page_info:
         output_page_info_sqlite3 = output_page_info + ".sqlite3"
+        with contextlib.suppress(FileNotFoundError):
+            os.remove(output_page_info_sqlite3)
         con_page_info = sqlite3.connect(output_page_info_sqlite3)
 
     with open(output_file + '.warnings.csv', 'w') as csvfile:
