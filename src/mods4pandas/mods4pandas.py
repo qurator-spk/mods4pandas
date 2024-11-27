@@ -417,7 +417,7 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
         mods_info = []
         page_info = []
         logger.info('Processing METS files')
-        for mets_file in tqdm(mets_files_real, leave=False):
+        for mets_file in tqdm(mets_files_real, leave=True):
             try:
                 root = ET.parse(mets_file).getroot()
                 mets = root # XXX .find('mets:mets', ns) does not work here
