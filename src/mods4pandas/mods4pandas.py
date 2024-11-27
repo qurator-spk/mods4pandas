@@ -436,13 +436,13 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
                     # "meta"
                     d['mets_file'] = mets_file
 
+                    # Save
+                    insert_into_db(con, "mods_info", d)
+                    con.commit()
+
                     # METS - per-page
                     if output_page_info:
                         page_info_doc: list[dict] = pages_to_dict(mets, raise_errors=True)
-
-                    insert_into_db(con, "mods_info", d)
-                    con.commit()
-                    if output_page_info:
                         insert_into_db_multiple(con_page_info, "page_info", page_info_doc)
                         con_page_info.commit()
 
