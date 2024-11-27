@@ -2,6 +2,7 @@ from itertools import groupby
 import re
 import warnings
 from typing import List, Sequence, MutableMapping, Dict
+from collections import defaultdict
 
 import pandas as pd
 import numpy as np
@@ -328,3 +329,45 @@ def dicts_to_df(data_list: List[Dict], *, index_column) -> pd.DataFrame:
 
     df = pd.DataFrame(data=data, index=index, columns=columns)
     return df
+
+
+def valid_column_key(k):
+    if re.match("^[a-zA-Z0-9 _-]+$", k):
+        return True
+    else:
+        return False
+
+current_columns = defaultdict(list)
+
+def insert_into_db(con, table, d: Dict):
+    """Insert the values from the dict into the table, creating columns if necessary"""
+
+    # Create table if necessary
+    if not current_columns[table]:
+        for k in d.keys():
+            assert valid_column_key(k), f"\"{k}\" is not a valid column name"
+            current_columns[table].append(k)
+        con.execute(f"CREATE TABLE {table} ({",".join(f"\"{c}\"" for c in current_columns[table])})")
+
+    # Add columns if necessary
+    for k in d.keys():
+        if not k in current_columns[table]:
+            assert valid_column_key(k), f"\"{k}\" is not a valid column name"
+            current_columns[table].append(k)
+            con.execute(f"ALTER TABLE {table} ADD COLUMN \"{k}\"")
+
+    # Insert
+    # Unfortunately, Python3's sqlite3 does not like named placeholders with spaces, so we
+    # have use qmark style here.
+    columns = d.keys()
+    con.execute(
+        f"INSERT INTO {table}"
+        f"( {",".join(f"\"{c}\"" for c in columns)} )"
+        "VALUES"
+        f"( {",".join("?" for c in columns)} )",
+        [str(d[c]) for c in columns]
+    )
+
+def insert_into_db_multiple(con, table, ld: List[Dict]):
+    for d in ld:
+        insert_into_db(con, table, d)

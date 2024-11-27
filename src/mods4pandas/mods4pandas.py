@@ -10,13 +10,14 @@ from lxml import etree as ET
 from itertools import groupby
 from operator import attrgetter
 from typing import Dict, List
+from collections import defaultdict
 from collections.abc import MutableMapping, Sequence
 
 import click
 import pandas as pd
 from tqdm import tqdm
 
-from .lib import sorted_groupby, TagGroup, ns, flatten, dicts_to_df
+from .lib import sorted_groupby, TagGroup, ns, flatten, dicts_to_df, insert_into_db, insert_into_db_multiple
 
 
 
@@ -396,45 +397,16 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
         else:
             mets_files_real.append(m)
 
-    current_columns = []
-
-    def valid_column_key(k):
-        if re.match("^[a-zA-Z0-9 _-]+$", k):
-            return True
-        else:
-            return False
-
-    def insert_into_db(con, d: Dict):
-        # Create table if necessary
-        if not current_columns:
-            for k in d.keys():
-                assert valid_column_key(k), f"\"{k}\" is not a valid column name"
-                current_columns.append(k)
-            con.execute(f"CREATE TABLE mods_info({",".join(f"\"{c}\"" for c in current_columns)})")
-
-        # Add columns if necessary
-        for k in d.keys():
-            if not k in current_columns:
-                assert valid_column_key(k), f"\"{k}\" is not a valid column name"
-                current_columns.append(k)
-                con.execute(f"ALTER TABLE mods_info ADD COLUMN \"{k}\"")
-
-        # Insert
-        # Unfortunately, Python3's sqlite3 does not like named placeholders with spaces, so we
-        # have use qmark style here.
-        columns = d.keys()
-        con.execute(
-            "INSERT INTO mods_info"
-            f"( {",".join(f"\"{c}\"" for c in columns)} )"
-            "VALUES"
-            f"( {",".join("?" for c in columns)} )",
-            [str(d[c]) for c in columns]
-        )
 
 
     # Process METS files
     output_file_sqlite3 = output_file + ".sqlite3"
     con = sqlite3.connect(output_file_sqlite3)
+
+    if output_page_info:
+        output_page_info_sqlite3 = output_page_info + ".sqlite3"
+        con_page_info = sqlite3.connect(output_page_info_sqlite3)
+
     with open(output_file + '.warnings.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         mods_info = []
@@ -463,11 +435,11 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
                     if output_page_info:
                         page_info_doc: list[dict] = pages_to_dict(mets, raise_errors=True)
 
-                    insert_into_db(con, d)
+                    insert_into_db(con, "mods_info", d)
                     con.commit()
-                    #TODO
-                    #if output_page_info:
-                    #    page_info.extend(page_info_doc)
+                    if output_page_info:
+                        insert_into_db_multiple(con_page_info, "page_info", page_info_doc)
+                        con_page_info.commit()
 
                     if caught_warnings:
                         # PyCharm thinks caught_warnings is not Iterable:
@@ -478,18 +450,21 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
                 logger.exception('Exception in {}'.format(mets_file))
 
     # Convert the mods_info List[Dict] to a pandas DataFrame
-    mods_info_df = dicts_to_df(mods_info, index_column="recordInfo_recordIdentifier")
-
+    # TODO
+    # mods_info_df = dicts_to_df(mods_info, index_column="recordInfo_recordIdentifier")
+ 
     # Save the DataFrame
-    logger.info('Writing DataFrame to {}'.format(output_file))
-    mods_info_df.to_parquet(output_file)
+    # TODO
+    #logger.info('Writing DataFrame to {}'.format(output_file))
+    #mods_info_df.to_parquet(output_file)
 
     # Convert page_info
-    if output_page_info:
-        page_info_df = dicts_to_df(page_info, index_column=("ppn", "ID"))
-        # Save the DataFrame
-        logger.info('Writing DataFrame to {}'.format(output_page_info))
-        page_info_df.to_parquet(output_page_info)
+    # TODO
+    # if output_page_info:
+    #     page_info_df = dicts_to_df(page_info, index_column=("ppn", "ID"))
+    #     # Save the DataFrame
+    #     logger.info('Writing DataFrame to {}'.format(output_page_info))
+    #     page_info_df.to_parquet(output_page_info)
 
 
 def main():
