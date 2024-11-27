@@ -337,6 +337,14 @@ def valid_column_key(k):
     else:
         return False
 
+def column_names_csv(columns):
+    """
+    Format Column names (identifiers) as a comma-separated list.
+
+    This uses double quotes per SQL standard.
+    """
+    return ",".join('"' + c + '"' for c in columns)
+
 current_columns = defaultdict(list)
 
 def insert_into_db(con, table, d: Dict):
@@ -345,16 +353,16 @@ def insert_into_db(con, table, d: Dict):
     # Create table if necessary
     if not current_columns[table]:
         for k in d.keys():
-            assert valid_column_key(k), f"\"{k}\" is not a valid column name"
+            assert valid_column_key(k), f'"{k}" is not a valid column name'
             current_columns[table].append(k)
-        con.execute(f"CREATE TABLE {table} ({",".join(f"\"{c}\"" for c in current_columns[table])})")
+        con.execute(f"CREATE TABLE {table} ({column_names_csv(current_columns[table])})")
 
     # Add columns if necessary
     for k in d.keys():
         if not k in current_columns[table]:
-            assert valid_column_key(k), f"\"{k}\" is not a valid column name"
+            assert valid_column_key(k), f'"{k}" is not a valid column name'
             current_columns[table].append(k)
-            con.execute(f"ALTER TABLE {table} ADD COLUMN \"{k}\"")
+            con.execute(f'ALTER TABLE {table} ADD COLUMN "{k}"')
 
     # Insert
     # Unfortunately, Python3's sqlite3 does not like named placeholders with spaces, so we
@@ -362,9 +370,9 @@ def insert_into_db(con, table, d: Dict):
     columns = d.keys()
     con.execute(
         f"INSERT INTO {table}"
-        f"( {",".join(f"\"{c}\"" for c in columns)} )"
+        f"( {column_names_csv(columns)} )"
         "VALUES"
-        f"( {",".join("?" for c in columns)} )",
+        f"( {','.join('?' for c in columns)} )",
         [str(d[c]) for c in columns]
     )
 
