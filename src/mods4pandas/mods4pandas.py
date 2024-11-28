@@ -467,7 +467,6 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
     if output_page_info:
           # Convert page_info SQL to a pandas DataFrama
           page_info_df = pd.read_sql_query("SELECT * FROM page_info", con_page_info, index_col=["ppn", "ID"])
-          # Save the DataFrame
           logger.info('Writing DataFrame to {}'.format(output_page_info))
           page_info_df.to_parquet(output_page_info)
 
