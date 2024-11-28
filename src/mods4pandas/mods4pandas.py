@@ -399,19 +399,24 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
             mets_files_real.append(m)
 
 
-
-    # Process METS files
+    # Prepare output files
+    with contextlib.suppress(FileNotFoundError):
+        os.remove(output_file)
     output_file_sqlite3 = output_file + ".sqlite3"
     with contextlib.suppress(FileNotFoundError):
         os.remove(output_file_sqlite3)
+
+    logger.info('Writing SQLite DB to {}'.format(output_file_sqlite3))
     con = sqlite3.connect(output_file_sqlite3)
 
     if output_page_info:
         output_page_info_sqlite3 = output_page_info + ".sqlite3"
+        logger.info('Writing SQLite DB to {}'.format(output_page_info_sqlite3))
         with contextlib.suppress(FileNotFoundError):
             os.remove(output_page_info_sqlite3)
         con_page_info = sqlite3.connect(output_page_info_sqlite3)
 
+    # Process METS files
     with open(output_file + '.warnings.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
         mods_info = []
@@ -454,14 +459,12 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
             except Exception as e:
                 logger.exception('Exception in {}'.format(mets_file))
 
-    # Convert the mods_info List[Dict] to a pandas DataFrame
-    # TODO
-    # mods_info_df = dicts_to_df(mods_info, index_column="recordInfo_recordIdentifier")
- 
+    # Convert the mods_info SQL to a pandas DataFrame
+    mods_info_df = pd.read_sql_query("SELECT * FROM mods_info", con, index_col="recordInfo_recordIdentifier")
+
     # Save the DataFrame
-    # TODO
-    #logger.info('Writing DataFrame to {}'.format(output_file))
-    #mods_info_df.to_parquet(output_file)
+    logger.info('Writing DataFrame to {}'.format(output_file))
+    mods_info_df.to_parquet(output_file)
 
     # Convert page_info
     # TODO
