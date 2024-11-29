@@ -332,7 +332,7 @@ def dicts_to_df(data_list: List[Dict], *, index_column) -> pd.DataFrame:
 
 
 def valid_column_key(k):
-    if re.match("^[a-zA-Z0-9 _-]+$", k):
+    if re.match("^[a-zA-Z0-9 _@/:\[\]-]+$", k):
         return True
     else:
         return False
