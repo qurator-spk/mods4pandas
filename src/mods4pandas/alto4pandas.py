@@ -176,7 +176,7 @@ def process(alto_files: List[str], output_file: str):
 
                     # Save
                     insert_into_db(con, "alto_info", d)
-                    con.commit
+                    con.commit()
 
                     if caught_warnings:
                         # PyCharm thinks caught_warnings is not Iterable:
