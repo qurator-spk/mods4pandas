@@ -301,36 +301,6 @@ def flatten(d: MutableMapping, parent='', separator='_'):
     return dict(items)
 
 
-def dicts_to_df(data_list: List[Dict], *, index_column) -> pd.DataFrame:
-    """
-    Convert the given list of dicts to a Pandas DataFrame.
-
-    The keys of the dicts make the columns.
-    """
-
-    # Build columns from keys
-    columns = []
-    for m in data_list:
-        for c in m.keys():
-            if c not in columns:
-                columns.append(c)
-
-    # Build data table
-    data = [[m.get(c) for c in columns] for m in data_list]
-
-    # Build index
-    if isinstance(index_column, str):
-        index = [m[index_column] for m in data_list]
-    elif isinstance(index_column, tuple):
-        index = [[m[c] for m in data_list] for c in index_column]
-        index = pd.MultiIndex.from_arrays(index, names=index_column)
-    else:
-        raise ValueError(f"index_column must")
-
-    df = pd.DataFrame(data=data, index=index, columns=columns)
-    return df
-
-
 def valid_column_key(k):
     if re.match("^[a-zA-Z0-9 _@/:\[\]-]+$", k):
         return True

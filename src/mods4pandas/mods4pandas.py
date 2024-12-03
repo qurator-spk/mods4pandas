@@ -18,7 +18,7 @@ import click
 import pandas as pd
 from tqdm import tqdm
 
-from .lib import sorted_groupby, TagGroup, ns, flatten, dicts_to_df, insert_into_db, insert_into_db_multiple
+from .lib import sorted_groupby, TagGroup, ns, flatten, insert_into_db, insert_into_db_multiple
 
 
 
