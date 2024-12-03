@@ -76,6 +76,8 @@ def alto_to_dict(alto, raise_errors=True):
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
         elif localname == 'fileName':
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'fileIdentifier':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
 
         elif localname == 'Layout':
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
