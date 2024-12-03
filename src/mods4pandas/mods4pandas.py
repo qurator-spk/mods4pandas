@@ -419,8 +419,6 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
     # Process METS files
     with open(output_file + '.warnings.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
-        mods_info = []
-        page_info = []
         logger.info('Processing METS files')
         for mets_file in tqdm(mets_files_real, leave=True):
             try:
