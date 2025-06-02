@@ -24,10 +24,11 @@ EXPECTED_TYPES = {
         r"location_.*": ("object", ["str", "NoneType"]),
         r"name\d+_.*": ("object", ["str", "NoneType"]),
         r"relatedItem-.*_recordInfo_recordIdentifier": ("object", ["str", "NoneType"]),
-        r".*-count": ("Int64", None),
         r"typeOfResource": ("object", ["str", "NoneType"]),
         r"accessCondition-.*": ("object", ["str", "NoneType"]),
         r"originInfo-.*": ("object", ["str", "NoneType"]),
+
+        r".*-count": ("Int64", None),
 
         # XXX possibly sets:
         r"genre-.*": ("object", ["str", "NoneType"]),
