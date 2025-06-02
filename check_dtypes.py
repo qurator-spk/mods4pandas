@@ -27,6 +27,7 @@ EXPECTED_TYPES = {
         r".*-count": ("Int64", None),
         r"typeOfResource": ("object", ["str", "NoneType"]),
         r"accessCondition-.*": ("object", ["str", "NoneType"]),
+        r"originInfo-.*": ("object", ["str", "NoneType"]),
 
         # XXX possibly sets:
         r"genre-.*": ("object", ["str", "NoneType"]),
