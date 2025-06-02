@@ -25,6 +25,7 @@ EXPECTED_TYPES = {
         r"name\d+_.*": ("object", ["str", "NoneType"]),
         r"relatedItem-.*_recordInfo_recordIdentifier": ("object", ["str", "NoneType"]),
         r".*-count": ("Int64", None),
+        r"typeOfResource": ("object", ["str", "NoneType"]),
 
         # XXX possibly sets:
         r"genre-.*": ("object", ["str", "NoneType"]),
