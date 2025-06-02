@@ -30,6 +30,7 @@ EXPECTED_TYPES = {
         r"genre-.*": ("object", ["str", "NoneType"]),
         r"subject-.*": ("object", ["str", "NoneType"]),
         r"language_.*Term": ("object", ["str", "NoneType"]),
+        r"classification-.*": ("object", ["str", "NoneType"]),
 }
 def expected_types(c):
     for r, types in EXPECTED_TYPES.items():
