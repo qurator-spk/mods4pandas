@@ -21,7 +21,7 @@ EXPECTED_TYPES = {
         r"titleInfo_subTitle": ("object", ["str", "NoneType"]),
         r"titleInfo_partName": ("object", ["str", "NoneType"]),
         r"identifier-.*": ("object", ["str", "NoneType"]),
-        r"location_.*t ": ("object", ["str", "NoneType"]),
+        r"location_.*": ("object", ["str", "NoneType"]),
         r"name\d+_.*": ("object", ["str", "NoneType"]),
         r"relatedItem-.*_recordInfo_recordIdentifier": ("object", ["str", "NoneType"]),
         r".*-count": ("Int64", None),
