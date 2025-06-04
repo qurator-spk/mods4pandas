@@ -1,5 +1,5 @@
 ```
-pip install -r requirements-test.txt
+pip install -r requirements-dev.txt
 ```
 
 To run tests:
