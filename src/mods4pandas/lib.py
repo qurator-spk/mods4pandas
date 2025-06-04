@@ -315,7 +315,8 @@ def column_names_csv(columns):
     """
     return ",".join('"' + c + '"' for c in columns)
 
-current_columns = defaultdict(list)
+current_columns: defaultdict = defaultdict(list)
+current_columns_types: dict[dict] = defaultdict(dict)
 
 def insert_into_db(con, table, d: Dict):
     """Insert the values from the dict into the table, creating columns if necessary"""
@@ -333,6 +334,11 @@ def insert_into_db(con, table, d: Dict):
             assert valid_column_key(k), f'"{k}" is not a valid column name'
             current_columns[table].append(k)
             con.execute(f'ALTER TABLE {table} ADD COLUMN "{k}"')
+
+    # Save types
+    for k in d.keys():
+        if k not in current_columns_types[table]:
+            current_columns_types[table][k] = type(d[k]).__name__
 
     # Insert
     # Unfortunately, Python3's sqlite3 does not like named placeholders with spaces, so we
