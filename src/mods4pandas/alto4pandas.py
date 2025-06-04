@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
-from .lib import TagGroup, sorted_groupby, flatten, ns, insert_into_db
+from .lib import TagGroup, convert_db_to_parquet, sorted_groupby, flatten, ns, insert_into_db
 
 
 logger = logging.getLogger('alto4pandas')
@@ -188,9 +188,8 @@ def process(alto_files: List[str], output_file: str):
                 import traceback; traceback.print_exc()
 
     # Convert the alto_info SQL to a pandas DataFrame
-    alto_info_df = pd.read_sql_query("SELECT * FROM alto_info", con, index_col="alto_file")
     logger.info('Writing DataFrame to {}'.format(output_file))
-    alto_info_df.to_parquet(output_file)
+    convert_db_to_parquet(con, "alto_info", "alto_file", output_file)
 
 
 def main():

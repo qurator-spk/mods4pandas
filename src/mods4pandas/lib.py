@@ -355,3 +355,24 @@ def insert_into_db(con, table, d: Dict):
 def insert_into_db_multiple(con, table, ld: List[Dict]):
     for d in ld:
         insert_into_db(con, table, d)
+
+def convert_db_to_parquet(con, table, index_col, output_file):
+    df = pd.read_sql_query(f"SELECT * FROM {table}", con, index_col)
+
+    # Convert Python column type into Pandas type
+    for c in df.columns:
+        column_type = current_columns_types[table][c]
+
+        if column_type == "str":
+            continue
+        elif column_type == "int":
+            df[c] = df[c].astype("Int64")
+        elif column_type == "float64":
+            df[c] = df[c].astype("Float64")
+        elif column_type == "set":
+            # TODO WIP
+            continue
+        else:
+            raise NotImplementedError(f"Column type {column_type} not implemented yet.")
+
+    df.to_parquet(output_file)

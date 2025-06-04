@@ -2,17 +2,7 @@ import pandas as pd
 import re
 
 
-# Fix
 mods_info = pd.read_parquet("mods_info_df.parquet")
-for c in mods_info.columns:
-    if c.endswith("-count"):
-        mods_info[c] = mods_info[c].astype('Int64')
-
-
-# Tmp to parquet
-mods_info.to_parquet("tmp.parquet")
-mods_info = pd.read_parquet("tmp.parquet")
-
 
 # Check
 EXPECTED_TYPES = {

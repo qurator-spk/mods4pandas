@@ -18,7 +18,7 @@ import click
 import pandas as pd
 from tqdm import tqdm
 
-from .lib import sorted_groupby, TagGroup, ns, flatten, insert_into_db, insert_into_db_multiple
+from .lib import convert_db_to_parquet, sorted_groupby, TagGroup, ns, flatten, insert_into_db, insert_into_db_multiple, current_columns_types
 
 
 
@@ -457,16 +457,11 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
             except Exception as e:
                 logger.exception('Exception in {}'.format(mets_file))
 
-    # Convert the mods_info SQL to a pandas DataFrame
-    mods_info_df = pd.read_sql_query("SELECT * FROM mods_info", con, index_col="recordInfo_recordIdentifier")
     logger.info('Writing DataFrame to {}'.format(output_file))
-    mods_info_df.to_parquet(output_file)
-
+    convert_db_to_parquet(con, "mods_info", "recordInfo_recordIdentifier", output_file)
     if output_page_info:
-          # Convert page_info SQL to a pandas DataFrama
-          page_info_df = pd.read_sql_query("SELECT * FROM page_info", con_page_info, index_col=["ppn", "ID"])
           logger.info('Writing DataFrame to {}'.format(output_page_info))
-          page_info_df.to_parquet(output_page_info)
+          convert_db_to_parquet(con_page_info, "page_info", ["ppn", "ID"], output_page_info)
 
 
 def main():
