@@ -15,11 +15,16 @@ from typing import List
 from collections.abc import MutableMapping, Sequence
 
 import click
-import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
 from .lib import TagGroup, convert_db_to_parquet, sorted_groupby, flatten, ns, insert_into_db
+
+with warnings.catch_warnings():
+    # Filter warnings on WSL
+    if "Microsoft" in os.uname().release:
+        warnings.simplefilter("ignore")
+    import pandas as pd
 
 
 logger = logging.getLogger('alto4pandas')

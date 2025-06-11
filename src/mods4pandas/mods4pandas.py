@@ -15,11 +15,15 @@ from collections import defaultdict
 from collections.abc import MutableMapping, Sequence
 
 import click
-import pandas as pd
 from tqdm import tqdm
 
 from .lib import convert_db_to_parquet, sorted_groupby, TagGroup, ns, flatten, insert_into_db, insert_into_db_multiple, current_columns_types
 
+with warnings.catch_warnings():
+    # Filter warnings on WSL
+    if "Microsoft" in os.uname().release:
+        warnings.simplefilter("ignore")
+    import pandas as pd
 
 
 logger = logging.getLogger('mods4pandas')

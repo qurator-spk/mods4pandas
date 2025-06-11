@@ -3,13 +3,18 @@ from __future__ import annotations
 from itertools import groupby
 import re
 import warnings
+import os
 from typing import List, Sequence, MutableMapping, Dict
 from collections import defaultdict
 
-import pandas as pd
 import numpy as np
 from lxml import etree as ET
 
+with warnings.catch_warnings():
+    # Filter warnings on WSL
+    if "Microsoft" in os.uname().release:
+        warnings.simplefilter("ignore")
+    import pandas as pd
 
 __all__ = ["ns"]
 

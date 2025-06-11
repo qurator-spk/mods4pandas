@@ -1,5 +1,12 @@
-import pandas as pd
 import re
+import warnings
+import os
+
+with warnings.catch_warnings():
+    # Filter warnings on WSL
+    if "Microsoft" in os.uname().release:
+        warnings.simplefilter("ignore")
+    import pandas as pd
 
 
 mods_info = pd.read_parquet("mods_info_df.parquet")
