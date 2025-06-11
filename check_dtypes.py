@@ -10,6 +10,7 @@ with warnings.catch_warnings():
 
 
 mods_info = pd.read_parquet("mods_info_df.parquet")
+page_info = pd.read_parquet("page_info_df.parquet")
 alto_info = pd.read_parquet("alto_info_df.parquet")
 
 # Check
@@ -37,6 +38,11 @@ EXPECTED_TYPES = {
         r"language_.*Term": ("object", ["str", "NoneType"]),
         r"classification-.*": ("object", ["str", "NoneType"]),
 
+        # page_info
+
+        r"fileGrp_.*_file_FLocat_href": ("object", ["str", "NoneType"]),
+        r"structMap-LOGICAL_TYPE_.*": ("boolean", None),
+
         # alto_info
 
         r"Description_.*": ("object", ["str", "NoneType"]),
@@ -49,6 +55,7 @@ EXPECTED_TYPES = {
 
         r"Layout_Page_(WIDTH|HEIGHT)": ("Int64", None),
 }
+
 def expected_types(c):
     for r, types in EXPECTED_TYPES.items():
         if re.fullmatch(r, c):
@@ -65,7 +72,7 @@ def check_types(df):
         edt, einner_types = expected_types(c)
 
         if edt is None:
-            print(f"No expected dtype known for column {c}")
+            print(f"No expected dtype known for column {c} (got {dt})")
         elif dt != edt:
             print(f"Unexpected dtype {dt} for column {c} (expected {edt})")
 
@@ -75,5 +82,6 @@ def check_types(df):
                 print(f"Unexpected inner types {inner_types} for column {c} (expected {einner_types})")
 
 check_types(mods_info)
+check_types(page_info)
 check_types(alto_info)
 

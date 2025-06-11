@@ -327,6 +327,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             assert file_ is not None
             fileGrp_USE = file_.getparent().attrib.get("USE")
             file_FLocat_href = (file_.xpath('mets:FLocat/@xlink:href', namespaces=ns) or [None])[0]
+            if file_FLocat_href is not None:
+                file_FLocat_href = str(file_FLocat_href)
             page_dict[f"fileGrp_{fileGrp_USE}_file_FLocat_href"] = file_FLocat_href
 
         def get_struct_log(*, to_phys):
@@ -368,7 +370,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
         for struct_div in struct_divs:
             type_ = struct_div.attrib.get("TYPE").lower()
             assert type_
-            page_dict[f"structMap-LOGICAL_TYPE_{type_}"] = 1
+            page_dict[f"structMap-LOGICAL_TYPE_{type_}"] = True
 
         result.append(page_dict)
 

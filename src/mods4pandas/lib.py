@@ -378,10 +378,12 @@ def convert_db_to_parquet(con, table, index_col, output_file):
             df[c] = df[c].astype("Int64")
         elif column_type == "float64":
             df[c] = df[c].astype("Float64")
+        elif column_type == "bool":
+            df[c] = df[c].map({"True": True, "False": False}).astype("boolean")
         elif column_type == "set":
             # TODO WIP
             continue
         else:
-            raise NotImplementedError(f"Column type {column_type} not implemented yet.")
+            raise NotImplementedError(f"Column {c}: type {column_type} not implemented yet.")
 
     df.to_parquet(output_file)
