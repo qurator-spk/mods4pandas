@@ -89,6 +89,12 @@ def alto_to_dict(alto, raise_errors=True):
         elif localname == 'Page':
             value[localname] = {}
             value[localname].update(TagGroup(tag, group).is_singleton().attributes())
+            for attr in ("WIDTH", "HEIGHT"):
+                if attr in value[localname]:
+                    try:
+                        value[localname][attr] = int(value[localname][attr])
+                    except ValueError:
+                        del value[localname][attr]
             value[localname].update(TagGroup(tag, group).subelement_counts())
             value[localname].update(TagGroup(tag, group).xpath_statistics("//alto:String/@WC", namespaces))
 

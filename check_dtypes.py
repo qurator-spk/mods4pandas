@@ -47,8 +47,7 @@ EXPECTED_TYPES = {
         r"Layout_Page_//alto:String/@WC-.*": ("Float64", None),
         r"alto_xmlns": ("object", ["str", "NoneType"]),
 
-        # XXX r"Layout_Page_(WIDTH|HEIGHT)": ("Int64", None),
-        r"Layout_Page_(WIDTH|HEIGHT)": ("object", ["str", "NoneType"]),
+        r"Layout_Page_(WIDTH|HEIGHT)": ("Int64", None),
 }
 def expected_types(c):
     for r, types in EXPECTED_TYPES.items():
