@@ -114,9 +114,8 @@ class TagGroup:
                 warnings.warn('Added iso8601 encoding to date {}'.format(e.text))
                 e.attrib['encoding'] = 'iso8601'
                 new_group.append(e)
-            elif re.match(self.RE_GERMAN_DATE, e.text):
+            elif m := re.match(self.RE_GERMAN_DATE, e.text):
                 warnings.warn('Converted date {} to iso8601 encoding'.format(e.text))
-                m = re.match(self.RE_GERMAN_DATE, e.text)
                 e.text = '{}-{}-{}'.format(m.group('yyyy'), m.group('mm'), m.group('dd'))
                 e.attrib['encoding'] = 'iso8601'
                 new_group.append(e)
@@ -210,7 +209,7 @@ class TagGroup:
         return attrib
 
     def subelement_counts(self) -> dict[str, int]:
-        counts = {}
+        counts: dict[str, int] = {}
         for e in self.group:
             for x in e.iter():
                 tag = ET.QName(x.tag).localname
