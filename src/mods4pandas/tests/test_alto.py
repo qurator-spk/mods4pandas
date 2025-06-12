@@ -9,14 +9,17 @@ from mods4pandas.lib import flatten
 
 TESTS_DATA_DIR = Path(__file__).parent / "data"
 
+
 def dict_fromstring(x):
-   return flatten(alto_to_dict(ET.fromstring(x)))
+    return flatten(alto_to_dict(ET.fromstring(x)))
+
 
 def test_Page_counts():
     """
     Elements below Layout/Page should be counted
     """
-    d = dict_fromstring("""
+    d = dict_fromstring(
+        """
     <alto xmlns="http://www.loc.gov/standards/alto/ns-v2#">
       <Layout>
         <Page ID="Page1" PHYSICAL_IMG_NR="1">
@@ -37,13 +40,16 @@ def test_Page_counts():
         </Page>
       </Layout>
     </alto>
-    """)
-    assert d['Layout_Page_TextBlock-count'] == 1
-    assert d['Layout_Page_TextLine-count'] == 3
-    assert d['Layout_Page_String-count'] == 6
+    """
+    )
+    assert d["Layout_Page_TextBlock-count"] == 1
+    assert d["Layout_Page_TextLine-count"] == 3
+    assert d["Layout_Page_String-count"] == 6
+
 
 def test_Tags_counts():
-    d = dict_fromstring("""
+    d = dict_fromstring(
+        """
     <alto xmlns="http://www.loc.gov/standards/alto/ns-v2#">
       <Tags>
         <NamedEntityTag ID="PER0" LABEL="Pentlings"/>
@@ -57,11 +63,14 @@ def test_Tags_counts():
         <NamedEntityTag ID="PER10" LABEL="Jhesu Christi"/>
       </Tags>
     </alto>
-    """)
-    assert d['Tags_NamedEntityTag-count'] == 9
+    """
+    )
+    assert d["Tags_NamedEntityTag-count"] == 9
+
 
 def test_String_TAGREF_counts():
-    d = dict_fromstring("""
+    d = dict_fromstring(
+        """
     <alto xmlns="http://www.loc.gov/standards/alto/ns-v2#">
       <Layout>
       <Page>
@@ -80,9 +89,10 @@ def test_String_TAGREF_counts():
       </Page>
       </Layout>
     </alto>
-    """)
-    assert d['Layout_Page_//alto:String[@TAGREFS]-count'] == 3
-    assert d['Layout_Page_String-count'] == 4
+    """
+    )
+    assert d["Layout_Page_//alto:String[@TAGREFS]-count"] == 3
+    assert d["Layout_Page_String-count"] == 4
 
 
 def test_dtypes(tmp_path):
@@ -100,9 +110,9 @@ def test_dtypes(tmp_path):
         r"Layout_Page_//alto:String/@WC-.*": ("Float64", None),
         r".*-count": ("Int64", None),
         r"alto_xmlns": ("object", ["str", "NoneType"]),
-
         r"Layout_Page_(WIDTH|HEIGHT)": ("Int64", None),
     }
+
     def expected_types(c):
         """Return the expected types for column c."""
         for r, types in EXPECTED_TYPES.items():
@@ -126,7 +136,8 @@ def test_dtypes(tmp_path):
 
             if edt == "object":
                 inner_types = set(type(v).__name__ for v in df[c])
-                assert all(it in einner_types for it in inner_types), \
-                    f"Unexpected inner types {inner_types} for column {c} (expected {einner_types})"
+                assert all(
+                    it in einner_types for it in inner_types
+                ), f"Unexpected inner types {inner_types} for column {c} (expected {einner_types})"
 
     check_types(alto_info_df)

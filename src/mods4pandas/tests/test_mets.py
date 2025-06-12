@@ -6,15 +6,17 @@ from mods4pandas.lib import flatten
 
 
 def dict_fromstring(x):
-   """Helper function to parse a METS/MODS XML string to a flattened dict"""
-   return flatten(mets_to_dict(ET.fromstring(x)))
-   # XXX move to test lib
+    """Helper function to parse a METS/MODS XML string to a flattened dict"""
+    return flatten(mets_to_dict(ET.fromstring(x)))
+    # XXX move to test lib
+
 
 def test_fileGrp():
     """
     Elements of mets:fileGrp should be counted
     """
-    d = dict_fromstring("""
+    d = dict_fromstring(
+        """
     <mets:mets xmlns:mets="http://www.loc.gov/METS/">
 
     <mets:fileSec>
@@ -31,5 +33,6 @@ def test_fileGrp():
     </mets:fileGrp>
     </mets:fileSec>
     </mets:mets>
-    """)
-    assert d['fileSec_fileGrp-PRESENTATION-count'] == 3
+    """
+    )
+    assert d["fileSec_fileGrp-PRESENTATION-count"] == 3
