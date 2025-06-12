@@ -1,9 +1,13 @@
+from pathlib import Path
+import re
 from lxml import etree as ET
+import pandas as pd
 
 
-from mods4pandas.alto4pandas import alto_to_dict
+from mods4pandas.alto4pandas import alto_to_dict, process
 from mods4pandas.lib import flatten
 
+TESTS_DATA_DIR = Path(__file__).parent / "data"
 
 def dict_fromstring(x):
    return flatten(alto_to_dict(ET.fromstring(x)))
@@ -79,3 +83,50 @@ def test_String_TAGREF_counts():
     """)
     assert d['Layout_Page_//alto:String[@TAGREFS]-count'] == 3
     assert d['Layout_Page_String-count'] == 4
+
+
+def test_dtypes(tmp_path):
+    alto_dir = (TESTS_DATA_DIR / "alto").absolute().as_posix()
+    alto_info_df_parquet = (tmp_path / "test_dtypes_alto_info.parquet").as_posix()
+    process([alto_dir], alto_info_df_parquet)
+    alto_info_df = pd.read_parquet(alto_info_df_parquet)
+
+    EXPECTED_TYPES = {
+        r"Description_.*": ("object", ["str", "NoneType"]),
+        r"Layout_Page_ID": ("object", ["str", "NoneType"]),
+        r"Layout_Page_PHYSICAL_(IMG|IMAGE)_NR": ("object", ["str", "NoneType"]),
+        r"Layout_Page_PROCESSING": ("object", ["str", "NoneType"]),
+        r"Layout_Page_QUALITY": ("object", ["str", "NoneType"]),
+        r"Layout_Page_//alto:String/@WC-.*": ("Float64", None),
+        r".*-count": ("Int64", None),
+        r"alto_xmlns": ("object", ["str", "NoneType"]),
+
+        r"Layout_Page_(WIDTH|HEIGHT)": ("Int64", None),
+    }
+    def expected_types(c):
+        """Return the expected types for column c."""
+        for r, types in EXPECTED_TYPES.items():
+            if re.fullmatch(r, c):
+                edt = types[0]
+                einner_types = types[1]
+                if einner_types:
+                    einner_types = set(einner_types)
+                return edt, einner_types
+        return None, None
+
+    def check_types(df):
+        """Check the types of the DataFrame df."""
+        for c in df.columns:
+            dt = df.dtypes[c]
+            edt, einner_types = expected_types(c)
+            print(c, dt, edt)
+
+            assert edt is not None, f"No expected dtype known for column {c} (got {dt})"
+            assert dt == edt, f"Unexpected dtype {dt} for column {c} (expected {edt})"
+
+            if edt == "object":
+                inner_types = set(type(v).__name__ for v in df[c])
+                assert all(it in einner_types for it in inner_types), \
+                    f"Unexpected inner types {inner_types} for column {c} (expected {einner_types})"
+
+    check_types(alto_info_df)

@@ -1,0 +1,9 @@
+pytest
+pytest-profiling
+
+ipython
+
+mypy
+types-lxml
+types-tqdm
+pandas-stubs

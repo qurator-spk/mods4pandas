@@ -1,12 +1,21 @@
+from __future__ import annotations
+
+import ast
 from itertools import groupby
 import re
 import warnings
-from typing import List, Sequence, MutableMapping, Dict
+import os
+from typing import Any, List, Sequence, MutableMapping, Dict
+from collections import defaultdict
 
-import pandas as pd
 import numpy as np
 from lxml import etree as ET
 
+with warnings.catch_warnings():
+    # Filter warnings on WSL
+    if "Microsoft" in os.uname().release:
+        warnings.simplefilter("ignore")
+    import pandas as pd
 
 __all__ = ["ns"]
 
@@ -23,40 +32,40 @@ ns = {
 class TagGroup:
     """Helper class to simplify the parsing and checking of MODS metadata"""
 
-    def __init__(self, tag, group: List[ET.Element]):
+    def __init__(self, tag, group: List[ET._Element]):
         self.tag = tag
         self.group = group
 
-    def to_xml(self):
+    def to_xml(self) -> str:
         return '\n'.join(str(ET.tostring(e), 'utf-8').strip() for e in self.group)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"TagGroup with content:\n{self.to_xml()}"
 
-    def is_singleton(self):
+    def is_singleton(self) -> TagGroup:
         if len(self.group) != 1:
             raise ValueError('More than one instance: {}'.format(self))
         return self
 
-    def has_no_attributes(self):
+    def has_no_attributes(self) -> TagGroup:
         return self.has_attributes({})
 
-    def has_attributes(self, attrib):
+    def has_attributes(self, attrib) -> TagGroup:
         if not isinstance(attrib, Sequence):
             attrib = [attrib]
         if not all(e.attrib in attrib for e in self.group):
             raise ValueError('One or more element has unexpected attributes: {}'.format(self))
         return self
 
-    def ignore_attributes(self):
+    def ignore_attributes(self) -> TagGroup:
         # This serves as documentation for now.
         return self
 
-    def sort(self, key=None, reverse=False):
+    def sort(self, key=None, reverse=False) -> TagGroup:
         self.group = sorted(self.group, key=key, reverse=reverse)
         return self
 
-    def text(self, separator='\n'):
+    def text(self, separator='\n') -> str:
         t = ''
         for e in self.group:
             if t != '':
@@ -65,13 +74,13 @@ class TagGroup:
                 t += e.text
         return t
 
-    def text_set(self):
+    def text_set(self) -> set:
         return {e.text for e in self.group}
 
-    def descend(self, raise_errors):
+    def descend(self, raise_errors) -> dict:
         return _to_dict(self.is_singleton().group[0], raise_errors)
 
-    def filter(self, cond, warn=None):
+    def filter(self, cond, warn=None) -> TagGroup:
         new_group = []
         for e in self.group:
             if cond(e):
@@ -81,7 +90,7 @@ class TagGroup:
                     warnings.warn('Filtered {} element ({})'.format(self.tag, warn))
         return TagGroup(self.tag, new_group)
 
-    def force_singleton(self, warn=True):
+    def force_singleton(self, warn=True) -> TagGroup:
         if len(self.group) == 1:
             return self
         else:
@@ -92,7 +101,7 @@ class TagGroup:
     RE_ISO8601_DATE = r'^\d{2}(\d{2}|XX)(-\d{2}-\d{2})?$'  # Note: Includes non-specific century dates like '18XX'
     RE_GERMAN_DATE = r'^(?P<dd>\d{2})\.(?P<mm>\d{2})\.(?P<yyyy>\d{4})$'
 
-    def fix_date(self):
+    def fix_date(self) -> TagGroup:
 
         for e in self.group:
             if e.attrib.get('encoding') == 'w3cdtf':
@@ -102,15 +111,17 @@ class TagGroup:
 
         new_group = []
         for e in self.group:
+            if e.text is None:
+                warnings.warn('Empty date')
+                continue
             if e.attrib.get('encoding') == 'iso8601' and re.match(self.RE_ISO8601_DATE, e.text):
                 new_group.append(e)
             elif re.match(self.RE_ISO8601_DATE, e.text):
                 warnings.warn('Added iso8601 encoding to date {}'.format(e.text))
                 e.attrib['encoding'] = 'iso8601'
                 new_group.append(e)
-            elif re.match(self.RE_GERMAN_DATE, e.text):
+            elif m := re.match(self.RE_GERMAN_DATE, e.text):
                 warnings.warn('Converted date {} to iso8601 encoding'.format(e.text))
-                m = re.match(self.RE_GERMAN_DATE, e.text)
                 e.text = '{}-{}-{}'.format(m.group('yyyy'), m.group('mm'), m.group('dd'))
                 e.attrib['encoding'] = 'iso8601'
                 new_group.append(e)
@@ -130,7 +141,7 @@ class TagGroup:
 
         return self
 
-    def fix_event_type(self):
+    def fix_event_type(self) -> TagGroup:
         # According to MODS-AP 2.3.1, every originInfo should have its eventType set.
         # Fix this for special cases.
 
@@ -160,7 +171,7 @@ class TagGroup:
                     pass
         return self
 
-    def fix_script_term(self):
+    def fix_script_term(self) -> TagGroup:
         for e in self.group:
             # MODS-AP 2.3.1 is not clear about this, but it looks like that this should be lower case.
             if e.attrib['authority'] == 'ISO15924':
@@ -168,7 +179,7 @@ class TagGroup:
                 warnings.warn('Changed scriptTerm authority to lower case')
         return self
 
-    def merge_sub_tags_to_set(self):
+    def merge_sub_tags_to_set(self) -> dict:
         from .mods4pandas import mods_to_dict
         value = {}
 
@@ -188,7 +199,7 @@ class TagGroup:
             value[sub_tag] = s
         return value
 
-    def attributes(self):
+    def attributes(self) -> dict[str, str]:
         """
         Return a merged dict of all attributes of the tag group.
 
@@ -203,8 +214,8 @@ class TagGroup:
                 attrib[a_localname] = v
         return attrib
 
-    def subelement_counts(self):
-        counts = {}
+    def subelement_counts(self) -> dict[str, int]:
+        counts: dict[str, int] = {}
         for e in self.group:
             for x in e.iter():
                 tag = ET.QName(x.tag).localname
@@ -212,19 +223,21 @@ class TagGroup:
                 counts[key] = counts.get(key, 0) + 1
         return counts
 
-    def xpath_statistics(self, xpath_expr, namespaces):
+    def xpath_statistics(self, xpath_expr, namespaces) -> dict[str, float]:
         """
         Extract values and calculate statistics
 
         Extract values using the given XPath expression, convert them to float and return descriptive
         statistics on the values.
         """
-        values = []
-        for e in self.group:
-            r = e.xpath(xpath_expr, namespaces=namespaces)
-            values += r
-        values = np.array([float(v) for v in values])
+        def xpath_values():
+            values = []
+            for e in self.group:
+                r = e.xpath(xpath_expr, namespaces=namespaces)
+                values += r
+            return np.array([float(v) for v in values])
 
+        values = xpath_values()
         statistics = {}
         if values.size > 0:
             statistics[f'{xpath_expr}-mean'] = np.mean(values)
@@ -234,7 +247,7 @@ class TagGroup:
             statistics[f'{xpath_expr}-max'] = np.max(values)
         return statistics
 
-    def xpath_count(self, xpath_expr, namespaces):
+    def xpath_count(self, xpath_expr, namespaces) -> dict[str, int]:
         """
         Count all elements matching xpath_expr
         """
@@ -278,13 +291,13 @@ def _to_dict(root, raise_errors):
         raise ValueError(f"Unknown namespace {root_name.namespace}")
 
 
-def flatten(d: MutableMapping, parent='', separator='_'):
+def flatten(d: MutableMapping, parent='', separator='_') -> dict:
     """
     Flatten the given nested dict.
 
     It is assumed that d maps strings to either another dictionary (similarly structured) or some other value.
     """
-    items = []
+    items: list[Any] = []
 
     for k, v in d.items():
         if parent:
@@ -300,31 +313,79 @@ def flatten(d: MutableMapping, parent='', separator='_'):
     return dict(items)
 
 
-def dicts_to_df(data_list: List[Dict], *, index_column) -> pd.DataFrame:
-    """
-    Convert the given list of dicts to a Pandas DataFrame.
-
-    The keys of the dicts make the columns.
-    """
-
-    # Build columns from keys
-    columns = []
-    for m in data_list:
-        for c in m.keys():
-            if c not in columns:
-                columns.append(c)
-
-    # Build data table
-    data = [[m.get(c) for c in columns] for m in data_list]
-
-    # Build index
-    if isinstance(index_column, str):
-        index = [m[index_column] for m in data_list]
-    elif isinstance(index_column, tuple):
-        index = [[m[c] for m in data_list] for c in index_column]
-        index = pd.MultiIndex.from_arrays(index, names=index_column)
+def valid_column_key(k) -> bool:
+    if re.match(r'^[a-zA-Z0-9 _@/:\[\]-]+$', k):
+        return True
     else:
-        raise ValueError(f"index_column must")
+        return False
 
-    df = pd.DataFrame(data=data, index=index, columns=columns)
-    return df
+def column_names_csv(columns) -> str:
+    """
+    Format Column names (identifiers) as a comma-separated list.
+
+    This uses double quotes per SQL standard.
+    """
+    return ",".join('"' + c + '"' for c in columns)
+
+current_columns: dict[str, list] = defaultdict(list)
+current_columns_types: dict[str, dict] = defaultdict(dict)
+
+def insert_into_db(con, table, d: Dict):
+    """Insert the values from the dict into the table, creating columns if necessary"""
+
+    # Create table if necessary
+    if not current_columns[table]:
+        for k in d.keys():
+            assert valid_column_key(k), f'"{k}" is not a valid column name'
+            current_columns[table].append(k)
+        con.execute(f"CREATE TABLE {table} ({column_names_csv(current_columns[table])})")
+
+    # Add columns if necessary
+    for k in d.keys():
+        if not k in current_columns[table]:
+            assert valid_column_key(k), f'"{k}" is not a valid column name'
+            current_columns[table].append(k)
+            con.execute(f'ALTER TABLE {table} ADD COLUMN "{k}"')
+
+    # Save types
+    for k in d.keys():
+        if k not in current_columns_types[table]:
+            current_columns_types[table][k] = type(d[k]).__name__
+
+    # Insert
+    # Unfortunately, Python3's sqlite3 does not like named placeholders with spaces, so we
+    # have use qmark style here.
+    columns = d.keys()
+    con.execute(
+        f"INSERT INTO {table}"
+        f"( {column_names_csv(columns)} )"
+        "VALUES"
+        f"( {','.join('?' for c in columns)} )",
+        [str(d[c]) for c in columns]
+    )
+
+def insert_into_db_multiple(con, table, ld: List[Dict]):
+    for d in ld:
+        insert_into_db(con, table, d)
+
+def convert_db_to_parquet(con, table, index_col, output_file):
+    df = pd.read_sql_query(f"SELECT * FROM {table}", con, index_col)
+
+    # Convert Python column type into Pandas type
+    for c in df.columns:
+        column_type = current_columns_types[table][c]
+
+        if column_type == "str":
+            continue
+        elif column_type == "int":
+            df[c] = df[c].astype("Int64")
+        elif column_type == "float64":
+            df[c] = df[c].astype("Float64")
+        elif column_type == "bool":
+            df[c] = df[c].map({"True": True, "False": False}).astype("boolean")
+        elif column_type == "set":
+            df[c] = df[c].apply(lambda s: list(ast.literal_eval(s)) if s else None)
+        else:
+            raise NotImplementedError(f"Column {c}: type {column_type} not implemented yet.")
+
+    df.to_parquet(output_file)

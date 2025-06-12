@@ -1,21 +1,29 @@
 #!/usr/bin/env python3
+import contextlib
 import csv
 import logging
 import os
 import re
+import sqlite3
 import warnings
+import sys
 from lxml import etree as ET
 from itertools import groupby
 from operator import attrgetter
 from typing import Dict, List
+from collections import defaultdict
 from collections.abc import MutableMapping, Sequence
 
 import click
-import pandas as pd
 from tqdm import tqdm
 
-from .lib import sorted_groupby, TagGroup, ns, flatten, dicts_to_df
+from .lib import convert_db_to_parquet, sorted_groupby, TagGroup, ns, flatten, insert_into_db, insert_into_db_multiple, current_columns_types
 
+with warnings.catch_warnings():
+    # Filter warnings on WSL
+    if "Microsoft" in os.uname().release:
+        warnings.simplefilter("ignore")
+    import pandas as pd
 
 
 logger = logging.getLogger('mods4pandas')
@@ -273,7 +281,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
         # This is expected in a multivolume work or periodical!
         if any(
                 structMap_LOGICAL.find(f'./mets:div[@TYPE="{t}"]', ns) is not None
-                for t in ["multivolume_work", "MultivolumeWork", "periodical"]
+                for t in ["multivolume_work", "MultivolumeWork", "multivolume_manuscript", "periodical"]
         ):
             return []
         else:
@@ -319,6 +327,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
             assert file_ is not None
             fileGrp_USE = file_.getparent().attrib.get("USE")
             file_FLocat_href = (file_.xpath('mets:FLocat/@xlink:href', namespaces=ns) or [None])[0]
+            if file_FLocat_href is not None:
+                file_FLocat_href = str(file_FLocat_href)
             page_dict[f"fileGrp_{fileGrp_USE}_file_FLocat_href"] = file_FLocat_href
 
         def get_struct_log(*, to_phys):
@@ -358,9 +368,9 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
 
         # Populate structure type indicator variables
         for struct_div in struct_divs:
-            type_ = struct_div.attrib.get("TYPE")
+            type_ = struct_div.attrib.get("TYPE").lower()
             assert type_
-            page_dict[f"structMap-LOGICAL_TYPE_{type_}"] = 1
+            page_dict[f"structMap-LOGICAL_TYPE_{type_}"] = True
 
         result.append(page_dict)
 
@@ -372,7 +382,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
 @click.option('--output', '-o', 'output_file', type=click.Path(), help='Output Parquet file',
               default='mods_info_df.parquet', show_default=True)
 @click.option('--output-page-info', type=click.Path(), help='Output page info Parquet file')
-def process(mets_files: List[str], output_file: str, output_page_info: str):
+def process_command(mets_files: list[str], output_file: str, output_page_info: str):
     """
     A tool to convert the MODS metadata in INPUT to a pandas DataFrame.
 
@@ -383,9 +393,11 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
 
     Per-page information (e.g. structure information) can be output to a separate Parquet file.
     """
+    process(mets_files, output_file, output_page_info)
 
+def process(mets_files: list[str], output_file: str, output_page_info: str):
     # Extend file list if directories are given
-    mets_files_real = []
+    mets_files_real: list[str] = []
     for m in mets_files:
         if os.path.isdir(m):
             logger.info('Scanning directory {}'.format(m))
@@ -394,13 +406,29 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
         else:
             mets_files_real.append(m)
 
+
+    # Prepare output files
+    with contextlib.suppress(FileNotFoundError):
+        os.remove(output_file)
+    output_file_sqlite3 = output_file + ".sqlite3"
+    with contextlib.suppress(FileNotFoundError):
+        os.remove(output_file_sqlite3)
+
+    logger.info('Writing SQLite DB to {}'.format(output_file_sqlite3))
+    con = sqlite3.connect(output_file_sqlite3)
+
+    if output_page_info:
+        output_page_info_sqlite3 = output_page_info + ".sqlite3"
+        logger.info('Writing SQLite DB to {}'.format(output_page_info_sqlite3))
+        with contextlib.suppress(FileNotFoundError):
+            os.remove(output_page_info_sqlite3)
+        con_page_info = sqlite3.connect(output_page_info_sqlite3)
+
     # Process METS files
     with open(output_file + '.warnings.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
-        mods_info = []
-        page_info = []
         logger.info('Processing METS files')
-        for mets_file in tqdm(mets_files_real, leave=False):
+        for mets_file in tqdm(mets_files_real, leave=True):
             try:
                 root = ET.parse(mets_file).getroot()
                 mets = root # XXX .find('mets:mets', ns) does not work here
@@ -419,13 +447,15 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
                     # "meta"
                     d['mets_file'] = mets_file
 
+                    # Save
+                    insert_into_db(con, "mods_info", d)
+                    con.commit()
+
                     # METS - per-page
                     if output_page_info:
                         page_info_doc: list[dict] = pages_to_dict(mets, raise_errors=True)
-
-                    mods_info.append(d)
-                    if output_page_info:
-                        page_info.extend(page_info_doc)
+                        insert_into_db_multiple(con_page_info, "page_info", page_info_doc)
+                        con_page_info.commit()
 
                     if caught_warnings:
                         # PyCharm thinks caught_warnings is not Iterable:
@@ -433,22 +463,13 @@ def process(mets_files: List[str], output_file: str, output_page_info: str):
                         for caught_warning in caught_warnings:
                             csvwriter.writerow([mets_file, caught_warning.message])
             except Exception as e:
-                logger.error('Exception in {}: {}'.format(mets_file, e))
-                #import traceback; traceback.print_exc()
+                logger.exception('Exception in {}'.format(mets_file))
 
-    # Convert the mods_info List[Dict] to a pandas DataFrame
-    mods_info_df = dicts_to_df(mods_info, index_column="recordInfo_recordIdentifier")
-
-    # Save the DataFrame
     logger.info('Writing DataFrame to {}'.format(output_file))
-    mods_info_df.to_parquet(output_file)
-
-    # Convert page_info
+    convert_db_to_parquet(con, "mods_info", "recordInfo_recordIdentifier", output_file)
     if output_page_info:
-        page_info_df = dicts_to_df(page_info, index_column=("ppn", "ID"))
-        # Save the DataFrame
-        logger.info('Writing DataFrame to {}'.format(output_page_info))
-        page_info_df.to_parquet(output_page_info)
+          logger.info('Writing DataFrame to {}'.format(output_page_info))
+          convert_db_to_parquet(con_page_info, "page_info", ["ppn", "ID"], output_page_info)
 
 
 def main():
@@ -457,7 +478,7 @@ def main():
     for prefix, uri in ns.items():
         ET.register_namespace(prefix, uri)
 
-    process()
+    process_command()
 
 
 if __name__ == '__main__':

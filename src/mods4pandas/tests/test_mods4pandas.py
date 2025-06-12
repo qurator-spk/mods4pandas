@@ -1,10 +1,14 @@
+from pathlib import Path
+import re
 from lxml import etree as ET
+import pandas as pd
 import pytest
 
 
-from mods4pandas.mods4pandas import mods_to_dict
+from mods4pandas.mods4pandas import mods_to_dict, process
 from mods4pandas.lib import flatten
 
+TESTS_DATA_DIR = Path(__file__).parent / "data"
 
 def dict_fromstring(x):
     """Helper function to parse a MODS XML string to a flattened dict"""
@@ -151,3 +155,68 @@ def test_relatedItem():
     """)
 
     assert d['relatedItem-original_recordInfo_recordIdentifier-dnb-ppn'] == '1236513355'
+
+def test_dtypes(tmp_path):
+    mets_files = [p.absolute().as_posix() for p in (TESTS_DATA_DIR / "mets-mods").glob("*.xml")]
+    mods_info_df_parquet = (tmp_path / "test_dtypes_mods_info.parquet").as_posix()
+    page_info_df_parquet = (tmp_path / "test_dtypes_page_info.parquet").as_posix()
+    process(mets_files, mods_info_df_parquet, page_info_df_parquet)
+    mods_info_df = pd.read_parquet(mods_info_df_parquet)
+    page_info_df = pd.read_parquet(page_info_df_parquet)
+
+    EXPECTED_TYPES = {
+        # mods_info
+
+        r"mets_file": ("object", ["str"]),
+        r"titleInfo_title": ("object", ["str"]),
+        r"titleInfo_subTitle": ("object", ["str", "NoneType"]),
+        r"titleInfo_partName": ("object", ["str", "NoneType"]),
+        r"identifier-.*": ("object", ["str", "NoneType"]),
+        r"location_.*": ("object", ["str", "NoneType"]),
+        r"name\d+_.*roleTerm": ("object", ["ndarray", "NoneType"]),
+        r"name\d+_.*": ("object", ["str", "NoneType"]),
+        r"relatedItem-.*_recordInfo_recordIdentifier": ("object", ["str", "NoneType"]),
+        r"typeOfResource": ("object", ["str", "NoneType"]),
+        r"accessCondition-.*": ("object", ["str", "NoneType"]),
+        r"originInfo-.*": ("object", ["str", "NoneType"]),
+
+        r".*-count": ("Int64", None),
+
+        r"genre-.*": ("object", ["ndarray", "NoneType"]),
+        r"subject-.*": ("object", ["ndarray", "NoneType"]),
+        r"language_.*Term": ("object", ["ndarray", "NoneType"]),
+        r"classification-.*": ("object", ["ndarray", "NoneType"]),
+
+        # page_info
+
+        r"fileGrp_.*_file_FLocat_href": ("object", ["str", "NoneType"]),
+        r"structMap-LOGICAL_TYPE_.*": ("boolean", None),
+    }
+    def expected_types(c):
+        """Return the expected types for column c."""
+        for r, types in EXPECTED_TYPES.items():
+            if re.fullmatch(r, c):
+                edt = types[0]
+                einner_types = types[1]
+                if einner_types:
+                    einner_types = set(einner_types)
+                return edt, einner_types
+        return None, None
+
+    def check_types(df):
+        """Check the types of the DataFrame df."""
+        for c in df.columns:
+            dt = df.dtypes[c]
+            edt, einner_types = expected_types(c)
+            print(c, dt, edt)
+
+            assert edt is not None, f"No expected dtype known for column {c} (got {dt})"
+            assert dt == edt, f"Unexpected dtype {dt} for column {c} (expected {edt})"
+
+            if edt == "object":
+                inner_types = set(type(v).__name__ for v in df[c])
+                assert all(it in einner_types for it in inner_types), \
+                    f"Unexpected inner types {inner_types} for column {c} (expected {einner_types})"
+
+    check_types(mods_info_df)
+    check_types(page_info_df)

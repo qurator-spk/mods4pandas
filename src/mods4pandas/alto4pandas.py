@@ -5,6 +5,8 @@ import os
 import re
 import warnings
 import sys
+import contextlib
+import sqlite3
 from xml.dom.expatbuilder import Namespaces
 from lxml import etree as ET
 from itertools import groupby
@@ -13,11 +15,16 @@ from typing import List
 from collections.abc import MutableMapping, Sequence
 
 import click
-import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
-from .lib import TagGroup, sorted_groupby, flatten, ns
+from .lib import TagGroup, convert_db_to_parquet, sorted_groupby, flatten, ns, insert_into_db
+
+with warnings.catch_warnings():
+    # Filter warnings on WSL
+    if "Microsoft" in os.uname().release:
+        warnings.simplefilter("ignore")
+    import pandas as pd
 
 
 logger = logging.getLogger('alto4pandas')
@@ -74,12 +81,20 @@ def alto_to_dict(alto, raise_errors=True):
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
         elif localname == 'fileName':
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
+        elif localname == 'fileIdentifier':
+            value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().text()
 
         elif localname == 'Layout':
             value[localname] = TagGroup(tag, group).is_singleton().has_no_attributes().descend(raise_errors)
         elif localname == 'Page':
             value[localname] = {}
             value[localname].update(TagGroup(tag, group).is_singleton().attributes())
+            for attr in ("WIDTH", "HEIGHT"):
+                if attr in value[localname]:
+                    try:
+                        value[localname][attr] = int(value[localname][attr])
+                    except ValueError:
+                        del value[localname][attr]
             value[localname].update(TagGroup(tag, group).subelement_counts())
             value[localname].update(TagGroup(tag, group).xpath_statistics("//alto:String/@WC", namespaces))
 
@@ -121,30 +136,43 @@ def walk(m):
 
 @click.command()
 @click.argument('alto_files', type=click.Path(exists=True), required=True, nargs=-1)
-@click.option('--output', '-o', 'output_file', type=click.Path(), help='Output pickle file',
-              default='alto_info_df.pkl', show_default=True)
-@click.option('--output-csv', type=click.Path(), help='Output CSV file')
-@click.option('--output-xlsx', type=click.Path(), help='Output Excel .xlsx file')
-def process(alto_files: List[str], output_file: str, output_csv: str, output_xlsx: str):
+@click.option('--output', '-o', 'output_file', type=click.Path(), help='Output Parquet file',
+              default='alto_info_df.parquet', show_default=True)
+def process_command(alto_files: List[str], output_file: str):
     """
     A tool to convert the ALTO metadata in INPUT to a pandas DataFrame.
 
     INPUT is assumed to be a ALTO document. INPUT may optionally be a directory. The tool then reads
     all files in the directory.
 
-    alto4pandas writes two output files: A pickled pandas DataFrame and a CSV file with all conversion warnings.
+    alto4pandas writes multiple output files:
+    - A Parquet DataFrame
+    - A SQLite database
+    - and a CSV file with all conversion warnings.
     """
 
+    process(alto_files, output_file)
+
+def process(alto_files: List[str], output_file: str):
     # Extend file list if directories are given
     alto_files_real = []
     for m in alto_files:
         for x in walk(m):
             alto_files_real.append(x)
 
+    # Prepare output files
+    with contextlib.suppress(FileNotFoundError):
+        os.remove(output_file)
+    output_file_sqlite3 = output_file + ".sqlite3"
+    with contextlib.suppress(FileNotFoundError):
+        os.remove(output_file_sqlite3)
+
+    logger.info('Writing SQLite DB to {}'.format(output_file_sqlite3))
+    con = sqlite3.connect(output_file_sqlite3)
+
     # Process ALTO files
     with open(output_file + '.warnings.csv', 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
-        alto_info = []
         logger.info('Processing ALTO files')
         for alto_file in tqdm(alto_files_real, leave=False):
             try:
@@ -160,7 +188,9 @@ def process(alto_files: List[str], output_file: str, output_csv: str, output_xls
                     d['alto_file'] = alto_file
                     d['alto_xmlns'] = ET.QName(alto).namespace
 
-                    alto_info.append(d)
+                    # Save
+                    insert_into_db(con, "alto_info", d)
+                    con.commit()
 
                     if caught_warnings:
                         # PyCharm thinks caught_warnings is not Iterable:
@@ -171,25 +201,9 @@ def process(alto_files: List[str], output_file: str, output_csv: str, output_xls
                 logger.error('Exception in {}: {}'.format(alto_file, e))
                 import traceback; traceback.print_exc()
 
-    # Convert the alto_info List[Dict] to a pandas DataFrame
-    columns = []
-    for m in alto_info:
-        for c in m.keys():
-            if c not in columns:
-                columns.append(c)
-    data = [[m.get(c) for c in columns] for m in alto_info]
-    index = [m['alto_file'] for m in alto_info] # TODO use ppn + page?
-    alto_info_df = pd.DataFrame(data=data, index=index, columns=columns)
-
-    # Pickle the DataFrame
+    # Convert the alto_info SQL to a pandas DataFrame
     logger.info('Writing DataFrame to {}'.format(output_file))
-    alto_info_df.to_pickle(output_file)
-    if output_csv:
-        logger.info('Writing CSV to {}'.format(output_csv))
-        alto_info_df.to_csv(output_csv)
-    if output_xlsx:
-        logger.info('Writing Excel .xlsx to {}'.format(output_xlsx))
-        alto_info_df.to_excel(output_xlsx)
+    convert_db_to_parquet(con, "alto_info", "alto_file", output_file)
 
 
 def main():
