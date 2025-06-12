@@ -138,7 +138,7 @@ def walk(m):
 @click.argument('alto_files', type=click.Path(exists=True), required=True, nargs=-1)
 @click.option('--output', '-o', 'output_file', type=click.Path(), help='Output Parquet file',
               default='alto_info_df.parquet', show_default=True)
-def process(alto_files: List[str], output_file: str):
+def process_command(alto_files: List[str], output_file: str):
     """
     A tool to convert the ALTO metadata in INPUT to a pandas DataFrame.
 
@@ -151,6 +151,9 @@ def process(alto_files: List[str], output_file: str):
     - and a CSV file with all conversion warnings.
     """
 
+    process(alto_files, output_file)
+
+def process(alto_files: List[str], output_file: str):
     # Extend file list if directories are given
     alto_files_real = []
     for m in alto_files:

@@ -382,7 +382,7 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
 @click.option('--output', '-o', 'output_file', type=click.Path(), help='Output Parquet file',
               default='mods_info_df.parquet', show_default=True)
 @click.option('--output-page-info', type=click.Path(), help='Output page info Parquet file')
-def process(mets_files: list[str], output_file: str, output_page_info: str):
+def process_command(mets_files: list[str], output_file: str, output_page_info: str):
     """
     A tool to convert the MODS metadata in INPUT to a pandas DataFrame.
 
@@ -393,7 +393,9 @@ def process(mets_files: list[str], output_file: str, output_page_info: str):
 
     Per-page information (e.g. structure information) can be output to a separate Parquet file.
     """
+    process(mets_files, output_file, output_page_info)
 
+def process(mets_files: list[str], output_file: str, output_page_info: str):
     # Extend file list if directories are given
     mets_files_real: list[str] = []
     for m in mets_files:
@@ -476,7 +478,7 @@ def main():
     for prefix, uri in ns.items():
         ET.register_namespace(prefix, uri)
 
-    process()
+    process_command()
 
 
 if __name__ == '__main__':
