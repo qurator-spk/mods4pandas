@@ -4,7 +4,7 @@ from itertools import groupby
 import re
 import warnings
 import os
-from typing import List, Sequence, MutableMapping, Dict
+from typing import Any, List, Sequence, MutableMapping, Dict
 from collections import defaultdict
 
 import numpy as np
@@ -229,12 +229,14 @@ class TagGroup:
         Extract values using the given XPath expression, convert them to float and return descriptive
         statistics on the values.
         """
-        values = []
-        for e in self.group:
-            r = e.xpath(xpath_expr, namespaces=namespaces)
-            values += r
-        values = np.array([float(v) for v in values])
+        def xpath_values():
+            values = []
+            for e in self.group:
+                r = e.xpath(xpath_expr, namespaces=namespaces)
+                values += r
+            return np.array([float(v) for v in values])
 
+        values = xpath_values()
         statistics = {}
         if values.size > 0:
             statistics[f'{xpath_expr}-mean'] = np.mean(values)
@@ -294,7 +296,7 @@ def flatten(d: MutableMapping, parent='', separator='_') -> dict:
 
     It is assumed that d maps strings to either another dictionary (similarly structured) or some other value.
     """
-    items = []
+    items: list[Any] = []
 
     for k, v in d.items():
         if parent:
@@ -324,8 +326,8 @@ def column_names_csv(columns) -> str:
     """
     return ",".join('"' + c + '"' for c in columns)
 
-current_columns: defaultdict = defaultdict(list)
-current_columns_types: dict[dict] = defaultdict(dict)
+current_columns: dict[str, list] = defaultdict(list)
+current_columns_types: dict[str, dict] = defaultdict(dict)
 
 def insert_into_db(con, table, d: Dict):
     """Insert the values from the dict into the table, creating columns if necessary"""
