@@ -24,6 +24,7 @@ EXPECTED_TYPES = {
         r"titleInfo_partName": ("object", ["str", "NoneType"]),
         r"identifier-.*": ("object", ["str", "NoneType"]),
         r"location_.*": ("object", ["str", "NoneType"]),
+        r"name\d+_.*roleTerm": ("object", ["ndarray", "NoneType"]),
         r"name\d+_.*": ("object", ["str", "NoneType"]),
         r"relatedItem-.*_recordInfo_recordIdentifier": ("object", ["str", "NoneType"]),
         r"typeOfResource": ("object", ["str", "NoneType"]),
@@ -32,11 +33,10 @@ EXPECTED_TYPES = {
 
         r".*-count": ("Int64", None),
 
-        # XXX possibly sets:
-        r"genre-.*": ("object", ["str", "NoneType"]),
-        r"subject-.*": ("object", ["str", "NoneType"]),
-        r"language_.*Term": ("object", ["str", "NoneType"]),
-        r"classification-.*": ("object", ["str", "NoneType"]),
+        r"genre-.*": ("object", ["ndarray", "NoneType"]),
+        r"subject-.*": ("object", ["ndarray", "NoneType"]),
+        r"language_.*Term": ("object", ["ndarray", "NoneType"]),
+        r"classification-.*": ("object", ["ndarray", "NoneType"]),
 
         # page_info
 

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import ast
 from itertools import groupby
 import re
 import warnings
@@ -383,8 +384,7 @@ def convert_db_to_parquet(con, table, index_col, output_file):
         elif column_type == "bool":
             df[c] = df[c].map({"True": True, "False": False}).astype("boolean")
         elif column_type == "set":
-            # TODO WIP
-            continue
+            df[c] = df[c].apply(lambda s: list(ast.literal_eval(s)) if s else None)
         else:
             raise NotImplementedError(f"Column {c}: type {column_type} not implemented yet.")
 
