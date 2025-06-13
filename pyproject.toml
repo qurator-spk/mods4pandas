@@ -11,7 +11,7 @@ authors = [
 description = "Convert MODS metadata to a pandas DataFrame"
 readme = "README.md"
 license.file = "LICENSE"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 keywords = ["qurator", "mets", "mods", "metadata", "library"]
 
 dynamic = ["dependencies", "optional-dependencies"]
