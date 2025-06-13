@@ -601,7 +601,7 @@ def process(mets_files: list[str], output_file: str, output_page_info: str):
                         # noinspection PyTypeChecker
                         for caught_warning in caught_warnings:
                             csvwriter.writerow([mets_file, caught_warning.message])
-            except Exception as e:
+            except Exception:
                 logger.exception("Exception in {}".format(mets_file))
 
     logger.info("Writing DataFrame to {}".format(output_file))

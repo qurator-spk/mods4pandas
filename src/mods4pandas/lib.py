@@ -356,7 +356,7 @@ def insert_into_db(con, table, d: Dict):
 
     # Add columns if necessary
     for k in d.keys():
-        if not k in current_columns[table]:
+        if k not in current_columns[table]:
             assert valid_column_key(k), f'"{k}" is not a valid column name'
             current_columns[table].append(k)
             con.execute(f'ALTER TABLE {table} ADD COLUMN "{k}"')
