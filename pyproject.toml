@@ -46,8 +46,9 @@ optional-dependencies.dev = {file = ["requirements-dev.txt"]}
 where = ["src"]
 
 
-[tool.ruff.lint]
+[tool.ruff]
 select = ["E", "F", "I"]
+line-length = 120
 
 
 [tool.liccheck]

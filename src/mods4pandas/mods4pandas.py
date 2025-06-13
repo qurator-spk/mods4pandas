@@ -3,37 +3,24 @@ import contextlib
 import csv
 import logging
 import os
-import re
 import sqlite3
 import warnings
-import sys
-from lxml import etree as ET
-from itertools import groupby
 from operator import attrgetter
 from typing import Dict, List
-from collections import defaultdict
-from collections.abc import MutableMapping, Sequence
 
 import click
+from lxml import etree as ET
 from tqdm import tqdm
 
 from .lib import (
-    convert_db_to_parquet,
-    sorted_groupby,
     TagGroup,
-    ns,
+    convert_db_to_parquet,
     flatten,
     insert_into_db,
     insert_into_db_multiple,
-    current_columns_types,
+    ns,
+    sorted_groupby,
 )
-
-with warnings.catch_warnings():
-    # Filter warnings on WSL
-    if "Microsoft" in os.uname().release:
-        warnings.simplefilter("ignore")
-    import pandas as pd
-
 
 logger = logging.getLogger("mods4pandas")
 

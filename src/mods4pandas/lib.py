@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 import ast
-from itertools import groupby
+import os
 import re
 import warnings
-import os
-from typing import Any, List, Sequence, MutableMapping, Dict
 from collections import defaultdict
+from itertools import groupby
+from typing import Any, Dict, List, MutableMapping, Sequence
 
 import numpy as np
 from lxml import etree as ET
@@ -281,8 +281,8 @@ def sorted_groupby(iterable, key=None):
 
 
 def _to_dict(root, raise_errors):
-    from .mods4pandas import mods_to_dict, mets_to_dict
     from .alto4pandas import alto_to_dict
+    from .mods4pandas import mets_to_dict, mods_to_dict
 
     root_name = ET.QName(root.tag)
     if root_name.namespace == "http://www.loc.gov/mods/v3":

@@ -1,38 +1,25 @@
 #!/usr/bin/env python3
+import contextlib
 import csv
 import logging
 import os
-import re
-import warnings
-import sys
-import contextlib
 import sqlite3
-from xml.dom.expatbuilder import Namespaces
-from lxml import etree as ET
-from itertools import groupby
+import warnings
 from operator import attrgetter
 from typing import List
-from collections.abc import MutableMapping, Sequence
 
 import click
-import numpy as np
+from lxml import etree as ET
 from tqdm import tqdm
 
 from .lib import (
     TagGroup,
     convert_db_to_parquet,
-    sorted_groupby,
     flatten,
-    ns,
     insert_into_db,
+    ns,
+    sorted_groupby,
 )
-
-with warnings.catch_warnings():
-    # Filter warnings on WSL
-    if "Microsoft" in os.uname().release:
-        warnings.simplefilter("ignore")
-    import pandas as pd
-
 
 logger = logging.getLogger("alto4pandas")
 
