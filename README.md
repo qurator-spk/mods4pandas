@@ -1,6 +1,8 @@
 Extract the MODS/ALTO metadata of a bunch of METS/ALTO files into pandas DataFrames.
 
-[![Build Status](https://circleci.com/gh/qurator-spk/mods4pandas.svg?style=svg)](https://circleci.com/gh/qurator-spk/mods4pandas)
+[![Tests](https://github.com/qurator-spk/mods4pandas/actions/workflows/test.yml/badge.svg)](https://github.com/qurator-spk/mods4pandas/actions?query=workflow:"test")
+[![License](https://img.shields.io/badge/License-Apache-blue)](#license)
+[![Issues](https://img.shields.io/github/issues/qurator-spk/mods4pandas)](https://github.com/qurator-spk/mods4pandas/issues)
 
 **mods4pandas** converts the MODS metadata from METS files into a pandas DataFrame.
 
