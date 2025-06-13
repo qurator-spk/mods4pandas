@@ -212,7 +212,7 @@ def main():
     for prefix, uri in ns.items():
         ET.register_namespace(prefix, uri)
 
-    process()
+    process_command()
 
 
 if __name__ == '__main__':
