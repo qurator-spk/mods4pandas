@@ -1,0 +1,35 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-json
+    -   id: check-toml
+    -   id: check-yaml
+    -   id: check-added-large-files
+    -   id: check-ast
+
+-   repo: https://github.com/psf/black
+    rev: 25.1.0
+    hooks:
+    -   id: black
+
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.11.13
+    hooks:
+    -   args:
+        -   --fix
+        -   --exit-non-zero-on-fix
+        id: ruff-check
+
+-   repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
+    rev: v0.7.0
+    hooks:
+    -   id: pre-commit-update
+
+-   repo: https://github.com/dhatim/python-license-check
+    rev: 0.9.3
+    hooks:
+    -   id: liccheck
+        language: system
