@@ -15,3 +15,10 @@ To run a test with profiling:
   ```
   pytest --profile-svg -k test_page_info
   ```
+
+# How to use pre-commit
+
+This project optionally uses [pre-commit](https://pre-commit.com) to check commits. To use it:
+
+- Install pre-commit, e.g. `pip install -r requirements-dev.txt`
+- Install the repo-local git hooks: `pre-commit install`

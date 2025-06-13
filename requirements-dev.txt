@@ -7,3 +7,7 @@ mypy
 types-lxml
 types-tqdm
 pandas-stubs
+
+pre-commit
+setuptools
+liccheck
