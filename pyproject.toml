@@ -47,8 +47,8 @@ where = ["src"]
 
 
 [tool.ruff]
-select = ["E", "F", "I"]
 line-length = 120
+lint.select = ["E", "F", "I"]
 
 
 [tool.liccheck]

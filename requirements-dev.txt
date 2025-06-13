@@ -11,3 +11,4 @@ pandas-stubs
 pre-commit
 setuptools
 liccheck
+ruff
