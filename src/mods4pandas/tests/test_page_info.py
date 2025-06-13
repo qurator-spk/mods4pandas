@@ -3,7 +3,7 @@ from pathlib import Path
 
 from lxml import etree as ET
 
-from mods4pandas.mods4pandas import pages_to_dict
+from ..mods4pandas import pages_to_dict
 
 
 TESTS_DATA_DIR = Path(__file__).parent / "data"

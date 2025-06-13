@@ -4,8 +4,8 @@ from lxml import etree as ET
 import pandas as pd
 
 
-from mods4pandas.alto4pandas import alto_to_dict, process
-from mods4pandas.lib import flatten
+from ..alto4pandas import alto_to_dict, process
+from ..lib import flatten
 
 TESTS_DATA_DIR = Path(__file__).parent / "data"
 

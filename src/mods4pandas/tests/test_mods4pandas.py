@@ -5,8 +5,8 @@ import pandas as pd
 import pytest
 
 
-from mods4pandas.mods4pandas import mods_to_dict, process
-from mods4pandas.lib import flatten
+from ..mods4pandas import mods_to_dict, process
+from ..lib import flatten
 
 TESTS_DATA_DIR = Path(__file__).parent / "data"
 
