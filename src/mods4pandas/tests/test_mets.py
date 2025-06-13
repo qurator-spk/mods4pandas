@@ -1,8 +1,7 @@
 from lxml import etree as ET
 
-
-from ..mods4pandas import mets_to_dict
 from ..lib import flatten
+from ..mods4pandas import mets_to_dict
 
 
 def dict_fromstring(x):

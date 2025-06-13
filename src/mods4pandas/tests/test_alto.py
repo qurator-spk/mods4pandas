@@ -1,8 +1,8 @@
-from pathlib import Path
 import re
-from lxml import etree as ET
-import pandas as pd
+from pathlib import Path
 
+import pandas as pd
+from lxml import etree as ET
 
 from ..alto4pandas import alto_to_dict, process
 from ..lib import flatten

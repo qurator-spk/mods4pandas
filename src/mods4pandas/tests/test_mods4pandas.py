@@ -1,12 +1,12 @@
-from pathlib import Path
 import re
-from lxml import etree as ET
+from pathlib import Path
+
 import pandas as pd
 import pytest
+from lxml import etree as ET
 
-
-from ..mods4pandas import mods_to_dict, process
 from ..lib import flatten
+from ..mods4pandas import mods_to_dict, process
 
 TESTS_DATA_DIR = Path(__file__).parent / "data"
 
