@@ -320,6 +320,10 @@ def mods_to_dict(mods, raise_errors=True):
         elif tag == "{http://www.loc.gov/mods/v3}mods":
             # XXX Ignore nested mods:mods for now (used in mods:subject)
             pass
+        elif tag == "{http://www.loc.gov/mods/v3}issuance":
+            value["issuance"] = (
+                TagGroup(tag, group).is_singleton().has_no_attributes().text()
+            )
         else:
             if raise_errors:
                 raise ValueError('Unknown tag "{}"'.format(tag))
