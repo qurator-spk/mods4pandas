@@ -162,12 +162,16 @@ def mods_to_dict(mods, raise_errors=True):
                 .descend(raise_errors)
             )
         elif tag == "{http://www.loc.gov/mods/v3}recordIdentifier":
+            def no_uuid(record_identifier):
+                return record_identifier.attrib.get("type") != "uuid"
+
             # By default we assume source="gbv-ppn" mods:recordIdentifiers (= PPNs),
             # however, in mods:relatedItems, there may be source="dnb-ppns",
             # which we need to distinguish by using a separate field name.
             try:
                 value["recordIdentifier"] = (
                     TagGroup(tag, group)
+                    .filter(no_uuid)
                     .is_singleton()
                     .has_attributes({"source": "gbv-ppn"})
                     .text()
