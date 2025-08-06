@@ -135,6 +135,7 @@ def test_dtypes(tmp_path):
             assert dt == edt, f"Unexpected dtype {dt} for column {c} (expected {edt})"
 
             if edt == "object":
+                assert einner_types is not None
                 inner_types = set(type(v).__name__ for v in df[c])
                 assert all(
                     it in einner_types for it in inner_types
