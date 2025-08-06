@@ -16,6 +16,14 @@ To run a test with profiling:
   pytest --profile-svg -k test_page_info
   ```
 
+To directly test the CLIs using our test data, run:
+
+```
+mods4pandas src/mods4pandas/tests/data/mets-mods
+alto4pandas src/mods4pandas/tests/data/alto
+```
+
+
 # How to use pre-commit
 
 This project optionally uses [pre-commit](https://pre-commit.com) to check commits. To use it:
