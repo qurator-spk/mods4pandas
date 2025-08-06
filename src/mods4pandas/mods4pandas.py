@@ -432,6 +432,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     def get_mets_div(*, ID):
         if ID:
             return structMap_LOGICAL.findall(f'.//mets:div[@ID="{ID}"]', ns)
+        else:
+            return []
 
     for page in div_physSequence:
         # TODO sort by ORDER?
