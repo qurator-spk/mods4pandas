@@ -269,6 +269,14 @@ class TagGroup:
         counts = {f"{xpath_expr}-count": len(values)}
         return counts
 
+    def fix_recordIdentifier_source_zdb(self) -> TagGroup:
+        for e in self.group:
+            if e.get("type") == "zdb":
+                e.attrib["source"] = "zdb"
+                del e.attrib["type"]
+                warnings.warn("Fixed recordIdentifier type 'zdb' to source")
+        return self
+
 
 def sorted_groupby(iterable, key=None):
     """
