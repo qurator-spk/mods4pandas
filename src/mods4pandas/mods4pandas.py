@@ -560,6 +560,8 @@ def process(mets_files: list[str], output_file: str, output_page_info: str):
         with contextlib.suppress(FileNotFoundError):
             os.remove(output_page_info_sqlite3)
         con_page_info = sqlite3.connect(output_page_info_sqlite3)
+    else:
+        con_page_info = None
 
     # Process METS files
     with open(output_file + ".warnings.csv", "w") as csvfile:
