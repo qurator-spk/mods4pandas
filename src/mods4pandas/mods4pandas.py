@@ -513,8 +513,14 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     return result
 
 
+def validate_mets_files(ctx, param, mets_files):
+    if not mets_files and "mets_files_list" not in ctx.params:
+        raise click.BadParameter("Neither mets_files nor mets_files_list given")
+    return mets_files
+
+
 @click.command()
-@click.argument("mets_files", type=click.Path(exists=True), required=True, nargs=-1)
+@click.argument("mets_files", type=click.Path(exists=True), nargs=-1, callback=validate_mets_files)
 @click.option(
     "--output",
     "-o",
@@ -527,7 +533,10 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
 @click.option(
     "--output-page-info", type=click.Path(), help="Output page info Parquet file"
 )
-def process_command(mets_files: list[str], output_file: str, output_page_info: str):
+@click.option(
+    "--mets-files-list", type=click.Path(), help="Read list of METS files from this file"
+)
+def process_command(mets_files: list[str], output_file: str, output_page_info: str, mets_files_list: str):
     """
     A tool to convert the MODS metadata in INPUT to a pandas DataFrame.
 
@@ -538,12 +547,19 @@ def process_command(mets_files: list[str], output_file: str, output_page_info: s
 
     Per-page information (e.g. structure information) can be output to a separate Parquet file.
     """
-    process(mets_files, output_file, output_page_info)
+    process(mets_files, output_file, output_page_info, mets_files_list)
 
 
-def process(mets_files: list[str], output_file: str, output_page_info: str):
-    # Extend file list if directories are given
+
+
+def process(mets_files: list[str], output_file: str, output_page_info: str, mets_files_list: str):
     mets_files_real: list[str] = []
+
+    if mets_files_list:
+        with open(mets_files_list) as f:
+            mets_files_real = [line.strip() for line in f.readlines()]
+
+    # Extend file list if directories are given
     for m in mets_files:
         if os.path.isdir(m):
             logger.info("Scanning directory {}".format(m))
