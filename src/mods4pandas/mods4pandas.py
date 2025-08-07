@@ -613,7 +613,11 @@ def process(mets_files: list[str], output_file: str, output_page_info: str):
                 logger.exception("Exception in {}".format(mets_file))
 
     logger.info("Writing DataFrame to {}".format(output_file))
-    convert_db_to_parquet(con, "mods_info", "recordInfo_recordIdentifier", output_file)
+    try:
+        convert_db_to_parquet(con, "mods_info", "recordInfo_recordIdentifier", output_file)
+    except:
+        # FIXME: Fix missing mods:recordInfo instead, https://github.com/qurator-spk/mods4pandas/issues/60
+        convert_db_to_parquet(con, "mods_info", "recordIdentifier", output_file)
     if output_page_info:
         logger.info("Writing DataFrame to {}".format(output_page_info))
         convert_db_to_parquet(
