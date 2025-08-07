@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-0.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd http://www.loc.gov/mix/v10 http://www.loc.gov/standards/mix/mix10/mix10.xsd">
+  <mets:metsHdr CREATEDATE="2020-06-02T10:15:42">
+    <mets:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+      <mets:name>Kitodo - kitodo-ugh-2.1.3-kitodo-ugh-2.1.1-11-g4b06eaa - 30−July−2019</mets:name>
+      <mets:note>Kitodo</mets:note>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="DMDLOG_0000">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:originInfo eventType="publication">
+            <mods:place>
+              <mods:placeTerm type="text">Berlin</mods:placeTerm>
+            </mods:place>
+            <mods:publisher>Löhmann</mods:publisher>
+            <mods:dateIssued encoding="iso8601" keyDate="yes" point="start">1850</mods:dateIssued>
+            <mods:dateIssued encoding="iso8601" point="end">1852</mods:dateIssued>
+          </mods:originInfo>
+          <mods:originInfo eventType="digitization">
+            <mods:place>
+              <mods:placeTerm type="text">Berlin</mods:placeTerm>
+            </mods:place>
+            <mods:publisher>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Germany</mods:publisher>
+            <mods:edition>[Electronic ed.]</mods:edition>
+          </mods:originInfo>
+          <mods:classification authority="ZVDD">Historische Drucke</mods:classification>
+          <mods:classification authority="ZVDD">Aberglaube / Mystische Philosophie</mods:classification>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="gbv-ppn">PPN81844746X</mods:recordIdentifier>
+          </mods:recordInfo>
+          <mods:identifier type="purl">http://resolver.staatsbibliothek-berlin.de/SBB0001927A00000000</mods:identifier>
+          <mods:relatedItem type="original">
+            <mods:recordInfo>
+              <mods:recordIdentifier source="gbv-ppn">PPN303259000</mods:recordIdentifier>
+            </mods:recordInfo>
+          </mods:relatedItem>
+          <mods:identifier type="zdb">2811414-0</mods:identifier>
+          <mods:titleInfo>
+            <mods:title>Maurerische Reden und Vorträge</mods:title>
+            <mods:subTitle>gehalten in den, unter Constitution der Großen National-Mutter-Loge in den Preußischen Staaten, genannt Zu den Drei Weltkugeln, arbeitenden St. Johannis-Logen</mods:subTitle>
+          </mods:titleInfo>
+          <mods:note type="date/sequential designation">1.1850/51(1850) - 2.1852; mehr nicht digitalisiert</mods:note>
+          <mods:note type="source characteristics">P_Drucke_Allg_bis1920</mods:note>
+          <mods:language>
+            <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+          </mods:language>
+          <mods:relatedItem type="series">
+            <mods:titleInfo>
+              <mods:title>Historische Drucke digital</mods:title>
+            </mods:titleInfo>
+          </mods:relatedItem>
+          <mods:physicalDescription>
+            <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>
+          </mods:physicalDescription>
+          <mods:accessCondition type="use and reproduction">UNKNOWN</mods:accessCondition>
+          <mods:typeOfResource>text</mods:typeOfResource>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD">
+    <mets:rightsMD ID="RIGHTS">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights xmlns:dv="http://dfg-viewer.de/">
+            <dv:owner>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</dv:owner>
+            <dv:ownerLogo>http://resolver.staatsbibliothek-berlin.de/SBB0000000100000000</dv:ownerLogo>
+            <dv:ownerSiteURL>http://www.staatsbibliothek-berlin.de</dv:ownerSiteURL>
+            <dv:ownerContact>mailto:info@sbb.spk-berlin.de</dv:ownerContact>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="DIGIPROV">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links xmlns:dv="http://dfg-viewer.de/">
+            <dv:reference>http://www.stabikat.de/DB=1/PPN?PPN=81844746X </dv:reference>
+            <dv:presentation>http://digital.staatsbibliothek-berlin.de/dms/werkansicht/?PPN=PPN81844746X</dv:presentation>
+            <dv:iiif>https://content.staatsbibliothek-berlin.de/dc/PPN81844746X/manifest</dv:iiif>
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ADMID="AMD" CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0001927A00000000" DMDID="DMDLOG_0000" ID="LOG_0000" LABEL="Maurerische Reden und Vorträge" ORDERLABEL="Maurerische Reden und Vorträge" TYPE="periodical">
+      <mets:div ID="LOG_0001" TYPE="Volume" LABEL="Maurerische Reden und Vorträge 1.1850/51" ORDER="1850000100">
+        <mets:mptr xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/dms/metsresolver/?PPN=PPN818447885"/>
+      </mets:div>
+      <mets:div ID="LOG_0002" LABEL="Maurerische Reden und Vorträge, 2.1852" ORDERLABEL="Maurerische Reden und Vorträge" TYPE="volume" ORDER="1852000200">
+        <mets:mptr xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/dms/metsresolver/?PPN=PPN818568410"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>

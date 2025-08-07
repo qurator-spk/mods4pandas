@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This METS file was created on Tue Mar 29 12:03:50 CEST 2011 using the UGH Metadata Library: ugh.fileformats.mets.MetsModsImportExport (version 1.9-20100505) -->
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd">
+  <mets:dmdSec ID="DMDLOG_0000">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:classification authority="ZVDD">Musiknoten</mods:classification>
+          <mods:classification authority="ZVDD">Musikdrucke</mods:classification>
+          <mods:recordInfo>
+            <mods:recordIdentifier source="gbv-ppn">PPN637324498</mods:recordIdentifier>
+          </mods:recordInfo>
+          <mods:identifier type="purl">http://resolver.staatsbibliothek-berlin.de/SBB0000336F00000000</mods:identifier>
+          <mods:identifier type="PPNanalog">PPN637185498</mods:identifier>
+          <mods:titleInfo>
+            <mods:title>Trois Grands Quatuors pour Deux Violons, Alto et Basse</mods:title>
+            <mods:subTitle>Oeuv. 44</mods:subTitle>
+          </mods:titleInfo>
+          <mods:originInfo>
+            <mods:place>
+              <mods:placeTerm type="text">Leipsic</mods:placeTerm>
+            </mods:place>
+            <mods:place>
+              <mods:placeTerm type="text">Paris</mods:placeTerm>
+            </mods:place>
+            <mods:dateIssued encoding="w3cdtf" keyDate="yes">1839</mods:dateIssued>
+            <mods:publisher>Breitkopf &amp;amp; Härtel</mods:publisher>
+            <mods:publisher>Richault</mods:publisher>
+            <mods:edition>[Stimmen]</mods:edition>
+          </mods:originInfo>
+          <mods:subject authority="gdz">
+            <mods:topic>mendtroi</mods:topic>
+          </mods:subject>
+          <mods:name type="personal">
+            <mods:role>
+              <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+            </mods:role>
+            <mods:namePart type="family">Mendelssohn Bartholdy</mods:namePart>
+            <mods:namePart type="given">Felix</mods:namePart>
+            <mods:displayForm>Mendelssohn Bartholdy, Felix</mods:displayForm>
+          </mods:name>
+          <mods:extension>
+            <zvdd:zvddWrap xmlns:zvdd="http://zvdd.gdz-cms.de/">
+              <zvdd:titleWord>op. 44</zvdd:titleWord>
+            </zvdd:zvddWrap>
+          </mods:extension>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD">
+    <mets:rightsMD ID="RIGHTS">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights xmlns:dv="http://dfg-viewer.de/">
+            <dv:owner>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</dv:owner>
+            <dv:ownerLogo>http://digital.staatsbibliothek-berlin.de/SBB0000000100000000</dv:ownerLogo>
+            <dv:ownerSiteURL>http://www.staatsbibliothek-berlin.de</dv:ownerSiteURL>
+            <dv:ownerContact>mailto:info@sbb.spk-berlin.de</dv:ownerContact>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="DIGIPROV">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links xmlns:dv="http://dfg-viewer.de/">
+            <dv:reference>http://www.stabikat.de/DB=1/PPN?PPN=637324498 </dv:reference>
+            <dv:presentation>http://digital.staatsbibliothek-berlin.de/dms/werkansischt/PPN?PPN=PPN637324498</dv:presentation>
+            <dv:iiif>https://content.staatsbibliothek-berlin.de/dc/PPN637324498/manifest</dv:iiif>
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ADMID="AMD" CONTENTIDS="http://resolver.staatsbibliothek-berlin.de/SBB0000336F00030000" DMDID="DMDLOG_0000" ID="LOG_0000" LABEL="Trois Grands Quatuors pour Deux Violons, Alto et Basse" TYPE="MultivolumeWork">
+      <mets:div ID="LOG_0001" TYPE="Volume" LABEL="Quartetto III No. 3">
+        <mets:mptr xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/dms/metsresolver/?PPN=PPN637324846"/>
+      </mets:div>
+      <mets:div ID="LOG_0002" TYPE="Volume" LABEL="Quartetto I No. 1">
+        <mets:mptr xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/dms/metsresolver/?PPN=PPN637324668"/>
+      </mets:div>
+      <mets:div ID="LOG_0003" TYPE="Volume" LABEL="Quartetto II No. 2">
+        <mets:mptr xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="http://digital.staatsbibliothek-berlin.de/dms/metsresolver/?PPN=PPN637324706"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>
