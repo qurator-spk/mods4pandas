@@ -23,5 +23,8 @@ venv/
 .dmypy.json
 dmypy.json
 
+# vim
+.*.sw*
+
 # User-specific stuff
 .idea
