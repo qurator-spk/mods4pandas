@@ -187,6 +187,18 @@ class TagGroup:
                 warnings.warn("Changed scriptTerm authority to lower case")
         return self
 
+    def fix_language_term(self) -> TagGroup:
+        for e in self.group:
+            if e.attrib["authority"] == "iso639-2":
+                e.attrib["authority"] = "iso639-2b"
+                warnings.warn("Changed languageTerm authority to iso639-2b")
+            if e.attrib["authority"] == "rfc3066":
+                if e.text == "de":
+                    e.attrib["authority"] = "iso639-2b"
+                    e.text = "deu"
+                    warnings.warn("Changed languageTerm authority from rfc3066 to iso639-2b")
+        return self
+
     def add_missing_type_text(self) -> TagGroup:
         for e in self.group:
             if not e.attrib.get("type") == "text":

@@ -255,6 +255,7 @@ def mods_to_dict(mods, raise_errors=True):
         elif tag == "{http://www.loc.gov/mods/v3}languageTerm":
             value["languageTerm"] = (
                 TagGroup(tag, group)
+                .fix_language_term()
                 .has_attributes({"authority": "iso639-2b", "type": "code"})
                 .text_set()
             )
