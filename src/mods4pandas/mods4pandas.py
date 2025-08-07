@@ -99,6 +99,7 @@ def mods_to_dict(mods, raise_errors=True):
             value["placeTerm"] = (
                 TagGroup(tag, group)
                 .is_singleton()
+                .add_missing_type_text()
                 .has_attributes({"type": "text"})
                 .text()
             )

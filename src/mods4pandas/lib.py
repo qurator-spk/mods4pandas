@@ -187,6 +187,13 @@ class TagGroup:
                 warnings.warn("Changed scriptTerm authority to lower case")
         return self
 
+    def add_missing_type_text(self) -> TagGroup:
+        for e in self.group:
+            if not e.attrib.get("type") == "text":
+                e.attrib["type"] = "text"
+                warnings.warn("Added type='text')")
+        return self
+
     def merge_sub_tags_to_set(self) -> dict:
         from .mods4pandas import mods_to_dict
 
