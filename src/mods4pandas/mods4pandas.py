@@ -200,6 +200,7 @@ def mods_to_dict(mods, raise_errors=True):
                 TagGroup(tag, group)
                 .filter(only_standard_title)
                 .is_singleton()
+                .remove_attributes(["ID", "{http://www.w3.org/XML/1998/namespace}lang"])
                 .has_no_attributes()
                 .descend(raise_errors)
             )

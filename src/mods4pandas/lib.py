@@ -194,6 +194,14 @@ class TagGroup:
                 warnings.warn("Added type='text')")
         return self
 
+    def remove_attributes(self, attribs) -> TagGroup:
+        if not isinstance(attribs, Sequence):
+            attribs = [attribs]
+        for e in self.group:
+            for a in attribs:
+                e.attrib.pop(a, None)
+        return self
+
     def merge_sub_tags_to_set(self) -> dict:
         from .mods4pandas import mods_to_dict
 
