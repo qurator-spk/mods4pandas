@@ -203,7 +203,7 @@ class TagGroup:
         for e in self.group:
             if not e.attrib.get("type") == "text":
                 e.attrib["type"] = "text"
-                warnings.warn("Added type='text')")
+                warnings.warn("Added type='text'")
         return self
 
     def remove_attributes(self, attribs) -> TagGroup:
