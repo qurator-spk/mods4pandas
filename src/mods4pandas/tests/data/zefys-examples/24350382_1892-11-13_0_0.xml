@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version19/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"
+           OBJID="SNP24350382-18921113-0"
+           TYPE="newspaper"
+           PROFILE="http://zefys.staatsbibliothek-berlin.de/fileadmin/mets/SBB_Zeitungen_METS-Profil_Exchange.xml">
+   <mets:metsHdr xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns="http://www.w3.org/TR/xhtml1/strict"
+                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 xmlns:dv="http://dfg-viewer.de/"
+                 CREATEDATE="2017-12-20CET09:46:19.3533600"
+                 LASTMODDATE="2017-12-20CET09:46:19.3533600">
+      <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+         <mets:name>Staatsbiliothek zu Berlin - Zeitungsinformationssystem (ZEFYS)</mets:name>
+      </mets:agent>
+      <mets:agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+         <mets:name>Apache Solr v6.5</mets:name>
+      </mets:agent>
+   </mets:metsHdr>
+   <mets:dmdSec xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/TR/xhtml1/strict"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:dv="http://dfg-viewer.de/"
+                ID="dmd">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+                       ID="dmd_issue"
+                       version="3.3"
+                       xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+               <mods:genre authority="marcgt">newspaper</mods:genre>
+               <mods:typeOfResource>text</mods:typeOfResource>
+               <mods:titleInfo>
+                  <mods:title>Neue Preußische Zeitung</mods:title>
+                  <mods:subTitle></mods:subTitle>
+                  <mods:partName></mods:partName>
+               </mods:titleInfo>
+               <mods:language>
+                  <mods:languageTerm type="code" authority="iso639-2">deu</mods:languageTerm>
+               </mods:language>
+               <mods:note></mods:note>
+               <mods:physicalDescription>
+                  <mods:digitalOrigin>digitized newspaper</mods:digitalOrigin>
+               </mods:physicalDescription>
+               <mods:originInfo>
+                  <mods:edition>Hauptausgabe</mods:edition>
+                  <mods:issuance>continuing</mods:issuance>
+                  <mods:dateIssued encoding="w3cdtf"
+                                   point="start"
+                                   keyDate="yes"
+                                   qualifier="approximate">1892-11-13</mods:dateIssued>
+                  <mods:dateIssued point="start" keyDate="yes" qualifier="approximate">13. November 1892</mods:dateIssued>
+                  <mods:place>
+                     <mods:placeTerm>Kairo</mods:placeTerm>
+                  </mods:place>
+               </mods:originInfo>
+               <mods:origininfo>
+                  <mods:place>
+                     <mods:placeTerm type="text">Berlin</mods:placeTerm>
+                  </mods:place>
+                  <mods:publisher>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</mods:publisher>
+                  <mods:edition>[Elektronische Ressource]</mods:edition>
+               </mods:origininfo>
+               <mods:recordIdentifier type="zdb">24350382</mods:recordIdentifier>
+               <mods:recordIdentifier type="uuid">SNP24350382-18921113-0</mods:recordIdentifier>
+               <mods:relatedItem type="host">
+                  <mods:recordInfo>
+                     <mods:recordIdentifier type="zdb">24350382</mods:recordIdentifier>
+                  </mods:recordInfo>
+                  <mods:titleInfo>
+	                  <mods:title>Neue Preußische Zeitung</mods:title>
+	                  <mods:subTitle></mods:subTitle>
+	                  <mods:partName></mods:partName>
+                  </mods:titleInfo>
+                  <mods:originInfo>
+                     <mods:publisher/>
+                     <mods:place>
+                        <mods:placeTerm>Berlin</mods:placeTerm>
+                     </mods:place>
+                  </mods:originInfo>
+               </mods:relatedItem>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:amdSec xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/TR/xhtml1/strict"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:dv="http://dfg-viewer.de/"
+                ID="amd">
+      <mets:rightsMD ID="rights8208980">
+         <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+            <mets:xmlData>
+               <dv:rights>
+                  <dv:owner>Staatsbibliothek zu Berlin</dv:owner>
+                  <dv:ownerLogo>http://resolver.staatsbibliothek-berlin.de/SBB0000000100000000</dv:ownerLogo>
+                  <dv:ownerSiteURL>http://staatsbibliothek-berlin.de</dv:ownerSiteURL>
+               </dv:rights>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:digiprovMD ID="digiprov8208980">
+         <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+            <mets:xmlData>
+               <dv:links>
+                  <dv:reference>http://dispatch.opac.d-nb.de/DB=1.1/CMD?ACT=SRCHA&amp;IKT=8506&amp;TRM=24350382</dv:reference>
+                  <dv:presentation>http://zefys.staatsbibliothek-berlin.de/list/title/zdb/24350382</dv:presentation>
+               </dv:links>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:digiprovMD>
+   </mets:amdSec>
+   <mets:fileSec xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns="http://www.w3.org/TR/xhtml1/strict"
+                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                 xmlns:dv="http://dfg-viewer.de/">
+      <mets:fileGrp USE="DEFAULT">
+         <mets:file MIMETYPE="image/jpg" ID="default_1">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-1-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_2">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-2-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_3">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-3-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_4">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-4-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_5">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-5-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_6">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-6-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_7">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-7-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_8">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-8-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_9">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-9-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_10">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-10-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_11">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-11-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="default_12">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-12-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="MAX">
+         <mets:file MIMETYPE="image/jpg" ID="max_1">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-1-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_2">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-2-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_3">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-3-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_4">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-4-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_5">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-5-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_6">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-6-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_7">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-7-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_8">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-8-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_9">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-9-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_10">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-10-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_11">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-11-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="max_12">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-12-0-0/full/full/0/default.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="MIN">
+         <mets:file MIMETYPE="image/jpg" ID="min_1">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-1-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_2">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-2-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_3">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-3-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_4">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-4-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_5">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-5-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_6">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-6-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_7">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-7-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_8">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-8-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_9">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-9-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_10">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-10-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_11">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-11-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="min_12">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-12-0-0/full/800,/0/default.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="THUMBS">
+         <mets:file MIMETYPE="image/jpg" ID="thumb_1">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-1-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_2">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-2-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_3">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-3-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_4">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-4-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_5">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-5-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_6">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-6-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_7">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-7-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_8">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-8-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_9">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-9-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_10">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-10-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_11">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-11-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="thumb_12">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-12-0-0/full/,250/0/default.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="PRESENTATION">
+         <mets:file MIMETYPE="image/jpg" ID="present_1">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-1-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_2">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-2-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_3">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-3-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_4">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-4-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_5">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-5-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_6">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-6-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_7">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-7-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_8">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-8-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_9">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-9-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_10">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-10-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_11">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-11-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/jpg" ID="present_12">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-12-0-0/full/1200,/0/default.jpg"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="LOCAL">
+         <mets:file MIMETYPE="image/tiff" ID="local_1">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_001.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_2">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_002.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_3">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_003.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_4">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_004.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_5">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_005.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_6">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_006.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_7">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_007.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_8">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_008.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_9">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_009.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_10">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_010.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_11">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_011.tif"/>
+         </mets:file>
+         <mets:file MIMETYPE="image/tiff" ID="local_12">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="file:///zefys/archive/24350382/1892/11/13/00/tif/24350382_1892-11-13_0_0_012.tif"/>
+         </mets:file>
+      </mets:fileGrp>
+      <mets:fileGrp USE="DOWNLOAD">
+         <mets:file MIMETYPE="application/pdf" ID="download_0">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-0-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_1">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-1-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_2">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-2-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_3">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-3-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_4">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-4-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_5">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-5-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_6">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-6-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_7">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-7-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_8">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-8-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_9">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-9-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_10">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-10-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_11">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-11-0-0.pdf"/>
+         </mets:file>
+         <mets:file MIMETYPE="application/pdf" ID="download_12">
+            <mets:FLocat LOCTYPE="URL"
+                         xlink:href="http://content.staatsbibliothek-berlin.de/zefys/SNP24350382-18921113-0-12-0-0.pdf"/>
+         </mets:file>
+      </mets:fileGrp>
+   </mets:fileSec>
+   <mets:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns="http://www.w3.org/TR/xhtml1/strict"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:dv="http://dfg-viewer.de/"
+                   ID="psmp"
+                   TYPE="PHYSICAL">
+      <mets:div ID="phys" CONTENTIDS="NULL" TYPE="physSequence">
+         <mets:div TYPE="page"
+                   ID="phys_1"
+                   CONTENTIDS="NULL"
+                   ORDER="1"
+                   ORDERLABEL="1">
+            <mets:fptr FILEID="default_1"/>
+            <mets:fptr FILEID="max_1"/>
+            <mets:fptr FILEID="min_1"/>
+            <mets:fptr FILEID="thumb_1"/>
+            <mets:fptr FILEID="present_1"/>
+            <mets:fptr FILEID="local_1"/>
+            <mets:fptr FILEID="download_1"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_2"
+                   CONTENTIDS="NULL"
+                   ORDER="2"
+                   ORDERLABEL="2">
+            <mets:fptr FILEID="default_2"/>
+            <mets:fptr FILEID="max_2"/>
+            <mets:fptr FILEID="min_2"/>
+            <mets:fptr FILEID="thumb_2"/>
+            <mets:fptr FILEID="present_2"/>
+            <mets:fptr FILEID="local_2"/>
+            <mets:fptr FILEID="download_2"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_3"
+                   CONTENTIDS="NULL"
+                   ORDER="3"
+                   ORDERLABEL="3">
+            <mets:fptr FILEID="default_3"/>
+            <mets:fptr FILEID="max_3"/>
+            <mets:fptr FILEID="min_3"/>
+            <mets:fptr FILEID="thumb_3"/>
+            <mets:fptr FILEID="present_3"/>
+            <mets:fptr FILEID="local_3"/>
+            <mets:fptr FILEID="download_3"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_4"
+                   CONTENTIDS="NULL"
+                   ORDER="4"
+                   ORDERLABEL="4">
+            <mets:fptr FILEID="default_4"/>
+            <mets:fptr FILEID="max_4"/>
+            <mets:fptr FILEID="min_4"/>
+            <mets:fptr FILEID="thumb_4"/>
+            <mets:fptr FILEID="present_4"/>
+            <mets:fptr FILEID="local_4"/>
+            <mets:fptr FILEID="download_4"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_5"
+                   CONTENTIDS="NULL"
+                   ORDER="5"
+                   ORDERLABEL="5">
+            <mets:fptr FILEID="default_5"/>
+            <mets:fptr FILEID="max_5"/>
+            <mets:fptr FILEID="min_5"/>
+            <mets:fptr FILEID="thumb_5"/>
+            <mets:fptr FILEID="present_5"/>
+            <mets:fptr FILEID="local_5"/>
+            <mets:fptr FILEID="download_5"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_6"
+                   CONTENTIDS="NULL"
+                   ORDER="6"
+                   ORDERLABEL="6">
+            <mets:fptr FILEID="default_6"/>
+            <mets:fptr FILEID="max_6"/>
+            <mets:fptr FILEID="min_6"/>
+            <mets:fptr FILEID="thumb_6"/>
+            <mets:fptr FILEID="present_6"/>
+            <mets:fptr FILEID="local_6"/>
+            <mets:fptr FILEID="download_6"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_7"
+                   CONTENTIDS="NULL"
+                   ORDER="7"
+                   ORDERLABEL="7">
+            <mets:fptr FILEID="default_7"/>
+            <mets:fptr FILEID="max_7"/>
+            <mets:fptr FILEID="min_7"/>
+            <mets:fptr FILEID="thumb_7"/>
+            <mets:fptr FILEID="present_7"/>
+            <mets:fptr FILEID="local_7"/>
+            <mets:fptr FILEID="download_7"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_8"
+                   CONTENTIDS="NULL"
+                   ORDER="8"
+                   ORDERLABEL="8">
+            <mets:fptr FILEID="default_8"/>
+            <mets:fptr FILEID="max_8"/>
+            <mets:fptr FILEID="min_8"/>
+            <mets:fptr FILEID="thumb_8"/>
+            <mets:fptr FILEID="present_8"/>
+            <mets:fptr FILEID="local_8"/>
+            <mets:fptr FILEID="download_8"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_9"
+                   CONTENTIDS="NULL"
+                   ORDER="9"
+                   ORDERLABEL="9">
+            <mets:fptr FILEID="default_9"/>
+            <mets:fptr FILEID="max_9"/>
+            <mets:fptr FILEID="min_9"/>
+            <mets:fptr FILEID="thumb_9"/>
+            <mets:fptr FILEID="present_9"/>
+            <mets:fptr FILEID="local_9"/>
+            <mets:fptr FILEID="download_9"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_10"
+                   CONTENTIDS="NULL"
+                   ORDER="10"
+                   ORDERLABEL="10">
+            <mets:fptr FILEID="default_10"/>
+            <mets:fptr FILEID="max_10"/>
+            <mets:fptr FILEID="min_10"/>
+            <mets:fptr FILEID="thumb_10"/>
+            <mets:fptr FILEID="present_10"/>
+            <mets:fptr FILEID="local_10"/>
+            <mets:fptr FILEID="download_10"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_11"
+                   CONTENTIDS="NULL"
+                   ORDER="11"
+                   ORDERLABEL="11">
+            <mets:fptr FILEID="default_11"/>
+            <mets:fptr FILEID="max_11"/>
+            <mets:fptr FILEID="min_11"/>
+            <mets:fptr FILEID="thumb_11"/>
+            <mets:fptr FILEID="present_11"/>
+            <mets:fptr FILEID="local_11"/>
+            <mets:fptr FILEID="download_11"/>
+         </mets:div>
+         <mets:div TYPE="page"
+                   ID="phys_12"
+                   CONTENTIDS="NULL"
+                   ORDER="12"
+                   ORDERLABEL="12">
+            <mets:fptr FILEID="default_12"/>
+            <mets:fptr FILEID="max_12"/>
+            <mets:fptr FILEID="min_12"/>
+            <mets:fptr FILEID="thumb_12"/>
+            <mets:fptr FILEID="present_12"/>
+            <mets:fptr FILEID="local_12"/>
+            <mets:fptr FILEID="download_12"/>
+         </mets:div>
+      </mets:div>
+   </mets:structMap>
+   <mets:structMap xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xmlns="http://www.w3.org/TR/xhtml1/strict"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:dv="http://dfg-viewer.de/"
+                   ID="lsmp"
+                   TYPE="LOGICAL">
+      <mets:div TYPE="issue"
+                ID="log"
+                DMDID="dmd"
+                ADMID="amd"
+                LABEL="Neue Preußische Zeitung - 1892-11-13"
+                ORDER="1">
+         <mets:mptr LOCTYPE="URL"
+                    xlink:href="http://zefys.staatsbibliothek-berlin.de/kalender/auswahl/date/18921113/24350382/" />
+         <mets:fptr FILEID="download_0"/>
+      </mets:div>
+   </mets:structMap>
+   <mets:structLink xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/TR/xhtml1/strict"
+                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    xmlns:dv="http://dfg-viewer.de/">
+      <mets:smLink xlink:from="log" xlink:to="phys_1"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_2"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_3"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_4"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_5"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_6"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_7"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_8"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_9"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_10"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_11"/>
+      <mets:smLink xlink:from="log" xlink:to="phys_12"/>
+   </mets:structLink>
+</mets:mets>
