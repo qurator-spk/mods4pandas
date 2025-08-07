@@ -331,6 +331,8 @@ def mods_to_dict(mods, raise_errors=True):
             value["issuance"] = (
                 TagGroup(tag, group).is_singleton().has_no_attributes().text()
             )
+        elif tag == "{http://www.loc.gov/mods/v3}origininfo":
+            warnings.warn("Ignoring invalid tag origininfo (should be originInfo)")
         else:
             if raise_errors:
                 raise ValueError('Unknown tag "{}"'.format(tag))
