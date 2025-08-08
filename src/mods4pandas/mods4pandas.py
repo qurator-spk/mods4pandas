@@ -169,21 +169,25 @@ def mods_to_dict(mods, raise_errors=True):
             # By default we assume source="gbv-ppn" mods:recordIdentifiers (= PPNs),
             # however, in mods:relatedItems, there may be source="dnb-ppns",
             # which we need to distinguish by using a separate field name.
-            try:
-                value["recordIdentifier"] = (
-                    TagGroup(tag, group)
-                    .filter(no_uuid)
-                    .is_singleton()
-                    .has_attributes({"source": "gbv-ppn"})
-                    .text()
-                )
-            except ValueError:
-                value["recordIdentifier-dnb-ppn"] = (
-                    TagGroup(tag, group)
-                    .is_singleton()
-                    .has_attributes({"source": "dnb-ppn"})
-                    .text()
-                )
+
+            for field_name, source in \
+                ("recordIdentifier",         "gbv-ppn"), \
+                ("recordIdentifier-dnb-ppn", "dnb-ppn"), \
+                ("recordIdentifier-zdb",     "zdb"):
+                try:
+                    value[field_name] = (
+                        TagGroup(tag, group)
+                        .filter(no_uuid)
+                        .fix_recordIdentifier_source_zdb()
+                        .is_singleton()
+                        .has_attributes({"source": source})
+                        .text()
+                    )
+                    break
+                except ValueError as e:
+                    pass
+            if field_name not in value:
+                raise ValueError("Unknown recordIdentifier found")
         elif tag == "{http://www.loc.gov/mods/v3}identifier":
             for e in group:
                 if len(e.attrib) != 1:
@@ -634,11 +638,18 @@ def process(mets_files: list[str], output_file: str, output_page_info: str, mets
                 logger.exception("Exception in {}".format(mets_file))
 
     logger.info("Writing DataFrame to {}".format(output_file))
-    try:
-        convert_db_to_parquet(con, "mods_info", "recordInfo_recordIdentifier", output_file)
-    except:
-        # FIXME: Fix missing mods:recordInfo instead, https://github.com/qurator-spk/mods4pandas/issues/60
-        convert_db_to_parquet(con, "mods_info", "recordIdentifier", output_file)
+    considered_indexes = ("recordInfo_recordIdentifier", "recordIdentifier-zdb")
+    success = False
+    for considered_index in considered_indexes:
+        try:
+            convert_db_to_parquet(con, "mods_info", considered_index, output_file)
+            success = True
+            break
+        except:
+            pass
+    if not success:
+        raise ValueError(f"None of {considered_indexes} found")
+
     if output_page_info:
         logger.info("Writing DataFrame to {}".format(output_page_info))
         convert_db_to_parquet(
