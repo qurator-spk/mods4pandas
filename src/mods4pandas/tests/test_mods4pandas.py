@@ -197,7 +197,7 @@ def test_dtypes(tmp_path):
     ]
     mods_info_df_parquet = (tmp_path / "test_dtypes_mods_info.parquet").as_posix()
     page_info_df_parquet = (tmp_path / "test_dtypes_page_info.parquet").as_posix()
-    process(mets_files, mods_info_df_parquet, page_info_df_parquet)
+    process(mets_files, mods_info_df_parquet, page_info_df_parquet, [])
     mods_info_df = pd.read_parquet(mods_info_df_parquet)
     page_info_df = pd.read_parquet(page_info_df_parquet)
 
