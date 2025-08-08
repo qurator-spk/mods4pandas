@@ -449,6 +449,8 @@ def pages_to_dict(mets, raise_errors=True) -> List[Dict]:
     def get_mets_div(*, ID):
         if ID:
             return structMap_LOGICAL.findall(f'.//mets:div[@ID="{ID}"]', ns)
+        else:
+            return []
 
     for page in div_physSequence:
         # TODO sort by ORDER?
@@ -591,6 +593,8 @@ def process(mets_files: list[str], output_file: str, output_page_info: str, mets
         with contextlib.suppress(FileNotFoundError):
             os.remove(output_page_info_sqlite3)
         con_page_info = sqlite3.connect(output_page_info_sqlite3)
+    else:
+        con_page_info = None
 
     # Process METS files
     with open(output_file + ".warnings.csv", "w") as csvfile:

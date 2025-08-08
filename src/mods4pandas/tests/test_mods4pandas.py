@@ -153,6 +153,7 @@ def test_originInfo_no_event_type():
     assert d == {}  # empty
 
     assert len(ws) == 1
+    assert isinstance(ws[0].message, Warning)
     assert (
         ws[0].message.args[0]
         == "Filtered {http://www.loc.gov/mods/v3}originInfo element (has no eventType)"
