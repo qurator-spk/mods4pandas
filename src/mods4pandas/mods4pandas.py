@@ -544,14 +544,17 @@ def validate_mets_files(ctx, param, mets_files):
 )
 def process_command(mets_files: list[str], output_file: str, output_page_info: str, mets_files_list: str):
     """
-    A tool to convert the MODS metadata in INPUT to a pandas DataFrame.
+    A tool to convert the MODS metadata in METS_FILES to a pandas DataFrame.
 
-    INPUT is assumed to be a METS document with MODS metadata. INPUT may optionally be a directory. The tool then reads
-    all files in the directory.
+    METS_FILES is assumed to be one or more METS documents with MODS metadata.
+    METS_FILES may optionally be a directory. The tool then reads all files in the
+    directory.
 
-    mods4pandas writes two output files: A pandas DataFrame (as Parquet) and a CSV file with all conversion warnings.
+    mods4pandas writes two output files: A pandas DataFrame (in Parquet format)
+    and a CSV file with all conversion warnings.
 
-    Per-page information (e.g. structure information) can be output to a separate Parquet file.
+    Per-page information (e.g. structure information) can be output to a
+    separate Parquet file.
     """
     process(mets_files, output_file, output_page_info, mets_files_list)
 
