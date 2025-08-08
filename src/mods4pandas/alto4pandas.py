@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import contextlib
 import csv
-import logging
 import os
 import sqlite3
 import warnings
@@ -9,6 +8,7 @@ from operator import attrgetter
 from typing import List
 
 import click
+from loguru import logger
 from lxml import etree as ET
 from tqdm import tqdm
 
@@ -20,8 +20,6 @@ from .lib import (
     ns,
     sorted_groupby,
 )
-
-logger = logging.getLogger("alto4pandas")
 
 
 def alto_to_dict(alto, raise_errors=True):
@@ -151,8 +149,8 @@ def alto_to_dict(alto, raise_errors=True):
 def walk(m):
     # XXX do this in mods4pandas, too
     if os.path.isdir(m):
-        tqdm.write(f"Scanning directory {m}")
-        for f in tqdm(os.scandir(m), leave=False):
+        logger.info(f"Scanning directory {m}")
+        for f in os.scandir(m):
             if f.is_file() and not f.name.startswith("."):
                 yield f.path
             elif f.is_dir():
@@ -247,8 +245,6 @@ def process(alto_files: List[str], output_file: str):
 
 
 def main():
-    logging.basicConfig(level=logging.INFO)
-
     for prefix, uri in ns.items():
         ET.register_namespace(prefix, uri)
 

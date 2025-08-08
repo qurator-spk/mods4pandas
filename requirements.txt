@@ -5,3 +5,4 @@ tqdm
 lxml
 pyarrow
 XlsxWriter
+loguru

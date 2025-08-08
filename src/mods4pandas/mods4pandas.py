@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import contextlib
 import csv
-import logging
 import os
 import sqlite3
 import warnings
@@ -9,6 +8,7 @@ from operator import attrgetter
 from typing import Dict, List
 
 import click
+from loguru import logger
 from lxml import etree as ET
 from tqdm import tqdm
 
@@ -21,8 +21,6 @@ from .lib import (
     ns,
     sorted_groupby,
 )
-
-logger = logging.getLogger("mods4pandas")
 
 
 def mods_to_dict(mods, raise_errors=True):
@@ -603,7 +601,7 @@ def process(mets_files: list[str], output_file: str, output_page_info: str, mets
     with open(output_file + ".warnings.csv", "w") as csvfile:
         csvwriter = csv.writer(csvfile)
         logger.info("Processing METS files")
-        for mets_file in tqdm(mets_files_real, leave=True):
+        for mets_file in tqdm(mets_files_real, leave=False):
             try:
                 root = ET.parse(mets_file).getroot()
                 mets = root  # XXX .find('mets:mets', ns) does not work here
@@ -665,8 +663,6 @@ def process(mets_files: list[str], output_file: str, output_page_info: str, mets
 
 
 def main():
-    logging.basicConfig(level=logging.INFO)
-
     for prefix, uri in ns.items():
         ET.register_namespace(prefix, uri)
 
