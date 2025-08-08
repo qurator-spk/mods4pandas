@@ -201,9 +201,10 @@ class TagGroup:
 
     def add_missing_type_text(self) -> TagGroup:
         for e in self.group:
-            if not e.attrib.get("type") == "text":
+            # Default to type=text
+            if not "type" in e.attrib:
                 e.attrib["type"] = "text"
-                warnings.warn("Added type='text'")
+                warnings.warn("Added placeTerm type='text'")
         return self
 
     def remove_attributes(self, attribs) -> TagGroup:
