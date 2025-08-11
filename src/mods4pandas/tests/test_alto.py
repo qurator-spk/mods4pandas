@@ -102,6 +102,7 @@ def test_dtypes(tmp_path):
     alto_info_df = pd.read_parquet(alto_info_df_parquet)
 
     EXPECTED_TYPES = {
+        r"alto_file": ("object", ["str"]),
         r"Description_.*": ("object", ["str", "NoneType"]),
         r"Layout_Page_ID": ("object", ["str", "NoneType"]),
         r"Layout_Page_PHYSICAL_(IMG|IMAGE)_NR": ("object", ["str", "NoneType"]),
