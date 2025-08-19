@@ -196,13 +196,15 @@ class TagGroup:
                 if e.text == "de":
                     e.attrib["authority"] = "iso639-2b"
                     e.text = "deu"
-                    warnings.warn("Changed languageTerm authority from rfc3066 to iso639-2b")
+                    warnings.warn(
+                        "Changed languageTerm authority from rfc3066 to iso639-2b"
+                    )
         return self
 
     def add_missing_type_text(self) -> TagGroup:
         for e in self.group:
             # Default to type=text
-            if not "type" in e.attrib:
+            if "type" not in e.attrib:
                 e.attrib["type"] = "text"
                 warnings.warn("Added placeTerm type='text'")
         return self
