@@ -423,8 +423,12 @@ def insert_into_db_multiple(con, table, ld: List[Dict]):
 def convert_db_to_parquet(con, table, index_col, output_file):
     df = pd.read_sql_query(f"SELECT * FROM {table}", con, index_col)
 
-    # Add index column as regular column, too
-    df[index_col] = df.index
+    # Add index column(s) as regular column(s), too
+    if isinstance(df.index, pd.MultiIndex):
+        for ic in index_col:
+            df[ic] = df.index.get_level_values(ic)
+    else:
+        df[index_col] = df.index
 
     # Convert Python column type into Pandas type
     for c in df.columns:
