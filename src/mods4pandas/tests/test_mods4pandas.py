@@ -204,6 +204,9 @@ def test_dtypes(tmp_path):
     EXPECTED_TYPES = {
         # mods_info
         r"mets_file": ("object", ["str"]),
+        r"(recordInfo_)?recordIdentifier.*": ("object", ["str"]),
+        r"ppn": ("object", ["str"]),
+        r"ID": ("object", ["str"]),
         r"titleInfo_title": ("object", ["str"]),
         r"titleInfo_subTitle": ("object", ["str", "NoneType"]),
         r"titleInfo_partName": ("object", ["str", "NoneType"]),
