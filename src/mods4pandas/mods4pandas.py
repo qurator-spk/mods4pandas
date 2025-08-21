@@ -162,6 +162,7 @@ def mods_to_dict(mods, raise_errors=True):
                 .descend(raise_errors)
             )
         elif tag == "{http://www.loc.gov/mods/v3}recordIdentifier":
+
             def no_uuid(record_identifier):
                 return record_identifier.attrib.get("type") != "uuid"
 
@@ -169,10 +170,11 @@ def mods_to_dict(mods, raise_errors=True):
             # however, in mods:relatedItems, there may be source="dnb-ppns",
             # which we need to distinguish by using a separate field name.
 
-            for field_name, source in \
-                ("recordIdentifier",         "gbv-ppn"), \
-                ("recordIdentifier-dnb-ppn", "dnb-ppn"), \
-                ("recordIdentifier-zdb",     "zdb"):
+            for field_name, source in (
+                ("recordIdentifier", "gbv-ppn"),
+                ("recordIdentifier-dnb-ppn", "dnb-ppn"),
+                ("recordIdentifier-zdb", "zdb"),
+            ):
                 try:
                     value[field_name] = (
                         TagGroup(tag, group)
@@ -525,7 +527,9 @@ def validate_mets_files(ctx, param, mets_files):
 
 
 @click.command()
-@click.argument("mets_files", type=click.Path(exists=True), nargs=-1, callback=validate_mets_files)
+@click.argument(
+    "mets_files", type=click.Path(exists=True), nargs=-1, callback=validate_mets_files
+)
 @click.option(
     "--output",
     "-o",
@@ -539,9 +543,13 @@ def validate_mets_files(ctx, param, mets_files):
     "--output-page-info", type=click.Path(), help="Output page info Parquet file"
 )
 @click.option(
-    "--mets-files-list", type=click.Path(), help="Read list of METS files from this file"
+    "--mets-files-list",
+    type=click.Path(),
+    help="Read list of METS files from this file",
 )
-def process_command(mets_files: list[str], output_file: str, output_page_info: str, mets_files_list: str):
+def process_command(
+    mets_files: list[str], output_file: str, output_page_info: str, mets_files_list: str
+):
     """
     A tool to convert the MODS metadata in METS_FILES to a pandas DataFrame.
 
@@ -558,9 +566,9 @@ def process_command(mets_files: list[str], output_file: str, output_page_info: s
     process(mets_files, output_file, output_page_info, mets_files_list)
 
 
-
-
-def process(mets_files: list[str], output_file: str, output_page_info: str, mets_files_list: str):
+def process(
+    mets_files: list[str], output_file: str, output_page_info: str, mets_files_list: str
+):
     mets_files_real: list[str] = []
 
     if mets_files_list:

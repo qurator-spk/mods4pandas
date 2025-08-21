@@ -457,7 +457,6 @@ def convert_db_to_parquet(con, table, index_col, output_file):
 def sqlite3_column_exists(con, table, col):
     """Check if column col exists in table."""
     cur = con.execute(
-            "SELECT 1 FROM pragma_table_info(?) WHERE name = ? LIMIT 1",
-            (table, col)
+        "SELECT 1 FROM pragma_table_info(?) WHERE name = ? LIMIT 1", (table, col)
     )
     return cur.fetchone() is not None
