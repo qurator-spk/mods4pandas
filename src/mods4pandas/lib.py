@@ -88,7 +88,7 @@ class TagGroup:
                 new_group.append(e)
             else:
                 if warn:
-                    warnings.warn("Filtered {} element ({})".format(self.tag, warn))
+                    warnings.warn(f"Filtered {self.tag} element ({warn})", stacklevel=1)
         return TagGroup(self.tag, new_group)
 
     def force_singleton(self, warn=True) -> TagGroup:
@@ -96,7 +96,7 @@ class TagGroup:
             return self
         else:
             if warn:
-                warnings.warn("Forced single instance of {}".format(self.tag))
+                warnings.warn(f"Forced single instance of {self.tag}", stacklevel=1)
             return TagGroup(self.tag, self.group[:1])
 
     RE_ISO8601_DATE = r"^\d{2}(\d{2}|XX)(-\d{2}-\d{2})?$"  # Note: Includes non-specific century dates like '18XX'
@@ -106,31 +106,33 @@ class TagGroup:
         for e in self.group:
             if e.attrib.get("encoding") == "w3cdtf":
                 # This should be 'iso8601' according to MODS-AP 2.3.1
-                warnings.warn("Changed w3cdtf encoding to iso8601")
+                warnings.warn("Changed w3cdtf encoding to iso8601", stacklevel=1)
                 e.attrib["encoding"] = "iso8601"
 
         new_group = []
         for e in self.group:
             if e.text is None:
-                warnings.warn("Empty date")
+                warnings.warn("Empty date", stacklevel=1)
                 continue
             if e.attrib.get("encoding") == "iso8601" and re.match(
                 self.RE_ISO8601_DATE, e.text
             ):
                 new_group.append(e)
             elif re.match(self.RE_ISO8601_DATE, e.text):
-                warnings.warn("Added iso8601 encoding to date {}".format(e.text))
+                warnings.warn(f"Added iso8601 encoding to date {e.text}", stacklevel=1)
                 e.attrib["encoding"] = "iso8601"
                 new_group.append(e)
             elif m := re.match(self.RE_GERMAN_DATE, e.text):
-                warnings.warn("Converted date {} to iso8601 encoding".format(e.text))
+                warnings.warn(
+                    f"Converted date {e.text} to iso8601 encoding", stacklevel=1
+                )
                 e.text = "{}-{}-{}".format(
                     m.group("yyyy"), m.group("mm"), m.group("dd")
                 )
                 e.attrib["encoding"] = "iso8601"
                 new_group.append(e)
             else:
-                warnings.warn('Not a iso8601 date: "{}"'.format(e.text))
+                warnings.warn(f'Not a iso8601 date: "{e.text}"', stacklevel=1)
                 new_group.append(e)
         self.group = new_group
 
@@ -159,21 +161,27 @@ class TagGroup:
                         and e.find("mods:edition", ns).text == "[Electronic ed.]"
                     ):
                         e.attrib["eventType"] = "digitization"
-                        warnings.warn("Fixed eventType for electronic ed.")
+                        warnings.warn(
+                            "Fixed eventType for electronic ed.", stacklevel=1
+                        )
                         continue
                 except AttributeError:
                     pass
                 try:
                     if e.find("mods:dateIssued", ns) is not None:
                         e.attrib["eventType"] = "publication"
-                        warnings.warn("Fixed eventType for an issued origin")
+                        warnings.warn(
+                            "Fixed eventType for an issued origin", stacklevel=1
+                        )
                         continue
                 except AttributeError:
                     pass
                 try:
                     if e.find("mods:dateCreated", ns) is not None:
                         e.attrib["eventType"] = "production"
-                        warnings.warn("Fixed eventType for a created origin")
+                        warnings.warn(
+                            "Fixed eventType for a created origin", stacklevel=1
+                        )
                         continue
                 except AttributeError:
                     pass
@@ -184,20 +192,25 @@ class TagGroup:
             # MODS-AP 2.3.1 is not clear about this, but it looks like that this should be lower case.
             if e.attrib["authority"] == "ISO15924":
                 e.attrib["authority"] = "iso15924"
-                warnings.warn("Changed scriptTerm authority to lower case")
+                warnings.warn(
+                    "Changed scriptTerm authority to lower case", stacklevel=1
+                )
         return self
 
     def fix_language_term(self) -> TagGroup:
         for e in self.group:
             if e.attrib["authority"] == "iso639-2":
                 e.attrib["authority"] = "iso639-2b"
-                warnings.warn("Changed languageTerm authority to iso639-2b")
+                warnings.warn(
+                    "Changed languageTerm authority to iso639-2b", stacklevel=1
+                )
             if e.attrib["authority"] == "rfc3066":
                 if e.text == "de":
                     e.attrib["authority"] = "iso639-2b"
                     e.text = "deu"
                     warnings.warn(
-                        "Changed languageTerm authority from rfc3066 to iso639-2b"
+                        "Changed languageTerm authority from rfc3066 to iso639-2b",
+                        stacklevel=1,
                     )
         return self
 
@@ -206,7 +219,7 @@ class TagGroup:
             # Default to type=text
             if "type" not in e.attrib:
                 e.attrib["type"] = "text"
-                warnings.warn("Added placeTerm type='text'")
+                warnings.warn("Added placeTerm type='text'", stacklevel=1)
         return self
 
     def remove_attributes(self, attribs) -> TagGroup:
@@ -304,7 +317,9 @@ class TagGroup:
             if e.get("type") == "zdb":
                 e.attrib["source"] = "zdb"
                 del e.attrib["type"]
-                warnings.warn("Fixed recordIdentifier type 'zdb' to source")
+                warnings.warn(
+                    "Fixed recordIdentifier type 'zdb' to source", stacklevel=1
+                )
         return self
 
 

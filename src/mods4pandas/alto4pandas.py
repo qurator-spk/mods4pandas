@@ -157,7 +157,7 @@ def walk(m):
                 try:
                     yield from walk(f.path)
                 except PermissionError:
-                    warnings.warn(f"Error walking {f.path}")
+                    warnings.warn(f"Error walking {f.path}", stacklevel=1)
     else:
         yield m.path
 
