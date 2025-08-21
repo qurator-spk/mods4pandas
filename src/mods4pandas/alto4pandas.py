@@ -3,6 +3,7 @@ import contextlib
 import csv
 import os
 import sqlite3
+import sys
 import warnings
 from operator import attrgetter
 from typing import List
@@ -19,6 +20,7 @@ from .lib import (
     insert_into_db,
     ns,
     sorted_groupby,
+    sqlite3_table_exists,
 )
 
 
@@ -238,6 +240,11 @@ def process(alto_files: List[str], output_file: str):
                 import traceback
 
                 traceback.print_exc()
+
+    # Check if table exists
+    if not sqlite3_table_exists(con, "alto_info"):
+        logger.error("Table alto_info does not exist, empty input?")
+        sys.exit(1)
 
     # Convert the alto_info SQL to a pandas DataFrame
     logger.info("Writing DataFrame to {}".format(output_file))

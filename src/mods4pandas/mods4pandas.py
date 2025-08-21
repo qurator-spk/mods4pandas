@@ -3,6 +3,7 @@ import contextlib
 import csv
 import os
 import sqlite3
+import sys
 import warnings
 from operator import attrgetter
 from typing import Dict, List
@@ -21,6 +22,7 @@ from .lib import (
     ns,
     sorted_groupby,
     sqlite3_column_exists,
+    sqlite3_table_exists,
 )
 
 
@@ -652,6 +654,11 @@ def process(
                             csvwriter.writerow([mets_file, caught_warning.message])
             except Exception:
                 logger.exception("Exception in {}".format(mets_file))
+
+    # Check if table exists
+    if not sqlite3_table_exists(con, "mods_info"):
+        logger.error("Table mods_info does not exist, empty input?")
+        sys.exit(1)
 
     logger.info("Writing DataFrame to {}".format(output_file))
 
