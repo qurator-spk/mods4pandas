@@ -20,6 +20,7 @@ from .lib import (
     insert_into_db_multiple,
     ns,
     sorted_groupby,
+    sqlite3_column_exists,
 )
 
 
@@ -643,17 +644,16 @@ def process(mets_files: list[str], output_file: str, output_page_info: str, mets
                 logger.exception("Exception in {}".format(mets_file))
 
     logger.info("Writing DataFrame to {}".format(output_file))
+
     considered_indexes = ("recordInfo_recordIdentifier", "recordIdentifier-zdb")
     success = False
     for considered_index in considered_indexes:
-        try:
+        if sqlite3_column_exists(con, "mods_info", considered_index):
             convert_db_to_parquet(con, "mods_info", considered_index, output_file)
             success = True
             break
-        except:
-            pass
     if not success:
-        raise ValueError(f"None of {considered_indexes} found")
+        raise ValueError(f"Can't set index, none of {considered_indexes} found")
 
     if output_page_info:
         logger.info("Writing DataFrame to {}".format(output_page_info))
