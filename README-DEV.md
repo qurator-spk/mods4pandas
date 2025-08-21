@@ -19,7 +19,7 @@ To run a test with profiling:
 To directly test the CLIs using our test data, run:
 
 ```
-mods4pandas src/mods4pandas/tests/data/mets-mods
+mods4pandas --output-page-info "page_info_df.parquet" src/mods4pandas/tests/data/mets-mods
 alto4pandas src/mods4pandas/tests/data/alto
 ```
 
